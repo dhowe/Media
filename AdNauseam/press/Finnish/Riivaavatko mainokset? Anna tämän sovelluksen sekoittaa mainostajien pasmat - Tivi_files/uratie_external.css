@@ -1,0 +1,367 @@
+.ut_jobs {
+    background-color: #FFF;
+}
+.ut_jobs .jobs-header {
+    background-color: #DE0000;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ut_jobs .job  {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+.ut_jobs .job .job-details .job-title a {
+    color: #1a1a1a;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ut_jobs .job .job-details .job-company {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    margin: 8px 0 8px 0;
+}
+.ut_jobs .job .job-details .job-categories {
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+
+.ut_jobs.frontpage-main .job .job-details {
+    margin: 0 8px 0 16px;
+    max-width: 70%;
+}
+.ut_jobs.frontpage-main {
+    font-family: "talentum";
+}
+.ut_jobs.frontpage-main .jobs-header {
+    padding: 8px 12px;
+}
+.ut_jobs.frontpage-main .job .image {
+    width: 150px;
+    display: block;
+    position: relative;
+    flex: 0 0 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ut_jobs.frontpage-main .job .job-details .job-city,
+.ut_jobs.frontpage-main .job .job-details .job-postdate,
+.ut_jobs.frontpage-main .job .job-details .job-expiredate {
+    font-size: 13px;
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 6px 0 0;
+}
+.ut_jobs.frontpage-main .job:hover .job-details .job-title a, 
+.ut_jobs.frontpage-main .job:hover .job-details .job-company,
+.ut_jobs.frontpage-main .job:hover .job-details .job-city,
+.ut_jobs.frontpage-main .job:hover .job-details .job-postdate,
+.ut_jobs.frontpage-main .job:hover .job-details .job-expiredate,
+.ut_jobs.frontpage-main .job:hover .job-details .job-categories {
+    color: #DE0000 !important;
+}
+.ut_jobs.frontpage-main .job-city,
+.ut_jobs.frontpage-main .job-postdate {
+    border-right: 1px solid #ccc;
+}
+.ut_jobs.frontpage-main .job .job-details .job-title {
+    font-size: 23px;
+}
+
+#moreJobsButton {
+    display: block;
+    margin: 32px auto 48px 192px;
+    width: 250px;
+    font-size: 18px;
+    font-family: 'talentum';
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 16px 14px 28px;
+    background-color: #DE0000;
+    color: #fff;
+    border-radius: 4px;
+}
+#moreJobsButton:after {
+    content: "\25B6\25B6";
+    font-size: 60%;
+    position: relative;
+    float: right;
+    right: 12px;
+    top: 5px;
+}
+#moreJobsButton:hover {
+    background-color: #AE0707;
+}
+
+
+
+
+
+
+
+
+.ut_jobs.external {
+    border: 1px solid #DE0000;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    background-attachment: scroll, scroll, scroll, scroll, scroll;
+    background-repeat: repeat, repeat, repeat, repeat;
+    background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+    background-origin: padding-box, padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box, border-box;
+    background-size: 16px 16px, 16px 16px, 16px 16px, 16px 16px;    
+}
+.ut_jobs.external .job {
+    padding: 8px 0;
+}
+.ut_jobs.external .jobs-header {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+}
+.ut_jobs.external .jobs-header #logo {
+    display: block;
+    background: #fff url("/img/uratie_external_logo.png") no-repeat left center;
+    background-size: contain;
+}
+.ut_jobs.external a {
+    text-decoration: none;
+}
+.ut_jobs.external a:hover .job .job-title,
+.ut_jobs.external a:hover .job .job-city {
+    color: #DE0000 !important;
+}
+.ut_jobs.external .jobs-external-title {
+    color: #fff;
+}
+.ut_jobs.external .jobs-external-title:after,
+.ut_jobs.external .jobs-footer-link:after {
+    content: "\25B6\25B6";
+    font-size: 70%;
+    padding-left: 4px;
+    position: relative;
+    top: -2px;
+}
+.ut_jobs.external .image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 50%;
+}
+.ut_jobs.external .jobs-footer {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+.ut_jobs.external .jobs-footer a.jobs-footer-link {
+    color: #DE0000;
+    text-decoration: none;
+}
+.ut_jobs.external .jobs-footer .jobs-footer-link:last-child {
+    border-right: 0;
+}
+.ut_jobs.external .job .job-details {
+    padding-top: 4px;
+    max-width: 50%;
+}
+.ut_jobs.external .job .job-title {
+    font-size: 11px;
+    letter-spacing: -0.2px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #000;
+}
+.ut_jobs.external .job .job-city {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+
+
+.ut_jobs.w300 {
+    width: 300px;
+}
+.ut_jobs.w300 .jobs-header {
+    padding: 11px 10px;
+}
+.ut_jobs.w300 .jobs-header #logo {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.ut_jobs.w300 .image {
+    min-height: 32px;
+    width: 50%;
+    flex-basis: 50%;
+    margin: 0 8px;
+    max-width: 45%;
+}
+.ut_jobs.w300 .jobs-footer {
+    height: 24px;
+}
+.ut_jobs.w300 .jobs-footer a.jobs-footer-link {
+    width: 86px;
+    float: left;
+    padding: 0 4px 0 8px;
+    border-right: 1px solid #ccc;
+    letter-spacing: -0.25px;
+}
+
+
+
+
+.ut_jobs.w230 {
+    width: 230px;
+    background: #fff;
+    text-align: center;
+}
+.ut_jobs.w230 .jobs-header #logo {
+    display: block;
+    height: 32px;
+    width: 100%;
+    background-size: 65%;
+    background-position: center center;
+}
+.ut_jobs.w230 .jobs-external-title {
+    display: block;
+    padding: 4px 8px;
+}
+.ut_jobs.w230 .job {
+    flex-direction: column;
+    padding: 4px;
+    display: block;
+}
+.ut_jobs.w230 .image {
+    height: 40px;
+    width: 100%;
+    margin:	auto;
+}
+.ut_jobs.w230 .job .job-title {
+    margin-top: 2px;
+}
+.ut_jobs.w230 .jobs-footer {
+    padding: 8px;
+}
+.ut_jobs.w230 .jobs-footer-link {
+    display: block;
+    width: 100%;
+    padding-bottom: 4px;
+    text-align: left;
+    width: 214px;
+}
+.ut_jobs.w230 .jobs-footer-link:after {
+    content: "\25B6\25B6";
+    display: block;
+    font-size: 70%;
+    padding-left: 4px;
+    position: relative;
+    top: 2px;
+    width: 12px;
+    float: right;
+}
+.ut_jobs.w230 .job .job-details {
+	margin:auto;
+	max-width:100%;
+}
+.ut_jobs.external.w230 .image {
+	max-width:100%;
+}
+
+
+.ut_jobs.w160 {
+    width: 160px;
+    background: #fff;
+    text-align: center;
+}
+.ut_jobs.w160 .jobs-header #logo {
+    display: block;
+    height: 32px;
+    width: 100%;
+    background-position: center center;
+}
+.ut_jobs.w160 .jobs-external-title {
+    display: block;
+    padding: 4px 8px;
+}
+.ut_jobs.w160 .job {
+    flex-direction: column;
+    padding: 4px;
+    margin:auto;
+    width:150px;
+    display: block;
+}
+.ut_jobs.w160 .job .job-details {
+	max-width:100%;
+}
+.ut_jobs.w160 .image {
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    clear:both;
+}
+.ut_jobs.w160 .job .job-title {
+    margin-top: 2px;
+}
+.ut_jobs.w160 .jobs-footer {
+    padding: 4px;
+}
+.ut_jobs.w160 .jobs-footer-link {
+    display: block;
+    width: 100%;
+    padding-bottom: 4px;
+    text-align: left;
+    width: 148px;
+}
+.ut_jobs.w160 .jobs-footer-link:after {
+    content: "\25B6\25B6";
+    display: block;
+    font-size: 70%;
+    position: relative;
+    top: 2px;
+    width: 11px;
+    float: right;
+}
+.ut_jobs.external.w160 .image {
+	max-width:100%;
+}
+
+/* Internet Explorer */
+
+/* sidebar jobs */
+.ie7 .external.ut_jobs .job,
+.ie8 .external.ut_jobs .job,
+.ie9 .external.ut_jobs .job {
+	overflow: hidden;	
+}
+.ie7 .external.ut_jobs.w300 .job .job-details,
+.ie8 .external.ut_jobs.w300 .job .job-details,
+.ie9 .external.ut_jobs.w300 .job .job-details {
+	width: 49%;
+	float: left;
+}
+.ie7 .w300.ut_jobs .image,
+.ie8 .w300.ut_jobs .image,
+.ie9 .w300.ut_jobs .image {
+	width: 45%;
+	float: left;
+}

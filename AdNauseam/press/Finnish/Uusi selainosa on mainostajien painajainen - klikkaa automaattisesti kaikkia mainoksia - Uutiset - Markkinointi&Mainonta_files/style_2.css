@@ -1,0 +1,72 @@
+.leikiwidget {
+display:inline-block !important;
+position:relative;
+}
+
+.leikiwidget .ui-tabs {
+ position: relative;
+ zoom: 1;
+ overflow:hidden;
+}
+.leikiwidget .ui-tabs .ui-tabs-nav { margin: 0;
+ padding: 0;
+}
+.leikiwidget .ui-tabs .ui-tabs-nav li {
+ list-style: none;
+ float: left;
+ border-bottom: 0;
+ padding: 0;
+ white-space: nowrap;
+}
+.leikiwidget .ui-tabs .ui-tabs-nav li a {
+ float: left;
+ text-decoration: none;
+}
+.leikiwidget .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+ margin-bottom: 0;
+ padding-bottom: 1px;
+}
+.leikiwidget .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, 
+.leikiwidget .ui-tabs .ui-tabs-nav li.ui-state-disabled a, 
+.leikiwidget .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+ cursor: pointer;
+}
+.leikiwidget .ui-tabs .ui-tabs-nav li a, 
+.leikiwidget .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+ cursor: pointer;
+}
+.leikiwidget .ui-tabs .ui-tabs-panel {
+ display: block;
+ border-width: 0;
+ background: none;
+ float:left;
+ clear:left;
+}
+.leikiwidget .ui-tabs .ui-tabs-hide {
+ display: none !important;
+}
+.leikiwidget .images .item {
+width: 183px;
+border: solid 1px transparent;
+display: inline-block;
+}
+.leikiwidget .images .item.last {
+margin:0;
+}
+.leikiwidget .images .link-img {
+max-width: 183px;
+display:block;
+overflow:hidden;
+}
+.leikiwidget .images .link-headline {
+display: block;
+margin-top: 5px;
+overflow: hidden;
+}
+.leikiwidget .images .item img {
+display: block;
+height: 120px;
+width: auto;
+margin: 0 auto 0 auto;
+float:none;
+}

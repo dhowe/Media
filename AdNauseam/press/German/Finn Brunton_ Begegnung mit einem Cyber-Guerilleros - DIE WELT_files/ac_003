@@ -1,0 +1,34 @@
+(function() {
+    if(typeof(window.top.sas_target) == "undefined") {window.top.sas_target = ""; }
+    var ox = {
+        auid: 537175390,
+        imp_beacon: '<img src="http://ww251.smartadserver.com/h/aip?visit=s&pubid=6&statid=12&ckid=1060078160694091848&tmstp=855652350642&usrtgt=&tgt=xID%3d4460%3brcaa%3d0%3bsas_ajax%3d1%3b147983812%3bGoogle%3bUeberwachung%3bStein_Hannes%3bSpam%3bFacebook%2cnonSEU%3b%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1307002303%3b%24ql%3dhigh%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d193_1486_5389t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d12100&rfr=http%3a%2f%2fwww.welt.de%2fkultur%2fmedien%2farticle147983812%2fSo-schlaegt-man-Datensammler-mit-ihren-eigenen-Mitteln.html&capp=0&mcrdbt=1&insid=3487090&imgid=0&pgid=74558&fmtid=4460&loguid=218800823946786762&logdate=1446030313797" width="1" height="1">',
+        slot_id: 'sas_4460_ox',
+        fallback: ('<scr' + 'ipt type="text/javascript">window.top.asmi.sas.call("10034/(kultur_story)", "4460", window.top.sas_target+"%3Bnortbplus%3D1", "", "", 1);</scr' + 'ipt>')
+    };
+
+    if (!window.OX_ads) OX_ads = [];
+    //remove OX lib if present 
+    var sas_container = document.getElementById("sas_4460")
+
+    if ('undefined' != typeof sas_ajax && sas_ajax && 'undefined' != typeof sas_container && sas_container) {
+        var sas_openxLib = document.getElementById("sas_openxLib")
+        var s = document.createElement('script');
+        s.id = 'sas_openxLib'
+        s.src = 'https://uk-ads.openx.net/w/1.0/jstag';
+        var p = document.getElementsByTagName('script')[0];
+        p.parentNode.insertBefore(s, p);
+
+        //OX Ad container
+        var sas_ox_container = document.createElement("div");
+        sas_ox_container.id = 'sas_4460_ox'
+        sas_container.appendChild(sas_ox_container);
+    } else {
+        document.write('<scr' + 'ipt id="sas_openxLib" src="https://uk-ads.openx.net/w/1.0/jstag"></scr' + 'ipt>' +
+            '<div id="sas_4460">' +
+            '<div id="sas_4460_ox"></div>' +
+            '</div>'
+        );
+    }
+    OX_ads.push(ox);
+})();

@@ -1,0 +1,1 @@
+(function(){stButtons.processCB({"google":198,"digg":2,"clicks_total":357,"facebook":54,"twitter":107,"fblike":2,"total":363,"shares":{"all":6,"twitter":4,"fblike":2},"url":"http:\/\/killscreendaily.com\/articles\/game-monikers-box-interactive-fun\/","ourl":"http:\/\/killscreendaily.com\/articles\/game-monikers-box-interactive-fun\/"})})();

@@ -1,0 +1,245 @@
+body {
+	font-family:arial, verdana;
+	font-size:11px;
+	line-height:1.2em;
+	color:#303030;
+	text-shadow:0px 1px 1px #fff;
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration:none;
+	color:#303030;
+}
+
+
+#beilagenteaser {
+	width:300px;
+	height:250px;
+	overflow:hidden;
+	border:1px solid #dfdfdf;
+	position:relative;
+}
+
+.container {
+	overflow:hidden;
+	width:280px;	
+	white-space:nowrap;
+	padding:10px;
+	height:220px;
+	position:relative;
+}
+
+.greybg {
+	background-color:#f2f2f2;
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 50%, rgba(240,240,240,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* W3C */
+}
+
+.teaser {
+	position:relative;
+	white-space:nowrap;
+	width:600px;
+	height:220px;
+}
+
+.headline {
+	height:24px;
+	line-height:24px;
+	background-color:#339900;
+	color:#fff;
+	text-shadow:none;
+	border:1px solid #fff;
+	font-size:1.2em;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+
+.headline .prospect, .headline .flipbook, .headline .more {	
+	text-align:center;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.25) 20%, rgba(245,245,245,0.1) 90%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,rgba(0,0,0,0.25)), color-stop(90%,rgba(245,245,245,0.1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 20%,rgba(245,245,245,0.1) 90%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.25) 20%,rgba(245,245,245,0.1) 90%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.25) 20%,rgba(245,245,245,0.1) 90%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,0,0,0.25) 20%,rgba(245,245,245,0.1) 90%); /* W3C */
+	font-size:0.9em;
+	margin-right:1px;
+	border-right:1px solid rgba(255,255,255,.1);
+	cursor:pointer;
+	color:#d3f1c4;
+	text-shadow:0px 0px 1px #000;
+}
+
+.headline td:hover {
+	background-color:rgba(255,255,255,0.2);
+	color:#fff;
+}
+
+.headline .more {	
+	border-right:none;
+}
+
+.headline .active {
+	text-shadow:0px 0px 1px #246b00;
+	color:#fff;
+	background: #5ac127;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 20%, rgba(245,245,245,0.1) 90%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,rgba(255,255,255,0.5)), color-stop(90%,rgba(245,245,245,0.1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 20%,rgba(245,245,245,0.1) 90%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 20%,rgba(245,245,245,0.1) 90%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 20%,rgba(245,245,245,0.1) 90%); /* IE10+ */
+	background: linear-gradient(top, rgba(255,255,255,0.5) 20%,rgba(245,245,245,0.1) 90%); /* W3C */
+}
+
+.more a {	
+	color:#d3f1c4;
+	text-shadow:0px 0px 1px #000;	
+	text-decoration:none;
+	display:block;
+	line-height:24px;
+}
+
+.more a:hover {
+	color:#fff;
+}
+
+#goleft {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+	background: url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26521386,35797283,dmData,rotate-left-2.png);
+	background-repeat: no-repeat;
+	z-index: 10000;
+	cursor: pointer;
+	background-size: 100%;
+}
+
+#goright {
+	width: 35px;
+	height: 35px;
+	position:absolute;
+	right:0px;
+	bottom:5px;
+	background-image:url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26521394,35797311,dmData,rotate-right-2.png);
+	background-repeat:no-repeat;
+	z-index:10000;
+	cursor:pointer;
+	background-size: 100%;
+}
+
+#goright:hover {
+	background-image:url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26521388,35797501,dmData,rotate-right-2-hover.png);
+}
+
+#goleft:hover {
+	background-image:url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26521384,35797275,dmData,rotate-left-2-hover.png);
+}
+
+.teaser .more a:hover {
+	text-decoration:underline;
+}
+
+.clr {
+	clear:both;
+}
+
+.teaser .valid {
+	background-image: url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26521490,35797540,dmData,valid.png);
+	background-size:100%;
+    height: 20px; width: 20px;
+    position: absolute;
+    left: 8px;
+    top: 0px;
+    z-index: 10;
+}
+
+.teaser .cover {
+	width:280px;
+	margin-right:20px;
+	text-align:left;
+	padding:0px;
+	float:left;
+	position:relative;
+	height:220px;
+}
+
+.teaser .coverimg {
+	border:1px solid #fff;
+	max-width: 141px;
+	max-height: 200px;
+	box-shadow:0px 0px 10px #ccc;
+}
+
+.teaser .pdfload {
+	margin-top:5px;
+}
+
+.teaser .pdfload a {
+	display:block;
+	line-height:30px;
+	height:30px;
+	width:50px;
+}
+
+.teaser .pdfload img {
+	border:none;
+	height:23px !important;
+	height:auto;
+	margin-bottom:0px;
+	box-shadow:none;
+	float:left;
+	margin-right:5px;
+}
+
+.cover .caption a {
+	color:#666;
+	text-decoration:none;
+	font-size:0.85em;
+	white-space:nowrap;
+	text-shadow:1px 1px 0px #fff;
+}
+
+.cover .caption a:hover {
+	text-decoration:underline;
+	color:#999;
+}
+
+
+.teaser .caption {
+	padding:10px 5px;
+	position:absolute;
+	top:0px; right:0px;
+	width:120px;
+	margin: 0px auto;
+	z-index:1000;
+	border-bottom:2px solid #ededed;
+	border-top:1px solid #fefefe;
+	background-color:rgba(253,253,253,.95);
+	background:#fcfcfc;
+	font-size:1.1em;
+	text-align:left;
+	line-height:1.3em;
+	white-space:normal;
+}
+
+.caption span.name {
+	color:#993300;
+	font-weight:normal;
+	font-size:1.75em;
+	margin:5px 0px;
+	display:block;
+	white-space:normal;
+	line-height:1.1em;
+}
+
+.ui-corner-tl { -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 1px; border-top-right-radius: 8px; -khtml-border-top-right-radius: 8px; }

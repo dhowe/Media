@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(document).on("click",".pseudo_open_login",function(){if(!$("#hmsSigninContainer").children().length){$("#hmsSigninContainer").load('/usermanager/widget/signin/');}});$(document).on("click",".pseudo_open_profile",function(){if(!$("#hmsProfileContainer").children().length){$("#hmsProfileContainer").load('/usermanager/widget/profile/');}});});;

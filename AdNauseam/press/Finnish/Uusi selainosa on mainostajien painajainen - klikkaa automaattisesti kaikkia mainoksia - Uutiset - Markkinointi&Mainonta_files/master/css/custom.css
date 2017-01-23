@@ -1,0 +1,1121 @@
+/* custom.css */
+.full-page {
+	width: 100%;
+}
+
+a.link-style, a.link-style:active, a.link-style:visited,
+.link-style, .link-style:active, .link-style:visited {
+  border-bottom: 1px dotted #0380AD;
+  color: #0380AD;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.link-style:hover,
+.link-style:hover {
+	background: transparent;
+  border-bottom: 1px dotted #0380AD;
+  text-decoration: none;
+}
+#header .link-style {
+  border-bottom: none;
+}
+#header .link-style:hover {
+	border-bottom: 1px dotted #0380AD;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Fonts */
+body {
+  font-family: "Georgia", "Times New Roman", "Times";
+  font-size: 15px;
+  color: #323232;
+}
+/* H1-H4 */
+h1, h2, h3, h4 {
+	/*clear: both;*/
+  font-family: "SerifaBT-BoldCondensed", "Georgia", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #323232;
+}
+h1, h2, h3 {
+	letter-spacing: -0.02em;
+}
+/* H1 */
+h1 {
+  font-size: 69px;
+  line-height: 63px;
+}
+h1 a, a:active, a:visited{
+  color: #323232;
+}
+h1 a:hover {
+	color: #0380ad;
+}
+/* H2 */
+h2 {
+  font-size: 52px;
+  line-height: 52px;
+}
+h2 a, a:active, a:visited{
+  color: #323232;
+}
+h2 a:hover {
+	color: #0380ad;
+}
+h2.large {
+  font-size: 69px;
+  line-height: 63px;	
+}
+h2.small {
+	font-size: 44px;
+  line-height: 44px;
+}
+h2.tiny {
+  font-size: 22px;
+  line-height: 22px;
+}
+/* H3 */
+h3 {
+	font-size: 44px;
+	line-height: 44px;
+}
+h3 a, a:active, a:visited{
+  color: #323232;
+}
+h3 a:hover {
+		color: #0380ad;
+}
+h3.small {
+  font-size: 22px;
+  line-height: 22px;
+}
+/* H4 */
+h4 {
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: -0.01em;
+}
+h4 a, a:active, a:visited{
+  color: #323232;
+}
+h4 a:hover {
+	color: #0380ad;
+}
+h4.light {
+	font-family: "SerifaBT-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+h4.large,
+h4 .large {
+	font-size: 44px;
+	line-height: 44px;
+}
+/* H5-H6 */
+h5, h6 {
+	font-family: "SerifaBT-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	line-height: 22px;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+}
+h5 {
+	color: #ed1c24;
+}
+
+#header,
+#right {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+#right .lead {
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+}
+
+/* Related links */
+.stories .related h5,
+.relatedContents.stories h5,
+.leiki h6 {
+  padding-bottom: 5px;
+  border-bottom: 3px double #ddd;
+}
+.leiki .leikiLinks {
+	overflow: hidden;
+}
+.stories .related,
+.relatedContents,
+.leikiLinks {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 13px;
+}
+.poll .question {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 15px;
+}
+.stories .related ul,
+.relatedContents ul {
+  overflow: hidden;
+  padding: 2px 0 2px 0;
+}
+.stories .related li,
+.relatedContents li {
+  clear: both;
+  list-style: none outside none;
+}
+.stories .related li.first,
+.relatedContents li.first {
+  margin-top: 0;
+}
+.stories .related .related-wrapper,
+.relatedContents .related-wrapper {
+  margin-top: 10px;
+}
+.stories .related li .title,
+.relatedContents li .title,
+.leiki a {
+  margin: 0 20px 0 0;
+  padding: 0 0 2px 0;
+  font-weight: bold;
+}
+.leiki a {
+  line-height: 26px;
+}
+.stories .related li .title,
+.relatedContents li .title {
+	float: left;
+}
+.stories .related li .dateline,
+.relatedContents li .dateline,
+.leiki .leikiwidgettimestamp,
+.leiki .leikiwidgetsource {
+  margin: 0 0 0 -11px;
+  padding: 0 0 2px 10px;
+  border-left: 1px solid #dcdcdc;
+  color: #919191;
+}
+.leiki .leikiwidgetsource {
+	margin-right: 20px;
+}
+.stories .related li .dateline,
+.relatedContents li .dateline {
+	float: left;
+}
+/* IE7 */
+.ie7 .stories .related li .dateline {
+	overflow: visible;
+}
+.stories .related li a:hover,
+.relatedContents li a:hover,
+.leiki a:hover {
+  border-bottom: 1px dotted #000;
+  color: #323232;
+  text-decoration: none;
+}
+
+.related-links-inline {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 13px;
+}
+.related-links-inline h5 {
+  font-family: "SerifaBT-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  line-height: 22px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.article-order-newsletter {
+  font-family: "Georgia", "Times New Roman", "Times";
+  font-size: 14px;
+  line-height: 22px;
+}
+.article-order-newsletter .button {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 13px;
+}
+
+.inline-factbox .title {
+  font-family: "SerifaBT-BoldCondensed", "Georgia", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #323232;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -0.01em; 
+}
+.inline-factbox .inline-image .title {
+	font-family: "Georgia", "Times New Roman", "Times";
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 0;
+}
+
+.gallery .title {
+	font-family: "SerifaBT-BoldCondensed", "Georgia", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 18px;
+}
+.gallery.sidePromo .title {
+  font-family: "SerifaBT-Light","Trebuchet MS","Lucida Sans Unicode","Lucida Grande","MS Sans Serif",serif;
+  font-size: 22px;
+}
+.gallery.sidePromo .sidebar-promo .title {
+  font-family: "SerifaBT-BoldCondensed", "Georgia", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 22px;
+}
+.gallery .headerTitle.title {
+  font-size: 22px;
+}
+.widget.gallery.promo .picture-grid .secondary-picture .title {
+  font-size: 16px;
+}
+.gallery .promo-header h4 {
+	font-family: "SerifaBT-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  line-height: 26px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-weight: bold;
+}
+.list .footer {
+  font-weight: normal;
+}
+
+/* Promo Comment */
+.comment.promo .comment-header {
+  font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","MS Sans Serif",serif;
+  font-size: 13px;
+}
+.comment.promo .comment-header .label {
+	letter-spacing: 1px;
+}
+
+/* Header */
+#header {
+  clear: both;
+  position: relative;
+  font-size: 12px;
+}
+#header .upper {
+	float: left;
+	clear: both;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+#header .upper .column-1 {
+	width: 480px;
+	margin: 0;
+}
+#header .upper .column-2 {
+	width: 330px;
+	margin-right: 0;
+}
+#header .upper .column-3 {
+  float: right;
+  width: 130px;
+}
+#header .lower {
+	float: left;
+	clear: both;
+  height: 95px;
+  margin: 0;
+  padding: 0;
+}
+#header .lower .column-1 {
+	height: 51px;
+  width: 330px;
+  margin: 0;
+  padding: 23px 0 22px 0;
+}
+#header .lower .column-2 {
+	height: 95px;
+	width: 270px;
+	margin: 0;
+	padding-left: 20px;
+}
+#header .lower .column-3 {
+	float: right;
+	width: 313px;
+  margin: 15px 0 10px 7px;
+}
+
+/* Header: Navigation */
+#header-navigation.menu.horizontal {
+  height: 33px;
+  margin-bottom:0;
+  line-height: 33px;
+}
+#header-navigation.menu.horizontal ul {
+  background: transparent;
+  text-transform: none;
+  padding: 0;
+  height: 33px;
+  list-style: none;
+  font-size: 11px;
+}
+#header-navigation.menu.horizontal ul li {
+  float:left;
+  border-left: 1px solid #808080;
+}
+#header-navigation.menu.horizontal ul li a {
+  padding: 0 10px;
+  border: none;
+  color: #000;
+}
+#header-navigation.menu.horizontal ul li a:hover,
+#header-navigation.menu.horizontal ul li a.active {
+  background: transparent;
+  text-decoration: none;
+}
+#header-navigation.menu.horizontal ul.submenu {
+  background: none;
+  border-bottom: 1px solid #D9D9D9;
+  text-transform: none;
+  font-weight: bold;
+}
+#header-navigation.menu.horizontal ul.submenu li a {
+  border: none;
+  color: #000000;
+}
+#header-navigation.menu.horizontal ul.submenu li a:hover,
+#header-navigation.menu.horizontal ul.submenu li a.active {
+  background: none;
+  color: #004E8C;
+}
+#header-navigation.menu.horizontal li.first {
+  border-left: none;
+}
+
+/* Main menu */
+#main-navigation.menu.horizontal,
+#main-navigation-extra.menu.horizontal {
+  margin-bottom:0;
+  line-height: 40px;
+  font-family: "Trebuchet MS", Trebuchet, serif;
+  font-size: 13px;
+}
+#main-navigation.menu.horizontal ul,
+#main-navigation-extra.menu.horizontal ul {
+  background: transparent;
+  text-transform: uppercase;
+  padding: 0;
+  height: 40px;
+  list-style: none;
+  font-size: 13px;
+}
+#main-navigation.menu.horizontal ul li,
+#main-navigation-extra.menu.horizontal ul li {
+  float:left;
+  height: 40px;
+}
+#main-navigation.menu.horizontal ul li a,
+#main-navigation-extra.menu.horizontal ul li a {
+  display: block;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  border: none;
+}
+#main-navigation.menu.horizontal ul li a:hover,
+#main-navigation-extra.menu.horizontal ul li a:hover {
+	background: #646464;
+	text-decoration: none;
+}
+#main-navigation.menu.horizontal ul li a.active,
+#main-navigation.menu.horizontal ul li a.active:hover {
+  background: #fff url('../gfx/menu/menu-main-active-bg.png') top left repeat-x;
+  color: #464646;
+  text-decoration: none;
+  font-weight: bold;
+}
+#main-navigation.menu.horizontal ul li a:hover a,
+#main-navigation-extra.menu.horizontal ul li a:hover a {
+  border-bottom: 1px solid #808080;
+}
+#main-navigation.menu.horizontal ul li a span,
+#main-navigation-extra.menu.horizontal ul li a span {
+  padding: 0 15px;
+}
+#main-navigation.menu.horizontal li,
+#main-navigation-extra.menu.horizontal li {
+  border-left: none;
+  border-right: 1px solid #616161;
+}
+#main-navigation.menu.horizontal li.first,
+#main-navigation-extra.menu.horizontal li.first {
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+}
+#main-navigation.menu.horizontal li a span img,
+#main-navigation-extra.menu.horizontal li a span img {
+	padding-right: 5px;
+	vertical-align: middle;
+}
+#main-navigation.menu.horizontal .submenu-wrapper {
+	height: 100%;
+	clear: both;
+}
+#main-navigation.menu.horizontal ul.submenu {
+	overflow: hidden;
+	float: left;
+	clear: both;
+	height: 100%;
+	width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #D9D9D9;
+  line-height: 20px;
+  text-transform: none;
+}
+#main-navigation.menu.horizontal ul.submenu li {
+  padding: 0;
+  border-right: 0;
+  border: 0;
+  height: 40px;
+}
+#main-navigation.menu.horizontal ul.submenu li.first {
+  border-left: 0;
+}
+#main-navigation.menu.horizontal ul.submenu li a:hover,
+#main-navigation.menu.horizontal ul.submenu li a.active {
+  background: #fff;
+}
+#main-navigation.menu.horizontal ul.submenu li a.active {
+	font-weight: bold;
+}
+#main-navigation.menu.horizontal ul.submenu li a {
+  border: none;
+  color: #666;
+  font-weight: normal;
+}
+#main-navigation.menu.horizontal ul.submenu li span {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -2px;
+  padding: 0 25px;
+  height: 20px;
+  border-left: 1px solid #D9D9D9;
+}
+#main-navigation.menu.horizontal ul.submenu li.first span {
+  border: 0;
+}
+#main-navigation-extra.menu.horizontal {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* IE7 fix */
+.ie7 #main-navigation-extra.menu.horizontal {
+	top: 135px;
+}
+
+/* Content */
+#content {
+  clear: both;
+}
+#content #areas.article {
+	margin-top: 5px;
+}
+
+/* Footer */
+#footer {
+	color: #fff;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", sans serif;
+	font-size: 13px;
+	line-height: 26px;
+}
+#footer a {
+	color: #0380AD;
+}
+#footer a:hover {
+	border-bottom: 1px dotted #0380AD;
+	text-decoration: none;
+}
+
+/* Footer: Contact info */
+#footer .contact-info {
+	float: left;
+	width: 630px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+  padding-top: 20px;
+  background-image: url("../gfx/footer-horizontal.png");
+  background-repeat: repeat-x;
+}
+#footer .contact-info .logo {
+	clear: both;
+	width: 159px;
+	height: 30px;
+	margin-bottom: 5px;
+  background-image: url("../gfx/logo-talentum.png");
+  background-repeat: no-repeat;
+}
+#footer .contact-info .phone-numbers,
+#footer .contact-info .emails {
+	float: left;
+	clear: both;
+	margin: 15px 0;
+}
+#footer .contact-info .phone-numbers {
+	min-height: 70px;
+	padding: 5px 0 5px 60px;
+  background-image: url(../gfx/common-sprite.png);
+  background-position: 0 -412px;
+  background-repeat: no-repeat;
+}
+#footer .contact-info .emails {
+	width: 100%;
+	padding-top: 30px;
+  background-image: url(../gfx/footer-horizontal-thin.png);
+  background-repeat: repeat-x;
+}
+#footer .contact-info .info {
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 10px 0;
+	color: #ababab;
+	font-weight: normal;
+	line-height: 20px;
+}
+#footer .contact-info .first,
+#footer .contact-info .second {
+	float: left;
+}
+#footer .contact-info .second {
+	margin-left: 20px;
+	padding-left: 20px;
+	background-image: url("../gfx/footer-vertical-thin.png");
+	background-repeat: repeat-y;
+}
+#footer .contact-info .phone-number {
+	color: #0380AD;
+	font-size: 20px;
+}
+
+/* Footer navigation */
+#footer-navigation.menu.horizontal {
+  margin-bottom:0;
+  padding-top: 20px;
+  background-image: url("../gfx/footer-horizontal.png");
+  background-repeat: repeat-x;
+  line-height: 30px;
+}
+#footer-navigation.menu.horizontal ul {
+  background: transparent;
+  padding: 0;
+  height: 30px;
+  list-style: none;
+  /*font-size: 12px;*/
+}
+#footer-navigation.menu.horizontal ul li {
+  float:left;
+  height: 30px;
+}
+#footer-navigation.menu.horizontal ul li a {
+  display: block;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  border: none;
+  /*font-weight: bold;*/
+}
+#footer-navigation.menu.horizontal ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*#footer-navigation.menu.horizontal ul li a:hover a {
+  border-bottom: 1px solid #808080;
+}*/
+#footer-navigation.menu.horizontal ul li a span {
+  padding: 0 20px;
+}
+#footer-navigation.menu.horizontal ul li.first a span {
+	padding-left: 0;
+}
+#footer-navigation.menu.horizontal li {
+  border-left: 1px solid #323232;
+}
+#footer-navigation.menu.horizontal li.first {
+  border-left: none;
+}
+
+/* Top */
+.x140x460x300-extended-config #top {
+  margin-bottom: 10px;
+  border-bottom: 4px solid #D9D9D9;
+}
+
+/* MAINCONTENT */
+
+/*div.x620x300-config div#main-top {
+	float: left;
+	width: 620px;
+	height: 45px;
+	margin: 0 10px 0 0;
+	padding: 0 20px;
+	background: #fff url('../gfx/article-corner.png') top right no-repeat;
+}*/
+
+div.x620x300-config div#main {
+	/*padding: 0;*/
+  border-right: 0;
+}
+
+div.x620x300-config .article div#main {
+	/*padding: 0 20px 0 20px;*/
+	/*border-right: 1px solid #D9D9D9;*/
+}
+
+div.x140x460x300-extended-config div#main {
+  border-left: 1px solid #D9D9D9;
+  border-right: 1px solid #D9D9D9;
+}
+
+div#content div#areas.article #main {
+	/*background: #fff url('../gfx/article-corner.png') top right no-repeat;*/
+}
+
+/* Article content */
+/*div.x620x300-config div#main div.article-page {
+  padding: 0 60px 0 60px;
+}*/
+
+/* RIGHTCOLUMN */
+
+/*div#left, div#right {
+  font-size: 13px;
+  line-height: 18px;
+}*/
+
+/* BOTTOM */
+
+div.x140x460x300-extended-config div#bottom {
+  border-top: 4px solid #D9D9D9;
+}
+
+/*div.x220x220x220x220 {
+	margin-left: 20px;
+}*/
+
+/* LOGO */
+
+div#header div.logo img {
+  margin: 0;
+}
+
+/* TRAILERS */
+
+/*div#sectionTrailer {
+  padding: 13px 0 0 0;
+  border-top: 1px dashed #D9D9D9;
+  margin: 0 0 13px 0;
+}
+
+div#differentLookingPoll div.content {
+  background-color: #5aabd6;
+  color: #FFF;
+}
+
+div#moreSectionList {
+  background: none;
+  border: 1px solid #999;
+}*/
+
+/* TABLES */
+table {
+  border-bottom: 4px double #efefef;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+table th,
+table td.th {
+  padding-left: 0;
+  border-bottom: 4px double #efefef;
+  vertical-align: bottom;
+}
+table th span,
+table td .table-header {
+	display: block;
+	padding: 5px 5px 5px 8px;
+  border-left: 1px solid #ccc;
+  vertical-align: bottom;
+}
+table th.first span,
+table th.last span,
+table td.th.first .table-header,
+table td.th.last .table-header {
+  border-left: 0;
+}
+table tr.even {
+  background-color: #eee;
+}
+table td {
+	padding: 5px 10px;
+	border: 0;
+	vertical-align: top;
+}
+div.x620x300-config #main .table-scroll-wrapper {
+	width: 540px;
+	overflow: auto;
+}
+div.x620x300-config #main .article-page .table-scroll-wrapper {
+  width: 500px;
+  overflow: auto;
+}
+div.x940-config #main .table-scroll-wrapper {
+  width: 860px;
+  overflow: auto;
+}
+
+/* Tabs */
+.tabs {
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.tabs ul {
+	clear: both;
+	display: block;
+	height: 40px;
+	width: 100%;
+	padding: 0;
+  background: transparent;
+  border-bottom: 1px solid #e4e4e4;
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 12px;
+}
+.tabs ul li {
+  float:left;
+  height: 20px;
+  margin: 0;
+  padding: 10px;
+  line-height: 20px;
+}
+.tabs ul li.active,
+.tabs ul li.current {
+	margin-top: -1px;
+	border-top: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #e4e4e4;
+}
+.tabs ul li a,
+.tabs ul li span {
+  color: #0380ad;
+  text-decoration: none;
+}
+.tabs ul li span {
+	cursor: pointer;
+}
+.tabs ul li.active a,
+.tabs ul li.active span,
+.tabs ul li.current a,
+.tabs ul li.current span {
+  color: #000;
+  text-decoration: none;
+}
+.tabs ul li a:hover,
+.tabs ul li span:hover {
+  border-bottom: 1px dotted #0380AD;
+}
+.tabs ul li.active a:hover,
+.tabs ul li.active span:hover,
+.tabs ul li.current a:hover,
+.tabs ul li.current span:hover {
+  border-bottom: 0;
+}
+
+/* Overriding interaction states of jquery ui.
+If we dont override then we will not get the regular look of widgets (specially story widget)
+because css available in jquery ui css has background color for ui-state-default classes.
+It also has a hover effect. These effect is not good to look and this effect is in the classes
+of Interaction states thats why these classes has been overriden. :(
+----------------------------------*/
+
+/* OK, the above comment went little high and far, so I'm takeing my changes and removing these. 
+This is doen to make the jquery ui to look little less ridiculous. 
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none;
+  background: none;
+  font-weight: normal;
+  color: black;
+}
+
+*.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { text-decoration: none; outline: none; }*
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus {
+  outline: none;
+  background-color: yellow;
+}
+
+.ui-state-hover a, .ui-state-hover a:hover {
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+  color: #004E8C;
+  outline: medium none;
+  text-decoration: none;
+}
+
+.ui-state-default a:hover {
+  text-decoration: underline;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  border: 1px solid #fbd850;
+  background: #ffffff url( ../gfx/jQueryUI/ui-bg_glass_65_ffffff_1x400.png ) 50% 50% repeat-x;
+  font-weight: bold;
+  color: #eb8f00;
+  outline: none;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  background-color: inherit;
+  color: #eb8f00;
+  outline: none;
+  text-decoration: none;
+}
+.ui-autocomplete .ui-menu-item a {
+	cursor: pointer;
+}
+*/
+
+.ui-widget.ui-widget-content.ui-datepicker {
+  width: auto;
+}
+
+/* Dialog: Custom */
+body .ui-dialog {
+	padding: 0;
+	font-family: inherit;
+	font-size: 12px;
+}
+.ui-dialog.ui-widget-content {
+	background: #fff;
+	border: 0;
+	-webkit-border-radius: 0px; 
+	  -moz-border-radius: 0px; 
+	       border-radius: 0px; 
+}
+.ui-dialog.ui-widget-content a {
+	color: #0380ad;
+}
+.ui-dialog.ui-corner-all {
+	border: 0;
+}
+.ui-dialog .ui-widget-header {
+	height: 50px;
+	padding: 0;
+	background: #fff;
+  border: 0;
+  border-top: 5px solid #58595b;
+  border-bottom: 1px solid #dfdfe1;
+  -webkit-border-radius: 0px; 
+     -moz-border-radius: 0px; 
+          border-radius: 0px; 
+}
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-title {
+	margin: 10px 0;
+	line-height: 30px;
+	font-family: "SerifaBT-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+}
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close {
+  position: absolute;
+  right: 0.3em;
+  top: 15px;
+  height: 32px;
+  width: 32px;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close .ui-icon {
+	height: 32px; 
+	width: 32px;
+}
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close span {
+  margin: 0;
+}
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close .ui-icon-closethick {
+	background-image: url(../gfx/common-sprite.png);
+	background-position: 0 -146px;
+	background-repeat: no-repeat;
+}
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close.ui-state-hover,
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-titlebar-close.ui-state-focus {
+	background: inherit;
+	border: 0;
+}
+body .ui-widget-overlay {
+  background: #000;
+  opacity: 0.6;
+}
+
+/* Dialog: Gallery */
+.ui-dialog.gallery,
+.ui-dialog.gallery .ui-widget {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 13px;
+}
+.ui-dialog.gallery .ui-widget-header {
+	height: 70px;
+	margin: 0 0 0 30px;
+	padding: 0;
+	border: 0;
+}
+.ui-dialog.ui-widget-content.gallery .ui-widget-header .ui-dialog-title {
+  margin: 18px 0 0 0;
+}
+.ui-dialog.gallery .ui-widget-header .ui-dialog-title-gallery-dialog-content {
+	position: absolute;
+  bottom: 12px;
+  margin: 0;
+}
+.ui-dialog.gallery .ui-dialog-titlebar-close {
+	display: none;
+}
+.ui-dialog.gallery .ui-dialog-buttonpane {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 70px;
+	width: 380px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.ui-dialog.gallery .ui-dialog-buttonpane .ui-dialog-buttonset {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	padding-top: 20px;
+}
+.ui-dialog.gallery .ui-dialog-buttonpane .ui-dialog-buttonset .ui-corner-all {
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	border-radius: 0px; 
+}
+.ui-dialog.gallery .ui-dialog-buttonpane .show-galleries {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 35px;
+	margin: 0;
+	padding: 0 30px 0 50px;
+	background-color: #4c4c4c;
+	background-image: url(../gfx/gallery-sprite.png);
+  background-position: left -0px;
+  background-repeat: no-repeat;
+	border: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ui-dialog.gallery .ui-dialog-buttonpane .show-galleries.hidden {
+	display: none;
+}
+.ui-dialog.gallery .ui-dialog-buttonpane .close-button {
+	position: absolute;
+  bottom: 0;
+  right: 30px;
+  height: 35px;
+  width: 45px;
+  margin: 0;
+  padding: 0 10px;
+  background-color: #4c4c4c;
+  background-image: url(../gfx/gallery-sprite.png);
+  background-position: 1px -455px;
+  background-repeat: no-repeat;
+  border: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ui-dialog.gallery .ui-dialog-content {
+	clear: both;
+	min-height: 300px;
+	padding: 10px 0 40px 0;
+	background: #000;
+	color: #fff;
+}
+
+/*Tebatti*/
+.tebatti h1, .tebatti h2, .tebatti h3 {
+	font-family: "SerifaBT-Light", "Georgia", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	margin-top: 0px !important;
+}
+.tebatti .relatedPromo h2{
+    font-family: "SerifaBT-BoldCondensed","Georgia","Trebuchet MS Bold","Lucida Sans Unicode","Lucida Grande","MS Sans Serif",serif;
+    margin: 5px 0 10px !important;
+}
+.tebatti .relatedPromo .article{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.storyContent.tebatti .inline-image{
+  float: left;
+  margin-left: 0px;
+  margin-right: 20px:
+}
+.storyContent.tebatti h1 {
+  font-size: 44px;
+}
+.stories.tebatti .tebatti .related{
+  margin-bottom: 20px;  
+}
+
+.article.news.tebatti .relatedPromo .infoline{
+  padding-right: 0;
+}
+.article.news.tebatti .relatedPromo .media{
+  margin-bottom: 10px;  
+}
+.news.partner-content.tebatti {
+	background-image: url(../gfx/tebatti_logo_pieni.png);
+	background-repeat: no-repeat;
+	background-position: 95% 20px;
+}
+.article-page.partner-content.tebatti {
+	background-image:none;
+}
+
+.article.news.tebatti .infoline {
+	padding-right: 65px;
+}
+
+textarea,
+input,
+.storyContent .byline,
+.storyContent .dateline,
+.storyContent .commentCount,
+.commentingTerms,
+.moderation-notice {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+
+#commentsForm .header h6 {
+	font-size:16px;
+}
+
+body #registration-outer {
+  z-index: 1000;
+}
+
+
+/* knavi */
+.knavi_holder a:active,
+.knavi_holder a:visited {
+  color: inherit;
+}

@@ -1,0 +1,173 @@
+if ('' != '') {var cp1 = document.createElement('img').src = '';}
+if ('' != '') {var cp2 = document.createElement('img').src = '';}
+if ('' != '') {var cp3 = document.createElement('img').src = '';}
+
+(function() {
+
+	try {window.top.document; var w = window.top, fif =(w === window.self)?!1:!0;} catch (e) {var w = window, fif = !1;}
+	var d = w.document, ContId = ('sas_3650' || 'sas_3650');	
+
+	if (!w.asmi || !w.asmi.pageSet) {
+		if (!w.document.getElementById(ContId)) {
+			if (fif) {
+				var k = document.createElement('div');
+				k.id = ContId;
+				window.frameElement.parentNode.appendChild(k);
+			} else {
+				document.write("<div id='"+ContId+"'></div>");
+			}
+		}
+		var s = document.createElement('script');
+		s.type = "text/javascript";
+		s.onload = arguments.callee;
+		s.src = "//ec-ns.sascdn.com/diff/251/smartadasmi.js"
+		w.document.head.appendChild(s);
+	} else {
+		var asmi = w.asmi || {sas:{adElts:[]}}, a = asmi.sas, z = (a.adElts[ContId]) ? a.adElts[ContId] : a.adElts[ContId] = {}; 
+		var c = d.getElementById(ContId), cW = ('none' == 'responsive' || 'none' == 'stretch')?'100%':'160', cH = ('none' == 'responsive' || 'none' == 'stretch')?'100%':'600';
+		
+		if (2 == 0) {
+			var creaTemp = '';
+
+		} else if (2 == 4) {
+			var creaTemp = "<iframe scrolling='no' frameBorder=0 style='display:block' src='http://ced.sascdn.com/diff/251/3451842/WS_ABO_15_107_WamS_WM_Onsite_9_fuer_6_Skyscraper_160x600.swf?clicktag="+encodeURIComponent('http://ww251.smartadserver.com/h/cc?imgid=14430323&insid=3451842&pgid=74558&uid=1060078160694091848&tgt=xID%3d3650%3brcaa%3d0%3bsas_ajax%3d1%3b147983812%3bGoogle%3bUeberwachung%3bStein_Hannes%3bSpam%3bFacebook%2cnonSEU%3bnortbplus%3d1%3b%3b%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1307002303%3b%24ql%3dhigh%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d193_1486_5389t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d12100&go=http%3a%2f%2fwww.lesershop24.de%2fapp%2fnavigation.do%3faction%3dShowMicrositeB%26productId%3d25293%26contentBlockId%3d15348%26wt_ls24%3ddisplayperformance.onsite.vertrieb.rossky%26wt_cc1%3dSO1510B12WS01SZPBOGSZ01')+"&target=_blank' width='"+cW+"' height='"+cH+"'></iframe>";
+
+		} else if (2 == 2) {
+			var creaTemp = ((a.flashVersion == 0 && 2 == 2 && Number(600) != "1")?'<a target="_blank"  href="http://ww251.smartadserver.com/h/cc?imgid=14430483&insid=3451842&pgid=74558&uid=1060078160694091848&tgt=xID%3d3650%3brcaa%3d0%3bsas_ajax%3d1%3b147983812%3bGoogle%3bUeberwachung%3bStein_Hannes%3bSpam%3bFacebook%2cnonSEU%3bnortbplus%3d1%3b%3b%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1307002303%3b%24ql%3dhigh%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d193_1486_5389t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d12100&go=http%3a%2f%2fwww.lesershop24.de%2fapp%2fnavigation.do%3faction%3dShowMicrositeB%26productId%3d25293%26contentBlockId%3d15348%26wt_ls24%3ddisplayperformance.onsite.vertrieb.rossky%26wt_cc1%3dSO1510B12WS01SZPBOGSZ01"><img id="sas_noFlashImage_14430483" src="http://ced.sascdn.com/diff/251/3451842/WS_ABO_15_107_WamS_WM_Onsite_9_fuer_6_Skyscraper_160x600.jpg" style="width: '+(cW+'px').replace('%px','%')+';height: '+(cH+'px').replace('%px','%')+';" alt="" width="'+cW+'" height="'+cH+'" nopin="nopin" border="0"></a>':String('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"codebase="//www.adobe.com/go/getflashplayer" width="'+cW+'" height="'+cH+'" id="sas_flash_14430323"><param name="movie" value="http://ced.sascdn.com/diff/251/3451842/WS_ABO_15_107_WamS_WM_Onsite_9_fuer_6_Skyscraper_160x600.swf"><param name="flashVars" value="insertionId=3451842&target=_blank&clicktag=http%3a%2f%2fww251.smartadserver.com%2fh%2fcc%3fimgid%3d14430323%26insid%3d3451842%26pgid%3d74558%26uid%3d1060078160694091848%26tgt%3dxID%253d3650%253brcaa%253d0%253bsas_ajax%253d1%253b147983812%253bGoogle%253bUeberwachung%253bStein_Hannes%253bSpam%253bFacebook%252cnonSEU%253bnortbplus%253d1%253b%253b%253b%2524dt%253d1t%253b%2524hc%26systgt%3d%2524qc%253d1307002303%253b%2524ql%253dhigh%253b%2524qpc%253d0%253b%2524qpp%253d0%253b%2524qt%253d193_1486_5389t%253b%2524dma%253d0%253b%2524b%253d12390%253b%2524o%253d12100%26go%3dhttp%253a%252f%252fwww.lesershop24.de%252fapp%252fnavigation.do%253faction%253dShowMicrositeB%2526productId%253d25293%2526contentBlockId%253d15348%2526wt_ls24%253ddisplayperformance.onsite.vertrieb.rossky%2526wt_cc1%253dSO1510B12WS01SZPBOGSZ01&clickTag=http%3a%2f%2fww251.smartadserver.com%2fh%2fcc%3fimgid%3d14430323%26insid%3d3451842%26pgid%3d74558%26uid%3d1060078160694091848%26tgt%3dxID%253d3650%253brcaa%253d0%253bsas_ajax%253d1%253b147983812%253bGoogle%253bUeberwachung%253bStein_Hannes%253bSpam%253bFacebook%252cnonSEU%253bnortbplus%253d1%253b%253b%253b%2524dt%253d1t%253b%2524hc%26systgt%3d%2524qc%253d1307002303%253b%2524ql%253dhigh%253b%2524qpc%253d0%253b%2524qpp%253d0%253b%2524qt%253d193_1486_5389t%253b%2524dma%253d0%253b%2524b%253d12390%253b%2524o%253d12100%26go%3dhttp%253a%252f%252fwww.lesershop24.de%252fapp%252fnavigation.do%253faction%253dShowMicrositeB%2526productId%253d25293%2526contentBlockId%253d15348%2526wt_ls24%253ddisplayperformance.onsite.vertrieb.rossky%2526wt_cc1%253dSO1510B12WS01SZPBOGSZ01&clickTAG=http%3a%2f%2fww251.smartadserver.com%2fh%2fcc%3fimgid%3d14430323%26insid%3d3451842%26pgid%3d74558%26uid%3d1060078160694091848%26tgt%3dxID%253d3650%253brcaa%253d0%253bsas_ajax%253d1%253b147983812%253bGoogle%253bUeberwachung%253bStein_Hannes%253bSpam%253bFacebook%252cnonSEU%253bnortbplus%253d1%253b%253b%253b%2524dt%253d1t%253b%2524hc%26systgt%3d%2524qc%253d1307002303%253b%2524ql%253dhigh%253b%2524qpc%253d0%253b%2524qpp%253d0%253b%2524qt%253d193_1486_5389t%253b%2524dma%253d0%253b%2524b%253d12390%253b%2524o%253d12100%26go%3dhttp%253a%252f%252fwww.lesershop24.de%252fapp%252fnavigation.do%253faction%253dShowMicrositeB%2526productId%253d25293%2526contentBlockId%253d15348%2526wt_ls24%253ddisplayperformance.onsite.vertrieb.rossky%2526wt_cc1%253dSO1510B12WS01SZPBOGSZ01"><param name="wmode" value="Opaque"><param name="quality" value="high"><param name="swLiveConnect" value="true"><param name="allowScriptAccess" value="always" /><embed name="sas_flash_14430323" src="http://ced.sascdn.com/diff/251/3451842/WS_ABO_15_107_WamS_WM_Onsite_9_fuer_6_Skyscraper_160x600.swf" flashVars="insertionId=3451842&target=_blank&clicktag=http%3a%2f%2fww251.smartadserver.com%2fh%2fcc%3fimgid%3d14430323%26insid%3d3451842%26pgid%3d74558%26uid%3d1060078160694091848%26tgt%3dxID%253d3650%253brcaa%253d0%253bsas_ajax%253d1%253b147983812%253bGoogle%253bUeberwachung%253bStein_Hannes%253bSpam%253bFacebook%252cnonSEU%253bnortbplus%253d1%253b%253b%253b%2524dt%253d1t%253b%2524hc%26systgt%3d%2524qc%253d1307002303%253b%2524ql%253dhigh%253b%2524qpc%253d0%253b%2524qpp%253d0%253b%2524qt%253d193_1486_5389t%253b%2524dma%253d0%253b%2524b%253d12390%253b%2524o%253d12100%26go%3dhttp%253a%252f%252fwww.lesershop24.de%252fapp%252fnavigation.do%253faction%253dShowMicrositeB%2526productId%253d25293%2526contentBlockId%253d15348%2526wt_ls24%253ddisplayperformance.onsite.vertrieb.rossky%2526wt_cc1%253dSO1510B12WS01SZPBOGSZ01&clickTag=http%3a%2f%2fww251.smartadserver.com%2fh%2fcc%3fimgid%3d14430323%26insid%3d3451842%26pgid%3d74558%26uid%3d1060078160694091848%26tgt%3dxID%253d3650%253brcaa%253d0%253bsas_ajax%253d1%253b147983812%253bGoogle%253bUeberwachung%253bStein_Hannes%253bSpam%253bFacebook%252cnonSEU%253bnortbplus%253d1%253b%253b%253b%2524dt%253d1t%253b%2524hc%26systgt%3d%2524qc%253d1307002303%253b%2524ql%253dhigh%253b%2524qpc%253d0%253b%2524qpp%253d0%253b%2524qt%253d193_1486_5389t%253b%2524dma%253d0%253b%2524b%253d12390%253b%2524o%253d12100%26go%3dhttp%253a%252f%252fwww.lesershop24.de%252fapp%252fnavigation.do%253faction%253dShowMicrositeB%2526productId%253d25293%2526contentBlockId%253d15348%2526wt_ls24%253ddisplayperformance.onsite.vertrieb.rossky%2526wt_cc1%253dSO1510B12WS01SZPBOGSZ01&clickTAG=http%3a%2f%2fww251.smartadserver.com%2fh%2fcc%3fimgid%3d14430323%26insid%3d3451842%26pgid%3d74558%26uid%3d1060078160694091848%26tgt%3dxID%253d3650%253brcaa%253d0%253bsas_ajax%253d1%253b147983812%253bGoogle%253bUeberwachung%253bStein_Hannes%253bSpam%253bFacebook%252cnonSEU%253bnortbplus%253d1%253b%253b%253b%2524dt%253d1t%253b%2524hc%26systgt%3d%2524qc%253d1307002303%253b%2524ql%253dhigh%253b%2524qpc%253d0%253b%2524qpp%253d0%253b%2524qt%253d193_1486_5389t%253b%2524dma%253d0%253b%2524b%253d12390%253b%2524o%253d12100%26go%3dhttp%253a%252f%252fwww.lesershop24.de%252fapp%252fnavigation.do%253faction%253dShowMicrositeB%2526productId%253d25293%2526contentBlockId%253d15348%2526wt_ls24%253ddisplayperformance.onsite.vertrieb.rossky%2526wt_cc1%253dSO1510B12WS01SZPBOGSZ01" wmode="Opaque" quality="high" width="'+cW+'" height="'+cH+'" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="//www.adobe.com/go/getflashplayer"></embed></object>'));
+
+		} else if (2 == 1){
+			var creaTemp = '<a target="_blank"  href="http://ww251.smartadserver.com/h/cc?imgid=14430323&insid=3451842&pgid=74558&uid=1060078160694091848&tgt=xID%3d3650%3brcaa%3d0%3bsas_ajax%3d1%3b147983812%3bGoogle%3bUeberwachung%3bStein_Hannes%3bSpam%3bFacebook%2cnonSEU%3bnortbplus%3d1%3b%3b%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1307002303%3b%24ql%3dhigh%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d193_1486_5389t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d12100&go=http%3a%2f%2fwww.lesershop24.de%2fapp%2fnavigation.do%3faction%3dShowMicrositeB%26productId%3d25293%26contentBlockId%3d15348%26wt_ls24%3ddisplayperformance.onsite.vertrieb.rossky%26wt_cc1%3dSO1510B12WS01SZPBOGSZ01"><img id="sas_flash_14430323" src="http://ced.sascdn.com/diff/251/3451842/WS_ABO_15_107_WamS_WM_Onsite_9_fuer_6_Skyscraper_160x600.swf" alt="" width="'+cW+'" height="'+cH+'" nopin="nopin" border="0" style="width: '+(cW+'px').replace('%px','%')+';height: '+(cH+'px').replace('%px','%')+';"></a>';
+
+		}
+
+		z.tempName = 'oneTag';
+		z.contId = ContId;
+		z.insertionId = Number(3451842);
+		z.campaignId = Number(676694);
+		z.xtraCSS = "";
+		z.pixFired = true;
+		z.dynSky1 = 0;
+		z.stickieness = (0)?"absolute":"relative";
+		z.impPix = "";
+		z.agImpPix = "";
+		z.posY = "undefined";
+		z.crea1 = {code: creaTemp, id: 'banner', factor: 600/160, width: 160, height: 600, pos: 'relative'};
+
+		z.rescale = function(){
+			var p = asmi.pageSet;
+			try {
+				var l = parseInt(getComputedStyle(document.getElementById(ContId))['width']);
+				if ('none' == 'center') {
+					w.document.getElementById(ContId+"_i3451842").style.width=l+"px";
+					w.document.getElementById(ContId+"_i3451842").style.textAlign="center";
+					w.document.getElementById(ContId+"_ibanner").style.margin="auto";
+				} else if ('none' == 'responsive') {
+					w.document.getElementById(ContId+"_ibanner").style.width=l+"px";
+					w.document.getElementById(ContId+"_i3451842").style.width=l+"px";
+					w.document.getElementById(ContId+"_ibanner").style.height=(z.crea1.factor*l)+"px";
+					w.document.getElementById(ContId+"_i3451842").style.height=(z.crea1.factor*l)+"px";
+				} else if ('none' == 'stretch') {
+					w.document.getElementById(ContId+"_ibanner").style.width=l+"px";
+					w.document.getElementById(ContId+"_i3451842").style.width=l+"px";
+				}
+				w.document.getElementById(ContId + '_i3451842').style.visibility = "visible";
+			} catch(e) {
+				setTimeout("asmi.sas.adElts['"+ContId+"'].rescale()", 50);
+			}
+		}
+
+		if (true) {
+			var ic = d.createElement('div');
+			ic.id = ContId + '_i3451842';
+			ic.className = "oneTag";
+			ic.style.cssText = 'padding:0;display:block;position:relative;z-index:2000;width:160px;height:600px;';
+			c.appendChild(ic);
+			
+			if ('2' == '0') {
+
+				var i = d.createElement('iframe');
+				i.id = ContId + '_ibanner';
+				i.scrolling = 'no';
+				i.frameBorder = 0;
+				i.style.padding = 0;
+				i.style.width = (cW + "px").replace("%px","%");
+				i.style.height = (cH + "px").replace("%px","%");
+				i.width = cW;
+				i.height = cH;
+				i.style.display = 'block';
+				i.style.position = z.stickieness;
+				i.style.top = '0px';
+				if ('none' == 1) {
+					i.style.cssText += "text-align:center!important;margin:auto!important;";
+				}
+				ic.appendChild(i);
+
+				z.frameHTML = '<!doctype html><html><head><title></title></head><body style="margin:0;padding:0">' +
+					'<scr' + 'ipt type="text/javascript">'+((document.domain != location.hostname)?'document.domain = "'+document.domain+'";':'')+' var inDapIF=inDapMgrIf=true, gEbEyeDivRefElement = "' + ContId + '_ibanner"; ContId = "'+ContId+'";</scr' + 'ipt>' + z.crea1.code + '</body></html>';
+
+				if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) {
+					i.contentDocument.write(z.frameHTML);
+					i.contentDocument.close();
+				} else {
+					if (document.domain != location.hostname) {
+						i.src = "javascript:var d=document.open();d.domain='"+document.domain+"';void(0);";
+					}
+					i.contentWindow.contents = z.frameHTML;
+					i.src = 'javascript:window["contents"]';
+				}
+			} else {
+				var i = d.createElement('div');
+				i.id = ContId + '_ibanner';
+				i.style.width = (cW + "px").replace("%px","%");
+				i.style.height = (cH + "px").replace("%px","%");
+				i.style.zIndex = "2000";
+				i.style.position = 'relative';
+				i.style.top = '0px';
+				if ('none' == 'center') {
+					i.style.cssText += "text-align:center!important;margin:auto!important;";
+				}
+				i.innerHTML = z.crea1.code;
+				ic.appendChild(i);
+				if (1 && sas_w.$ADP) {sas_w.$ADP.sas.addOba(z.ContId+"_ibanner", false, "top-right", a.tsn, z.ContId+"_ibanner", a.tsn);}
+			}
+
+			var cust = (String('')).replace(/\r\n/gi, '');
+			if (cust != "") {
+				var frameHTML = '<!doctype html><html><head><title></title></head><body style="margin:0;padding:0;overflow:hidden;"><scr' + 'ipt type="text/javascript">'+((document.domain != location.hostname)?'document.domain = "'+document.domain+'";':'')+'var inDapIF=inDapMgrIf=true, ContId = "' + ContId + '";</scr' + 'ipt>' + cust + '<scr' + 'ipt type="text/javascript">document.close();</scr' + 'ipt></body></html>';
+
+				var g = d.createElement('iframe');
+				g.id = 'sas_scrFrame_3451842';
+				g.style.display = 'none';
+				c.appendChild(g);
+
+				if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) {
+					g.contentDocument.write(frameHTML);
+					g.contentDocument.close();
+				} else {
+					if (document.domain != location.hostname) {
+						g.src = "javascript:var d=document.open();d.domain='"+document.domain+"';void(0);";
+					}
+					g.contentWindow.contents = frameHTML;
+					g.src = 'javascript:window["contents"]';
+				}
+			}
+
+		} else {
+			w.gEbEyeDivRefElement = ContId + "_i3451842";
+			var bannerCSS = ('none' == 'center')?"text-align:center!important;margin:auto!important;":""+"z-index:2000; position:"+z.stickieness+";top:0px;";
+			var s = "<div id='" + ContId + "_i3451842' style='padding:0;display:block;position:relative;z-index:2000;width:160px;;height:600px;'><div id='" + ContId + "_ibanner' style='"+bannerCSS+"'>" + z.crea1.code + "</div></div>";
+			document.write(s + '');
+		}
+
+		a.addCSS(z.xtraCSS);
+		a.resizeArr.push(z.contId);
+		z.rescale();
+
+		if (fif && window.frameElement) {window.frameElement.style.display="none";}
+
+		if ("0" == "1") {
+			asmi.sas.observeArr.push(ContId);
+			z.moveEl.push(ContId + "_ibanner");
+		}
+	}
+})(window);

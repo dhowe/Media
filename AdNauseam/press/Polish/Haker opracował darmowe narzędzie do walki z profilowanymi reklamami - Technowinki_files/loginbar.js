@@ -1,0 +1,1 @@
+if(location.protocol+"//"+location.host+location.pathname+location.search=="http://technowinki.onet.pl/internet-i-sieci/haker-opracowal-darmowe-narzedzie-do-walki-z-profilowanymi-reklamami/7612j"){JSONPLoader.callbacks.success1({"result":{"config":{"login":"https://authorisation.grupaonet.pl/login.html?client_id=www.onet.pl.front"}}});}

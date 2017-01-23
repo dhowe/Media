@@ -1,0 +1,92 @@
+body {
+  padding: 1.4em;
+}
+
+.widget_ad,
+.modal,
+#adv_ldbd_top,
+nav,
+#page > header h1,
+#page > header p,
+#page > header div,
+#page > footer,
+#page > div,
+#page > div#content .secondary,
+#page > div#content .tertiary {
+  display: none;
+}
+
+a.add, a.add[style] {
+  display: none !important;
+}
+
+#page > header #gohome img {
+  margin-bottom: 1.5em;
+}
+
+#page > div#content {
+  display: block;
+}
+
+#page > div#content .primary .hentry {
+  display: block !important;
+  font-family: Georgia, serif;
+}
+#page > div#content .primary .hentry .story_tools, #page > div#content .primary .hentry > footer {
+  display: none;
+}
+#page > div#content .primary .hentry header figure {
+  display: none;
+}
+#page > div#content .primary .hentry header .label {
+  font: bold 0.7em/1 Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 0.4em 0;
+}
+#page > div#content .primary .hentry header .entry-title {
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.1em;
+}
+#page > div#content .primary .hentry header .entry-meta .review {
+  display: none;
+}
+#page > div#content .primary .hentry header .entry-meta p {
+  margin: 0 0 0.2em 0;
+  font: normal 0.8em/1.2 Helvetica, Arial, sans-serif;
+}
+#page > div#content .primary .hentry header .entry-meta p.byline {
+  font-weight: bold;
+}
+#page > div#content .primary .hentry .entry-content {
+  margin-bottom: 2em;
+}
+#page > div#content .primary .hentry .entry-content aside, #page > div#content .primary .hentry .entry-content .companies-mentioned, #page > div#content .primary .hentry .entry-content .stocktwits-box, #page > div#content .primary .hentry .entry-content .stocktwits-box-multiple, #page > div#content .primary .hentry .entry-content .gridcol > img, #page > div#content .primary .hentry .entry-content .gridcol > video {
+  display: none;
+}
+#page > div#content .primary .hentry .entry-content .gridcol > p,
+#page > div#content .primary .hentry .entry-content .gridcol > ul,
+#page > div#content .primary .hentry .entry-content .gridcol > ol {
+  font-size: 0.9em;
+  line-height: 20px;
+  margin-bottom: 1.5em;
+}
+#page > div#content .primary .hentry .entry-content .gridcol > p a,
+#page > div#content .primary .hentry .entry-content .gridcol > ul a,
+#page > div#content .primary .hentry .entry-content .gridcol > ol a {
+  text-decoration: none;
+}
+#page > div#content .primary .hentry .entry-content .gridcol > p a:after,
+#page > div#content .primary .hentry .entry-content .gridcol > ul a:after,
+#page > div#content .primary .hentry .entry-content .gridcol > ol a:after {
+  font-style: italic;
+  color: #bbb;
+  content: " [" attr(href) "]";
+}
+#page > div#content .primary .hentry .entry-content .review-details-list li {
+  font-size: 0.9em;
+}
+#page > div#content .primary .hentry .entry-content .review-details-list li span {
+  font: normal 0.8em/1.2 Helvetica, Arial, sans-serif;
+}

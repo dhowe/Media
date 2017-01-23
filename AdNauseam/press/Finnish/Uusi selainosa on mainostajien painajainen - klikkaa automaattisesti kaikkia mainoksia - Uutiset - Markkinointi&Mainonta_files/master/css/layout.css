@@ -1,0 +1,162 @@
+body{
+  background: url('../gfx/site-bg.png');
+}
+#viewport{
+	float: left;
+	clear: both;
+	width: 100%;
+	min-width: 1320px;
+	margin-top: 20px;
+  background: url('../gfx/site-bg-header.png') repeat-x 0px 40px;
+}
+.wallpaper #viewport {
+	background-image: none;
+}
+#wrapper-980 {
+	overflow: hidden;
+	float: left;
+	width: 980px;
+}
+.wallpaper #wrapper-980 {
+	padding-top: 20px;
+	background: url('../gfx/site-bg.png') repeat 0 0;
+} 
+#header {
+	width: 940px;
+	margin: 0 auto;
+  background: url("../gfx/site-bg-header.png") repeat-x 0 40px;
+}
+#page {
+  z-index: 5;
+  position: relative;
+  overflow: visible;
+}
+#top {
+	margin: 0 10px 0 10px;
+}
+.ie7 #top {
+	float: left;
+	clear: both;
+}
+#middle {
+	float: left;
+	clear: both;
+	margin: 0 10px 0 10px;
+	padding: 0 -10px !important;
+	background-color: #f5f5f5;
+	border-top: 5px solid #f5f5f5;
+}
+/*#middle.article {
+	margin-top: 0;
+}*/
+.ie7 #middle {
+	width: 940px;
+}
+#main {
+	padding-top: 40px;
+  background: #fff;
+}
+#main.frontpage {
+	padding-top: 0;
+}
+#main .article-page {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+#wrapper-1150 #main {
+	padding-top: 0;
+}
+#right {
+	margin: 0 0 0 20px;
+}
+div.article #right {
+	margin: 0 0 0 19px;
+}
+#right .widget {
+  background: #fff;
+  margin-bottom: 10px;
+}
+#right .ad {
+  background: none;
+}
+#bottom {
+	clear: both;
+	float: left;
+	margin: 0 10px 0 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#footer {
+	background-color: #1e1e1e;
+}
+#footer-inner-wrapper {
+	padding: 30px 0 50px 0;
+}
+
+/* AD related styles */
+#topMost{
+  width: 100%;
+  margin: auto;
+}
+#topMost,
+#topMost{
+  /*position: relative; 
+  This is commented out to let interstitial go top: 0 on the page*/
+  /*z-index:1000;*/
+  overflow: visible;
+}
+
+.ad *{
+  overflow: visible;
+}
+#topMost .ad{
+  z-index: 500;  
+}
+.ad{
+  position: relative;
+  z-index: 100;
+  overflow: visible;
+}
+
+.disable-z-index {
+  z-index: 0 !important;
+}
+
+#right,
+#rightExtra,
+#leftExtra{
+  overflow: visible;
+}
+.interstitial{
+  z-index: 5000 !important;
+  position: static;
+}
+.samHidden {
+	width: 1px;
+	height: 1px;
+	overflow: hidden !important;
+}
+.knavi_holder {
+  min-width: 1320px;
+}
+
+/* Hide extraLeft by default */
+#leftExtra{
+  display: none !important;
+}
+#viewport{
+  min-width: 1150px !important;
+}
+#wrapper{
+  width: 1150px !important;
+}
+.knavi_holder,
+.knavi_sectionHolder{
+  min-width: 1200px !important;
+}
+#footer-inner-wrapper{
+  width: 1110px;
+}
+#footer-navigation{
+  width: 940px;
+}

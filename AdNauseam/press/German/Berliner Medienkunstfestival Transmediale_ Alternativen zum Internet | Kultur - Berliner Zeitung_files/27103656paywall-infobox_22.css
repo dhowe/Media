@@ -1,0 +1,6 @@
+
+.pa-lightbox{ 
+  display: inline; 
+  z-index: 999999; 
+}
+.pa-lightbox .pa-infobox{ top: 7%; }

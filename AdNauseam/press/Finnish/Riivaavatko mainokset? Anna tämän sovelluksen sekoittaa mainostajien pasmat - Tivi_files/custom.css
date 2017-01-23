@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+@media (min-width: 1300px) {
+  .header-links .link-group {
+    margin: 0 0.30em;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .section-partner {
+    background-image: url('/static/img/ilmoitus_small.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  .section-partner-sofigate .col-sm-3 .leadtext {
+    display: none;
+  }
+
+  .teaser-partner-sofigate:nth-child(3n) {
+    clear:left !important;
+    border-top-width:1px;
+    border-color:#E3260A;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .teaser-partner-sofigate:nth-child(4n) {
+    border-top-width:1px;
+    border-color:#E3260A;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+}
+
+
+
+@media (min-width: 768px)  {
+  .section-partner {
+    background-image: url('/static/img/ilmoitus_small.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Hide Related content-links TE-58 */
+.article-body a[href^="external"] {
+    display: none;
+}

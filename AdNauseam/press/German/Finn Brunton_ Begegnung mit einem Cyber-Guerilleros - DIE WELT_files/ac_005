@@ -1,0 +1,71 @@
+(function(){
+
+	try {window.top.document; var w = window.top, fif =(w === window.self)?!1:!0;} catch (e) {var w = window, fif = !1;}
+	var d = w.document, ContId = ('sas_18913' || 'sas_18913');	
+
+	if (!w.asmi || !w.asmi.pageSet) {
+		if (!w.document.getElementById(ContId)) {
+			if (fif) {
+				var k = document.createElement('div');
+				k.id = ContId;
+				window.frameElement.parentNode.appendChild(k);
+			} else {
+				document.write("<div id='"+ContId+"'></div>");
+			}
+		}
+		var s = document.createElement('script');
+		s.type = "text/javascript";
+		s.onload = arguments.callee;
+		s.src = "//ec-ns.sascdn.com/diff/251/divscripte/smartadasmi.js";
+		w.document.head.appendChild(s);
+	} else {
+		var asmi = w.asmi, p = asmi.pageSet, c = d.getElementById(ContId);
+				
+		w._ttf = w._ttf || [];
+		_ttf.push({
+			format		: "inread"
+			,pid		: (typeof(p.teadsPID) == "object")?p.teadsPID["inread"]:("inread" == "inboard")?p.teadsBPID:p.teadsPID
+			,slot		: ("inread" == "inboard")?"#"+ContId:p.teadsSlot()
+			,minSlot	: ("inread" == "inboard")?1:p.teadsMinSlot || 2
+			,css		: (typeof(p.teadsCSS) == "object")?p.teadsCSS["inread"]:("inread" == "inboard")?"":p.teadsCSS
+			,BTF		: ("inread" == "inboard")?false:p.teadsBtf || true
+			,lang		: "de"
+			,volume		: p.teadsVolume || 100
+			,mutable	: p.teadsSound || false
+,components	: {mute: {delay :0}, skip: {delay : 0}}
+			,Filter		: p.teadsFilter || function(){}
+			,size		: p.teadsSize || {}
+			,mobile		: false
+			,TrackingEvents	: [{'complete': 'http://ww251.smartadserver.com/h/aip?visit=s&pubid=6&statid=12&ckid=1060078160694091848&tmstp=855652350642&usrtgt=&tgt=xID%3d18913%3brcaa%3d0%3bsas_ajax%3d1%3b147983812%3bGoogle%3bUeberwachung%3bStein_Hannes%3bSpam%3bFacebook%2cnonSEU%3b%3b%24dt%3d1t%3b%24hc&systgt=%24qc%3d1307002303%3b%24ql%3dhigh%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d193_1486_5389t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d12100&rfr=http%3a%2f%2fwww.welt.de%2fkultur%2fmedien%2farticle147983812%2fSo-schlaegt-man-Datensammler-mit-ihren-eigenen-Mitteln.html&capp=0&mcrdbt=1&insid=4798856&imgid=14350655&pgid=74558&fmtid=18913&loguid=255392570919321524&logdate=1446030315453'}]			,vast		: 'http://a.teads.tv/vast/get/31208'
+			,ClickTracking	: "http://ww251.smartadserver.com/clic/countgo.asp?4798856;74558;1060078160694091848;855652350642;s;systemtarget=%24qc%3d1307002303%3b%24ql%3dhigh%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d193_1486_5389t%3b%24dma%3d0%3b%24b%3d12390%3b%24o%3d12100;14350655;URL="
+		});
+
+		(function (d) {
+			js = d.createElement('script');
+			js.async = true;
+			js.src = '//cdn.teads.tv/media/format.js';
+			c.appendChild(js);
+		})(w.document);
+
+		var cust = (String(''));
+		if (cust.replace(/\r\n/gi,'') != '') {	
+			var g = d.createElement('iframe');
+			g.id = 'sas_scrFrame_4798856';
+			g.style.display = 'none';
+			c.appendChild(g);
+
+			var frameHTML = '<!doctype html><html><head><title></title></head><body style="margin:0;padding:0;overflow:hidden;"><scr' + 'ipt type="text/javascript">var inDapIF=inDapMgrIf=true;</scr' + 'ipt>' + cust + '</body></html>';
+
+			if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) {
+				g.contentDocument.write(frameHTML);
+				g.contentDocument.close();
+			} else {
+				if (document.domain != location.hostname) {
+					g.src = "javascript:var d=document.open();d.domain='"+document.domain+"';void(0);";
+				}
+				g.contentWindow.contents = frameHTML;
+				g.src = 'javascript:window["contents"]';
+			}
+		}
+	}
+})();

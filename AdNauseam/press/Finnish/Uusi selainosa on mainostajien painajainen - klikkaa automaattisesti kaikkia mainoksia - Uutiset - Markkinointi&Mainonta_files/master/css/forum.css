@@ -1,0 +1,174 @@
+#commentsList .comment {
+	font-size: 14px;
+	line-height: 24px;
+	word-wrap: break-word;
+}
+
+.comment .comment-header {
+	clear: both;
+}
+
+#previewDialog {
+	word-wrap: break-word;
+}
+#previewDialog .comment {
+	width: 550px;
+	word-wrap: break-word;
+}
+
+.comment .body,
+#previewDialog .comment{
+  background-color: #e6e6e6;
+  background-image: url("../gfx/comment-arrow.png");
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #cccccc;
+  margin-top: 2px;
+  padding: 1em;
+  padding-top: 25px;
+}
+
+.comments .moreComments{
+  display:none;
+}
+
+div.comment{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.comment div.comment {
+    margin-left: 20px;
+}
+/* Stop indenting after 6 levels*/
+div.comment div.comment div.comment div.comment div.comment div.comment div.comment {
+  margin-left: 0px !important;  
+}
+
+#previewDialog .byline,
+.comment .comment-header .byline{
+  font-weight: bold;
+}
+
+#commentsForm .label{
+  display: none !important;
+}
+
+.comments,
+.comments div {
+  overflow: visible;
+}
+.comment-form-bottom {
+  clear: both;  
+}
+.comment-form-bottom span{
+  float: left;
+}
+.comment-form-bottom span.submit{
+  float: right;
+}
+
+.comment-form-bottom .button {
+	height: 30px;
+  padding-left: 35px;
+  background-image: url(../gfx/common-sprite.png);
+  background-position: 10px -211px;
+  background-repeat: no-repeat;
+}
+.ie7 .comment-form-bottom .button {
+	width: 150px;
+}
+
+.moderation-notice {
+  float: left;
+}
+.ie7 .moderation-notice {
+	clear: both;
+}
+
+.commentForm #comment-form-body {
+  height: 10em;
+}
+
+.imageCaptchaAnswer,
+.captchaImage{
+  float: left;
+  margin-right: 20px;  
+}
+.captchaImage{
+  height: 30px;
+}
+.newCaptchaWrapper {
+  border-left: 3px double #eee;
+  float: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 105px;
+}
+.ie7 .newCaptchaWrapper {
+	padding-bottom: 2px;
+}
+.top-more-link,
+.show-more-comments,
+.metadata,
+.newCaptcha,
+.comment-form-bottom,
+.comment-form-bottom input.button,
+.moderation-notice {
+  font-size: 13px;
+}
+.metadata {
+	padding-top: 2px;
+	line-height: 15px;
+}
+.show-more-comments {
+	float: left;
+	line-height: 15px;
+	clear: left;
+}
+.comment .show-more-comments {
+  margin-top: 10px;
+  margin-bottom: 14px; 
+}
+.top-more-link {
+	float: right;
+  font-size: 13px;
+  line-height: 44px;
+}
+.commentingTerms {
+  padding-bottom: 2px;
+}
+
+/* Promo comments */
+.comment.promo .body {
+	font-size: 14px;
+	word-wrap: break-word;
+}
+.comment.promo .body a {
+	border-bottom: 0;
+}
+.comment.promo .comment-header {
+  padding-bottom: 20px;
+}
+.comment.promo .metadata {
+	float: right;
+	padding-top: 0;
+	padding-left: 15px;
+}
+.comment.promo .label {
+	float: left;
+	margin-right: 10px;
+  text-transform: uppercase;
+}
+.comment.promo .byline {
+	float: left;
+	margin-left: -11px;
+}
+.comment.promo .date {
+  float: left;
+}
+.comment.promo .read-more {
+	clear: both;
+  float: left;
+  padding: 5px 0;
+  font-size: 13px;
+}

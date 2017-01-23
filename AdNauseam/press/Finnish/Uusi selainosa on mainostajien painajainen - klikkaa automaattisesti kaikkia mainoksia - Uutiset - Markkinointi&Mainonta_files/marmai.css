@@ -1,0 +1,486 @@
+@import 'marmai/css/font-face.css';
+@import 'master/css/global.css';
+@import 'master/css/grid.css';
+@import 'master/css/widgets.css';
+@import 'master/css/layout.css';
+@import 'master/css/article.css';
+@import 'master/css/forum.css';
+@import 'master/css/form.css';
+@import 'master/css/styles_uratie.css';
+@import 'master/css/custom.css';
+
+/*
+ * Publication specific
+ */
+
+/*** Base ***/
+
+body,
+.wallpaper #wrapper-980 {
+  background: url('../gfx/site-bg.png') repeat 0 0;
+}
+#viewport {
+  background: url("../gfx/site-bg-header.png") repeat-x scroll 0 40px transparent;
+}
+
+/*** Areas ***/
+
+#header {
+  background: url("../gfx/site-bg-header.png") repeat-x scroll 0 40px transparent;
+  margin: 0 auto;
+  width: 940px;
+}
+#header .lower {
+  height: 138px;
+}
+#header .lower .column-1 {
+  height: 138px;
+  padding: 0;
+}
+#header .lower .column-2 {
+  padding-top: 43px;
+}
+#header .lower .column-3 {
+}
+#middle {
+	background-color: inherit;
+}
+#right {
+	background-color: #fff;
+}
+#right .widget {
+	margin-bottom: 0;
+}
+div.x620x300-config div#right {
+	width: 319px;
+	margin-left: 0;
+	border-left: 1px solid #ddd;
+}
+div.login-error {
+  height: 33px;
+  margin-left: 15px;
+  padding-top: 10px;
+  color: red;
+}
+
+/*** Grid ***/
+
+/* x310x310 */
+.x310x310 .widget {
+	background-color: #fff;
+}
+#main .x310x310 .widget {
+  margin: 0;
+  border-top: 2px solid #080808;
+}
+.x310x310 .column-1 .list .header,
+.x310x310 .column-1 .list .content,
+.x310x310 .column-1 .list .footer,
+.x310x310 .column-1 .article {
+  border-right: 1px solid #ddd;
+}
+.x310x310 .column-2 .list .header,
+.x310x310 .column-2 .list .content,
+.x310x310 .column-2 .list .footer,
+.x310x310 .column-2 .article {
+  border-left: 1px solid #ddd;
+}
+.x310x310 .column-1 .list .content .article .content,
+.x310x310 .column-2 .list .content .article .content {
+  border: 0;
+}
+
+/* x235x235x235x235 */
+.x235x235x235x235 .widget {
+	width: 234px;
+}
+.x235x235x235x235 .column-1 .widget,
+.x235x235x235x235 .column-2 .widget,
+.x235x235x235x235 .column-3 .widget {
+	border-right: 1px solid #ddd;
+}
+
+/*** Fonts ***/
+/* H1-H4 */
+h1, h2, h3, h4 {
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+h1, h2, h3 {
+  letter-spacing: 0;
+}
+/* H1 */
+h1 {
+  font-size: 64px;
+  line-height: 64px;
+}
+/* H2 */
+h2 {
+  font-size: 48px;
+  line-height: 50px;
+}
+h2.large {
+  font-size: 64px;
+  line-height: 64px;
+}
+h2.small {
+  font-size: 30px;
+  line-height: 32px;
+}
+h2.tiny {
+  font-size: 22px;
+  line-height: 22px;
+}
+/* H3 */
+h3 {
+  font-size: 30px;
+  line-height: 32px;
+}
+h3.small {
+  font-size: 22px;
+  line-height: 22px;
+}
+/* H4 */
+h4 {
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+h4.light {
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+h4.large,
+h4 .large {
+  font-size: 30px;
+  line-height: 32px;
+}
+/* H5-H6 */
+h5, h6 {
+  font-family: "Gibson-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  line-height: 22px;
+  font-size: 22px;
+  color: #1e1e1e;
+}
+
+.storyContent .body ul li {
+  background: transparent url('../gfx/storyContent/article-bullet.png') left 7px no-repeat;
+}
+
+.related-links-inline ul li {
+  background: transparent url('../gfx/storyContent/article-bullet.png') left 8px no-repeat !important;
+}
+
+.article-page .storyContent .body .related-links-inline h5 {
+  color: #1e1e1e;
+}
+
+.storyContent .body .inline-image .image-info .title,
+.inline-factbox .inline-image .title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 13px;
+}
+.relatedContents.pictures div.credits,
+.storyContent .body .inline-image .image-info .credits,
+.storyContent .body .inline-factbox .inline-image .credits {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 12px;
+	color: #999;
+}
+
+/* Related links & Leiki links */
+.related-links-inline h5 {
+  font-family: "Gibson-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  line-height: 22px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+}
+.leiki h6,
+.relatedContents.stories h5 {
+  color: #323232;
+}
+.stories .related li .title,
+.relatedContents li .title,
+.leiki a {
+	font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-weight: normal;
+}
+
+/* Factbox */
+.inline-factbox .title {
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #323232;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+.inline-factbox .lead {
+	font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-weight: normal;
+}
+.storyContent .body .inline-factbox .inline-image {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+
+/* Gallery */
+.gallery .title {
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 18px;
+}
+.widget.gallery .promo-header h4 {
+	padding-top: 3px;
+	margin-bottom: 0;
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  line-height: 26px;
+  font-size: 26px;
+}
+.widget.gallery.promo .picture-grid .secondary-picture .title {
+  font-size: 13px;
+}
+.widget.gallery.sidePromo .header,
+.widget.gallery.sidePromo .sidebar-promo img {
+	padding: 15px 24px 0;
+}
+.widget.gallery.sidePromo .header .title {
+	padding-bottom: 8px;
+	font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+	font-size: 22px;
+}
+.widget.gallery.sidePromo .sidebar-promo .title {
+	padding: 15px 24px;
+	font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 18px;
+}
+
+/* Quote */
+div.storyContent .quote {
+  color: #1E1E1E;
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+div.storyContent div.quote div.quoteSource {
+  margin-top: 5px;
+  color: #1E1E1E;
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+/* Dialog */
+.ui-dialog.ui-widget-content .ui-widget-header .ui-dialog-title {
+  margin: 10px 0;
+  line-height: 30px;
+  font-family: "Gibson-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*Tebatti*/
+.tebatti h1, .tebatti h2, .tebatti h3 {
+  font-family: "Gibson-Light", "Georgia", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+
+
+/*** Common ***/
+
+/* Main menu */
+#main-navigation.menu.horizontal ul li a:hover,
+#main-navigation-extra.menu.horizontal ul li a:hover {
+  background: #323232;
+}
+
+/* Main menu extra */
+/* IE7 fix */
+.ie7 #main-navigation-extra.menu.horizontal {
+  top: 178px;
+}
+
+/* Box Style for Widgets */
+.widget.box-style {
+	border-top: 2px solid #080808;
+}
+
+.widget.box-border-bottom {
+	border-bottom: 2px solid #080808;
+}
+
+/* Common for List, Stories and popularList widgets */
+.list .content .article a:hover,
+.list .footer a:hover,
+.stories.miniFrontpage .article a:hover,
+.stories.miniFrontpage .footer a:hover,
+.popularList .content .article a:hover,
+.popularList .footer a:hover,
+.stories.boxPromo .article:hover,
+.poll .footer:hover {
+  background-color: #eff2dc;
+}
+
+/* Common border styles */
+.widget .header {
+	border-bottom: 4px double #dfdfdf;
+	height: 38px;
+	padding: 13px 15px 7px 15px;
+}
+
+/* Common comments image */
+.storyContent .commentCount {
+  background: transparent url('../gfx/comments.png') no-repeat left 2px;
+}
+.stories .article .infoline .comments {
+  background: transparent url('../gfx/comments.png') no-repeat left top;
+}
+.popularList.mostCommented .content .article span.comments {
+	background: transparent url('../gfx/comments.png') no-repeat left center;
+}
+
+/*** Widgets ***/
+
+/* Stories */
+.stories.breakingPromo .headerline,
+.stories.breakingPromo .article .content-wrapper {
+	width: 880px;
+	padding-left: 30px;
+  padding-right: 30px;
+}
+.stories.mainPromo .article,
+.stories.basicPromo .article {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.stories.mainPromo .article .title {
+	padding-bottom: 10px;
+}
+.stories.mainPromo .article .media {
+	margin-left: -30px;
+}
+.stories.mainPromo .article .media .credits {
+   margin-right: -30px;
+}
+.stories.miniFrontpage .article a,
+.stories.miniFrontpage .article.normal .content {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.stories.basicPromo .article .related .header-title {
+  color: #323232;
+}
+
+/* List */
+.list.normal .content .article a span {
+  min-height: 36px;
+}
+.list.rss .content .list {
+  border-top: 4px double #dfdfdf;
+}
+
+/* Reader Services */
+/*.readerServices.footerServices .order-newsletter {
+  background-image: url("../gfx/footer-letter.png");
+}*/
+.readerServices.footerServices .button {
+	background-color: #fff;
+	color: #0380AD;
+	border: 1px solid #fff;
+}
+
+/* Page Tools */
+.pageTools.sidebarShares {
+	background-color: #fff !important;
+	height: 20px;
+}
+.pageTools.sidebarShares .title {
+	padding-left: 15px;
+	width: 150px;
+}
+
+/* Comments */
+.comments.threaded #commentsList h4 {
+  background-image: url(../gfx/common-sprite.png);
+  background-position: left -248px;
+  border-bottom: 4px double #f5f5f5;
+  font-family: "Gibson-Light", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+.comments.threaded #commentsList h4 span {
+  padding-right: 2px;
+  vertical-align: middle;
+  font-family: "Gibson-SemiBold", "Trebuchet MS Bold", "Lucida Sans Unicode", "Lucida Grande", "MS Sans Serif", serif;
+}
+
+/* Poll */
+.widget.poll.default .question,
+.widget.poll .item a,
+.widget.poll.default ul li,
+.widget .footer .footer-inner-wrapper {
+	padding-left: 25px;
+}
+
+.widget.poll .header {
+	background-color: #000;
+	padding: 14px 24px 0px;
+	border-bottom: none;
+}
+.widget.poll .header .title {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","MS Sans Serif",serif;
+    font-size: 15px;
+}
+.widget.poll .content .question {
+	background-color: #fff;
+	text-transform: none;
+	color: #000;
+	font-size: 22px;
+	letter-spacing: 0;
+	line-height: 22px;
+	font-family: "Gibson-SemiBold","Trebuchet MS Bold","Lucida Sans Unicode","Lucida Grande","MS Sans Serif",serif;
+	border-bottom: 1px solid #9B9B9B;
+}
+
+/*** Forum ***/
+.comment .body,
+#previewDialog .comment{
+  background-color: #EFF2DD;
+  background-image: url("../gfx/comment-arrow.png");
+}
+.comment-form-bottom .button {
+  background-image: url(../gfx/common-sprite.png);
+}
+
+/*** Elements ***/
+
+/* Button */
+.button,
+a.button,
+.ui-dialog .ui-dialog-content .button, .ui-dialog .ui-dialog-buttonset button,
+.button.special {
+  background-color: #000;
+  border: 1px solid #000;
+}
+.button, .button:active, .button:visited, .button:hover {
+  color: #fff;
+}
+.button:hover,
+a.button:hover {
+  background-color: #646464;
+}
+
+/* Dialog */
+.ui-dialog .ui-widget-header {
+	border-color: #000;
+}
+
+/* Uratie */
+.uratie_box {
+	width: 300px;
+	margin: 10px auto;
+}
+
+/* Move this to master */
+.storyContent .body .inline-image.wide-image {
+  float: left;
+}

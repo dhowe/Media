@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+    
+
+if (jsonSidebarData) {
+	for (j=0; j< jsonSidebarData.length; ++j) {
+      	var options = jsonSidebarData[0]["options"];
+		
+		// check correct articleType
+		var type = options["articleType"];
+		if (type != "externalJobsWidget") continue;
+
+		var $footer = $(".ut_jobs .jobs-footer");
+      
+	    var $template = $(".ut_jobs .template");
+		var items = jsonSidebarData[0]["items"];
+	
+		// populate jobs
+		for (index = 0; index < items.length; ++index) {
+			var $job = $template.clone();
+			var current = items[index];
+			
+			$job.attr("href", current["link"]);	
+			$job.find(".image").attr("style", "background-image:url('"+current["imgUrl"]+"');")
+			$job.find(".job-title").text(current["title"]);
+			$job.find(".job-city").text(current["city"]);
+					
+			$job.show();
+			$footer.before($job);
+		}
+	}
+} 

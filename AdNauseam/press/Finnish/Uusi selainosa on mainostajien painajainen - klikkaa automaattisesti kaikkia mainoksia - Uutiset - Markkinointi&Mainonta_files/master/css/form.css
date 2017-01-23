@@ -1,0 +1,301 @@
+/* Forms: Common */
+form input[type="text"],
+form input[type="password"],
+form textarea {
+  padding: 5px;
+  background-color: #f3f2f3;
+  border: 1px solid #efefef;
+  border-top-color: #ddd;
+  -webkit-border-radius: 4px; 
+     -moz-border-radius: 4px; 
+          border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  font-size: 13px;
+}
+
+form select {
+  font-size: 13px;
+}
+
+/*form .styled-select {
+	overflow: hidden;
+	float: left;
+	width: auto;
+	padding: 5px;
+	background: url('../gfx/dropdown-arrow.png') no-repeat right #f3f2f3;
+}
+form .styled-select select {
+	padding: 0;
+	background: transparent;
+	border: 1px solid #f3f2f3;
+	-moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+	
+}*/
+
+form input[type="text"],
+form input[type="password"] {
+  height: 18px;
+  line-height: 18px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+	float: left;
+}
+.radio-wrapper,
+.checkbox-wrapper {
+	margin-top: 10px;
+}
+.radio-wrapper .option label,
+.checkbox-wrapper .option label {
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+.radio-wrapper .option input,
+.checkbox-wrapper .option input {
+  /*vertical-align: middle;*/
+}
+.radio-wrapper .option label span,
+.checkbox-wrapper .option label span {
+	display: block;
+	padding-left: 22px;
+/*  vertical-align: middle;*/
+}
+.button {
+  padding: 5px;
+  background-color: #F3F2F3;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px; 
+     -moz-border-radius: 4px; 
+          border-radius: 4px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  cursor: pointer;
+}
+a.button {
+	background-color: #F3F2F3;
+}
+.button, .button:active, .button:visited, .button:hover {
+	color: #0380AD;
+}
+.button:hover {
+  background-color: #d3e8f1;
+  border: 1px solid #bbd1d8; 
+  text-decoration: none;
+}
+.button.special {
+  background: #0380ad;
+  border: 1px solid #005d73;
+}
+.button.special, .button.special:active, .button.special:visited, .button.special:hover {
+	color: #fff;
+}
+.selectable-button.selected {
+  background-color: #d3e8f1;
+  border: 1px solid #bbd1d8;
+}
+
+/* Forms: layout */
+form input[type="text"],
+form input[type="password"],
+form textarea {
+  width: 228px;
+}
+/* Wide */
+form .wide {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+form .wide input,
+form .wide textarea {
+  width: 485px;
+}
+form .wide input.button {
+	width: auto;
+}
+/* Left, Right */
+form .left,
+form .right {
+  float: left;
+}
+form .left {
+  margin-right: 18px;
+}
+form .right {
+  clear: right;
+}
+/* Left, clear right */
+form .left-clear-right {
+	float: left;
+	clear: both;
+}
+/* Right, clear left */
+form .right-clear-left {
+  float: right;
+  clear: both;
+}
+/* IE7 */
+.ie7 form .left input,
+.ie7 form .right input,
+.ie7 form .left-clear-right input {
+  float: left;
+  clear: both;
+}
+.ie7 form .right input {
+	clear: right;
+}
+.ie7 form .right-clear-left input {
+	float: right;
+	clear: both;
+}
+#main form .button.special {
+	display: block;
+}
+
+.form-item-wrapper,
+.form-item-wrapper-wide {
+  float: left;
+  margin-bottom: 20px;
+}
+.form-item-wrapper-wide {
+	clear: both;
+  width: 100%;
+}
+form .wide input[type="text"],
+form .wide input[type="password"],
+form .wide textarea {
+  /*width: 100%;*/
+}
+form .wide-field {
+  width: 528px;
+}
+.article-page form .wide-field {
+  width: 488px;
+}
+
+/* Forms: Custom */
+#comment-form-title,
+#comment-form-phone {
+	width: 528px;
+}
+#comment-form-byline,
+#comment-form-email {
+  width: 249px;
+}
+.article-page #comment-form-title,
+.article-page #comment-form-phone {
+	width: 488px;
+}
+.article-page #comment-form-byline,
+.article-page #comment-form-email {
+  width: 228px;
+}
+.form-item-wrapper.comment-form-byline {
+  float: left;
+}
+.form-item-wrapper.comment-form-email {
+  float: left;
+  margin-left: 18px;
+}
+/* IE7, IE8 */
+.ie7 .form-item-wrapper.comment-form-email,
+.ie8 .form-item-wrapper.comment-form-email {
+	margin-left: 16px;
+}
+.order-newsletter-dialog,
+#login-dialog {
+  padding-top: 30px;
+}
+.order-newsletter-dialog .order-newsletter-approve-promotions-description {
+  float: right;
+  width: 240px;
+}
+login-dialog #password-clear {
+  display: none;
+}
+
+/* Forms: Errors */
+form input[type="text"].error,
+form input[type="password"].error,
+form .error,
+.ui-dialog .ui-dialog-content input.text-field.error,
+.ui-dialog .ui-dialog-content textarea.text-field.error {
+	background-color: #FFECED;
+}
+form .ui-state-error,
+.ui-dialog .ui-dialog-content .ui-state-error {
+	background: transparent;
+	border: 0;
+	color: #E6797F;
+}
+label.error,
+.ui-dialog .ui-dialog-content label.error {
+	display: block;
+  background: transparent;
+}
+
+/* jQuery UI Dialog Fields */
+.ui-dialog .ui-dialog-content input[type="text"],
+.ui-dialog .ui-dialog-content input[type="password"],
+.ui-dialog .ui-dialog-content textarea,
+.ui-dialog .ui-dialog-content .button {
+  margin: 5px 0;
+  padding: 2px;
+  border: 1px solid #efefef;
+  font-size: 12px;
+}
+.ui-dialog .ui-dialog-content input[type="text"],
+.ui-dialog .ui-dialog-content input[type="password"],
+.ui-dialog .ui-dialog-content textarea {
+  -webkit-box-shadow: -1px -1px 1px #333; 
+     -moz-box-shadow: -1px -1px 1px #333; 
+          box-shadow: -1px -1px 1px #333;
+}
+.ui-dialog .ui-dialog-content input[type="text"],
+.ui-dialog .ui-dialog-content input[type="password"] {
+  height: 20px;
+  line-height: 20px;
+}
+.ui-dialog .ui-dialog-content input[type="text"],
+.ui-dialog .ui-dialog-content input[type="password"] {
+  width: 360px;
+  resize: none;
+}
+.ui-dialog .ui-dialog-content .button {
+  height: 30px;
+  padding: 5px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.ui-dialog .ui-dialog-content input.wide {
+  width: 256px;
+  margin-left: 2px;
+}
+.ui-dialog .ui-dialog-content div.wide {
+  clear: both;
+  margin-bottom: 15px;
+}
+.ui-dialog .ui-dialog-content .button,
+.ui-dialog .ui-dialog-buttonset button {
+  background: #0380ad;
+  border: 1px solid #005d73;
+  color: #fff;
+}
+.ui-dialog form .wide input[type=checkbox],
+.ui-dialog form .wide input[type=radio] {
+  width: auto;
+}
+
+.commentForm p {
+  margin: 0;
+}
+
+#comment-form-phone{
+  margin-bottom: 20px;
+}

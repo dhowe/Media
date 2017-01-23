@@ -1,0 +1,286 @@
+/*-----------------------------------------------
+/* Responsive
+/*---------------------------------------------*/
+.main-container { max-width: 96%; }
+@media screen and (max-width:1150px) { 
+    .shareit {
+        position: relative!important;
+        width: 100%!important;
+        top: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin: 0!important;
+        padding-top: 10px!important;
+        border: none !important;
+    }
+    .flexslider .slides { max-width: 100% }
+}
+@media screen and (max-width:1060px) { 
+    .secondary-navigation { left: 0; }
+    #socialmediasidebar {font-size: 2em;}
+}
+@media screen and (max-width:1000px) { 
+    #move-to-top {
+        margin-right: 0;
+        right: 5px;
+    }
+    #headerad {margin:10px 0;text-align:center;width:100%;}
+    
+    }
+@media screen and (max-width:960px) {
+    img{
+        max-width: 100%;
+        height: auto!important;
+    }
+    .ad-300 img { max-width: 100% }
+    .ad-125 li { max-width: 40% }
+    .ad-125 img {
+        padding: 0;
+        background: #FAFAFA;
+        border: 0;
+    }
+    #bigfeatured-thumbnail { max-width: 100% !important }
+    .main-container { max-width: 100%; padding:0;}
+    #spendenBanner {display:none;}
+}
+@media screen and (max-width:900px) { 
+	.widget-header { max-width: 70% }
+	#navigation #searchform { display: none }
+	.secondary-navigation a { padding: 8px 14px }
+	.slidertitle { font-size: 22px }
+}
+@media screen and (max-width:865px) { 
+
+    #page, .container { max-width: 96%;}
+    #header h1, #header h2, .site-description {
+        float: none;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    #header h1, #header h2 { font-size: 40px; }
+    #headerBanner {display: none;}
+    .site-description { margin-top: 0; }
+    #header h1:after, #header h2:after { background: #fff }
+    #logo a { float: none ; letter-spacing: 0;}
+    .logo-wrap {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+        .mts-cart { position: relative!important; text-align: center; }
+    .secondary-navigation, #navigation { 
+        border: none !important ; 
+        background: #283744;
+    }
+    .secondary-navigation {
+        width: 100%;
+        position: relative!important;
+    }
+    #navigation .menu a, #navigation .menu [class^="icon-"] > a, #navigation .menu [class*=" icon-"] > a { color: #fff!important; padding-left: 0!important; padding-right: 0!important;}
+    #navigation .menu { 
+  	    float: none;
+  	    background: transparent;
+    }
+    #navigation ul ul { display: block!important; visibility: visible!important; opacity: 1!important; position: relative; left: 0!important; border: 0; width: 100%;}
+    #navigation ul li li { background: transparent; border: 0;}
+    #navigation { 
+        height: 40px;
+        overflow: hidden;
+        }
+    #navigation:focus, #navigation:hover {height:auto;} 
+    #navigation a.home {color:#fff;text-indent: 5px;border-bottom: 1px solid #576979!important;}
+    #navigation ul {
+  	    width: 100%;
+  	    height: auto;
+    }
+    #navigation li, #navigation ul li li {
+  	    width: 100%!important;
+  	    float: left;
+  	    position: relative;
+    }
+    #navigation ul li:after { background: transparent; }
+    #navigation ul li:before { display: none; }
+    #navigation li a {
+	    border-bottom: 1px solid #576979!important;
+	    width: 100%!important;
+    }
+    #navigation a {
+	  text-align: left;
+	  width: 100%;
+	  text-indent: 25px;
+    }
+    #navigation a#pull {
+	    display: block;
+	    background-color: #283744;
+	    width: 100%;
+	    position: relative;
+	    color: #fff;
+	    padding: 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #navigation a#pull:after {
+	    content:"";
+	    background: url('images/nav-icon.png') no-repeat;
+	    width: 30px;
+	    height: 30px;
+	    display: inline-block;
+	    position: absolute;
+	    right: 15px;
+	    top: 10px;
+    }
+    .secondary-navigation #navigation ul .sfHover a, .secondary-navigation #navigation ul li:hover, .secondary-navigation #navigation ul .sfHover ul li { background: transparent; }
+    .social-media-icon {
+        float: none;
+        clear: both;
+        overflow: hidden;
+        max-width: 232px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    h4.trending {font-size:16px;}
+
+}
+@media screen and (max-width:760px) { 
+    #header { margin: 0 }
+}
+@media screen and (max-width:720px) { 
+    .secondary-navigation a {
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+    .article { width: 100% }
+    #content_box {
+        padding-right: 0px;
+        padding-left: 0px!important;
+    }
+    .sidebar.c-4-12 {
+        float: left;
+        width: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .f-widget { width: 44% }
+    .f-widget-2 { margin-right: 0 }
+    .ad-125 li { max-width: 45% }
+    #comments { margin-right: 0 }
+    .widget-header .textwidget {
+        margin-top: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    #die_mauer {padding-bottom:20px;}
+    #die_mauer p.mauererklaerung,
+    #die_mauer > ul {padding:10px !important;}
+    #die_mauer > ul {width:100% !important;}
+    #die_mauer button {margin:10px 10px 0 0 !important;}
+    footer,
+    .widget #tabs,
+    #text-406427732 /*Ueberwachtes Netz*/,
+    #text-406427721 /*digitale gesellschaft buch*/,
+    #text-406427753 /*werbung*/ {display:none;}
+}
+@media screen and (max-width:600px) { 
+    .widget-header {
+        max-width: 96%;
+        float: left;
+    }
+    .featured-thumbnail img { width: 100% }
+	.single_post { width: 100%!important; }
+	.related-posts-right { 
+		width: 100%;
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	.related-posts-right .rthumb { margin-right: 15px; }
+
+    .page-template-page-spenden-php #spenden-main,
+    .page-template-page-spenden-php aside {
+    width: 100%;
+    float: none;}
+    #spenden-main pre a {word-wrap:break-word;}
+    #spenden-main pre a img {float: none;display: block;}
+}
+@media screen and (max-width:550px) { 
+    .sbutton { float: right }
+    .f-widget { width: 100%; margin-right: 0;}
+    .slidertext { display: none }
+    .latest-cat-post .latestPost:nth-child(2n+1) { margin-right: 0 }
+
+}
+@media screen and (max-width:480px) { 
+    #navigation { border-bottom: 0; }
+    #navigation {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .secondary-navigation {
+        width: 102%;
+        height: 35px;
+    }
+    .related-posts li {
+        width: 100%;
+        float: left!important;
+        max-width: 100%;
+    }
+	.related-posts .relatepostli4 { padding-bottom: 15px; border-bottom: 1px solid #CCC; margin-bottom: 11px;}
+    .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+        width: 100%;
+        margin-right: 0;
+    }
+    .cat-posts { width: 100% }
+    .cat-posts-trending { width:100%; position:relative;}
+    .small-cat-posts,.small-cat-posts .frontPost { width: 100%;margin-right:0; }
+    .copyrights { text-align: center }
+    .top { width: 100% }
+    .slidertitle { font-size: 18px }
+     #move-to-top {
+        bottom:5px;
+        top:auto;
+    }
+
+    /* homepage feed on mobile vereinheitlichen */
+    .latest-cat-post .featured-thumbnail,
+    .latest-cat-post .featured-thumbnail img {float:none;clear:left;}
+
+	.small-cat-posts h2.title a,
+	.latest-cat-post h2.title {font-size:1.5em;}
+
+	.small-cat-posts div.front-view-content {
+		font-size: 100%;
+		line-height: inherit;
+		}
+
+    a.whatsapp-share {
+      width: 23px;
+      height: 23px;
+      background: url(../whatsapp.png) no-repeat;
+      display: inline-block;
+    }
+
+}
+@media screen and (max-width:400px) { 
+    article header { overflow: hidden }
+    .slidertext { display: none }
+    #commentform textarea { width: 96% }
+    .cat_post { position: static }
+    .trending { top: -21px }
+    .small-cat-posts { margin-top: 25px }
+}
+@media screen and (max-width:320px) { 
+    .latestPost {
+        float: none;
+        width: 100% !important;
+    }
+    .latest-cat-post #featured-thumbnail { width: 100%; max-width: 100%;}
+    .latest-cat-post #featured-thumbnail .featured-thumbnail { float: none; }
+    #navigation li {
+	    display: block;
+	    float: none;
+	    width: 100%;
+	}
+    #navigation li a { border-bottom: 1px solid #576979; }
+	.pagination { margin-top: 0;}
+}

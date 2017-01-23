@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<meta charset="utf-8">
+
+		<title>Bridgestone</title>
+
+		<link rel="shortcut icon" type="image/x-icon" href="https://aka-cdn.adtech.de/apps/339/Ad13288275St3Sz277Sq108822617V29Id1/favicon.ico">
+
+
+
+		<meta http-equiv="cleartype" content="on">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+		<script type="text/javascript" src="video_data/jquery.js"></script>
+
+		<!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+		<style>
+
+	
+
+	    body {
+
+	        background-color: #000;
+
+	    }
+
+	    
+
+		#fallback,#video-ad {
+
+		   height: 100vh;
+
+           width: 100vw;
+
+            position: relative;
+
+		}
+
+        #video-controls {
+
+            -webkit-border-radius: 5px;
+
+            -moz-border-radius: 5px;
+
+            border-radius: 5px;
+
+            margin: auto;
+
+            position: absolute;
+
+            left: 50%;
+
+            bottom: 0;
+
+            -webkit-transform: translate(-50%,-50%);
+
+            -ms-transform: translate(-50%,-50%);
+
+            transform: translate(-50%,-50%);
+
+
+
+            bottom: 0;
+
+            padding: 5px;
+
+            opacity: 0;
+
+            -webkit-transition: opacity .3s;
+
+            -moz-transition: opacity .3s;
+
+            -o-transition: opacity .3s;
+
+            -ms-transition: opacity .3s;
+
+            transition: opacity .3s;
+
+            background-image: linear-gradient(bottom, rgb(47,47,47) 13%, rgb(52,53,52) 100%);
+
+            background-image: -o-linear-gradient(bottom, rgb(52,53,52) 13%, rgb(52,53,52) 100%);
+
+            background-image: -moz-linear-gradient(bottom, rgb(47,47,47) 13%, rgb(52,53,52) 100%);
+
+            background-image: -webkit-linear-gradient(bottom, rgb(47,47,47) 13%, rgb(52,53,52) 100%);
+
+            background-image: -ms-linear-gradient(bottom, rgb(47,47,47) 13%, rgb(52,53,52) 100%);
+
+
+
+            background-image: -webkit-gradient(
+
+                    linear,
+
+                    left bottom,
+
+                    left top,
+
+                    color-stop(0.13, rgb(47,47,47)),
+
+                    color-stop(1, rgb(52,53,52))
+
+            );
+
+        }
+
+
+
+
+
+        #viewport:hover #video-controls {
+
+            opacity: .9;
+
+        }
+
+        #viewport section{
+
+            position: relative;
+
+        }
+
+
+
+        button {
+
+            background: rgba(0,0,0,.5);
+
+            border: 0;
+
+            color: #EEE;
+
+            -webkit-border-radius: 3px;
+
+            -moz-border-radius: 3px;
+
+            -o-border-radius: 3px;
+
+            border-radius: 3px;
+
+        }
+
+
+
+        button:hover {
+
+            cursor: pointer;
+
+        }
+
+
+
+        #seek-bar {
+
+            width: 250px;
+
+        }
+
+
+
+        #volume-bar {
+
+            width: 40px;
+
+        }
+
+		
+
+        </style>
+
+	
+
+	</head>
+
+	<body>
+
+         
+
+		<div class="modal-panel">		    
+
+		    <div class="container-fluid">
+
+		    	<div id="viewport">
+
+			    	<section>
+
+	       				<video id="video-ad" poster="Video_poster.jpg" autobuffer="" muted="muted">
+
+							<source src="video_data/GER_Bridgestone_Blizzack-MARK-ADAC_30sec_WIRED-DE_MP4_1280x7.mp4" type="video/mp4">
+
+							<source src="video_data/Bridgestone_Germany_2015.webm">
+
+							<source src="video_data/Bridgestone_Germany_2015.opus">
+
+							<object type="application/x-shockwave-flash" data="video_data/flowplayer-3.dms" width="100%">
+
+								<param name="movie" value="https://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
+
+								<param name="allowFullScreen" value="true">
+
+								<param name="wmode" value="transparent">
+
+								<param name="flashVars" value="config={'playlist':['Video_poster.jpg',{'url':'video%2F20151014_Videos_Bridgestone/GER_Bridgestone_Blizzack-MARK-ADAC_30sec_WIRED-DE_MP4_1280x720.mp4','autoPlay':false}]}">
+
+							</object>
+
+							<img src="video_data/3_2500x1406_BlizzakADAC_061015.jpg" id="fallback">
+
+						</video>
+
+                        <!-- Video Controls -->
+
+                        <div id="video-controls">
+
+                            <button type="button" id="play-pause" class="play">Pause</button>
+
+                            <input id="seek-bar" value="0" type="range">
+
+                            <button type="button" id="mute">Unmute</button>
+
+                            <input id="volume-bar" min="0" max="1" step="0.1" value="1" type="range">
+
+                            <button type="button" id="full-screen">Full-Screen</button>
+
+                        </div>
+
+                	</section>
+
+
+
+            </div>
+
+		    </div>
+
+		</div>
+
+        <img id="impressiontracker" height="1" border="0" width="1">
+
+		<script type="text/javascript" src="video_data/scripts_video.js"></script>
+
+       
+
+	
+
+
+
+
+
+</body></html>

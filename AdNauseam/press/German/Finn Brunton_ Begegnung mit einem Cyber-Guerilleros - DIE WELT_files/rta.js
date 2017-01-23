@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'crtg_rta=' + escape(crtg_content) + '; path=/; expires=Fri, 27 Nov 2015 11:05:00 GMT; domain=welt.de';})();

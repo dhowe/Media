@@ -1,0 +1,128 @@
+/* global.css */
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	color: #000;
+	text-align: left;
+}
+
+div {
+	overflow: visible;
+}
+
+ul, ol, li, fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/* CLEARING OF FLOATS */
+
+.clearfix {
+	clear: both;
+	display: inline-table;
+	/* Hides from IE-mac \*/
+	height: 1%;
+	display: block;
+	/* End hide from IE-mac */
+}
+
+html>body .clearfix {
+	height: 1px;
+}
+
+/* FONT SETTINGS */
+
+h1 {
+	font-size: 2em;
+	margin: 0 0 7px 0;
+}
+
+h2 {
+	font-size: 28px;
+	margin: 0 0 7px 0;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin: 0 0 7px 0;
+}
+
+h4 {
+	font-size: 1.1em;
+	margin: 0 0 5px 0;
+}
+
+h5, h6 {
+	font-size: 1em;
+	margin: 0 0 5px 0;
+}
+
+p {
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 1.3em;
+}
+
+a, a:active, a:visited {
+    background-color:inherit;
+	/*color: #004e8c;*/
+	color: #323232;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+img {
+	margin: 0 0 5px 0;
+	padding: 0;
+	border: none;
+}
+
+div.tabbedView {
+  background-color:transparent !important;
+}
+
+/*.error {
+  background-color:inherit;
+  color:red;
+}*/
+
+@media print {
+	.noPrint {
+		display: none;
+	}
+	#leftExtra, #rightExtra, #header, #right, .knavi_holder {
+	  display: none;
+	}
+	#middle {
+	  border-top: 0;
+	}
+	#main {
+	  padding-top: 0;
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+  visibility: none;
+}

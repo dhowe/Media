@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ls</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var lsdata = '-SREFRESH';
+			var lsvalid = (new Date()).getTime()+(1000*86400*14);
+			function refresher() {
+				var n = (new Date()).getTime();
+				if (lsvalid>n) {
+					try {
+						localStorage.gstorage = lsdata;
+					} catch (e) {}
+				}
+			}
+			if (typeof window.postMessage != 'undefined') {
+				try {
+					localStorage.gstorage = "yd.RM5Y78mIkrS3F58l8IlbS5EIDRsGfNhY8czHz0vf.z7/1432482253525/|"+lsvalid;
+					lsdata = localStorage.gstorage;
+					if (lsdata.charAt(0)!='-') {
+						setInterval("refresher()",1000);
+					}
+				} catch (e) {
+				}
+			}
+		</script>
+	
+
+</body></html>

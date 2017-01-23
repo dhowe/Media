@@ -1,0 +1,12 @@
+document.writeln("<div class=\"ct-4s-126 widget grid_4 alpha omega\">");
+document.writeln("<a href=\"http://eas4.emediate.eu/eas/cu=12205::camp=307847::no=501017::kw=link1-501017::uuid=c1eb194e-7d63-11e5-9838-002590a2cff3::EASLink=http:\/\/www.vinos.de\/rioja-sparpaket?campaign=display\/welt\/teaser\/17015\" name=\"_xhtml_CT-4s-126_\" target=\"_blank\" title=\"vinos.de\">");
+document.writeln("<div class=\"ctHead\">");
+document.writeln("<p class=\"ctTopline\">vinos.de<\/p>");
+document.writeln("<p class=\"ctAd\">Anzeige<\/p>");
+document.writeln("<\/div>");
+document.writeln("<\/a>");
+document.writeln("<div class=\"ctBody\" style=\"background-image:url(http:\/\/www.welt.de\/bin\/vinos-144090780.jpg);\">");
+document.writeln("<a href=\"http://eas4.emediate.eu/eas/cu=12205::camp=307847::no=501017::kw=link2-501017::uuid=c1eb194e-7d63-11e5-9838-002590a2cff3::EASLink=http:\/\/www.vinos.de\/rioja-sparpaket?campaign=display\/welt\/teaser\/17015\" name=\"_xhtml_CT-4s-126_\" target=\"_blank\" title=\"vinos.de\"><p class=\"ctHeadline\">6 Rioja<br \/>Weine mit<br \/>50% Rabatt<\/p><\/a>");
+document.writeln("<a href=\"http://eas4.emediate.eu/eas/cu=12205::camp=307847::no=501017::kw=link3-501017::uuid=c1eb194e-7d63-11e5-9838-002590a2cff3::EASLink=http:\/\/www.vinos.de\/rioja-sparpaket?campaign=display\/welt\/teaser\/17015\" name=\"_xhtml_CT-4s-126_\" target=\"_blank\" title=\"vinos.de\"><p class=\"ctLink\"><span>&nbsp;<\/span>Hier sparen<\/p><\/a>");
+document.writeln("<\/div>");
+document.writeln("<\/div>");

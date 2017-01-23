@@ -1,0 +1,1817 @@
+body, p { font-family: 'Open Sans', sans-serif; color: #000; }
+a { color: #3f647e; }
+#article_body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+}
+
+/* article body p = margin: 0 0 12px; */
+
+#leaderboard {
+    display: block;
+    padding-top: 50px;
+}
+h1#title {
+    color: #3f647e;
+    display: inline;
+    float: left;
+    font-family: 'Cardo', serif;
+    font-size: 30px;
+    margin: 13px 0 0 0;
+    vertical-align: top;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.ads_leaderboard {
+    margin-bottom: 15px;
+}
+/*
+-----------------------------------
+META / COMMENT BUTTON / SHARE COUNT
+-----------------------------------
+*/
+#mcs {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#mcs li { clear: both; }
+#meta-in, #meta-in a, .recommend_btn, #comment_btn { color: #858484; font-size: 12px; line-height: 20px; }
+#comment_btn {
+    background: url('../images/widget.png') no-repeat 3px 3px;
+    display: block;
+    margin: 10px 0;
+    padding-left: 27px;
+}
+.recommend_btn {
+    background: url('../images/widget.png') no-repeat 0 -122px;
+    display: block;
+    padding-left: 22px;
+}
+/*
+------------
+ARTICLE BODY
+------------
+*/
+#article_body {
+    clear: both;
+    float: left;
+}
+#article_body a { text-decoration: underline; }
+#article_body_main { padding-left: 0; }
+#article_body_main img { margin-top: 5px; }
+.article_image { display: block; }
+.photocredit {
+    font-size: 12px;
+    font-weight: bold;
+}
+#pledge {
+    clear: both;
+	font-style: italic;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px 0;
+}
+#pledge .sh_r { width: 550px; float: left; }
+#pledge .sh_r .lgo {
+    background: url('//s3.amazonaws.com/static.mediapost.com/images/mp_sprites.png') 0 -45px no-repeat;
+    background-size: 369px 264px;
+    float: left;
+    width: 35px;
+    height: 26px;
+}
+#tags {
+    clear: both;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+#tags .icon { display: block; width: 25px; }
+#tags .sh_r { width: auto; }
+#tags .icon { display: inline-block; float: left; margin: 0 10px 0 0; }
+#tags .sh_r { width: 500px; float: left; }
+.recommend_btn_btm, .print_btn_btm, .rss_btn_btm {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 35px;
+}
+.recommend_btn_btm { background: url('../images/widget.png') no-repeat 10px -122px; }
+.print_btn_btm { background: url('../images/widget.png') no-repeat 10px -251px; }
+.rss_btn_btm { background: url('../images/widget.png') no-repeat 10px -232px; }
+.link_btm {
+    clear: none;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+/*
+---------------
+AWARDS ARTICLES
+---------------
+*/
+#awards_image {
+    width: 100%;
+}
+/*
+-----------
+DEPARTMENTS
+-----------
+*/
+#departments {
+    margin-left: 0;
+    margin-top: 20px;
+    padding-left: 0;
+}
+#departments ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#departments ul li {
+    margin-bottom: 10px;
+    padding: 0;
+}
+/*
+---------------------------
+MORE TOP STORIES / CAROUSEL
+---------------------------
+*/
+#mts {
+    clear:both;
+    display: none;
+}
+#mts_sectitle {
+    border-bottom: 1px solid #b2c1cb;
+    border-top: 1px solid #b2c1cb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 5px 70px 5px 0;
+}
+.carousel { margin-top: 20px; }
+.carousel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.carousel ul li {
+    float: left;
+    margin: 0 8px;
+    width: 193px;
+}
+.mts_title {
+    color: #3f647e;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.carousel-btn, .awards-carousel-btn {
+    background-color: rgba(195,194,194,.7);
+    border: 1px solid #3f647e;
+    color: #3f647e;
+    display: inline-block;
+    font-size: 90px;
+    height: 50px;
+    line-height: 28px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 120px;
+    width: 26px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.carousel a { text-decoration: none; }
+.carousel .left { left: -5px; }
+.carousel .right { right: -5px; }
+.mts_meta {
+    color: #858484;
+    font-size: 11px;
+}
+/* awards carousel */
+.awards-carousel-btn { top: 222px; }
+.awards-carousel .carousel-inner { height: 394px; }
+.awards-carousel #slider-thumbs ul { margin-top: 20px; padding-left: 5px; }
+.awards-carousel #slider-thumbs li { width: 32.91%; padding: 0; margin: 0; }
+.awards-carousel img { width: 100%; }
+.awards-carousel .selected img { opacity:0.5; }
+/*
+------
+SEARCH
+------
+*/
+#search_results .pagination a { color: #3f647e; }
+#search_results ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#search_results ul li {
+    margin-bottom: 20px;
+}
+#search_results .articleText {
+    color: #3f647e;
+    display: block;
+    font-family: 'Cardo', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+#search_results .article_author { font-size: 12px; }
+#search_results .article_description {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+/*
+---------------
+ADVANCED SEARCH
+---------------
+*/
+#advanced_search label { width: 170px; }
+/*
+------
+WIDGET
+------
+*/
+#widget_main { padding: 0; }
+.widget {
+    border-bottom: 1px solid #b2c1cb;
+    border-top: 1px solid #b2c1cb;
+    float: left;
+    margin: 10px 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.widget ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.widget ul li { margin: 0 5px; }
+.widget ul li:nth-child(1) { margin-left: 0; }
+.icon { display: block; width: 18px; }
+#tags .icon {
+    background: url('../images/widget.png') no-repeat 0 -61px;
+    height: 22px;
+}
+.subscribe .icon {
+    background: url('../images/widget.png') no-repeat 0 -87px;
+    height: 19px;
+}
+#recommend .icon {
+    background: url('../images/widget.png') no-repeat 0 -125px;
+    height: 15px;
+    margin-top: 4px;
+}
+.email .icon {
+    background: url('../images/widget.png') no-repeat 0 -143px;
+    height: 11px;
+    margin-top: 4px;
+}
+.facebook .icon {
+    background: url('../images/widget.png') no-repeat 2px -157px;
+    height: 15px;
+    margin-top: 4px;
+}
+#twitter .icon {
+    background: url('../images/widget.png') no-repeat 0 -173px;
+    height: 19px;
+    margin-top: 4px;
+}
+.googleplus .icon {
+    background: url('../images/widget.png') no-repeat 2px -212px;
+    height: 18px;
+    margin-top: 4px;
+}
+.linkedin .icon {
+    background: url('../images/widget.png') no-repeat 2px -191px;
+    height: 18px;
+    margin-top: 4px;
+}
+#tags .sh_r, .subscribe .sh_r { display: inline-block; }
+.widget_tools li { overflow: hidden; height: 20px; width: auto; }
+.widget_group, .widget_group ul li { float: left; }
+.share_ct {
+    color: #8199A7;
+    font-weight: bold;
+}
+/* SHARE ICONS */
+.byline { position: relative; }
+.share-icon img { margin-bottom: 3px; opacity:.3; width: 15px; }
+.share-icon img:hover {opacity:1;}
+.tools {
+    background: white;
+    border: 1px solid #999;
+    box-shadow: 0px 5px 5px 0px #999;
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.tools li {
+    float: left;
+    padding: 0 5px;
+    text-align:left;
+}
+.tools:before {
+    border-width: 0 8px 9px 0;
+    border-style: solid;
+    border-color: #999 transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: -10px;
+    width: 0;
+}
+/* creates the smaller  triangle */
+.tools:after {
+    border-width: 0 8px 9px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    top: -8px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.active-tools {
+    display: block;
+    z-index: 2;
+}
+/*
+-------
+EDITION
+-------
+*/
+#edition_header_img {
+    border-bottom: 1px solid #b2c1cb;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.edition_date {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#edition p { font-size: 12px; line-height: 16px; }
+#edition ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#edition ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+#edition .article_category {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px 0 0;
+    text-transform: uppercase;
+}
+#edition ul li img, .edition_featured img {
+	border:none;
+	float:left;
+	margin:5px 10px 2px 0;
+}
+.edition_featured {
+    margin: 0 0 15px 0;
+    padding: 10px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.article_title {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    text-decoration:none;
+    font-family: 'Cardo';
+}
+.article_title a { color: #3f647e; }
+.article_source {
+	display: block;
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+.edition_wide_column_ad {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+#edition .article_author {
+    color: #000;
+    font-weight: bold;
+
+}
+.article_author, .article_date {
+    color: #666;
+    font-size: 11px;
+	line-height: 13px;
+	padding-bottom: 3px;
+}
+#edition h2 {
+    font-size: 16px;
+    margin: 15px 0;
+}
+#edition #more_news ul li {
+    margin: 0 0 15px 0;
+}
+.article_headline {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    line-height: 15px;
+    font-family: 'Cardo';
+}
+#edition .source {
+    color: #bbb;
+    font-size: 11px;
+    font-weight: bold;
+}
+/* #most_read { padding-top: 10px; } created redundant spacing */
+#most_read h3 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+	font-weight: bold;
+	color: #797979;
+}
+#atn h3 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+	font-weight: bold;
+	color: #797979;
+}
+#most_read ol { padding: 0; padding-left: 20px; }
+#most_read ol li {
+    margin: 10px 0;
+}
+#most_read div {
+    margin-top: 15px;
+}
+.comheadline { clear: both; }
+#edition_list dd a { font-family: 'Cardo', serif; }
+#todays_issue { margin-bottom: 0; }
+#todays_issue .sidebar_title { border-bottom: 0; margin-bottom: 0; }
+#edition ul li.raw { margin-bottom: 15px; padding: 0; }
+/*
+-----------------
+ARTICLE TYPE LIST
+-----------------
+*/
+#results_header {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#article_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#article_list_article {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#article_type_list .article_title {
+    color: #3f647e;
+    font-family: 'Cardo', serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+#article_type_list .article_author {
+    color: #858484;
+    font-size: 12px;
+}
+#article_type_list .article_description {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#article_type_list .comment_count {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#article_type_list .comment_count a {
+    color: #848484;
+}
+.next_entries {
+    float:right;
+}
+/*
+-----------
+AUTHOR LIST
+-----------
+*/
+#author_box {
+    border: 1px solid #b2c1cb;
+    margin-top: 20px;
+    padding: 10px;
+}
+#author_box h3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+#author_list #results_header {
+    margin:  20px 0;
+}
+#author_list ul {
+    margin: 10px 0;
+    padding: 0;
+}
+#author_list li {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+}
+.publication_name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#author_list .article_title {
+    color: #3F647E;
+    font-family: 'Cardo', serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+/*
+-------------
+MAGAZINE HOME
+-------------
+*/
+#magazine_home { margin-top: 100px; }
+#magazine_home_l, #magazine_home_r { float: left; width: 50%; }
+#magazine_home_l img, #magazine_home_r img {
+    float: left;
+    margin-right: 5%;
+    width: 20%;
+}
+.magazine_home_rside {
+    float: left;
+    width: 75%;
+}
+#magazine_home h2 { margin: 0 0 10px 0; }
+#magazine_home_bottom { clear: both; float: left; margin-top: 40px; }
+#magazine_home p a { text-decoration: underline; }
+a.buy_now {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 14px;
+    text-align: center;
+    /*text-shadow: 0px 0px 0px #000;*/
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #EF8120; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFA920', endColorstr='#EF8120'); /* for IE */ 
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFA920), to(#EF8120)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #EFA920, #EF8120);
+}
+a.buy_now:hover {
+    cursor: pointer;
+    /*text-shadow: 1px 1px 0px #333;*/
+    background: #EFA920; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EF8120', endColorstr='#EFA920'); /* for IE */ 
+    background: -webkit-gradient(linear, left top, left bottom, from(#EF8120), to(#EFA920)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #EF8120, #EFA920);
+}
+/*
+------------------
+MAGAZINES
+------------------
+*/
+#header_magazine {
+    margin: 20px 0;
+    border-top: 1px solid #b2c1cb;
+    border-bottom: 1px solid #b2c1cb;
+}
+#edition_magazine_left {
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: center;
+}
+#edition_magazine_left img {
+    margin-bottom: 10px;
+}
+#edition_magazine_right ul {
+    list-style-type: none;
+    padding: 0;
+}
+#edition_magazine_right ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+#edition_magazine_right a {
+    color: #;
+    font-weight: bold;
+}
+#edition_magazine_right span {
+    font-size: 12px;
+}
+.magazine_order {
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    color: #fff;
+    background-color: #8199A7;
+}
+.magazine_order:hover {
+    color: #fff;
+}
+/*
+------------------
+MAGAZINE SUBSCRIBE
+------------------
+*/
+fieldset#magazine_select label {
+    width: auto;
+    text-align: left;
+}
+
+fieldset#create_a_new_account label, fieldset#shipping_address label, fieldset#payment_information label {
+    width: 170px;
+}
+
+#member_sign_in {
+    font-size:12px;
+    font-weight:normal;
+    padding-top:2px;
+}
+
+fieldset#payment_information .expiration select {
+    width: auto;
+}
+
+#magazine_select small {
+    display:block;
+    padding: 5px 15px 15px 17px;
+    font-size:12px;
+    color:#666;
+    font-weight:normal;
+}
+
+input#copies {
+    width: 20px;
+    text-align: center;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*
+-------
+SIDEBAR
+-------
+*/
+.sidebar { padding-top: 50px; }
+.sidebar:before {
+   content: " ";
+   position: absolute;
+   z-index: -1;
+   left: 15px;
+   top: 0;
+   right: 15px;
+   bottom: 0;
+   border-top: 1px solid #b2c1cb;
+}
+.rule:before {
+   content: " ";
+   position: absolute;
+   z-index: -1;
+   left: 15px;
+   top: 30px;
+   right: 15px;
+   bottom: 0;
+   border-top: 1px solid #b2c1cb;
+}
+#sidebar_ad { margin-bottom: 10px; }
+#author_seg { margin-bottom: 20px; position: relative; }
+#author_seg img {
+    float: right;
+}
+#author_name {
+    border-bottom: 1px solid #b2c1cb;
+    border-top: 1px solid #b2c1cb;
+    font-size: 14px;
+    padding: 5px 0;
+}
+#author_d {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+    margin: 0;
+    padding: 10px 0;
+}
+.sidebar_group {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.sidebar_group ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar_group ul li {
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+.sidebar_group ul li a {
+    color: #3f647e;
+    font-family: 'Cardo', serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+.sidebar_group .authorarchive {
+    line-height: 11px;
+    margin-bottom: 10px;
+}
+.sidebar_group .authorarchive a {
+    font-family: 'Open Sans', serif;
+    font-size: 15px;
+}
+.sidebar_group .authorarchive #allArchivesLink {
+    padding-top:5px;
+}
+.sidebar_group .authorarchive #allArchivesLink a {
+    font-size: 12px;
+}
+#archives {
+    padding-top:5px;
+}
+.sidebar_title {
+    border-bottom: 1px solid #b2c1cb;
+    border-top: 1px solid #b2c1cb;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+.sidebar_title img {
+    max-width: 100%;
+}
+.more_issues {
+    font-size:12px;
+}
+#current_article a { color: #000; }
+#subscribe_form .sidebar_title {
+    border-bottom: 0;
+	border-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+	color: #FFFFFF;
+}
+.subscribe {
+    /*border-top: 1px solid #b2c1cb;*/
+}
+.subscribe, #subscribe_form {
+    float: left;
+    margin: 16px 0 10px 0; /* messes up edition templates a little - but JAL is ok with it */
+    padding: 10px 5px 20px 10px;
+    width: 100%;
+	background-color: #8199A7;
+}
+#subscribe_form label { display: none; }
+#subscribe_form input[type="text"] {
+    float: left;
+    font-size: 12px;
+    height: 23px;
+    margin-top: 5px;
+    width: 200px;
+}
+#subscribe_form input[type="submit"] {
+    background-color: #cedde7;
+    border: 1px solid #3f647e;
+    float: left;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.subscribe .icon { display: inline-block; float: left; margin: 3px 10px 0 0; }
+.subscribe .sh_r { width: 250px; float: left; color: #FFFFFF; }
+#right_column_edition .subscribe .sh_r { width: auto; }
+#right_column_edition #subscribed .sh_r { width: 139px; }
+#right_column_edition #subscribe_form {
+    margin-top: 0;
+    padding-top: 0;
+}
+#right_column_edition #subscribe_form input[type="text"] {
+    width: 160px;
+}
+#right_column_edition #subscribe_form input[type="submit"] {
+    margin-left: 0;
+    margin-top: 5px;
+}
+#right_column_edition .sidebar_group ul li {
+    margin-bottom: 5px;
+}
+#right_column_edition .sidebar_group ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#more_from_edition {
+    line-height: 1;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+#more_from_edition a {
+    color: #000;
+}
+#more_from_edition a:hover { text-decoration: none; }
+/*
+---------------
+HEADERS & RULES
+---------------
+*/
+.header {
+    border-top: 1px solid #b2c1cb;
+    display: block;
+}
+.header img { margin-top: -10px; }
+.header:before {
+   content: " ";
+   position: absolute;
+   z-index: -1;
+   left: 15px;
+   right: 15px;
+   bottom: 0;
+   border-top: 1px solid #b2c1cb;
+}
+.header_edition {
+    border-bottom: 1px solid #b2c1cb;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.edition_date { margin-top: -15px; }
+#header_publications:before { top: 54px; }
+#header_publications img {margin-top: 0; }
+/* Accounts On The Move */
+#header_accounts-on-the-move img, #header_article_accounts-on-the-move img {
+    margin-top: -10px;
+}
+#header_accounts-on-the-move:before, #header_article_accounts-on-the-move:before {
+    top: 80px;
+}
+#header_accounts-on-the-move .edition_date, #header_article_accounts-on-the-move .edition_date {
+    margin-top: -5px;
+}
+#sidebar_accounts-on-the-move #more_from_edition {
+    padding-bottom: 0;
+}
+#sidebar_accounts-on-the-move #more_from_edition img {
+    padding-top: 5px;
+}
+/* Agency of the Year */
+#header_agency-of-the-year:before, #header_list_agency-of-the-year:before, #header_article_agency-of-the-year:before {
+    top: 31px;
+}
+#sidebar_agency-of-the-year #more_from_edition {
+    padding-bottom: 0;
+}
+/* Around The Net In Brand Marketing */
+#header_around-the-net-in-brand-marketing:before {
+    top: 72px;
+}
+/* Around The Net In IoT */
+#sidebar_around-the-net-in-iot #more_from_edition { padding-bottom: 0; }
+#header_article_around-the-net-in-iot:before {
+    top: 30px;
+}
+/* Around The Net Media */
+#header_around-the-net-in-media:before, #header_article_around-the-net-in-media:before {
+    top: 31px;
+}
+#header_around-the-net-in-media .edition_date {
+    margin-top: 0;
+}
+/* Audience Buying Insider */
+#article_type_list #header_list_audience-buying-insider img { margin-top: -10px; }
+#header_list_audience-buying-insider:before, #header_audience-buying-insider:before, #header_article_audience-buying-insider:before {
+    top: 72px;
+}
+/* Bay State Blog */
+#article_type_list #header_list_bay-state-blog img, #header_article_bay-state-blog img { margin-top: 0; }
+#header_list_bay-state-blog:before, #header_bay-state-blog:before, #header_article_bay-state-blog:before {
+    top: 90px;
+}
+/* By The Bay */
+#article_type_list #header_list_by-the-bay img, #header_article_by-the-bay img { margin-top: 0; }
+#header_list_by-the-bay:before, #header_by-the-bay:before, #header_article_by-the-bay:before {
+    top: 90px;
+}
+/* Connected Thinking */
+#article_type_list #header_list_connected-thinking img, #header_article_connected-thinking img { margin-top: -5px; }
+#header_list_connected-thinking:before, #header_article_connected-thinking:before {
+    top: 82px;
+}
+/* City Of Angels */
+#article_type_list #header_list_content-marketing-insider img { margin-top: -10px; }
+#header_list_content-marketing-insider:before, #header_content-marketing-insider:before, #header_article_content-marketing-insider:before {
+    top: 72px;
+}
+/* Content Marketing Insider */
+#article_type_list #header_list_content-marketing-insider img { margin-top: -10px; }
+#header_list_content-marketing-insider:before, #header_content-marketing-insider:before, #header_article_content-marketing-insider:before {
+    top: 72px;
+}
+/* Cross Channel Marketing Insider */
+#article_type_list #header_list_marketing-insider-cross-channel img, #header_article_marketing-insider-cross-channel img { margin-top: 0; }
+#header_list_marketing-insider-cross-channel:before, #header_marketing-insider-cross-channel:before, #header_article_marketing-insider-cross-channel:before {
+    top: 92px;
+}
+/* Daily Online Examiner */
+#article_type_list #header_list_daily-online-examiner img, #header_article_daily-online-examiner img { margin-top: 0px; }
+#header_list_daily-online-examiner:before, #header_daily-online-examiner:before, #header_article_daily-online-examiner:before {
+    top: 50px;
+}
+#sidebar_daily-online-examiner #more_from_edition { padding-bottom: 0; }
+#sidebar_daily-online-examiner #more_from_edition img { padding-top: 3px; }
+/* Data & Targeting Insider */
+#article_type_list #header_list_data-and-targeting-insider img { margin-top: -10px; }
+#header_list_data-and-targeting-insider:before, #header_data-and-targeting-insider:before, #header_article_data-and-targeting-insider:before {
+    top: 72px;
+}
+/* Digital Outsider */
+#article_type_list #header_list_digital-outsider img { margin-top: -10px; }
+#header_list_digital-outsider:before, #header_digital-outsider:before, #header_article_digital-outsider:before {
+    top: 72px;
+}
+/* Email Insider */
+#article_type_list #header_list_email-insider img { margin-top: -10px; }
+#header_list_email-insider:before, #header_email-insider:before, #header_article_email-insider:before {
+    top: 72px;
+}
+/* Email Insider Europe */
+#article_type_list #header_list_email-insider-europe img { margin-top: -10px; }
+#header_list_email-insider-europe:before, #header_email-insider-europe:before, #header_article_email-insider-europe:before {
+    top: 72px;
+}
+/* Email Marketing Daily */
+#header_around-the-net-in-email img { margin-top: -15px; }
+#header_around-the-net-in-email .edition_date { margin-top: -25px; }
+#header_around-the-net-in-email:before {
+    top: 58px;
+}
+#header_article_email-marketing-daily:before {
+    top: 31px;
+}
+/* Engage Affluent */
+#article_type_list #header_list_engageaffluent img { margin-top: -10px; }
+#header_list_engageaffluent:before, #header_engageaffluent:before, #header_article_engageaffluent:before {
+    top: 72px;
+}
+/* Engage Boomers */
+#article_type_list #header_list_engageboomers img { margin-top: -10px; }
+#header_list_engageboomers:before, #header_engageboomers:before, #header_article_engageboomers:before {
+    top: 72px;
+}
+/* Engage Millennials */
+#article_type_list #header_list_engagemillennials img { margin-top: -10px; }
+#header_list_engagemillennials:before, #header_engagemillennials:before, #header_article_engagemillennials:before {
+    top: 72px;
+}
+/* Engage Hispanics */
+#article_type_list #header_list_engagehispanics img { margin-top: -10px; }
+#header_list_engagehispanics:before, #header_engagehispanics:before, #header_article_engagehispanics:before {
+    top: 72px;
+}
+/* Engage Men */
+#article_type_list #header_list_engagemen img { margin-top: -10px; }
+#header_list_engagemen:before, #header_engagemen:before, #header_article_engagemen:before {
+    top: 72px;
+}
+/* Engage Moms */
+#article_type_list #header_list_engagemoms img { margin-top: -10px; }
+#header_list_engagemoms:before, #header_engagemoms:before, #header_article_engagemoms:before {
+    top: 72px;
+}
+/* Feedback Loop */
+#header_list_feedback-loop img { margin-top: -20px; }
+#header_list_feedback-loop:before, #header_feedback-loop:before, #header_article_feedback-loop:before {
+    top: 51px;
+}
+/* Future of Media */
+#header_list_future-of-media img { margin-top: -20px; }
+#header_list_future-of-media:before, #header_future-of-media:before, #header_article_future-of-media:before {
+    top: 73px;
+}
+/* Garfield At Large */
+#header_garfield-at-large img, #header_article_garfield-at-large img, #article_type_list #header_list_garfield-at-large img { margin-top: -3px; }
+#header_garfield-at-large:before, #header_article_garfield-at-large:before, #header_list_garfield-at-large:before {
+    top: 83px;
+}
+/* London Blog */
+#header_london-blog:before, #header_article_london-blog:before {
+    top: 72px;
+}
+/* MAD (MediaPost Agency Daily) */
+#header_article_mediaposts-agency-daily:before {
+    top: 31px;
+}
+#header_mediaposts-agency-daily .edition_date { margin-top: 0; }
+/* MAD Blog */
+#article_type_list #header_list_mad-blog img { margin-top: -10px; }
+#header_list_mad-blog:before, #header_mad-blog:before, #header_article_mad-blog:before {
+    top: 72px;
+}
+/* MAD Boston */
+#header_around-the-net-in-mad-boston .edition_date { margin-top: 0; }
+#header_article_mad-boston:before {
+    top: 92px;
+}
+/* MAD Chicago */
+#header_around-the-net-in-mad-chicago .edition_date { margin-top: 0; }
+#header_article_mad-chicago:before {
+    top: 92px;
+}
+/* MAD LA */
+#header_mad-la .edition_date { margin-top: 0; }
+#header_article_mad-la:before {
+    top: 72px;
+}
+/* MAD London */
+#header_article_mad-london:before {
+    top: 72px;
+}
+/* MAD SF */
+#header_mad-sf .edition_date { margin-top: 0; }
+#header_article_mad-sf:before {
+    top: 72px;
+}
+/* Marketing Automotive */
+#article_type_list #header_list_marketing-automotive img { margin-top: -10px; }
+#header_list_marketing-automotive:before, #header_marketing-automotive:before, #header_article_marketing-automotive:before {
+    top: 72px;
+}
+/* Marketing Causes */
+#article_type_list #header_list_marketing-causes img { margin-top: -10px; }
+#header_list_marketing-causes:before, #header_marketing-causes:before, #header_article_marketing-causes:before {
+    top: 72px;
+}
+/* Marketing CPG */
+#article_type_list #header_list_marketing-cpg img { margin-top: -10px; }
+#header_list_marketing-cpg:before, #header_marketing-cpg:before, #header_article_marketing-cpg:before {
+    top: 72px;
+}
+/* Marketing Entertainment */
+#article_type_list #header_list_marketing-entertainment img { margin-top: -10px; }
+#header_list_marketing-entertainment:before, #header_marketing-entertainment:before, #header_article_marketing-entertainment:before {
+    top: 72px;
+}
+/* Marketing Daily */
+#header_marketing-daily img { margin-top: -15px; }
+#header_marketing-daily .edition_date { margin-top: -26px; }
+#header_marketing-daily:before {
+    top: 58px;
+}
+/* Marketing Daily Top Of The News */
+#article_type_list #header_list_marketing-daily-top-of-the-news img { margin-top: -10px; }
+#header_list_marketing-daily-top-of-the-news:before, #header_marketing-daily-top-of-the-news:before, #header_article_marketing-daily-top-of-the-news:before {
+    top: 72px;
+}
+#header_article_marketing-daily:before {
+    top: 31px;
+}
+/* Marketing Green */
+#article_type_list #header_list_marketing-green img { margin-top: -10px; }
+#header_list_marketing-green:before, #header_marketing-green:before, #header_article_marketing-green:before {
+    top: 72px;
+}
+/* Marketing Health */
+#article_type_list #header_list_marketing-health img { margin-top: -10px; }
+#header_list_marketing-health:before, #header_marketing-health:before, #header_article_marketing-health:before {
+    top: 72px;
+}
+/* Marketing Politics / Marketing: Politics Daily */
+#article_type_list #header_list_marketing-politics img { margin-top: -10px; }
+#header_list_marketing-politics:before, #header_marketing-politics:before, #header_article_marketing-politics:before {
+    top: 72px;
+}
+#header_article_marketing-politics-daily:before {
+    top: 87px;
+}
+#header_marketing-politics-daily .edition_date { margin-top: 0; }
+/* Marketing Sports */
+#article_type_list #header_list_marketing-sports img { margin-top: -10px; }
+#header_list_marketing-sports:before, #header_marketing-sports:before, #header_article_marketing-sports:before {
+    top: 72px;
+}
+/* Marketing Travel */
+#article_type_list #header_list_marketing-travel img { margin-top: -10px; }
+#header_list_marketing-travel:before, #header_marketing-travel:before, #header_article_marketing-travel:before {
+    top: 72px;
+}
+/* mCommerce Daily */
+#header_mobileshoptalk img { margin-top: -15px; }
+#header_mobileshoptalk .edition_date { margin-top: -25px; }
+#header_mobileshoptalk:before {
+    top: 58px;
+}
+#header_article_mcommerce-daily:before, #header_article_around-the-net-in-mcommerce:before {
+    top: 31px;
+}
+/* Media Creativity */
+#article_type_list #header_list_media-creativity img { margin-top: -10px; }
+#header_list_media-creativity:before, #header_media-creativity:before, #header_article_media-creativity:before {
+    top: 76px;
+}
+/* Media Daily News */
+#header_mediadailynews:before {
+    top: 72px;
+}
+#header_article_mediadailynews:before {
+    top: 31px;
+}
+/* Media Magazine */
+#header_article_media-magazine:before {
+    top: 77px;
+}
+#sidebar_media-magazine #more_from_edition {
+    padding-bottom: 0;
+}
+/* Media Pssst */
+#header_mediapsssst:before, #header_article_mediapsssst:before {
+    top: 72px;
+}
+/* MediaPost Weekend */
+#header_mediapost-weekend:before, #header_article_mediapost-weekend:before {
+    top: 72px;
+}
+/* Metrics Insider */
+#article_type_list #header_list_metrics-insider img { margin-top: -10px; }
+#header_list_metrics-insider:before, #header_metrics-insider:before, #header_article_metrics-insider:before {
+    top: 72px;
+}
+/* Mobile Insider */
+#header_mobile-insider:before, #header_article_mobile-insider:before {
+    top: 72px;
+}
+/* Mobile Marketing Daily */
+#header_moblog img { margin-top: -15px; }
+#header_moblog .edition_date { margin-top: -25px; }
+#header_moblog:before, #header_article_moblog:before {
+    top: 58px;
+}
+#header_article_mobile-marketing-daily:before, #header_article_around-the-net-in-mobile:before {
+    top: 31px;
+}
+/* Mobile Shop Talk */
+#header_list_mobileshoptalk img, #header_article_mobileshoptalk img { margin-top: -5px; }
+#header_list_mobileshoptalk:before, #header_article_mobileshoptalk:before {
+    top: 88px;
+}
+#sidebar_mobileshoptalk #more_from_edition {
+    padding-bottom: 0;
+}
+/* MoBlog */
+#header_article_moblog img, #header_list_moblog img { margin-top: 0; }
+#header_list_moblog:before, #header_article_moblog:before {
+    top: 88px;
+}
+/* Native Insider */
+#article_type_list #header_list_native-insider img { margin-top: -10px; }
+#header_list_native-insider:before, #header_native-insider:before, #header_article_native-insider:before {
+    top: 72px;
+}
+/* OMD Europe */
+#header_around-the-net-in-omd-europe:before, #header_article_around-the-net-in-omd-europe:before {
+    top: 72px;
+}
+/* OMMA Magazine */
+#header_omma-magazine:before, #header_list_omma-magazine:before, #header_article_omma-magazine:before {
+    top: 74px;
+}
+#sidebar_omma-magazine #more_from_edition {
+    padding-bottom: 0;
+}
+/* OMMA Magazine Supplement */
+#header_article_omma-magazine-supplement img, #header_list_omma-magazine-supplement img { margin-top: 0; }
+#header_article_omma-magazine-supplement:before, #header_list_omma-magazine-supplement:before {
+    top: 94px;
+}
+#sidebar_omma-magazine-supplement #more_from_edition {
+    padding-bottom: 0;
+}
+/* OMMA Today */
+#header_omma-today img { margin-top: 5px; }
+#header_omma-today:before {
+    top: 117px;
+}
+#header_omma-today .edition_date {
+    margin-top: 15px;
+}
+#sidebar_omma-today #more_from_edition {
+    padding-bottom: 0;
+}
+/* Online All Stars */
+#header_online-all-stars:before, #header_list_online-all-stars:before, #header_article_online-all-stars:before {
+    top: 32px;
+}
+#sidebar_online-all-stars #more_from_edition {
+    padding-bottom: 0;
+}
+/* Online Media Daily */
+#header_online-media-daily img { margin-top: -6px; }
+#header_online-media-daily .edition_date { margin-top: -7px; }
+#header_online-media-daily:before {
+    top: 82px;
+}
+#header_article_online-media-daily:before {
+    top: 31px;
+}
+/* Online Publishing Insider */
+#article_type_list #header_list_online-publishing-insider img { margin-top: -10px; }
+#header_list_online-publishing-insider:before, #header_online-publishing-insider:before, #header_article_online-publishing-insider:before {
+    top: 72px;
+}
+/* Online Spin */
+#article_type_list #header_list_online-spin img { margin-top: -10px; }
+#header_list_online-spin:before, #header_online-spin:before, #header_article_online-spin:before {
+    top: 72px;
+}
+/* Out To Launch */
+#header_out-to-launch img, #header_article_out-to-launch img {
+    margin-top: -5;
+}
+#header_out-to-launch:before, #header_article_out-to-launch:before {
+    top: 80px;
+}
+#header_out-to-launch .edition_date, #header_article_out-to-launch .edition_date {
+    margin-top: 0;
+}
+#sidebar_out-to-launch #more_from_edition {
+    padding-bottom: 0;
+}
+/* People On The Move */
+#header_people-on-the-move:before, #header_article_people-on-the-move:before {
+    top: 78px;
+}
+#header_people-on-the-move .edition_date, #header_article_people-on-the-move .edition_date {
+    margin-top: 0;
+}
+#sidebar_people-on-the-move #more_from_edition {
+    padding-bottom: 0;
+}
+/* Policy Blog */
+#edition #header_policyblog:before, #edition #header_article_policyblog:before {
+    top: 166px;
+}
+#article_news #header_policyblog:before, #article_news #header_article_policyblog:before, #header_list_policyblog:before {
+    top: 78px;
+}
+#header_policyblog .edition_date, #header_article_policyblog .edition_date, #header_policyblog img {
+    margin-top: 0;
+}
+#sidebar_policyblog #more_from_edition {
+    padding-bottom: 0;
+}
+/* Real Time Daily */
+#header_article_real-time-daily:before {
+    top: 31px;
+}
+/* Red, White & Blog */
+#article_type_list #header_list_red-white-blog img { margin-top: -10px; }
+#header_article_red-white-blog:before, #header_list_red-white-blog:before, #header_red-white-blog:before, #header_red-white-blog:before {
+    top: 87px;
+}
+/* Research Brief */
+#article_type_list #header_list_research-brief img { margin-top: 0; }
+#header_list_research-brief:before, #header_research-brief:before, #header_article_research-brief:before {
+    top: 90px;
+}
+#header_list_research-brief, #header_research-brief, #header_article_research-brief {
+    margin-bottom: 15px;
+}
+/* RTB Insider */
+#article_type_list #header_list_rtb-insider img { margin-top: -10px; }
+#header_list_rtb-insider:before, #header_rtb-insider:before, #header_article_rtb-insider:before {
+    top: 72px;
+}
+/* RTM Daily */
+#header_rtblog img { margin-top: -15px; }
+#header_rtblog .edition_date { margin-top: -25px; }
+#header_rtblog:before, #header_article_rtblog:before {
+    top: 58px;
+}
+#header_article_rtm-daily:before, #header_list_rtm-daily:before {
+    top: 31px;
+}
+/* RTBlog */
+#header_list_rtblog img, #header_article_rtblog img { margin-top: 0; }
+#header_list_rtblog:before, #header_article_rtblog:before {
+    top: 88px;
+}
+/* SearchBlog */
+#header_article_searchblog img, #header_list_searchblog img { margin-top: 0; }
+#header_list_searchblog:before, #header_article_searchblog:before {
+    top: 88px;
+}
+/* Search Insider */
+#article_type_list #header_list_search-insider img { margin-top: -10px; }
+#header_list_search-insider:before, #header_search-insider:before, #header_article_search-insider:before {
+    top: 72px;
+}
+/* Search Marketing Daily */
+#header_searchblog img { margin-top: -15px; }
+#header_searchblog .edition_date { margin-top: -25px; }
+#header_searchblog:before {
+    top: 58px;
+}
+#header_article_search-marketing-daily:before {
+    top: 31px;
+}
+/* The Social Graf */
+#header_article_the-social-graf img { margin-top: 0; }
+#header_list_the-social-graf:before, #header_article_the-social-graf:before {
+    top: 88px;
+}
+/* Social Media Insider */
+#article_type_list #header_list_social-media-insider img { margin-top: -10px; }
+#header_list_social-media-insider:before, #header_social-media-insider:before, #header_article_social-media-insider:before {
+    top: 72px;
+}
+/* Social Media Marketing Daily */
+#header_the-social-graf img { margin-top: -15px; }
+#header_the-social-graf .edition_date { margin-top: -25px; }
+#header_the-social-graf:before {
+    top: 58px;
+}
+#header_article_social-media-marketing-daily:before {
+    top: 31px;
+}
+/* Stan Mack's Real MAD */
+#article_type_list #header_list_real-mad img { margin-top: -10px; }
+#article_type_list #header_list_real-mad:before, #header_real-mad:before, #header_article_real-mad:before {
+    top: 72px;
+}
+/* Television News Daily */
+#header_tvblog img { margin-top: -15px; }
+#header_tvblog .edition_date { margin-top: -25px; }
+#header_tvblog:before {
+    top: 58px;
+}
+#header_article_television-news-daily:before {
+    top: 31px;
+}
+/* The Daily Blog */
+#header_article_the-daily-blog:before {
+    top: 75px;
+}
+/* TVBlog */
+#header_article_tvblog img, #header_list_tvblog img { margin-top: 0; }
+#header_list_tvblog:before, #header_article_tvblog:before {
+    top: 88px;
+}
+/* TV Watch */
+#article_type_list #header_list_tv-watch img { margin-top: -10px; }
+#header_list_tv-watch:before, #header_tv-watch:before, #header_article_tv-watch:before {
+    top: 72px;
+}
+/* VidBlog */
+#header_article_vidblog img, #header_list_vidblog img { margin-top: 0; }
+#header_list_vidblog:before, #header_article_vidblog:before {
+    top: 88px;
+}
+/* Video Critique */
+#article_type_list #header_list_video-critique img { margin-top: -10px; }
+#header_list_video-critique:before, #header_video-critique:before, #header_article_video-critique:before {
+    top: 72px;
+}
+/* Video Daily */
+#header_vidblog img { margin-top: -15px; }
+#header_vidblog .edition_date { margin-top: -25px; }
+#header_vidblog:before {
+    top: 58px;
+}
+#header_article_online-video-daily:before, #header_article_around-the-net-in-video:before {
+    top: 31px;
+}
+/* Video Insider */
+#article_type_list #header_list_video-insider img { margin-top: -10px; }
+#header_list_video-insider:before, #header_video-insider:before, #header_article_video-insider:before {
+    top: 72px;
+}
+/* Windy City Blog */
+#header_windy-city-blog:before, #header_article_windy-city-blog:before {
+    top: 72px;
+}
+/*
+------
+RTB500
+------
+*/
+#rtb500 {
+    width: 300px;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+}
+#rtb500 #index {
+    width: 120px;
+    float: left;
+    background: none repeat scroll 0% 0% #000;
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 2px;
+}
+table#trends {
+    float: left;
+    width: 180px;
+    height: 61px;
+    border-collapse: collapse;
+}
+table#trends {
+    border-collapse: collapse;
+}
+#rtb500, #trends {
+    color: #FFF;
+    font-size: 14px;
+}
+#trends td {
+    border: 2px solid #FFF;
+    background: none repeat scroll 0% 0% #000;
+    padding-left: 10px;
+    border-collapse: collapse;
+}
+#rtb500 p {
+    clear: both;
+    color: #000;
+    font-size: 12px;
+    font-style: italic;
+    padding: 5px 0px;
+}
+#trends .up {
+    color: #3fdf0d;
+}
+#trends .down{
+    color: #ed1c24;
+}
+/*
+-------------
+FEEDBACK LOOP
+-------------
+*/
+#feedback-loop ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#feedback-loop ol li {
+    border: 1px solid #b2c1cb;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+/*
+--------
+COMMENTS
+--------
+*/
+#comments {
+    clear: both;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#comments h3 { color: #3f647e; font-size: 18px; }
+#commentBox { font-size: 12px; font-color: #999; }
+#commentBox a { text-decoration: underline; }
+#comment_header {
+    border-bottom: 1px solid #7e98a9;
+    border-top: 1px solid #7e98a9;
+    color: #000;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 5px 0;
+}
+.comment_count { font-weight: bold; }
+#comments ol, #comments ol li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#comments ol li { border-bottom: 1px solid #7e98a9; padding: 10px 0; }
+#comments .commentcontent ol {padding-left:40px;}
+#comments .commentcontent ol li {list-style-type: disc; border-bottom:0px solid #fff; padding: 0px;}
+#comments .commentcontent ul li {list-style-type: disc; border-bottom:0px solid #fff; padding: 0px;}
+.commentlist a { color: #000; }
+.browncommentauth, .graycommentauth { font-size: 12px; }
+.browncommentauth a strong, .graycommentauth a strong { font-size: 14px; }
+.leave_comment {
+    color: #3f647e;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#comments form { margin: 10px 0; }
+#comments input[type="submit"] {
+    background-color: #cedde7;
+    border: 1px solid #3f647e;
+    font-size: 14px;
+    padding: 1px 5px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#comments textarea {
+    border: 1px solid #3f647e;
+    height: 125px;
+    width: auto;
+}
+#comments input[type="text"], #comments input[type="password"] {
+    background: #fff;
+    border: 1px solid #3f647e;
+    padding: 3px 5px;
+    width: 250px;
+}
+#comments input[type="checkbox"] {
+    background: #fff;
+    border: 1px solid #3f647e;
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
+}
+#article_signin span {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#article_signin p label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+#article_signin input { margin-right: 5px; }
+#article_signin input[type="submit"] { margin-bottom: 10px; }
+#email_notification {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/*
+------
+FOOTER
+------
+*/
+#speedbump {
+    padding-top: 40px;
+}
+#footer {
+    border-top: 1px solid #7e97a8;
+    clear: both;
+    font-size: 10px;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 10px 0 100px 0;
+}
+#footer #footer-logo {
+    float: left;
+    margin-right: 2%;
+    width: 20%;
+}
+#footer-logo img { max-width: 100%; }
+#footer #footer-r { float: left; width: 78%; }
+#footer ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#footer ul li { float: left; line-height: 20px; margin-right: 2px; }
+#footer ul li a {
+    border-right: 1px solid #3F647E;;
+    color: #3F647E;
+    font-weight: 600;
+    margin-right: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+#footer ul li:last-child a { border-right: 0; }
+#footer ul li a:hover { text-decoration: underline; }
+#footer #copy {
+    clear: both;
+    color: #999;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 10px;
+}
+#footer #copy a { color: #999; }
+#adtech-logo {
+    clear: both;
+    margin: 5px 0 20px 0;
+    padding-top: 20px;
+    text-align: center;
+}
+/*
+------------
+PRINT STYLES
+------------
+*/
+#print_view { margin: 20px auto; }
+#print_header {
+    font-size: 12px;
+    margin: 20px 0;
+}
+#print_header a {
+    color: #000;
+    display: inline-block;
+}
+#print_header a:nth-child(1) {
+    margin-right: 20px;
+}
+#print_header #backlink {
+    display: inline-block;
+    margin-right: 30px;
+}
+.print_headline {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.print_article_headline {
+    font-size: 18px;
+    font-weight: bold;
+}
+/* BEGIN MEDIA QUERY - @media only screen and (min-device-width: 970px) */
+/*
+-------------------
+FULL WEBSITE STYLES
+-------------------
+*/
+#top_menu {
+    display: block;
+    position: fixed;
+    z-index: 11 !important;
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1000px;
+}
+#article_breadcrumbs { font-size: 14px; }
+h1#title {
+    font-size: 42px;
+}
+#mcs {
+    float: left;
+    width: 100%;
+}
+#mcs li { clear: none; }
+#mcs #meta-in { float: left; line-height: 23px; }
+#mcs .recommend_btn, #mcs #comment_btn, #mcs #share_ct { float: right; margin-left: 20px; }
+.article_image { float: left; padding: 5px 20px 20px 0; }
+#article_body { margin-top: 20px; }
+#mts { display: block; padding-top: 20px; }
+#comment_btn { margin-top: 0; }
+#tags .icon, .subscribe .icon { margin-left: 0; }
+#sidebar { z-index: 1; }
+#current_article {
+    border-left: 2px solid #3f647e;
+    margin-left: -12px;
+    padding-left: 10px;
+    position: relative;
+}
+#current_article:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(63, 100, 126, 0);
+    border-right-color: #3f647e;
+    border-width: 7px;
+    margin-top: -7px;
+}
+#comments textarea { width: 450px; }
+#footer #footer-logo { margin-right: 24px; width: 66px; }
+#footer #footer-r { width: 640px; }
+#footer ul li a { font-size: 9pt; margin-right: 6px; padding-right: 6px; }
+#footer #copy { font-size: 12px; line-height: 17px; }
+#adtech-logo {
+    clear: none;
+    float: right;
+    padding-top: 0;
+    width: 194px;
+}
+#widget_main { position: relative; }
+.widget {
+    border: 0;
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.widget ul { width: 100%; }
+.widget ul li { margin-left: 0; width: 55px; }
+.widget a { color: #000; line-height: 20px; }
+.widget_group {
+    clear: both;
+    border-bottom: 1px solid #b2c1cb;
+    float: left;
+    width: 100%;
+}
+.widget .widget_group:last-child { border-bottom: none; }
+
+#widget_dept { float: left; }
+#widget_dept .widget ul li { clear: none; float: left; width: 30px; }
+#widget_dept .widget ul li a { margin-left: 0; }
+#widget_dept .widget ul .share_ct { margin-right: 20px; width: auto; }
+#widget_dept .share_num {
+    float: left;
+    display: inline;
+    font-size: 14px;
+    margin-right: 5px;
+}
+#widget_dept .share_word {
+    display: inline;
+    float: left;
+    font-size: 10px;
+    line-height: 22px;
+}
+#widget_dept .email .icon {
+    background: url('../images/widget.png') no-repeat scroll 0px -140px transparent;
+    height: 14px;
+}
+#departments .article_date { float: left; line-height: 22px; margin-right: 20px; }
+
+
+.body { position: relative; }
+.affix {
+    width: inherit;
+    position: fixed;
+    top: 40px;
+}
+.affix-bottom {
+    bottom: 143; /* set to footer height -- do not add px here of it will screw up Bootstrap's affix function. */
+    position: absolute; }
+
+.widget_tools .icon { display: block; }
+.share_ct {
+    text-align: center;
+}
+.share_num { display: block; font-size: 24px; line-height: 22px; }
+.share_word { display: block; font-size: 11px; line-height: 16px; }
+.widget_tools li {
+    clear: both;
+    float: left;
+    height: auto;
+    overflow: normal;
+    padding: 5px 0;
+    width: auto;
+}
+.widget_tools li a { display: block; margin-left: 18px; }
+#article_tools { display: none; }
+#edition { width: 758px; }
+#left_column { width: 428px; }
+#left_column_mad { width: 330px; }
+#middle_column { width: 330px; }
+#middle_column_mad { width: 428px; }
+#right_column_edition { width: 212px; }
+#left_column_iot { width: 428px; }
+#middle_column_iot { width: 330px; }
+/* END MEDIA QUERY */

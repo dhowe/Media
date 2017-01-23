@@ -1,0 +1,32 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "21487009",
+    "status": "enabled",
+    "streamURL": "http://www.theglobeandmail.com/report-on-business/industry-news/marketing/feeding-online-advertisers-with-decoy-data-for-protection/article21487009/comments/",
+    "streamTitle": "How a privacy advocate plans to corrupt online advertisers' data - The Globe and Mail",
+    "streamTags": [],
+    "categoryID": "Production",
+    "createDate": 1415323130468,
+    "commentCount": 2,
+    "approvedCommentCount": 2,
+    "threadCount": 2,
+    "ratingCount": 0,
+    "rssURL": "http://comments.US1.gigya.com/comments/rss/6173521/Production/21487009",
+    "lastCommentTimestamp": 1415366710043,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "98db234e0a5d4378af95f1cbc593a9b2",
+  "time": "2015-10-28T10:39:19.904Z",
+  "context": "R3387548327"
+});

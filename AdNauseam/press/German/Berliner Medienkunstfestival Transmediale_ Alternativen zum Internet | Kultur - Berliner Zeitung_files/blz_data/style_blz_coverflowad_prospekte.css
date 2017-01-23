@@ -1,0 +1,226 @@
+html, body {
+	margin:0px;
+	padding:0px;
+}
+
+#beilagenteaser {
+	width:300px;
+	height:250px;
+	overflow:hidden;
+	border:1px solid #dfdfdf;
+	position:relative;
+	font-family:arial, verdana;
+	font-size:11px;
+	line-height:1.2em;
+	color:#303030;
+	text-shadow:0px 1px 1px #fff;
+	margin:0px;
+	padding:0px;
+}
+
+#beilagenteaser a {
+	text-decoration:none;
+	color:#303030;
+}
+
+#beilagenteaser .container {
+	overflow:hidden;
+	width:290px;	
+	white-space:nowrap;
+	padding:10px 0px 10px 10px;
+	height:220px;
+	position:relative;
+}
+
+#beilagenteaser .greybg {
+	background-color:#f2f2f2;
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 50%, rgba(240,240,240,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(255,255,255,1) 50%,rgba(240,240,240,1) 100%); /* W3C */
+}
+
+#beilagenteaser .teaser {
+	position:relative;
+	white-space:nowrap;
+	width:600px;
+	height:220px;
+	overflow:hidden;
+}
+
+#beilagenteaser .headline {
+	/*width:240px;
+	margin-left:58px;*/
+	height:30px;
+	line-height:30px;
+	background-color:#390;
+	color:#fff;
+	text-shadow:none;
+	text-indent:10px;
+	border:1px solid #fff;
+	font-size:1.2em;
+}
+
+#beilagenteaser .more {
+	float:right;
+}
+
+#beilagenteaser .more a {
+	background-color:rgba(255,255,255,.6);
+	color:#404040;
+	text-shadow:0px 0px 2px #fff;
+	text-decoration:none;
+	display:block;
+	padding:0px 8px 0px 0px;
+	line-height:30px;
+	font-size:0.8em;
+}
+
+#beilagenteaser #goleft {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26520662,35795125,dmData,rotate-left.png);
+	background-repeat: no-repeat;
+	z-index: 10000;
+	cursor: pointer;
+	background-size: 100%;
+}
+
+#beilagenteaser #goright {
+	width: 35px;
+	height: 35px;
+	position:absolute;
+	left: 23px;
+	top: 0px;
+	background-image:url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26520666,35795141,dmData,rotate-right.png);
+	background-repeat:no-repeat;
+	z-index:10000;
+	cursor:pointer;
+	background-size: 100%;
+}
+
+#beilagenteaser #goright:hover {
+	background-image:url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26520664,35795133,dmData,rotate-right-hover.png);
+}
+
+#beilagenteaser #goleft:hover {
+	background-image:url(http://www.berliner-zeitung.de/mauritius/servlet/image/view/2014/2/11/26520658,35795117,dmData,rotate-left-hover.png);
+}
+
+#beilagenteaser .teaser .more a:hover {
+	text-decoration:underline;
+}
+
+#beilagenteaser .clr {
+	clear:both;
+}
+
+#beilagenteaser .teaser .valid {
+	background-image: url("../pics/valid.png");
+	background-size:100%;
+    height: 20px; width: 20px;
+    position: absolute;
+    left: 8px;
+    top: 0px;
+    z-index: 10;
+}
+
+#beilagenteaser .teaser .valid {
+	background-image: url("../pics/valid.png");
+	background-size:100%;
+    height: 20px; width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+#beilagenteaser .teaser .cover {
+	width:280px;
+	margin-right:20px;
+	text-align:left;
+	padding:0px;
+	float:left;
+	position:relative;
+	height:220px;
+}
+
+#beilagenteaser .teaser img {
+	border:1px solid #fff;
+	height:145px;
+	box-shadow:0px 0px 10px #ccc;
+}
+
+#beilagenteaser .teaser .pdfload {
+	margin-top:8px;
+}
+
+#beilagenteaser .teaser .pdfload a {
+	display:block;
+	line-height:24px;
+	height:24px;
+	width:50px;
+	color:#339900;
+}
+
+#beilagenteaser .teaser .pdfload a:hover {
+	text-decoration:underline;
+	color:#666;
+}
+
+#beilagenteaser .teaser .pdfload img {
+	border:none;
+	height:23px !important;
+	height:auto;
+	margin-bottom:0px;
+	box-shadow:none;
+	float:left;
+	margin-right:5px;
+}
+
+#beilagenteaser .cover .caption a {
+	color:#666;
+	text-decoration:none;
+	font-size:0.85em;
+	white-space:nowrap;
+	text-shadow:1px 1px 0px #fff;
+}
+
+#beilagenteaser .cover .caption a:hover {
+	text-decoration:underline;
+	color:#999;
+}
+
+
+#beilagenteaser .teaser .caption {
+	padding:0px 8px 8px;
+	position:absolute;
+	top:-5px; right:-10px;
+	width:165px; height:205px;
+	margin: 0px auto;
+	z-index:1000;
+	border-bottom:2px solid #ededed;
+	border-top:1px solid #fefefe;
+	background-color:rgba(253,253,253,.95);
+	font-size:1.1em;
+	text-align:left;
+	line-height:1.3em;
+	white-space: normal;
+}
+
+#beilagenteaser .caption span.name {
+	color:#993300;
+	font-weight:normal;
+	font-size:1.5em;
+	margin:8px 0px;
+	display:block;
+	white-space: normal;
+}
+
+.ui-corner-tl { -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 1px; border-top-right-radius: 8px; -khtml-border-top-right-radius: 8px; }

@@ -1,0 +1,50 @@
+
+
+if (navigator && navigator.userAgent) {
+    var sasIsIosUiwebview = /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(navigator.userAgent);
+    if (!sasIsIosUiwebview) {
+        var smartCsync=document.createElement('IFRAME');smartCsync.src='http://cdn1.smartadserver.com/diff/rtb/csync/CookieSync.html?nwid=251&dcid=3';
+        smartCsync.scrolling = 'no';smartCsync.frameBorder = 0;smartCsync.width = 0;smartCsync.height = 0;smartCsync.style.margin = 0;smartCsync.style.padding = 0;smartCsync.style.display = 'none';smartCsync.style.width = '0px';smartCsync.style.height = '0px';smartCsync.style.visibility = 'hidden';
+        if(document.body != null)document.body.appendChild(smartCsync);
+    }
+}(function() {
+
+	d = window.document;
+	try {w = window.top} catch (e) {w = window}
+
+	var ContId = ('sas_3648' || 'sas_3648'), asmi = w.asmi || {sas:{adElts:[]}}, a = asmi.sas, z = (a.adElts[ContId]) ? a.adElts[ContId] : a.adElts[ContId] = {};
+	
+	z.tempName = 'blocker';
+	z.id = ContId.replace('sas_', '');
+	z.insertionId = '4545256';
+	z.campaignId = '864983';
+	z.blocked = !0;
+
+	var sas_ajax = (!'true')?w.sas_ajax:'true';
+
+	sas_blocked = w.sas_blocked || new Array();
+	sas_blocked.push(ContId);
+	console.log(ContId + ' blocked');
+	if (sas_ajax) {
+		a = document.createElement('img');
+		a.style.display = 'none'; 
+		a.src = '';
+		if ('0' != '1') {w.document.getElementById(ContId).appendChild(a);}
+	} else {
+		if ('0' == '1') {sas_noad = true;}
+	}
+
+	var cust = String('');
+	if (cust.replace(/\r\n/gi, '') != '') {
+		var g = d.createElement('iframe');
+		g.id = ContId+'_scrFrame';
+		g.style.display = 'none';
+		w.document.getElementById(ContId).appendChild(g);
+		var frame = d.getElementById(ContId+'_scrFrame').contentWindow.document;
+		frame.write(
+			'<!doctype html><html><head><title></title></head><body style="margin:0;padding:0;overflow:hidden;">' +
+			'<scr' + 'ipt type="text/javascript">var inDapIF=inDapMgrIf=true;</scr' + 'ipt>' + '' + '</body></html>'
+		);
+		if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) frame.close();
+	}
+})();

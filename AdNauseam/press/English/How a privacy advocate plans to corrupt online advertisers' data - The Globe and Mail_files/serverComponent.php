@@ -1,0 +1,2 @@
+
+Bootstrapper._serverTime = '2015-10-28 10:39:38'; Bootstrapper._clientIP = '0.0.0.0'; var psj0 = 'http://nexus.ensighten.com/globeandmail/prod/code/9d63c32a6d922da3a295963740bb0784.js?conditionId0=380622';Bootstrapper.loadScriptCallback(psj0, Bootstrapper.callOnPageSpecificCompletion);Bootstrapper.setPageSpecificDataDefinitionIds([])

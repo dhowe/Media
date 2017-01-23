@@ -1,0 +1,10 @@
+
+#ContainerContentLinie p.p--heading-1, #ContainerContentLinie h3.p--heading-1 {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: none;
+    float: none;
+    margin-bottom: 11px;
+}

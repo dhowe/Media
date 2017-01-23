@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)http://www.fastcolabs.com/twitframe?url=https://twitter.com/0xsalt/status/526771109236981760 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" async="" src="ga.js"></script><script src="jquery.min.js"></script><style type="text/css"></style>
+	
+	    <!-- Google Analytics -->
+	    <script>
+	    var _gaq = _gaq || [];
+	    _gaq.push(
+	      ['_setAccount', 'UA-4300461-31'],
+	      ['rollup._setAccount', 'UA-4300461-33']
+	    );
+
+	    (function() {
+	      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+
+	    </script>
+	    <!-- End Google Analytics -->
+	
+
+<script type="text/javascript" charset="utf-8" async="" src="tweet.6d9ef8570042ce30449ee8411227a0b9.js"></script></head>
+<body>
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 100%; height: 603.375px; padding: 0px; border: none; max-width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="526771109236981760" title="Twitter Tweet"></iframe>
+
+<script>
+
+
+var qs = (function(a) {
+	if (a === "") return {};
+	var b = {};
+	for (var i = 0; i < a.length; ++i)
+	{
+	  var p=a[i].split('=');
+	  if (p.length != 2) continue;
+	  b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+	}
+	return b;
+})(window.location.search.substr(1).split('&'));
+
+
+var caller, _timer, loaded = false;
+var saveCaller = function(e) {
+	if (e.data.element) {
+		caller = e;
+		if (loaded)
+			sendResponse();
+	}
+};
+if (window.addEventListener)
+	window.addEventListener("message", saveCaller, false);
+else
+	window.attachEvent("onmessage", saveCaller);
+
+function onload() {
+	if (arguments.callee.done)
+		return;
+	arguments.callee.done = true;
+
+	if (_timer)
+		clearInterval(_timer);
+
+	loaded = true;
+	if (caller) {
+		sendResponse();
+	}
+
+}
+
+if (document.addEventListener) {
+	document.addEventListener("DOMContentLoaded", onload, false);
+} else if (/WebKit/i.test(navigator.userAgent)) {
+	_timer = setInterval(function() {
+		if (/loaded|complete/.test(document.readyState)) {
+			onload();
+		}
+	}, 10);
+} else {
+	window.onload = onload;
+}
+
+
+function sendResponse() {
+	if (caller.data.query == "height") {
+		setTimeout(function() {
+			caller.source.postMessage({ element: caller.data.element,
+				height: document.body.scrollHeight + 20 }, caller.origin);
+		}, 500);
+	}
+};
+
+// function sendHeight() {
+// 	if (twttr && twttr.widgets && twttr.widgets.loaded === true) {
+
+// 		var tweeturl = qs.url;
+// 		var tweetIDSplit = tweeturl.split('/');
+// 		var tweetIDLength = tweetIDSplit.length;
+// 		var tweetID = tweetIDSplit[tweetIDLength -1];
+
+// 		if (tweeturl) {
+// 			var $tweetIframe = $('body');
+
+// 	    	var tweetIframeData = {
+// 	    		id: tweetID,
+// 	    		height: $tweetIframe.height()
+// 	    	}
+
+// 	    	console.log(tweetIframeData);
+// 	    	//window.parent.console.log('inside frame message sent');
+// 			window.parent.postMessage(tweetIframeData,'*');
+
+// 		} else {
+// 			console.log('not ready');
+// 		}
+// 	}
+// }
+
+// $(document).ready(function() {
+    	    	
+// 	var twttrFrameRetries = 0;
+
+// 	var checkIfAvailable = function() {
+// 	    if (twttr && twttr.widgets && twttr.widgets.loaded === true) {
+// 	        return sendHeight();
+// 	    }
+
+// 	    if (twttrFrameRetries < 3) {
+// 	        setTimeout(checkIfAvailable, 10000);
+// 	        twttrFrameRetries++;
+// 	    }
+// 	};
+
+// 	checkIfAvailable();
+
+//   // if (!twttr || !twttr.widgets) {
+//   // 	setInterval(sendHeight, 100);
+//   // }
+//   //   setTimeout(function() {
+//   //   	var $tweetIframe = $("iframe[id^='twitter-widget']");
+
+//   //   	var tweetIframeData = {
+//   //   		id: $tweetIframe.attr('id'),
+//   //   		height: $tweetIframe.attr('height')
+//   //   	}
+//   //   	window.parent.console.log('inside frame message sent');
+// 		// window.parent.postMessage(tweetIframeData,'*');
+//   //   }, 1000);
+
+// });
+
+
+</script>
+<script src="widgets.js" charset="utf-8"></script>
+
+
+</body></html>

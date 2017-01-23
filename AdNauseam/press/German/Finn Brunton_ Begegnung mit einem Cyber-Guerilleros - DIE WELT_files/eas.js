@@ -1,0 +1,1 @@
+document.write("<a target='_blank' href='http://eas4.emediate.eu/eas?camp=283722::cu=12206::no=482123::ty=ct::uuid=c2429fb6-7d63-11e5-9838-002590a2cff3'><img src='http://cdn4.emediate.eu/media.4/1010/31054/283722/20150504_MonatKostenlos_300x125.gif' alt='Hier klicken' width='300' height='126' style='border:0px'/></a>");

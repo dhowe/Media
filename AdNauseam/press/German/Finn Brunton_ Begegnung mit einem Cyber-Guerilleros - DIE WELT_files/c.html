@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=gbk">
+</head>
+<body>
+<script type="text/javascript">
+var reqOrigin = location.href.match(/\?ref=(.*)/)[1];
+try {
+	sas_uuid = document.cookie.match(/pid=(.*?);/)[1];
+}catch(e){
+	sas_uuid = '';
+}
+parent.postMessage(sas_uuid, reqOrigin);
+</script>
+
+</body></html>

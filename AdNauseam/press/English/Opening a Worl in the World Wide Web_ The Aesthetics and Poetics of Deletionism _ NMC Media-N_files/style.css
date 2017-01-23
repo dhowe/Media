@@ -1,0 +1,354 @@
+/*   
+Theme Name: median
+Author: New Media Caucus Communications Committee
+Description: A Child Theme of Twenty Twelve
+Template: twentytwelve
+*/
+
+@import url(../twentytwelve/style.css);
+
+/* Media-N Styles March2013 */
+
+/* layout formatting basic colors */
+body{
+	font-family:Verdana, Helvetica, sans-serif;
+	color:#636363;
+	background-image:url(masthead_bg.png);
+	background-position:top left;
+	background-repeat:repeat-x;
+	margin:0;
+	padding:0;
+}
+
+.site{
+	margin:0;
+	padding:0;
+}
+
+#page{
+	width:960px !important;
+	margin-top:0;
+	padding-top:0;
+	margin-left:20px;
+	font-family:Verdana, Helvetica, sans-serif;
+}
+
+#page {
+width: 960px;
+}
+
+.wrapper{
+	padding:0px;
+}
+
+.site-header{
+	padding-top:6px;
+	padding-bottom:0px;
+	width:100%;	
+	background-image:url(masthead_bg.png);
+	background-position:top left;
+	background-repeat:repeat-x;
+}
+
+.site-content{
+	width:660px;
+	margin-top:0;
+	font-family:Verdana, Helvetica, sans-serif;
+}
+
+.widget-area{
+	width:242px;
+}	
+
+/* navigation MediaN menu */
+
+.main-navigation{
+	margin:3px 0px 10px 0px;
+	padding:0;
+	}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	border-bottom: 0 none;
+	border-top: 0 none;
+	margin-top:5px;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+color: #DC3F09;
+font-weight: bold;
+}
+.main-navigation li{
+	margin:0px;
+}
+.nav-menu{
+	background-color:#fff;
+}
+.main-navigation a {
+	color: #DC3F09;
+	font-family:Verdana, Geneva, sans-serifArial, Helvetica, sans-serif;
+}
+.nav-menu li a{
+	color: #DC3F09;
+	line-height:18px;
+	margin:0;
+	padding:0 2px 0 0;
+	text-transform:none;
+	font-size: 11pt;
+}
+.nav-menu li a:hover{
+	color:#fff;
+	background-color:#f85d19;
+}
+a.assistive-text{
+	height:2px;
+}
+
+
+/* headings MediaN */
+h1, h2, h3, h4, h5 {
+	color:#578703;
+	font-weight:bold;
+	line-height:1;
+	margin-top:0px;
+	margin-bottom:12px;
+}
+
+h6 {
+	color:#333;
+	font-weight:bold;
+	line-height:1;
+	margin-top:0px;
+	margin-bottom:12px;
+}
+h1.entry-title, .entry-header .entry-title{
+	margin-bottom:5px;
+	color:#578703;
+	font-weight:bold;
+	font-size: 14pt;
+}
+
+.site-header h2{
+	color: #705C18;
+	line-height:1.25;
+	margin-bottom:10px;
+}
+
+/* entry MediaN */
+p {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	line-height: 14pt;
+	font-size: 12pt;
+}
+li {
+	line-height: 14pt;
+}
+
+ol {
+	line-height: 14pt;
+	font-size: 10.5pt;
+}
+
+ul {
+	line-height: 14pt;
+	font-size: 10.5pt;
+}
+
+.entry-content p {
+	font-size:10.5pt;
+	font-weight:normal;
+	line-height: 14pt;
+	color:#666666;
+	margin:0;
+	padding-bottom:1.25em;
+}
+.entry-content hr{
+	margin:0;
+}
+.entry-header{
+	margin-bottom:0px;
+}
+
+.entry-content a{
+	color: #e7ac70;
+	text-decoration:none;
+}
+.entry-content a:hover{
+	color:#e76c21;
+	text-decoration:underline;
+}
+.entry-content h1{
+	font-size:18px;
+	color: #75931B;
+	text-transform:uppercase;
+	margin:0;
+	
+}
+.entry-content h2{
+	font-size:14px;
+	color: #75931B;
+	text-transform:uppercase;
+	margin:0;
+	
+}
+.entry-content h3{
+	font-size:14px;
+	color: #75931B;
+	margin:0;
+	padding-bottom:10px;
+}
+.entry-content h4{
+	font-size:14px;
+	color: #75931B;
+	font-style:italic;
+	font-weight:bold;
+	margin:0;
+
+}
+.entry-content h5{
+	font-weight:bold;
+	font-size:10.5pt;
+	color:#666;
+	margin:0;
+	padding-bottom:0;
+}
+
+
+.entry-content h6{
+	font-weight:normal;
+	font-size:12px;
+	color:#333232;
+	margin:0;
+
+}
+
+.entry-content blockquote{
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+margin-bottom: 0px;
+
+
+}
+
+/*image captions*/
+.wp-caption .wp-caption-text, .gallery-caption, .entry-caption, wp-caption-text{
+	color: #999;
+	font-size:9pt;
+	margin-top:-5;
+	padding-top:0;
+	font-style:normal;
+	line-height:9pt;
+}
+
+
+/* sidebars MediaN */
+
+.widget-area .widget {
+	margin-bottom: 0.429rem !important; //margin-bottom: 1.429rem !important; (PC: this Packs the widgets tighter vertically)
+	margin-top: .4rem !important; //margin-top: 1.429rem !important; (PC: this makes top of the sidebar relate w/slideshow top)
+}
+
+.widget-area .widget h3 {
+	margin-bottom: 0.3rem !important; //margin-bottom: 0.718rem !important;
+}
+
+.widget-area{
+	width:242px;
+	margin-top: 5px;
+	font: Georgia;
+}
+
+.widget-area aside{
+	padding:6px;
+	border: 1px #cecdcd solid;
+   	width: 210px;
+}
+
+.widget-area .widget a {
+	color: #e7ac70;
+	font: Georgia;
+	font-style:italic;
+	text-decoration:none;
+}
+.widget-area .widget a:hover {
+	color: #e7ac70;
+	text-decoration: underline;
+}
+.widget-area .widget a:visited {
+	color: #e7ac70;
+}
+.widget-area .widget .textwidget {
+	font-size: 13px;
+	padding: 5px;
+	font-size: 0.928571429rem;
+	line-height: 1
+}
+.widget-area .widget p {
+	margin-bottom: 5px;
+	margin-bottom: 1.714285714rem;
+	padding-top:15px;
+}
+.widget-area .textwidget ul {
+	margin: 10px;
+	margin: 0 0 1.714285714rem;
+}
+.widget-area .textwidget li {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-left: 2.571428571rem;
+}
+.widget-area .widget .textwidget a {
+	color: #e7ac70;
+}
+.textwidget {
+	padding: 15px;
+}
+
+/* for devices and smaller screens */
+/* Minimum width of 10 pixels. */
+@media screen and (min-width: 10px) {
+	.site-header h1, .site-header h2 {
+		text-align: left;
+	}
+	.author-description {
+		float: left;
+		width: 80%;
+	}
+	
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		border: 0;
+		display: inline-block !important;
+		text-align: left;
+		width: 100%;
+	}
+	.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+	}
+	.main-navigation li a,
+	.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+	}
+	.main-navigation li a {
+		color: #DC3F09;
+		line-height:18px;
+		margin:0;
+		padding:0 2px 0 0;
+		text-transform:none;
+		font-size: 11pt;
+	}
+	.main-navigation li a:hover {
+		color:#fff;
+		background-color:#f85d19;
+	}
+	.main-navigation li {
+		margin: 0;
+	}
+	.menu-toggle {
+		display: none !important;
+	}
+	
+}
+		

@@ -1,0 +1,1 @@
+document.writeln('<p style=\'display:none;\'><img src=\'http:\/\/counts.yieldlab.net\/imp?s=45&d=3607&a=6729&ts=1446030312735&tid=50f164f7-ab90-407e-ab8e-cd78ca5b2bee\'\/><\/p><sc'+'ript type=\"text\/javasc'+'ript\" src=\"http:\/\/a.ligatus.com\/?ids=34648&t=js\"><\/sc'+'ript>');
