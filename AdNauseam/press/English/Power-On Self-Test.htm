@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="./Power-On Self-Test_files/pre_tumblelog.js"></script>
+
+  
+		
+    <title>Power-On Self-Test</title>
+		<meta name="description" content="AdNauseam is absolutely brilliant. Blocking ads means sites lose out on revenue. But ads are usually obnoxious and distracting. So I block them. Even if I don’t have a problem with the ads themselves,...">
+    <meta name="text:Disqus Shortname" content="">
+    <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style><link rel="icon" href="http://68.media.tumblr.com/avatar_408cd06cbad2_128.png">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://poweronselftest.tumblr.com/rss">
+
+		<!-- Default colours -->
+		<meta name="color:Top Border" content="#333">
+		<meta name="color:Site Title" content="#D53C2E">
+		<meta name="color:Link" content="#333">
+		<meta name="color:Link Hover" content="#D53C2E">
+		<meta name="color:Button" content="#bbbbbb">
+		<meta name="color:Button Hover" content="#D53C2E">
+		<meta name="color:Post Title" content="#333">
+		<meta name="color:Post Title Link" content="#D53C2E">
+		
+		<!-- Default social link text -->
+		<meta name="text:Website Address" content="">
+		<meta name="text:Blog Address" content="">
+		<meta name="text:Flickr Username" content="">
+		<meta name="text:Twitter Username" content="">
+		<meta name="text:Facebook Username" content="">
+		<meta name="text:YouTube Username" content="">
+		<meta name="text:Lastfm Username" content="">
+		<meta name="text:Delicious Username" content="">
+		<meta name="text:FriendFeed Username" content="">
+		
+		<!-- Vignelli v1.3.3 -->
+
+    <style type="text/css">
+
+			/*
+			-----------------------------------------------
+			Form styles
+			-----------------------------------------------
+			*/
+
+			form {
+				font-size: 100%;
+				position: relative;
+				text-align: left;
+			}
+			form fieldset {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+			}
+			form fieldset legend {
+				border: 0;
+				border-bottom: 1px solid #ccc;
+				float: left;
+				font-size: 150%;
+				font-weight: bold;
+				margin: 0 0 15px;
+				*margin-left: -7px;
+				padding: 0 0 3px;
+				white-space: normal;
+			}
+			legend span {
+				display: block;
+				width: 461px;
+			}
+			.field label,
+			.field .label,
+			form label {
+				float: left;
+				margin-right: 1em;
+				width: 12em;
+			}
+
+			.introduction {
+				font-size: 110%;
+				padding-bottom: 1.5em;
+			}
+
+			.field {
+				clear: left;
+				margin: 0.75em 0;
+				padding: 0.2em;
+			}
+			.text input,
+			.textarea textarea,
+			.password input,
+			.email input,
+			.url input,
+			.decimal input,
+			.integer input,
+			.select input,
+			input[type="text"],
+			input[type="textarea"] {
+				border: 1px solid #999;
+				color: #333;
+				font-size: 100%;
+				height: 1.2em;
+				padding: 0.15em;
+			}
+			.decimal input,
+			.integer input {
+				width: 4em;
+			}
+			.textarea textarea,
+			input[type="textarea"] {
+				height: 7.5em;
+				width: 24em;
+			}
+			form .field input,
+			form .textarea textarea,
+			form .select select,
+			input[type="text"],
+			input[type="textarea"] {
+				background: #fff url(../images/core/forms_fieldbg.gif) repeat-x 0 0;
+				border-bottom: 1px solid #dadada;
+				border-left: 1px solid #b4b4b4;
+				border-right: 1px solid #b4b4b4;
+				border-top: 1px solid #727272;
+				font-size: 100%;
+				padding: 3px;
+				width: 50%;
+			}
+			form .select select,
+			select{
+				padding: 2px;
+				width: auto;
+			}
+			form .postcode input {
+				width: 20%;
+			}
+			form .telephone input,
+			form .mobile input,
+			form .fax input {
+				width: 30%;
+			}
+			form .help {
+				color: #888;
+				font-size: 0.8em;
+				line-height: 1.8em;
+				margin-left: 16.25em;
+				padding-bottom: 0;
+			}
+			.field.required .required,
+			.introduction .required {
+				color: #c12;
+			}
+			.field .optional,
+			.introduction .optional {
+				color: #888;
+			}
+			.field.error input,
+			.select.error select,
+			.textarea.error textarea {
+				background: #FFF1ED;
+				border: 2px solid #ED2F07;
+			}
+			form .required label span,
+			.required_info span {
+				color: #cc0000;
+				font-size: 1.143em;
+				font-weight: bold;
+				line-height: 120%;
+			}
+			.errors {
+				color: #E9602A;
+				font-weight: bold;
+			}
+			.error_summary {
+				background: #FFEBEB;
+				border: 1px solid #FFCCCC;
+				color: #b12;
+				margin-left: -1px;
+				margin-top: -2px;
+				padding: 0.375em;
+			}
+			.error_summary p {
+				padding: 0;
+			}
+			.field.error .errors {
+				color: #b12;
+				margin-left: 13em;
+			}
+			.error_summary li {
+				list-style: disc;
+				margin-left: 2em;
+			}
+			.required_info {
+				color: #666;
+				font-size: 0.929em;
+				padding-left: 10px;
+				position: absolute;
+				right: 0;
+				text-align: right;
+				top: 0;
+			}
+			.date_dropdowns,
+			.date_dropdowns div {
+				float: left;
+			}
+			.date_dropdowns div label {
+				color: #888;
+				font-size: 0.8em;
+				line-height: 1.8em;
+			}
+			.date_dropdowns .day {
+				width: 4em;
+			}
+			.date_dropdowns .month {
+				width: 4em;
+			}
+			.date_dropdowns .year {
+				width: 4em;
+			}
+
+			.checkboxes_widget,
+			.radios_widget,
+			.boolean_widget {
+				margin-left: 13em;
+			}
+			.checkboxes_widget li label,
+			.radios_widget li label {
+				float: none;
+			}
+			.boolean_widget li label {
+				width: 5em;
+			}
+			.checkboxes_widget li label input,
+			.radios_widget li label input,
+			.boolean_widget li label input {
+				float: none;
+				margin-right: 0.5em;
+			}
+
+			/* Right Aligned */
+			.form_rightaligned .field label,
+			.form_rightaligned .field .label {
+				text-align: right;
+			}
+			.form_rightaligned .field .optional,
+			.form_rightaligned .introduction .optional {
+				display: block;
+			}
+
+			/* Top Aligned */
+			.form_topaligned .field label,
+			.form_topaligned .field .label,
+			.form_topaligned .textarea label,
+			.form_topaligned .textarea .label {
+				display: block;
+				float: none;
+				line-height: 120%;
+				margin-right: 0;
+				padding-bottom: 0.15em;
+				width: 100%;
+			}
+			.form_topaligned .field .help {
+				margin-left: 0;
+			}
+			.form_topaligned .field {
+				margin: 0;
+				padding: 0 0 0.375em 0;
+			}
+			.form_topaligned .dropdown {
+				margin-bottom: 0.7em;
+			}
+			.form_topaligned .field .help,
+			.form_topaligned .textarea .help {
+				margin: 0;
+				padding-top: 0.3em;
+			}
+			.form_topaligned .button,
+			.form_topaligned input.button {
+				margin-left: 0;
+			}
+
+			/* Specific Cases */
+			.checklist_column {
+				float: left;
+				margin-bottom: 1em;
+				width: 140px;
+			}
+			.checklist_item {
+				display: block;
+				padding-bottom: 5px;
+			}
+			.form_topaligned .checklist_column .checklist_item label {
+				display: inline;
+				vertical-align: middle;
+			}
+			.form_topaligned .checklist_column .checklist_item input {
+				margin-right: 3px;
+				vertical-align: middle;
+			}
+
+			/*
+			-----------------------------------------------
+			Main theme styles
+			-----------------------------------------------
+			/*
+
+			/*
+			1. GLOBAL STYLES
+			------------------------------------------------------------------- */
+
+			/* 1.0 Master/Reset
+			----------------------------------------------- */
+			html,legend{background: #fff; color:#000}
+			address,blockquote,body,dd,del,dl,dt,div,fieldset,form,h1,h2,h3,h4,h5,h6,hr,html,iframe,input,ins,legend,li,map,object,ol,p,pre,table,td,textarea,th,ul{font-size:100%;margin:0;padding:0; vertical-align: baseline;}
+			h1,h2,h3,h4,h5,h6,th{font-weight:normal}
+			fieldset,img{border:0}
+			input,select,textarea{font-family:inherit}
+			table{border-collapse:collapse;border-spacing:0}
+			caption,th{text-align:left}
+			td,th{vertical-align:top}
+			abbr,acronym,address,b,caption,cite,code,dfn,em,i,input,samp,select,strong,textarea,var{border:0;font-family:inherit;font-style:normal;font-variant:normal}
+			del,ins{text-decoration:none}
+			sup{vertical-align:text-top}
+			sub{vertical-align:text-bottom}
+			q{quotes:none}q:before{content:"\2018"}q:after{content:"\2019"}q q:before{content:"\201c"}q q:after{content:"\201d"}
+			em{font-style:italic;}
+
+			body {
+				border-top: 6px solid #333;
+				font: normal 14px/1.57em "Palatino","Palatino Linotype", "URW Palladio","Linux Libertine","Linux Libertine L","Georgia","Times New Roman",serif;
+			}
+			#grid {
+				/* Thanks to the guys at Analog for the Hashgrid — http://hashgrid.com/ */
+				left: 50%;
+				margin-left: -470px;
+				position: absolute;
+				top: 0;
+				width: 941px;
+			}
+			#grid .horiz {
+				/* 22px line height */
+				border-bottom: 1px dotted #aaa;
+				height: 21px;
+				margin: 0;
+				padding: 0;
+			}
+			/* 
+			#grid {
+				z-index: 0;
+			}
+			*/
+			/* 1.1 Accessibility
+			----------------------------------------------- */
+			.accessibility {display: none;}
+			#access {position: absolute; top: -1000em;}
+
+
+			/* 1.2 Headings
+			----------------------------------------------- */
+			h1,
+			h2,
+			h3,
+			h4,
+			h5 {
+				color: #999;
+				font-family: "Palatino","Palatino Linotype", "URW Palladio","Linux Libertine","Linux Libertine L","Georgia","Times New Roman",serif;
+				font-weight: bold;
+				line-height: 120%;
+				margin-bottom: 0.15em;
+				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+				zoom: 1;
+			}
+			h1 {
+				font-size: 34px;
+				letter-spacing: -0.02em;
+				margin: 29px 0 -5px 0;
+			}
+			h2 {
+				font-size: 24px;
+				letter-spacing: -0.02em;
+			}
+			h3 {
+				font-size: 20px;
+			}
+			h4 {
+				font-size: 20px;
+			}
+			h5 {
+				font-size: 17px;
+			}
+			.page_title {
+				color: #bbb;
+				font-size: 1.8em;
+				margin-left: 160px;
+				margin-top: 0;
+			}
+			h1 .subtitle,
+			h2 .subtitle,
+			h3 .subtitle {
+				color: #bbb;
+				font: italic 0.615em/1.38em "Palatino","Times New Roman",Times,serif;
+			}
+			h1 a:hover .subtitle,
+			h2 a:hover .subtitle,
+			h3 a:hover .subtitle {
+				color: #999;
+			}
+
+			/* 1.3 Text Elements
+			--------------------------------------------- */
+			p,
+			.main ul,
+			.main ol,
+			ol.posts > li,
+			pre {
+				margin-bottom: 1.575em;
+			}
+			.main .posts ul li,
+			.main .posts ol li {
+				margin-bottom: 0.5em;
+			}
+			code {
+				font: normal 1em "Monaco","DejaVu Sans Mono","Lucida Sans Mono",serif;
+				margin: 0;
+				padding: 0;
+			}
+			blockquote,
+			.blockquote {
+				color: #000000;
+				font: italic 1.2em/1.31em "Palatino","Times New Roman",Times,serif;
+				margin: 0 auto;
+				padding: 0	;
+				padding-left: 5px;
+				border-left: solid thick green; 
+			}
+			.blockquote.short {
+				font-size: 26px;
+			}
+			.blockquote.long {
+				font-size: 18px;
+			}
+			.cite {
+				color: #999;
+				font: normal 12px/12px "Helvetica Neue",Arial,Helvetica,sans-serif;
+				margin-bottom: 10px
+			}
+			.cite a,
+			.cite a:visited {
+				color: #808080;
+			}
+			.ampersand {
+				font: italic 130% Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+			}
+
+			/* 1.4 Links and Lists
+			----------------------------------------------- */
+			
+            a,
+			a:visited,
+			.main .pagination a,
+			.main .pagination a:visited {
+				color: #008000;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			a:hover,
+			a:focus,
+			a:active,
+			.main a:visited:hover {color: #000000;}
+			a:active {
+				outline: 0;
+				position: relative;
+				top: 1px;
+				text-decoration: none;
+				text-shadow: 0 0 2px #999;
+			}
+            p a {text-decoration: underline;}
+			li {
+				display: list-item;
+			}
+			ol li {
+				list-style: decimal outside;
+			}
+			ul li {
+				list-style: disc outside;
+			}
+			dl {
+				margin-top: 22px;
+			}
+			dd {
+				margin-bottom: 22px;
+			}
+			.notes li {
+				list-style: none;
+				margin-bottom: 0.5em;
+			}
+
+
+			/* 1.5 Forms
+			----------------------------------------------- */
+			form .field input,
+			form .textarea textarea,
+			form .select select,
+			input[type="text"],
+			input[type="textarea"],
+			.tags li a {
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+			}
+			input:focus {
+				border: 1px solid #444;
+			}
+			form label {
+				font-weight: bold;
+			}
+			.form_topaligned .field {
+				padding: 0 0 9px 0;
+				position: relative;
+			}
+			.field.error input,
+			.select.error select,
+			.textarea.error textarea {
+				-moz-box-shadow: 0 0 3px #888;
+				-webkit-box-shadow: 0 0 3px #888;
+				box-shadow: 0 0 3px #888;
+			}
+			.form_topaligned .field label,
+			.form_topaligned .field .label,
+			.form_topaligned .textarea label,
+			.form_topaligned .textarea .label {
+				width: auto;
+			}
+			#respond .error input,
+			#respond .error textarea {
+				opacity: 1;
+			}
+
+
+			/* 1.6 Columns and Rows
+			----------------------------------------------- */
+			.column {
+				display: inline;
+				float: left;
+				margin: 0 20px 20px 0;
+				position: relative;
+				width: 205px;
+			}
+			.column.last {
+				border-right: 0;
+				margin-right: 0;
+			}
+			.row .column {
+				margin-bottom: 0;
+			}
+			.column.half {
+				width: 470px;
+			}
+			.column.quarter {
+				width: 225px;
+			}
+			.column.last {
+				margin-right: 0;
+			}
+			.row {
+				display: block;
+				float: left;
+				margin: 0 0 20px 0;
+			}
+			.row.last {
+				border-bottom: 0;
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+
+
+			/* 1.7 Puffs and Boxes
+			----------------------------------------------- */
+			.puff {
+				border: 0;
+				display: inline;
+				padding: 0;
+			}
+			.puff.right {
+				float: right;
+				margin: 0 0 10px 20px;
+			}
+			.puff.left {
+				float: left;
+				margin: 0 20px 10px 0;
+			}
+
+
+			/* 1.8 Buttons
+			----------------------------------------------- */
+			button,
+			form input.button,
+			.submit input,
+			.button,
+			input[type="submit"],
+			.prev_next a,
+			.rss_link {
+				background: #969696;
+				border: 0;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				color: #fff;
+				cursor: pointer;
+				font: bold 1em "Helvetica Neue",Arial,Helvetica,sans-serif;
+				margin: 0;
+				overflow: visible; /* overflow: visible + width: auto avoids IE adding double padding */
+				padding: 3px 10px;
+				text-align: center;
+				width: auto;
+			}
+			button:hover,
+			button:focus,
+			button:active,
+			form input.button:hover,
+			form input.button:focus,
+			form input.button:active,
+			.submit input:hover,
+			.submit input:focus,
+			.submit input:active,
+			.button:hover,
+			.button:active,
+			input[type="submit"]:hover,
+			input[type="submit"]:focus,
+			input[type="submit"]:active,
+			.prev_next a:hover,
+			.rss_link:hover {
+				background: #008000;
+				color: #fff;
+				text-decoration: none;
+			}
+			.prev_next a,
+			.utility_links li a,
+			.button {
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+			}
+			.form_topaligned .button,
+			.form_topaligned input.button {
+				padding-left: auto;
+			}
+			form button,
+			form .button {
+				margin-top: 1em;
+			}
+
+			/* 1.9 Tables
+			----------------------------------------------- */
+			table {
+				line-height: 110%;
+				margin: 0;
+			}
+			table th {
+				font-size: 1.143em;
+				font-weight: bold;
+				padding-bottom: 20px;
+			}
+			table td {
+				border-top: 1px solid red;
+				padding: 0.245em 14px 0.245em 0;
+			}
+			table tbody {
+				font-size: 13px;
+			}
+			table span {
+				color: #585245;
+				font-weight: bold;
+			}
+			table .alt {
+				background: #fbfbfb;
+			}
+			.wp_syntax table {
+				margin: 0;
+			}
+			table caption {
+				color: #9B9B9B;
+				font: italic 1em "Palatino","Times New Roman",Times,serif;
+				margin: 3px 0 5px 0;
+			}
+
+
+			/* 1.10 Images
+			----------------------------------------------- */
+			.main img.alignright {
+				display: inline;
+				float: right;
+			}
+			.main img.alignleft {
+				display: inline;
+				float: left;
+			}
+			.main img.size-large { /* 540px wide */
+
+			}
+			.main img.size-medium { /* 460px wide */
+
+			}
+			.main img.alignright{
+				margin: -5px -240px 20px 20px;
+			}
+			.main img.alignleft {
+				margin: -5px 20px 20px -160px;
+			}
+			.main img.alignright {
+				margin: -5px -160px 20px 20px;
+			}
+
+
+			/*
+			2. TOP LEVEL ELEMENTS
+			------------------------------------------------------------------- */
+
+			/* 2.0 Wrapper
+			----------------------------------------------- */
+			#wrapper:after {
+				content: ".";
+				clear: both;  
+				display: block; 
+				height: 0; 
+				visibility: hidden;
+			}
+			#wrapper {
+				display: inline-block;
+			}
+			/* \*/
+			* html #wrapper {
+				height: 1%;
+			}
+			#wrapper {
+				display: block;
+				margin: 0 auto;
+				padding: 16px 10px 30px 10px;
+				position: relative;
+				width: 940px;
+			}
+			a.rss_link,
+			a.rss_link:visited {
+				background-position: 4px 3px;
+				-moz-border-radius-bottomright: 2px;
+				-moz-border-radius-bottomleft: 2px;
+				-webkit-border-bottom-right-radius: 2px;
+				-webkit-border-bottom-left-radius: 2px;
+				border-bottom-right-radius: 2px;
+				border-bottom-left-radius: 2px;
+				color: #ddd;
+				font: bold 0.875em "Palatino","Palatino Linotype", "URW Palladio","Linux Libertine","Linux Libertine L","Georgia","Times New Roman",serif;
+				padding: 3px 6px 4px 26px;
+				position: absolute;
+				right: 9px;
+				text-align: right;
+				top: -3px;
+			}
+			a.rss_link:hover {
+				box-shadow: none;
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+				color: #fff;
+			}
+
+
+			/* 2.1 Header
+			----------------------------------------------- */
+			#header {
+				float: left;
+				min-height: 70px;
+				margin-bottom: 30px;
+				position: relative;
+				width: 100%;
+			}
+			#branding {
+				display: inline;
+				float: left;
+				font-size: 1em;
+				margin: 3px 20px 0 0;
+				padding: 0;
+				width: 140px;
+			}
+			#branding a,
+			#branding a:visited {
+				color: #000000;
+				display: block;
+				outline: 0;
+			}
+			.about {
+				display: inline;
+				float: right;
+				font-size: 0.938em;
+				height: 90px;
+				overflow: hidden;
+				width: 220px;
+			}
+			.about p {
+				line-height: 22px;
+				margin-bottom: 0;
+			}
+			.about img {
+				border: 4px solid #DDDDDD;
+				display: inline;
+				float: left;
+				margin-left: -82px;
+				margin-right: 10px;
+			}
+
+			/* 2.2 Masthead
+			----------------------------------------------- */
+			#masthead {}
+
+
+			/* 2.3 Navigation
+			----------------------------------------------- */
+			.navigation {
+				float: left;
+				font: bold 0.938em "Helvetica Neue",Arial,Helvetica,sans-serif;
+				margin-top: 0;
+				padding: 0;
+				text-align: left;
+				width: 140px;
+			}
+			.navigation li {
+				line-height: 21px;
+				list-style: none;
+				padding: 0;
+				width: 140px;
+			}
+			#nav li#nav_port {
+				margin-bottom: 0;
+			}
+			#nav li#nav_serv {
+				margin-bottom: 2px;
+			}
+			#nav li#nav_cont {
+				margin-bottom: 0;
+			}
+			.nav li a {
+				height: 18px;
+				padding: 4px 10px 4px 0;
+			}
+			.nav li a:hover {
+				background: none;
+				color: #D53C2E;
+			}
+			.nav li a.active {
+				background: #333;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				color: #fff;
+				margin: 3px 0;
+				padding: 2px 7px;
+			}
+			.nav li a.active:hover {
+				background: #D53C2E;
+				border: 0;
+				color: #fff;
+				margin: 0;
+				padding: 2px 7px;
+			}
+
+
+			/* 2.4 Main content
+			----------------------------------------------- */
+			.main {
+				display: inline;
+				float: left;
+				margin-right: 20px;
+				margin: 0 20px 0 0;
+				overflow: visible;
+				padding-left: 160px;
+				position: relative;
+				width: 540px;
+			}
+			.main h2,
+			.main h3,
+			.main h4,
+			.main h5 {
+				margin-bottom: 0.2em;
+			}
+			.main h2 {
+				padding-top: 0;
+			}
+			.main h3 {
+				line-height: 1.08em;
+				margin: 2px 0;
+			}
+			.main h4 {
+				margin: -3px 0 -1px 0;
+			}
+			.main a {
+				font-weight: bold;
+			}
+			.main a:visited {
+				color: #bcbcbc;
+			}
+			.main a:visited:hover,
+			.main .pagination a:hover {
+				color: #000000;
+			}
+			#sidebar {
+				float: left;
+				padding-top: 2px;
+				width: 220px;
+			}
+			#searchform {
+				margin-bottom: 3em;
+				margin-top: -8px;
+			}
+			#searchform .field {
+				margin: 0;
+				padding: 0;
+			}
+			#searchform input {
+				color: #666;
+				font-size: 0.9em;
+				padding: 4px;
+				width: 140px;
+			}
+			#searchform button {
+				font-size: 0.938em;
+				margin-top: 0;
+				padding: 4px 6px;
+			}
+			#tweets {
+				font-size: 0.938em;
+				margin-top: 0.5em;
+			}
+			#tweets li {
+				border-bottom: 1px solid #ececec;
+				line-height: 140%;
+				list-style: none;
+				margin-bottom: 0.75em;
+				padding-bottom: 0.75em;
+			}
+			#tweets li,
+			#tweets li a,
+			#tweets li a:visited {
+				color: #888;
+			}
+			#tweets li a:hover,
+			#tweets li a:visited:hover {
+				color: #000000;
+			}
+			.main table {
+				width: 100%;
+			}
+			.main img {
+				box-shadow: 0 0 5px #999;
+				-moz-box-shadow: 0 0 5px #999;
+				-webkit-box-shadow: 0 0 5px #999;
+				margin: 0;
+			}
+			.main a,
+			.main a:link,
+			.main a:visited {
+				line-height: 98%;
+			}
+			.main ol {
+				margin-bottom: 22px;
+			}
+
+
+			/* 2.5 Footer
+			----------------------------------------------- */
+
+
+			/*
+			3. SPECIFIC MODULES
+			------------------------------------------------------------------- */
+
+			/* 3.0 Article/Post
+			----------------------------------------------- */
+			.article_header {
+				background: none;
+				border-bottom: 1px solid #ececec;
+				clear: both;
+				float: left;
+				margin-bottom: 28px;
+				/* overflow: auto; */
+				padding-bottom: 9px;
+				position: relative;
+				width: 100%;
+			}
+			li.article_header {
+				height: 55px;
+				margin-bottom: 14px;
+				padding-bottom: 9px;
+			}
+			li.article_header:last-child {
+				border: 0;
+			}
+			h1.title {
+				color: #333;
+				display: block;
+				font-size: 30px;
+				line-height: 120%;
+				margin: -15px 0 0.3em 0;
+			}
+			h1 a,
+			h1.title a,
+			h2 a,
+			h3 a {
+				color: #008000;
+			}
+			h1 a:hover,
+			h1 a:visited:hover,
+			h1.title a:hover,
+			h1.title a:visited:hover,
+			h2 a:hover,
+			h2 a:visited:hover,
+			h3 a:hover,
+			h3 a:visited:hover {
+				color: #008000;
+			}
+			.article_header .date {
+				left: 0;
+				position: absolute;
+				top: 16px;
+			}
+			li.article_header .date {
+				top: 17px;
+			}
+			ol.posts > li {
+				float: left;
+				left: -160px;
+				list-style: none;
+				position: relative;
+				width: 700px;
+			}
+			.post_content {
+				border-bottom: 1px solid #ececec;
+				float: left;
+				width: 540px;
+			}
+			.blog_nav,
+			.post_info {
+				-webkit-transition: opacity 0.30s linear;
+			}
+			.blog_nav h3 {
+				color: #bbb;
+				font-size: 1em;
+				margin-bottom: 2px;
+				margin-top: -2px;
+			}
+			.blog_nav ul {
+				margin-bottom: 2em;
+			}
+			.about,
+			.blog_nav ul,
+			.blog_nav ol,
+			.blog_nav p {
+				color: #777;
+				font-size: 0.929em;
+				line-height: 160%;				
+			}
+			.blog_nav .credits {
+				color: #bbb;
+				font-size: 0.8em;
+			}
+			.blog_nav .credits a {
+				color: #999;
+				font-weight: normal;
+			}
+			.blog_nav ul.children {
+				margin-bottom: 0;
+			}
+			.blog_nav li {
+				list-style: none;
+			}
+			.blog_nav li a {
+				font-weight: normal;
+			}
+			.prev_next {
+				font: bold 0.938em "Helvetica Neue",Arial,Helvetica,sans-serif;
+				margin-bottom: 30px;
+			}
+			.prev_next a {
+				color: #fff;
+				line-height: 100%;
+				padding: 4px 10px;
+				text-decoration: none;
+			}
+			.prev_next a:hover,
+			.prev_next a.next:hover,
+			.prev_next a.prev:hover {
+				background: #008000;
+				color: #fff;
+			}
+			.prev_next .prev {
+				padding-left: 13px;
+			}
+			.prev_next .next {
+				padding-right: 11px;
+			}
+			.pagination a:active,
+			.pagination a:focus {
+				outline: 0;
+			}
+			.pagination .next {
+				float: right;
+				text-align: right;
+				width: 40%;
+			}
+			.pagination .prev {
+				float: left;
+				width: 40%;
+			}
+			#aside {
+				color: #999;
+				float: left;
+				font: bold 0.875em "Helvetica Neue",Arial,Helvetica,sans-serif;
+				padding-right: 10px;
+				padding-top: 10px;
+				width: 150px;
+			}
+			#aside p {
+				color: #bbb;
+				margin-bottom: 0.5em;
+			}
+			span.date,
+			p.date {
+				color: #bbb;
+				display: block;
+				font: italic 120% "Palatino","Times New Roman",Times,serif;
+				margin-bottom: 0.5em;
+			}
+			a:hover span.date,
+			a:focus span.date {
+				color: #969696;
+			}
+			.tags {
+				margin-top: 1em;
+			}
+			.main .posts .tags li {
+				list-style: none;
+				margin-bottom: 0.8em;
+			}
+			.tags li a,
+			.tags li a:visited {
+				background: #969696;
+				color: #fff;
+				padding: 3px 6px;
+			}
+			.tags li a:hover,
+			.tags li a:visited:hover {
+				color: #fff;
+				background: #008000;
+				filter:alpha(opacity=1);
+				-moz-opacity: 1;
+				-khtml-opacity: 1;
+				opacity: 1;
+			}
+			.standfirst {
+				color: #bbb;
+				font: italic 1.143em/1.38em "Palatino","Times New Roman",Times,serif;
+				padding-top: 0.05em;
+				width: 140px;
+			}
+			.standfirst p {
+				margin-bottom: 1.36em;
+			}
+			.article_header .comments {
+				background: #333;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				color: #fff;
+				display: inline;
+				float: right;
+				font: bold 0.938em "Helvetica Neue",Arial,Helvetica,sans-serif;
+				height: 24px;
+				line-height: 15px;
+				margin-right: 0;
+				margin-top: 5px;
+				position: absolute;
+				right: 0;
+				text-align: center;
+				top: 4px;
+				width: auto;
+			}
+			.article_header .comments a {
+				color: #fff;
+				display: block;
+				padding: 4px 8px 10px;
+				text-align: center;
+			}
+			.article_header .comments:hover,
+			.article_header .comments:visited {
+				background: #D53C2E;
+				color: #fff;
+			}
+			.article_header .comments:active {
+				margin-top: 6px;
+			}
+			.article_header .comments a:active {
+			}
+			.article_header .comments:hover a,
+			.article_header .comments:hover a:hover {
+				background-position: 7px -6px;
+				top: 0;
+			}
+
+			#fs {
+				background: none;
+				border-top: 1px solid #ececec;
+				clear: both;
+				float: left;
+				height: 100%;
+				margin-top: 1.429em;
+				padding-bottom: 1em;
+				position: relative;
+				width: 100%;
+			}
+			.post_info {
+				font-size: 0.938em;
+				margin-bottom: 18px;
+			}
+			.post_info p {
+				margin-bottom: 0;
+			}
+			.main .post_info a:visited {
+				color: #333;
+			}
+			.main .post_info a:hover {
+				color: #D53C2E;
+			}
+			#comments {
+				margin-top: 2.65em;
+			}
+			#comments h3 {
+				margin: 26px 0 18px 0;
+			}
+			#respond {
+				margin-top: 25px;
+			}
+			#respond form {
+				margin-top: -0.143em;
+				width: 100%;	
+			}
+			#respond label {
+				font-weight: normal;
+			}
+			#respond h3 {
+				margin-bottom: 1.23em;
+			}
+			#respond input,
+			#respond textarea {
+				filter:alpha(opacity=60);
+				-moz-opacity: 0.60;
+				-khtml-opacity: 0.60;
+				opacity: 0.60;
+				-webkit-transition: opacity 0.30s linear;
+				position: relative;
+			}
+			#respond input {
+				width: 50%;
+			}
+			#respond input:hover,
+			#respond input:focus,
+			#respond textarea:hover,
+			#respond textarea:focus {
+				-moz-box-shadow: 0 0 3px #ddd;
+				-webkit-box-shadow: 0 0 3px #ddd;
+				box-shadow: 0 0 4px #ddd;
+				filter:alpha(opacity=100);
+				-moz-opacity: 1;
+				-khtml-opacity: 1;
+				opacity: 1;
+			}
+			#respond textarea {
+				height: 138px;
+				line-height: 150%;
+				width: 532px;
+			}
+			#respond .required_info {
+				top: 3px;
+			}
+			#respond form button {
+				margin-top: 7px;
+			}
+			.commentlist li {
+				list-style: none;
+				margin-bottom: 0;
+			}
+			.comment {
+				background: none;
+				border-top: 1px solid #ececec;
+				margin-left: -20px;
+				padding: 0 0 1.18em 20px;
+				position: relative;
+				width: 540px;
+			}
+			.comment.depth-2 {
+				margin-left: 40px;
+				width: 500px;
+			}
+			.comment_meta {
+				background: #ececec;
+				-moz-border-radius-bottomright: 2px;
+				-moz-border-radius-bottomleft: 2px;
+				-webkit-border-bottom-right-radius: 2px;
+				-webkit-border-bottom-left-radius: 2px;
+				border-bottom-right-radius: 2px;
+				border-bottom-left-radius: 2px;
+				font-size: 90%;
+				line-height: 120%;
+				padding: 2px 7px 3px;
+				position: absolute;
+				right: 0;
+				text-shadow: none;
+				top: 0;
+			}
+			.comment-author-admin .comment_meta,
+			.bypostauthor .comment_meta {
+				background: #333;
+			}
+			.comment cite.fn,
+			.comment .commentmetadata {
+				display: inline;
+			}
+			.comment cite.fn a {
+				color: #333;
+				font-weight: normal;
+			}
+			.comment .date {
+				color: #aaa;
+				margin: 0;
+				width: auto;
+			}
+			.comment.comment-author-admin cite.fn,
+			.comment.bypostauthor cite.fn {
+				color: #aaa;
+			}
+			.comment.comment-author-admin .date,
+			.comment.bypostauthor .date {
+				color: #888;
+			}
+			.comment.comment-author-admin,
+			.comment.bypostauthor {
+				border-top: 1px solid #333;
+			}
+			.comment-edit-link {
+				font-size: 0.857em;
+			}
+			.comment .avatar {
+				box-shadow: none;
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+				margin: -1px 4px -21px -64px;
+				position: relative;
+			}
+			.comment-author .says {
+				display: none;
+			}
+			.comment-author {
+				line-height: 120%;
+			}
+			.wp-caption-text {
+				display: none;
+			}
+			.comment_options {
+				margin-bottom: 18px;
+			}
+			.subscribe-to-comments {
+				margin-top: 1.4em;
+			}
+			#author-info {
+				background: #000;
+				-moz-border-radius: 6px;
+				-webkit-border-radius: 6px;
+				border-radius: 6px;
+				color: #eee;
+				font-size: 0.857em;
+				height: 100%;
+				margin: 0 0 28px 0;
+				overflow: auto;
+				padding: 12px 10px;
+			}
+			#author-info h4 {
+				color: #fff;
+				margin: 0;
+			}
+			#author-info p {
+				color: #777;
+				line-height: 171%;
+			}
+			#author-info p:last-child {
+				margin-bottom: 0;
+			}
+			#author-info #author-image {
+				float: left;
+				height: 80px;
+				margin: 0 10px 0 0;
+				width: 80px;
+			}
+			#author-info #author-image img {
+				border: 0;
+				box-shadow: none;
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+				margin: 0;
+			}
+			#author-info #author-bio {
+				float: right;
+				width: 430px;
+			} 
+			.post_teasers .teaser {
+				clear: both;
+				display: inline;
+				float: left;
+				list-style: none;
+				margin-bottom: 31px;
+				overflow: hidden;
+				width: 100%;
+			}
+			.wp_syntax {
+				margin-bottom: 28px !important;
+			}
+
+
+			/* 3.1 Article listing
+			----------------------------------------------- */
+			li.article_header .title {
+				margin-right: 20px;
+				width: 460px;
+			}
+			li.article_header .excerpt {
+				display: inline;
+				color: #999;
+				float: left;
+				line-height: 16px;
+				width: 240px;
+			}
+			li.article_header .excerpt p {
+				font: italic 1em/1.3em "Palatino","Times New Roman",Times,serif;
+				margin-bottom: 0;
+			}
+
+			/* 3.2 Archive listing
+			----------------------------------------------- */
+			body.template_archive #header {
+				margin-bottom: 29px;
+			}
+			body.template_archive .article_header {
+				float: left;
+				margin-bottom: 23px;
+				overflow: hidden;
+			}
+			body.template_archive .article_header.title {
+				border-bottom: 0;	
+				margin-bottom: 24px;
+			}
+			body.template_archive .article_header:last-child {
+				margin-bottom: 0;
+			}
+
+			body.template_archive .article_header .page_title {
+				margin-top: 8px;
+			}
+
+			/* 3.3 Post-specific style amends
+			----------------------------------------------- */
+			.main img.bare {
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
+			.main img.wp-image-321 { /* iPhone screenshots from 'Happy accident' */
+				margin: -6px 0 0 0;
+			}
+			.postid-217 .main img,
+			.page-id-17 .main img /* Homepage version */ {
+				margin: 17px 0 1px 0;
+			}
+			.postid-217 .main .comment .avatar,
+			.page-id-17 .main .comment .avatar {
+				margin:-1px 4px -21px -64px;
+			}
+			.postid-217 .main img.alignleft,
+			.page-id-17 .main img.alignleft /* Homepage version */  {
+				margin: -5px 20px 20px -160px;
+			}
+			.postid-217 .main h2,
+			.page-id-17 .main h2 {
+				margin-top: -0.31em;
+				padding-top: 0;
+			}
+			.page-id-17 .main img.wp-image-378,
+			.postid-335 .main img.wp-image-378 /* Wireframes sketches in 'The importance of wireframes' */ {
+				margin-right: -240px;
+			}
+
+			/* 3.4 Search results
+			----------------------------------------------- */
+			.search-results #header {
+				height: 63px;
+				margin-bottom: 0;
+			}
+			.search-results .page_title {
+				margin-bottom: 0;
+			}
+			.search-results .article_header .title {
+				margin-top: 4px;
+			}
+			.main .result_title {
+				margin-bottom: 1em;
+			}
+
+
+			/* Webkit specific styles
+			----------------------------------------------- */
+			.webkit body {
+				line-height: 1.6em;
+			}
+			.webkit h1,
+			.webkit h2 {
+				letter-spacing: -0.04em;
+			}
+			.webkit button {
+				padding-bottom: 6px;
+				padding-top: 6px;
+			}
+			.webkit .blog_nav h3 {
+				margin-bottom: 3px;
+			}
+			.webkit li.article_header .title {
+				margin-top: -22px;
+			}
+			.webkit li.article_header .excerpt {
+				margin-top: -21px;
+			}
+			.webkit #searchform button {
+				padding: 5px 9px;
+			}
+			.webkit #respond form button {
+				margin-top: 0;
+			}
+
+			/*
+			-----------------------------------------------
+			CSS3 Icing
+			-----------------------------------------------
+			*/
+
+			a,
+			#nav .on a,
+			button,
+			form input.button,
+			.submit input,
+			.button,
+			.prev_next a,
+			.prev_next a.next,
+			.prev_next a.prev,
+			h1 a .subtitle,
+			h2 a .subtitle,
+			h3 a .subtitle,
+			.article_header .comments {
+				-o-transition-duration: .55s;
+				-o-transition-property: color, background-color;
+				-webkit-transition-duration: .55s;
+				-webkit-transition-property: color, background-color;
+			}
+			.prev_next a:active,
+			button:active,
+			form input.button:active,
+			.submit input:active,
+			.tags li a:active {
+				-moz-box-shadow: 0 0 3px #888;
+				-webkit-box-shadow: 0 0 3px #888;
+				box-shadow: 0 0 3px #888;
+			}
+            
+            .tag:before, .search_query:before { content:'“'; }
+        	.tag:after, .search_query:after { content:'”'; }
+            
+			textarea { resize:both; }
+    </style>
+    
+  <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=poweronselftest%26postID=111047054797"><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=poweronselftest&amp;postID=111047054797"><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads" title="AdNauseam is absolutely brilliant.
+Blocking ads means sites lose out on revenue. But ads are usually obnoxious and distracting. So I block them.
+Even if I don’t have a problem with the ads themselves, but I do have a problem with the completely..."><script src="./Power-On Self-Test_files/tumblelog_post_message_queue.js"></script><link rel="stylesheet" type="text/css" href="./Power-On Self-Test_files/stylesheet.css"><meta name="keywords" content="advertising,adnauseam,adblock,ghostery,tracking cookies"><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995"><meta property="og:site_name" content="Power-On Self-Test"><meta property="og:title" content=""><meta property="og:url" content="http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads"><meta property="og:description" content="AdNauseam is absolutely brilliant.
+Blocking ads means sites lose out on revenue. But ads are usually obnoxious and distracting. So I block them.
+Even if I don’t have a problem with the ads themselves,..."><meta property="og:determiner" content="a"><meta property="og:type" content="tumblr-feed:video"><meta property="og:image" content="https://i.vimeocdn.com/video/496743660_295x166.jpg"><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=poweronselftest&amp;postID=111047054797"><meta property="al:ios:app_name" content="Tumblr"><meta property="al:ios:app_store_id" content="305343404"><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=poweronselftest&amp;postID=111047054797"><meta property="al:android:app_name" content="Tumblr"><meta property="al:android:package" content="com.tumblr"><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- TWITTER TAGS --><meta name="twitter:card" content="player"><meta name="twitter:title" content="poweronselftest"><meta name="twitter:description" content="AdNauseam is absolutely brilliant. Blocking ads means sites lose out on revenue. But ads are usually obnoxious and distracting. So I block them. Even if I don’t have a problem with the ads themselves,..."><meta name="twitter:image" content="https://i.vimeocdn.com/video/496743660_295x166.jpg"><meta name="twitter:player" content="https://vimeo.com/moogaloop.swf?clip_id=111943439&amp;amp;server=vimeo.com&amp;amp;fullscreen=1&amp;amp;show_title=1&amp;amp;show_byline=0&amp;amp;show_portrait=0&amp;amp;color=00ADEF"><meta name="twitter:player:width" content="400"><meta name="twitter:player:height" content="300"><meta name="twitter:url" content="http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads"><meta name="twitter:site" content="tumblr"><meta name="twitter:app:name:iphone" content="Tumblr"><meta name="twitter:app:name:ipad" content="Tumblr"><meta name="twitter:app:name:googleplay" content="Tumblr"><meta name="twitter:app:id:iphone" content="305343404"><meta name="twitter:app:id:ipad" content="305343404"><meta name="twitter:app:id:googleplay" content="com.tumblr"><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=poweronselftest&amp;postID=111047054797&amp;referrer=twitter-cards"><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=poweronselftest&amp;postID=111047054797&amp;referrer=twitter-cards"><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=poweronselftest&amp;postID=111047054797&amp;referrer=twitter-cards"><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"SocialMediaPosting","url":"http:\/\/poweronselftest.tumblr.com\/post\/111047054797\/adnauseam-is-absolutely-brilliant-blocking-ads","mainEntityOfPage":true,"datePublished":"2015-02-15T04:33:00-05:00","author":"poweronselftest","articleBody":"AdNauseam is absolutely brilliant.\nBlocking ads means sites lose out on revenue. But ads are usually obnoxious and distracting. So I block them.\nEven if I don\u2019t have a problem with the ads themselves, but I do have a problem with the completely unclear effects on my privacy for even seeing the ads,...","@context":"http:\/\/schema.org"}</script><link rel="canonical" href="http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads"><style type="text/css">.knight-rider-loader{line-height:0;white-space:nowrap;width:78px}.knight-rider-loader.small{width:39px}.knight-rider-loader.centered{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.knight-rider-loader.h-centered{position:absolute;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.knight-rider-bar{display:none;width:20px;height:20px;margin:0 3px;border-radius:5px;opacity:.5;background-color:#d0d0d0}.small>.knight-rider-bar{width:10px;height:10px;margin-left:2px;margin-right:1px;border-radius:2px}.animate>.knight-rider-bar{display:inline-block;-webkit-animation:knight-rider-oscillate ease-in-out .3s infinite alternate;animation:knight-rider-oscillate ease-in-out .3s infinite alternate}.knight-rider-bar:nth-child(1){-webkit-animation-delay:-.2s;animation-delay:-.2s}.knight-rider-bar:nth-child(2){-webkit-animation-delay:-.1s;animation-delay:-.1s}@-webkit-keyframes knight-rider-oscillate{0%{opacity:.5;-webkit-transform:scaleY(1);transform:scaleY(1)}to{opacity:1;-webkit-transform:scaleY(1.4);transform:scaleY(1.4)}}@keyframes knight-rider-oscillate{0%{opacity:.5;-webkit-transform:scaleY(1);transform:scaleY(1)}to{opacity:1;-webkit-transform:scaleY(1.4);transform:scaleY(1.4)}}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-pano-lightbox-container .tmblr-iframe--pano-lightbox{z-index:8675309;position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:none}.tmblr-pano-lightbox-container .tmblr-iframe-preloader-container{z-index:8675310;position:fixed;bottom:0;width:100%;height:100%;background:rgba(0,0,0,.92)}.tmblr-pano-lightbox-container .tmblr-pano-lightbox{display:block}.tmblr-pano-lightbox-container .tmblr-pano-lightbox--preloading{display:none}.tmblr-iframe--controls-phone-container{padding-top:43px}.tmblr-iframe--controls-phone-container .t-logo{display:none}.tmblr-iframe--controls,.tmblr-iframe--mobile-logged-in-controls{position:fixed}.tmblr-iframe--controls.iframe-controls--desktop,.tmblr-iframe--mobile-logged-in-controls.iframe-controls--desktop{top:0;right:0;width:40%;min-width:200px;height:36px;z-index:100}.tmblr-iframe--controls.iframe-controls--phone-mobile,.tmblr-iframe--mobile-logged-in-controls.iframe-controls--phone-mobile{top:0;left:0;width:100%;height:44px;padding-right:8px;z-index:10}.tmblr-iframe--controls.iframe-controls--tablet-mobile,.tmblr-iframe--mobile-logged-in-controls.iframe-controls--tablet-mobile{top:0;right:0;width:235px;height:36px;z-index:2147483646}.tmblr-iframe--desktop-logged-in-controls{position:fixed}.tmblr-iframe--desktop-logged-in-controls.iframe-controls--desktop{right:0;top:0;z-index:100}.tmblr-iframe--unified-controls{position:fixed;top:0;right:0;left:0;width:100%;height:0;z-index:100}.tmblr-iframe-compact .tmblr-iframe--unified-controls{left:auto}.tmblr-iframe-overlay.tmblr-iframe-full-width #page .logo-wrapper{display:none}@media screen and (max-device-width:568px){.tmblr-iframe-overlay.tmblr-iframe-full-width .no-image:not(.avatar-hidden) #header{padding-top:140px}}.tmblr-iframe-overlay.tmblr-iframe-full-width:not(.tmblr-iframe-themed) .top-blog-header .header-image.cover.loaded:after{display:none}.tmblr-iframe-overlay.tmblr-iframe-full-width:not(.tmblr-iframe-themed) .tmblr-iframe--unified-controls{background-image:linear-gradient(180deg,rgba(0,0,0,.4) 0,transparent);padding-bottom:10px;transition:padding-bottom .1s linear}.tmblr-iframe-overlay.tmblr-iframe-full-width:not(.tmblr-iframe-themed) .tmblr-iframe--unified-controls.tmblr-iframe--below-header{padding-bottom:0}.tmblr-iframe--follow-teaser{position:fixed;bottom:0;right:0;z-index:100;display:none}.tmblr-iframe--follow-teaser.open{display:block}.tmblr-iframe--follow-teaser.sticky-ad-visible{bottom:310px}@-webkit-keyframes iframe-app-cta-transition{0%{opacity:0;bottom:-2em}to{opacity:1}}@keyframes iframe-app-cta-transition{0%{opacity:0;bottom:-2em}to{opacity:1}}@-webkit-keyframes iframe-app-cta-dismiss-transition{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}to{opacity:0;-webkit-transform:translateY(2em);transform:translateY(2em)}}@keyframes iframe-app-cta-dismiss-transition{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}to{opacity:0;-webkit-transform:translateY(2em);transform:translateY(2em)}}body.android,body.ios{padding-bottom:50px}.tmblr-iframe--app-cta-button{display:none;position:fixed;bottom:10px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:100}.tmblr-iframe--app-cta-button.tmblr-iframe--loaded{display:block;-webkit-animation:iframe-app-cta-transition .2s ease-out;animation:iframe-app-cta-transition .2s ease-out}.tmblr-lightbox{position:fixed;top:0;bottom:0;left:0;right:0;z-index:8675309;overflow:hidden;background-color:hsla(0,0%,7%,.92)}.tmblr-lightbox .vignette{position:absolute;width:100%;height:100%;left:0;top:0;right:0;bottom:0;z-index:8675308;background-size:100% 100%}.tmblr-lightbox .lightbox-image-container{position:absolute;z-index:8675310;cursor:pointer}.tmblr-lightbox .lightbox-image-container.single-image{cursor:default}.tmblr-lightbox .lightbox-image{border-radius:3px;box-shadow:0 4px 30px #000;border-width:0;background-color:transparent}.tmblr-lightbox .lightbox-image.hide{display:none}.tmblr-lightbox .lightbox-image.placeholder{background-color:hsla(0,0%,100%,.05)}.tmblr-lightbox .lightbox-caption{position:absolute;text-align:center;font-family:Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;font-size:17px;font-weight:700;color:#fff;padding-top:20px;text-shadow:0 4px 30px #000;display:inline-block;text-rendering:optimizeLegibility}.tmblr-lightbox .lightbox-caption.hide{display:none}.hidden-body{position:relative;left:-99999px;overflow:hidden;background-color:#000}.hidden-body .show-mobile-lightbox{position:fixed;overflow:hidden;width:100%;top:0;left:0;right:0;bottom:0;z-index:8675309}.sticky-ad-wrapper{position:fixed;right:20px;bottom:-330px;border:1px solid #9da6af;border-radius:5px 0 0;background-color:#fff;z-index:100;transition:all .5s ease}.sticky-ad-wrapper .tmblr-iframe--sticky-ad{position:relative;margin-top:10px}.sticky-ad-wrapper.show{bottom:0}.sticky-ad-wrapper .ad-close-btn{position:relative;font-weight:900;margin-left:auto;margin-right:-11px;margin-top:-26px;cursor:pointer;width:20px;height:15px;text-align:center;border-radius:5px 5px 0 0;font-size:12px;line-height:1.5;border-top:1px solid #9da6af;border-left:1px solid #9da6af;border-right:1px solid #9da6af;margin-top:-16px;right:10px;background-color:#fff}.sticky-ad-wrapper .ad-close-btn .icon-x{display:none;position:relative;font-size:12px;content:'\D7';color:#9da6af}.sticky-ad-wrapper .ad-header{line-height:1;margin:5px;text-transform:uppercase;top:4px}.sticky-ad-wrapper .ad-footer,.sticky-ad-wrapper .ad-header{font-size:10px;text-align:center;color:#9da6af;position:relative}.sticky-ad-wrapper .ad-footer{bottom:12px;line-height:100%}.sticky-ad-wrapper .ad-footer a{color:#444;text-decoration:none;border-bottom:0}.sticky-darla-ad{position:fixed;bottom:-315px;right:20px;z-index:100;border-radius:5px 0 0;border:1px solid #9da6af;transition:all .5s ease;padding:10px}.sticky-darla-ad.show{bottom:0}.sticky-darla-ad .ad-close-btn{position:relative;font-weight:900;margin-left:auto;margin-right:-11px;margin-top:-26px;cursor:pointer;width:20px;height:15px;text-align:center;border-radius:5px 5px 0 0;font-size:12px;line-height:1.5;border-top:1px solid #9da6af;border-left:1px solid #9da6af;border-right:1px solid #9da6af}.sticky-darla-ad .ad-close-btn .icon-x{display:none;position:relative;font-size:12px;content:'\D7';color:#9da6af}.sticky-darla-ad .ad-footer{font-size:10px;line-height:1;text-align:center;color:#9da6af}.sticky-darla-ad .ad-footer a{color:#444;padding-left:5px;border-bottom:0;text-decoration:none}.sticky-darla-ad .ad-header{font-size:10px;line-height:1;text-align:center;margin:5px;text-transform:uppercase;color:#9da6af}.tmblr-iframe--init{width:0;height:0;opacity:0;z-index:-1;pointer-events:none}</style><script async="" src="./Power-On Self-Test_files/px.js"></script><style type="text/css">.live-photo {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; }
+  .live-photo video,
+  .live-photo img {
+    display: block;
+    max-width: 100%;
+    pointer-events: none;
+    -ms-touch-action: none;
+        touch-action: none; }
+  .live-photo video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .live-photo video::-webkit-media-controls-start-playback-button {
+      display: none; }
+  .live-photo .live-photo-icon {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='48' height='48' viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill='%23fff'%3E%3Ctitle%3ELive Photo%3C/title%3E%3Cg fill-rule='evenodd'%3E%3Cpath d='M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12-12 5.373-12 12 5.373 12 12 12zm0-2c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z'/%3E%3Cpath d='M24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-3a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4.788.63a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4.462 1.85a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm3.831 2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm2.94 3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.849 4.462a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm.63 4.788a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-.63 4.788a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-1.85 4.461a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-2.94 3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-3.831 2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-4.462 1.849a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM24 44a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-4.788-.63a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-4.462-1.85a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-3.831-2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-2.94-3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM6.13 30.288a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 25.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm.63-4.788a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.85-4.462a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm2.94-3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm3.831-2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4.462-1.849a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/%3E%3C/g%3E%3C/svg%3E") center center;
+    background-size: contain;
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+    pointer-events: none; }
+  .live-photo .live-photo-postroll,
+  .live-photo .live-photo-video {
+    opacity: 0; }
+  .live-photo .live-photo-video {
+    -webkit-filter: blur(7.5px);
+            filter: blur(7.5px); }
+  .live-photo .live-photo-keyframe,
+  .live-photo .live-photo-postroll,
+  .live-photo .live-photo-video {
+    will-change: transform, filter, opacity;
+    transition: opacity 0.5s linear, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s linear;
+    transition: transform 0.5s ease-out, filter 0.5s linear, opacity 0.5s linear;
+    transition: transform 0.5s ease-out, filter 0.5s linear, opacity 0.5s linear, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s linear; }
+  .live-photo.loading .live-photo-icon {
+    -webkit-animation: live-photo-icon-loading 0.5s linear alternate infinite both;
+            animation: live-photo-icon-loading 0.5s linear alternate infinite both; }
+  .live-photo.preview .live-photo-postroll {
+    opacity: 1;
+    transition-duration: 0s; }
+  .live-photo.active video,
+  .live-photo.active img {
+    -webkit-transform: scale(1.075, 1.075);
+        -ms-transform: scale(1.075, 1.075);
+            transform: scale(1.075, 1.075); }
+  .live-photo.active .live-photo-postroll {
+    -webkit-animation: live-photo-post-roll 1s both;
+            animation: live-photo-post-roll 1s both; }
+  .live-photo.active .live-photo-video {
+    opacity: 1;
+    -webkit-filter: none;
+            filter: none;
+    transition-delay: 0.375s;
+    transition-duration: 0.625s; }
+
+@-webkit-keyframes live-photo-icon-loading {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0.75; } }
+
+@keyframes live-photo-icon-loading {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0.75; } }
+
+@-webkit-keyframes live-photo-post-roll {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(0);
+            filter: blur(0); }
+  2% {
+    opacity: 1; }
+  37.5% {
+    opacity: 1;
+    -webkit-filter: blur(7.5px);
+            filter: blur(7.5px); }
+  100% {
+    opacity: 0; } }
+
+@keyframes live-photo-post-roll {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(0);
+            filter: blur(0); }
+  2% {
+    opacity: 1; }
+  37.5% {
+    opacity: 1;
+    -webkit-filter: blur(7.5px);
+            filter: blur(7.5px); }
+  100% {
+    opacity: 0; } }
+</style><script async="" src="./Power-On Self-Test_files/px(1).js"></script></head>
+  
+  <body id="111047054797" class=""><div class="ui_dialog_lock" style="display: none;"></div>
+		<div id="outer_wrapper">
+	    <div id="wrapper">
+	      <div id="header">
+					<h1 id="branding"><a href="http://poweronselftest.tumblr.com/">Power-On Self-Test</a></h1>
+					<ul id="nav" class="navigation">
+						<li><a href="http://poweronselftest.tumblr.com/">Home</a></li>
+    					<li><a href="http://poweronselftest.tumblr.com/archive/">Archive</a></li>
+						<li><a href="http://poweronselftest.tumblr.com/rss">RSS</a></li>
+						<li><a href="http://poweronselftest.tumblr.com/mobile">Mobile</a></li>
+	        </ul>
+					
+					<ul id="pages" class="navigation">
+						
+							
+							<li><a href="http://poweronselftest.tumblr.com/aboutthissite">About this site</a></li>
+							
+							<li><a href="http://poweronselftest.tumblr.com/aboutme">About me</a></li>
+							
+						
+							
+						
+						<li><a href="http://poweronselftest.tumblr.com/ask">Ask me something or get in touch</a></li>
+						
+           
+						
+					</ul>
+					
+					<div class="about">
+						<p>News and opinion pieces on the Internet, censorship, privacy, politics and religion. I want to make new friends, <a href="http://poweronselftest.tumblr.com/aboutme">hit me up!</a></p>
+					</div>
+				</div>
+				
+				<div class="article_header">
+					<div></div>
+				</div>
+				
+				<div class="main">
+
+            
+
+					<ol class="posts">
+						
+						<li>
+						
+						<div id="aside">
+							
+							<a href="http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads"><span class="date">15 February 2015</span></a>
+							
+
+							
+		
+							
+		          <p><a href="http://poweronselftest.tumblr.com/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads#disqus_thread">Comments</a></p>
+			        
+			
+		          
+		
+		          
+		
+							
+							<ul class="tags">
+								
+								<li>
+									<a href="http://poweronselftest.tumblr.com/tagged/advertising">advertising</a>
+								</li>
+								
+								<li>
+									<a href="http://poweronselftest.tumblr.com/tagged/adnauseam">adnauseam</a>
+								</li>
+								
+								<li>
+									<a href="http://poweronselftest.tumblr.com/tagged/adblock">adblock</a>
+								</li>
+								
+								<li>
+									<a href="http://poweronselftest.tumblr.com/tagged/ghostery">ghostery</a>
+								</li>
+								
+								<li>
+									<a href="http://poweronselftest.tumblr.com/tagged/tracking-cookies">tracking cookies</a>
+								</li>
+								
+							</ul>
+							
+							
+						</div>
+		
+	        	
+
+		        
+
+		        
+
+		        
+						<div class="post_content">
+		          <iframe src="./Power-On Self-Test_files/111943439.html" width="500" height="375" frameborder="0" title="AdNauseam - Clicking Ads So You Don&#39;t Have To" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+		          <p></p><p><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fadnauseam.io%2F&amp;t=Y2Q4OTcwNzA2YTE4YzFiNDc1MzZkY2JmZGYxN2M3YjQyZjdjNmVmNCx1cFpIZDE0YQ%3D%3D&amp;b=t%3AwxeqyFYzdQq0g6FhgIhtEw&amp;p=http%3A%2F%2Fpoweronselftest.tumblr.com%2Fpost%2F111047054797%2Fadnauseam-is-absolutely-brilliant-blocking-ads&amp;m=1" target="_blank">AdNauseam</a> is absolutely brilliant.</p><p>Blocking ads means sites lose out on revenue. But ads are usually obnoxious and distracting. So I block them.</p><p>Even if I don’t have a problem with the ads themselves, but I do have a problem with the completely unclear effects on my privacy for even seeing the ads, let alone clicking them (see: <a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHTTP_cookie%23Third-party_cookie&amp;t=YTU4NjFlZDdmNmI1MDJmYmM4MDIzOWJiZGVkZDhlMjI3ZTU4ZDQyZCx1cFpIZDE0YQ%3D%3D&amp;b=t%3AwxeqyFYzdQq0g6FhgIhtEw&amp;p=http%3A%2F%2Fpoweronselftest.tumblr.com%2Fpost%2F111047054797%2Fadnauseam-is-absolutely-brilliant-blocking-ads&amp;m=1" target="_blank">tracking cookies</a>, <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.ghostery.com&amp;t=MDVmZDYzN2EyOWNkYzRjYzVmNTZlMGJmMTNkN2JkMTJkZWFiZTdlNSx1cFpIZDE0YQ%3D%3D&amp;b=t%3AwxeqyFYzdQq0g6FhgIhtEw&amp;p=http%3A%2F%2Fpoweronselftest.tumblr.com%2Fpost%2F111047054797%2Fadnauseam-is-absolutely-brilliant-blocking-ads&amp;m=1" target="_blank">Ghostery</a>).</p><p>I am not against website owners gaining revenue, even if it’s just to keep their sites in the air. Blocking ads completely seemed a bit excessive, but no more nuanced solution was available. It looks like that has now changed!</p><p>This addon for your browser hides every ad from your view, but clicks on them as well, and loads them in the background. Any profile on you is therefore completely inaccurate, but at the same time, site owners still get revenue for their websites.<br></p><p>It seems like a decent compromise.</p><p>Edit: Unfortunately this also requires the use of Adblock Plus, which is a <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fmicrosoft-news.com%2Fmicrosoft-is-now-paying-the-company-behind-adblock-plus-tool-to-whitelist-their-ads%2F&amp;t=YTBkMzk5NmYwY2IwNDFmYThhMDNhZTBjMDY4ZWI5NmFjZjE2Y2QyYyx1cFpIZDE0YQ%3D%3D&amp;b=t%3AwxeqyFYzdQq0g6FhgIhtEw&amp;p=http%3A%2F%2Fpoweronselftest.tumblr.com%2Fpost%2F111047054797%2Fadnauseam-is-absolutely-brilliant-blocking-ads&amp;m=1" target="_blank">slighty suspicious one</a>, as far as adblockers go. I use <a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fgithub.com%2Fgorhill%2FuBlock&amp;t=MDgzZjFlZTAzMjc0ZmVkNjQyMzMwODY0ODM3ODlmOTJkNWExNzgxMSx1cFpIZDE0YQ%3D%3D&amp;b=t%3AwxeqyFYzdQq0g6FhgIhtEw&amp;p=http%3A%2F%2Fpoweronselftest.tumblr.com%2Fpost%2F111047054797%2Fadnauseam-is-absolutely-brilliant-blocking-ads&amp;m=1" target="_blank">ublock</a>&nbsp;which is nice and lightweight.</p><p></p>
+						</div>
+		        
+
+		        
+
+		        
+
+		        
+
+						</li>
+	        	
+					</ol>
+					
+					
+					
+					
+
+	        
+	
+	        
+        
+	        
+	        
+
+	      </div>
+	      
+				<div id="sidebar">
+					
+					<div class="blog_nav">
+						
+						
+	
+	        
+					<div class="prev_next">
+						
+		        <a rel="prev" href="http://poweronselftest.tumblr.com/post/110875247067">« Prev</a>
+		        
+		        
+		        <a rel="prev" href="http://poweronselftest.tumblr.com/post/110875247067">Next »</a>
+		        
+	        </div>
+					
+	
+					<form role="search" method="get" id="searchform" action="http://poweronselftest.tumblr.com/search">
+						<div class="field fld_name required input">
+							<input type="text" name="q" value="">
+							<button id="searchsubmit" type="submit">Search</button>
+						</div>
+					</form>
+					
+
+					<h3>Elsewhere</h3>
+					<ul class="social_links">
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</ul>
+					
+					<!-- Please do not remove the line below -->
+					<p class="credits">Using a slightly modified <a href="http://www.robbiemanson.com/resources/vignelli-minimal-tumblr-theme/" target="_blank">Vignelli</a> theme by Robbie Manson.</p>
+				
+					</div>
+				
+				</div>
+	
+	    </div>
+
+		</div>
+  
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target" src="./Power-On Self-Test_files/analytics.html"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?6cdac04a086dad80b43e7b790d50506f#" +
+                              "http://poweronselftest.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/post/111047054797/adnauseam-is-absolutely-brilliant-blocking-ads?route=%2Fpost%2F%3Aid%2F%3Asummary'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/post/:id/:summary';
+                    var tumblelog_id = '117714770';
+                    var yahoo_space_id = '1197719230';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1487938148&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcG93ZXJvbnNlbGZ0ZXN0LnR1bWJsci5jb21cL3Bvc3RcLzExMTA0NzA1NDc5N1wvYWRuYXVzZWFtLWlzLWFic29sdXRlbHktYnJpbGxpYW50LWJsb2NraW5nLWFkcyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wb3N0XC86aWRcLzpzdW1tYXJ5In0=&U=FOFBPNFPGG&K=a4ecd71c68ce15dbe1f8e4241f2e4110761fd014d213022036456f4eaee1b27c&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript>&lt;img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1487938148&amp;J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcG93ZXJvbnNlbGZ0ZXN0LnR1bWJsci5jb21cL3Bvc3RcLzExMTA0NzA1NDc5N1wvYWRuYXVzZWFtLWlzLWFic29sdXRlbHktYnJpbGxpYW50LWJsb2NraW5nLWFkcyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wb3N0XC86aWRcLzpzdW1tYXJ5Iiwibm9zY3JpcHQiOjF9&amp;U=FOFBPNFPGG&amp;K=f904cc1b6730fa6ff3a447514dd451109d01eb8dcbb9babe85eb668ea64877a7&amp;R="&gt;</noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=436757e3e307f277d851f6d15b7a1a18';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1487938148&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Bvd2Vyb25zZWxmdGVzdC50dW1ibHIuY29tXC9wb3N0XC8xMTEwNDcwNTQ3OTdcL2FkbmF1c2VhbS1pcy1hYnNvbHV0ZWx5LWJyaWxsaWFudC1ibG9ja2luZy1hZHMiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSIsInBvc3RzIjpbeyJwb3N0aWQiOiIxMTEwNDcwNTQ3OTciLCJibG9naWQiOiIxMTc3MTQ3NzAiLCJzb3VyY2UiOjMzfV19&U=EDIDBNHGMK&K=de4d05eae359e5d504d20ea30dacd72151b17ba6cff4c3ae39a49f7b846abdb0&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript>&lt;img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1487938148&amp;J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Bvd2Vyb25zZWxmdGVzdC50dW1ibHIuY29tXC9wb3N0XC8xMTEwNDcwNTQ3OTdcL2FkbmF1c2VhbS1pcy1hYnNvbHV0ZWx5LWJyaWxsaWFudC1ibG9ja2luZy1hZHMiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSIsInBvc3RzIjpbeyJwb3N0aWQiOiIxMTEwNDcwNTQ3OTciLCJibG9naWQiOiIxMTc3MTQ3NzAiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&amp;U=EDIDBNHGMK&amp;K=f92d96a1812be56d461c5515048336989f9f624e54994e26fee1338405dd0f5c&amp;R="&gt;</noscript><script src="./Power-On Self-Test_files/index.build.js"></script>
+<script async="" src="./Power-On Self-Test_files/cedexis.radar.js" type="text/javascript" id="tumblr-cdx"></script><div id="cdx"></div></body></html>

@@ -1,0 +1,106 @@
+.c-extern-la-premium-box {
+    background-color: #003a5a;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.c-extern-la-premium-box p {
+    color: #FFFFFF;
+    padding: 0.625rem;
+    text-align: center;
+    margin: auto;
+}
+
+.c-extern-la-register-button {
+    background-color: #f57709;
+    max-width: 18.75rem;
+    margin: auto;
+    text-align: center;
+    padding: 0.625rem 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: large;
+    display: block;
+    text-transform: uppercase;
+    font-family: MarkWebProHeavy,Arial,Helvetica,sans-serif;
+}
+
+.c-extern-la-login-button {
+    max-width: 18.75rem;
+    height: 3.125rem;
+    margin: auto;
+    text-align: center;
+    padding: 0.625rem 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    font-family: MarkWebProHeavy,Arial,Helvetica,sans-serif;
+}
+
+.c-extern-la-profile-overlay-visible nav.c-extern-la-profile-overlay {
+    display: none;
+}
+
+.c-extern-la-profile-button .o-svg {
+    /* override Funkotron width as our icon is not square */
+    width: 1.5625rem;
+}
+
+.c-extern-la-profile-overlay-visible .c-extern-la-profile-button {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav.c-extern-la-profile-overlay {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    nav.c-extern-la-profile-overlay {
+        display: none;
+    }
+
+    .c-extern-la-profile-overlay-visible .c-extern-la-profile-button svg path {
+        fill: #f18825;
+    }
+
+    .c-extern-la-profile-overlay-visible nav.c-extern-la-profile-overlay {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 909px) {
+    .c-extern-la-profile-overlay {
+        background-color: #003a5a;
+        position: absolute;
+        left: 10rem;
+        width: 55%;
+        top: 0;
+        padding: 0.9375rem;
+    }
+
+    .c-extern-la-profile-overlay .c-page-header-navigation__item{
+        display: inline;
+        padding: 0 0.625rem;
+    }
+}
+
+@media (min-width: 910px) {
+    .c-extern-la-profile-overlay {
+        background-color: #064b71;
+    }
+
+    .c-extern-la-profile-overlay-visible nav.c-page-header-navigation {
+        display: none;
+    }
+    .c-extern-la-profile-overlay-visible nav.c-extern-la-profile-overlay {
+        display: block;
+    }
+
+}
+
+.c-page-header-content__navigation--is-sticky .c-extern-la-profile-overlay {
+    background-color: #003a5a;
+}

@@ -1,0 +1,29 @@
+(function () {window.__vrl_uuid__ = "b4641a0d-0d0f-42ef-bff4-8e21106cfc98";}());
+window._vrlLoaders = window._vrlLoaders || [];
+_vrlLoaders.push({"widget_anchor":".entry-content p:nth(3)","widget_type":"admanager","siteKey":"3177bdf","widget_label":"advertisement","height":"356","width":"635","ap":"1","format":"intext","uuid":"b4641a0d-0d0f-42ef-bff4-8e21106cfc98"});
+  (function(d, t, src) {
+  var
+    vs = d.createElement("script"),
+    s = d.getElementsByTagName(t)[0],
+    scriptTag = window.VRL_CURRENT_SCRIPT;
+  vs.type = "text/javascript";
+  vs.async = true;
+  vs.src = src;
+  vs.onload = function () {
+    var checker = window.VIROOL.OpportinityChecker.create({
+      widgetUrl: "https://api.virool.com/widgets/3177bdf?ap=1&width=635&height=356&format=intext&widget_label=advertisement&widget_anchor=.entry-content%20p%3Anth(3)",
+      uuid: "b4641a0d-0d0f-42ef-bff4-8e21106cfc98",
+      site_meta: "virtual_site:observer.com",
+      scriptTag: scriptTag
+    });
+    if (checker) {
+      window.VIROOL_OPCHECKER = checker;
+      checker.startChecking();
+    }
+  };
+  delete window.VRL_CURRENT_SCRIPT;
+  setTimeout(function(){
+    s.parentNode.insertBefore(vs, s);
+  }, 5);
+})(document, "script", "https://d2csgo2zjd9423.cloudfront.net/assets/virool.opportunity-checker-advanced.js");
+    !function(t){function e(r){if(n[r])return n[r].exports;var i=n[r]={exports:{},id:r,loaded:!1};return t[r].call(i.exports,i,i.exports,e),i.loaded=!0,i.exports}var n={};return e.m=t,e.c=n,e.p="",e(0)}([function(t,e,n){t.exports=n(1)},function(t,e,n){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}for(var i=n(2),o=r(i),a=n(3),u=r(a),c=null;c=window._vrlLoaders.shift();){var s=o.default[c.widget_type];s?(c.scriptElem=u.default.find("api.virool.com(?:/|%2F)widgets.+format(?:=|%3D)(?:inline|intext)"),c.widget_anchor=c.widget_anchor||c.scriptElem,s(c)):console.log("Loader "+c.widget_type+" unknown")}},function(t,e){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n=function(t){!function(e,n,r){var i=window._vrl=window._vrl||{_e:[],embed:function(t){this._e.push(t)}};if(i.embed(t),!e.getElementById(n)){var o=e.createElement("script"),a=e.getElementsByTagName("script")[0];o.id=n,o.async=!0,o.src=r,a.parentNode.insertBefore(o,a)}}(document,"vrl-inline-loader","//d2kyu8p8gui64o.cloudfront.net/versions/widget.inline.loader.33ea353.js")},r=function(t){!function(e,n,r){var i=e.createElement(n),o=document.getElementsByTagName("script")[0];i.type="text/javascript",i.async=!0,i.src=r,i.onload=function(){window.initAdmanager(t)},o.parentNode.insertBefore(i,o)}(document,"script","//d2kyu8p8gui64o.cloudfront.net/versions/admanager.victor_with_init.min.2d8c6c7.js")},i={inline:n,admanager:r};e.default=i},function(t,e){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n;n=function(t){var e,n,r,i;return e=function(){var e;return t.currentScript?t.currentScript:"loading"===t.readyState?(e=t.getElementsByTagName("script"),e[e.length-1]):void 0},i=function(t,e){var n,r;return!!(e&&e.length>0)&&(r=t.getAttribute("src"),n=new RegExp(e),"string"==typeof r&&n.test(r))},n=function(e){var n,r,o,a;return a=t.getElementsByTagName("script"),n=function(){var t,e,n;for(n=[],t=0,e=a.length;t<e;t++)o=a[t],o.hasAttribute("src")&&!o.hasAttribute("data-vrl-taken")&&n.push(o);return n}(),r=function(){var t,r,a;for(a=[],t=0,r=n.length;t<r;t++)o=n[t],i(o,e)&&a.push(o);return a}(),r[0]},r=function(t){return t.setAttribute("data-vrl-taken","true")},{find:function(t){var i,o;try{if(o=e()||n(t))return r(o),o}catch(t){i=t,console.log("[CurrentScript] failed to find script tag: "+i.message)}}}}(window.document),e.default=n}]);

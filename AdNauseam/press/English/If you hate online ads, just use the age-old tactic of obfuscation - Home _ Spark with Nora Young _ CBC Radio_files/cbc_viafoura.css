@@ -1,0 +1,642 @@
+/* start of social header */
+#socialHeader {
+	font-size: 12px;
+}
+
+#socialHeader .box {
+	height: 157px;
+	float: left;
+	display: inline;
+	padding: 0 10px 10px 10px;
+}
+#socialHeader .profile .pic,
+#socialHeader .profile .info {
+	float: left;
+}
+#socialHeader .btnwrap {
+	position: absolute;
+	bottom: 12px;
+	right: 40px;
+}
+
+#socialHeader #socialbox3 .btnwrap {
+	position: absolute;
+	bottom: 12px;
+	left: 40px;
+}
+
+#socialHeader .button {
+	width: 181px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+	background: url('/i/img/button_sprite.jpg') no-repeat 0 0;
+}
+
+#socialHeader .button a {
+	line-height: 30px;
+}
+
+#socialHeader .button:hover {
+	background: url('/i/img/button_sprite.jpg') no-repeat 0 -31px;
+}
+#socialHeader #socialbox1 {
+	width: 371px;
+	position: relative;
+	border-right: 1px solid #d5d5d5;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e7e7e7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e7e7e7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e7e7e7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e7e7e7 100%); /* IE10+ */
+	background: linear-gradient(top,  #ffffff 0%,#e7e7e7 100%); /* W3C */
+}
+#socialHeader #socialbox2 {
+	width: 211px;
+	position: relative;
+	border-right: 1px solid #d5d5d5;
+	padding-left: 40px;
+}
+#socialHeader #socialbox3 {
+	width: 228px;
+	position: relative;
+	padding-left: 40px;
+}
+
+#socialHeader #socialbox2 p,
+#socialHeader #socialbox3 p {
+	margin-top: 9px;
+}
+
+#socialHeader h4 {
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+#socialHeader h4 span {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.profileimg {
+	margin: 0 40px 0 0;
+	float: left;
+	display: inline;
+	position: absolute;
+	bottom: 12px;
+}
+.profileimg img {
+	border: 1px solid #d5d5d5;
+}
+
+.profile .pic {
+	display: inline;
+}
+
+.profile .info {
+	display: inline;
+}
+
+#dropzone #socialHeader .featured {
+	margin: 0 0 8px 10px;
+}
+
+#dropzone #socialHeader.menucontent {
+	padding: 3px 8px 1px;
+}
+
+
+#socialHeader h4 {
+	margin: 0;
+	font-size: 18px;
+}
+
+#socialHeader .username {
+	font-size: 23px;
+	margin-bottom: 60px;
+}
+
+#gnlogin #gnloginem,
+#gnlogin #gnsocialem {
+    cursor: pointer;
+}
+/* End of social header */
+
+.cbc-vf .viafoura .vf-branding {
+	display: none;
+}
+
+.cbc-vf .viafoura .vf-moderator {
+	color: #cbcbcb;
+	background: #cbcbcb;
+	padding-left:20px;
+	background-repeat:no-repeat;
+	font-size:0;
+	position:relative;
+	width:60px;
+	height:16px;
+	display:block;
+	font-weight:bold;
+	margin-top:0;
+	background-position:3px 3px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	overflow:visible;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAIAAAC0tAIdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW1JREFUeNqUUrFOwlAUta8KRXCARCOLBgYHWIqUCQMzDPArOuripqP+Cgw6a+jUogxCAoNEF8WEhJhAoQ3qKSd5KJtN83ruPee9d+69VSzLWvv7xK+uNzodL5V6OzleoQQ/+3f3uxeXAMl2+9txALACAyAPdqlGMDNNgIPxeFKrB/p9YKzAyACD5QbBgFuni5SbSMh1ZjdJUaPQN86A9LVcohnRMOeHmX4uh3Dv5lYrFnrhMPA66c9a3T+hXEKJE8eBDXc4jDdMFOq2WniT1cpzOq2ejyfeUxv0PBrd1jSv26NvdTSaRyI7sZjX7SIzHXxs2U1loGdkgwKG4dr275atZAT6Ksv6OsoT8wGGe8lCKeBss1phCs6UUEjSwCwUGBoolz1Bs16KBeCEZakPj7gHmzmNoJFlT3w1p+i71HWUz9HwhmA+L6fxfnYqmGKsLc6Ws/QpI0uKGl8NAwxwnayBXmkALE0q//oHfwQYAMvn0ixVY+/NAAAAAElFTkSuQmCC);
+}
+
+.cbc-vf .viafoura .vf-moderator:after {
+	content:"CBC Staff";
+	display:block;
+	font-size: 11px;
+	width:80px;
+	height:20px;
+	position:absolute;
+	top:11px;
+	left:9px;
+	left:23px \0/;
+	color:#232323;
+}
+
+/* Message should be: This comment is awaiting moderation by the site administrators. */
+div.vf-spam.vf-alert {
+    display: none;
+}
+
+/* ie 9 fix */
+:root .cbc-vf .viafoura .vf-moderator:after {
+	left:9px \0/;
+}
+/* end ie 9 fix */
+
+.cbc-vf .viafoura .vf-user-title {
+	line-height:2em;
+}
+
+.cbc-vf .viafoura .vf-comment-hightlight {
+	background-color: #E21A21;
+	border-color: #E21A21;
+	color: #FFFFFF;
+	background-image:none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	filter:none;
+}
+
+.cbc-vf .viafoura .vf-trusted {
+	color: #232323;
+	text-shadow:none;
+	font-weight:bold;
+	background-color:#cbcbcb;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.cbc-vf .viafoura .vf-comment-container .vf-comment-actions a {
+	color:#115278
+}
+
+.cbc-vf .viafoura .vf-avatar-container img, div.viafoura .vf-avatar-container img{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border:1px solid #dcdcdc;
+}
+
+.cbc-vf .viafoura .vf-comment-container .vf-flag {
+    color: #115278;
+}
+
+.cbc-vf .viafoura .vf-comment-box .vf-comment-submit {
+	background-color:#095287
+}
+
+.cbc-vf .viafoura .vf-comment-box .vf-upload-item a {
+	color:#115278;
+	background-color:#f6f6f6;
+	border-right: 1px solid #D1CFCF;
+}
+
+.cbc-vf .viafoura .vf-comment-box .vf-comment-controls {
+    background: none repeat scroll 0 0 #f6f6f6;
+	border: 1px solid #D1CFCF;
+}
+
+.cbc-vf .viafoura .vf-comments .vf-login-button {
+    color: #115278;
+	filter:none;
+}
+
+.cbc-vf .viafoura  a.vf-subscribe {
+    color: #115278;
+}
+
+.cbc-vf  .viafoura .vf-alert {
+	background-color: 232323;
+	color: 000000;
+}
+
+#commentwrapper	> p {
+	clear:both;
+	padding-top:9px;
+}
+
+/* comment icon */
+.cbc-vf .cmt, #page_container .vf-counter {
+	background-position: left -127px;
+	background-image: url(/i/o/sm/v10/gfx/sprite.png);
+	background-repeat: no-repeat;
+	color: #797979;
+	font-style: normal;
+	margin: 0;
+	padding-left: 18px;
+	font: 10px arial,sans-serif;
+	display: inline-block;
+}
+
+/* most commented */
+
+/* homepage override */
+.cbcwrap #cbc-vf-most-popular .cbc-vf .viafoura ul.vf-list li.vf-item {
+    background: url("/i/news/v10/gfx/bluebullet.gif") no-repeat scroll 0 11px transparent;
+    margin: 0;
+    padding: 0px;
+    /*padding: 6px 10px 0px;*/
+}
+
+/* homepage override */
+.cbcwrap #cbc-vf-most-popular .vf-article {
+    margin: 0; padding: 0;
+}
+
+.cbcwrap #cbc-vf-most-popular .vf-article-comments {
+	/*padding-top: 5px;*/
+    padding: 0px;
+    margin: 0px;
+	float: right;
+}
+
+.cbcwrap #cbc-vf-most-popular .vf-article-title {
+	text-decoration: none;
+	font: 12px arial,sans-serif;
+	background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* homepage override */
+.cbcwrap #cbc-vf-most-popular ul {
+	margin: 0;
+	padding: 0;
+	font: bold 11px Arial,sans-serif;
+	background: none;
+	overflow: visible;
+}
+
+/* homepage override */
+.cbcwrap #cbc-vf-most-popular ul li
+{
+	/*padding-left: 5px;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+/* homepage override */
+.cbcwrap #cbc-vf-most-popular ul li a
+{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* homepage override */
+.cbcwrap #cbc-vf-most-popular
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* most popular widget */
+.cbc-vf .viafoura ul li.vf-item {
+    background: url("/i/news/v10/gfx/bluebullet.gif") no-repeat scroll 0 11px transparent;
+    margin: 0;
+    padding: 0;
+    /*padding: 6px 10px 0px;*/
+}
+
+/* most popular widget */
+.cbc-vf .viafoura ul li.vf-item a {
+	color: #115278;
+	text-decoration: none;
+	font: 12px arial,sans-serif;
+}
+
+/* modal dialogs */
+div.viafoura .vf-modal .vf-header .vf-modal-title {
+    padding-left:35px;
+	height:28px;
+	padding-top:5px;
+	margin-top:5px;
+	position:relative;
+	font-size:0;
+	background-repeat:no-repeat;
+	/* login banner gem logo*/
+	background-image: url(data:image/png;base64,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);
+
+}
+
+div.viafoura .vf-modal .vf-user-signup .vf-header  .vf-modal-title:after {
+	content:"Sign Up";
+	width:300px;
+	position:absolute;
+	top:5px;
+	left:40px;
+	color: #F0F0F0;
+	font-size: 16px;
+	text-shadow: 0 1px 0 #333;
+	font-weight: bold;
+}
+
+div.viafoura .vf-modal .vf-user-login .vf-header  .vf-modal-title:after {
+	content:"Log in";
+	width:300px;
+	position:absolute;
+	top:5px;
+	left:40px;
+	color: #F0F0F0;
+	font-size: 16px;
+	text-shadow: 0 1px 0 #333;
+	font-weight: bold;
+}
+
+div.viafoura .vf-password-retrieval .vf-header .vf-modal-title:after {
+	content:"Forgot Password?";
+	width:300px;
+	position:absolute;
+	top:5px;
+	left:40px;
+	color: #F0F0F0;
+	font-size: 16px;
+	text-shadow: 0 1px 0 #333;
+	font-weight: bold;
+}
+
+div.viafoura .vf-viafoura-login .vf-social-icon {
+	/* login tab gem logo */
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAIAAAC0tAIdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW9JREFUeNqMUrtOAlEQvezCymoFBa1+APGJIWjoKKm10lAIiTZ+CLWY0JBoI9Yk2pPwSNBEQyiw0YZECsEH7sKCeO4eXIw0TnYnZ87M3ntmZsV4xl6SyefVNfjZlCJs62VOO3v7AEb+UhimpAxTYiHAI8syN0sH5TLAoFo1CwWrXgemV5cWJW9nF44OFSeQoFiE9wSDjrdubicp1lBQv1J5T6eJPy/ynYNkL5djCB5ZYje1QgDP6KRSUAwZY9Psl0q+bNa6u8czenzSd3fU41Zr2GggrQYC47fXUfOBir/abdXvF5Y1bDblx92ueX3lwrDEj2mh0KBWE7/sD+P2bIZ4Ndqai8UggGezUW17i4xsWvcqUOaNxzkBKAM1nYnunU8kiFGDyulMPk4yxJgGZoLJMATvzMSFl1uUZ6wso32uhjdokYizDd/5mUJq0lM06myR3rOxPknZNQpXykALh50eqBUMS1Ez3eU//8FvAQYA+5RDbFDRmBwAAAAASUVORK5CYII=);
+
+}
+
+div.viafoura .vf-viafoura-login {
+	font-size:0;
+	position:relative;
+}
+
+div.viafoura .vf-viafoura-login:after {
+	content:"CBC Member";
+	position:absolute;
+	top:12px;
+	left:38px;
+	height:30px;
+	width:140px;
+	display: block;
+	line-height: 17px;
+	font-weight: bold;
+	font-size:12px;
+	color: #444;
+}
+
+div.viafoura .vf-form .vf-form-title {
+	visibility:hidden;
+}
+
+div.viafoura  .vf-form input[type='submit'] {
+	/*background-color:#095287;*/
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #115278;
+	background-image:none;
+	border:1px solid #b2b3b2;
+	color:#ffffff;
+}
+
+div.viafoura .vf-modal .vf-header {
+	background:none;
+	background-color:#000000;
+	filter:none;
+	padding:9px;
+}
+
+div.viafoura .vf-header {
+	background:none;
+	background-color:#000000;
+	text-shadow:none;
+	color:#ffffff;
+}
+
+div.viafoura .vf-user-profile .vf-user-meta {
+	background-color:#545454;
+	text-shadow:none;
+}
+
+div.viafoura .vf-avatar-options a, div.viafoura a.vf-link, div.viafoura a.vf-link:visited, div.viafoura a.vf-link:hover  {
+	background-color: #115278;
+    color: white;
+    padding: 5px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+}
+
+div.viafoura .vf-user-profile .vf-account-options {
+	background-color:#ffffff;
+	background-image:none;
+}
+
+div.viafoura .vf-tabs li.vf-current {
+	margin-top:1px;
+}
+
+div.viafoura .vf-tabs li a, div.viafoura .vf-tabs li.vf-current a {
+	color:#115278;
+}
+
+div.viafoura .vf-login-options .vf-social-button.vf-current {
+	background-color:#ffffff;
+	background-image:none;
+	filter:none;
+}
+
+div.viafoura.info {
+	display:none
+}
+
+.viafoura .vf-form label {
+    cursor: default;
+}
+
+.cbc-vf .viafoura .vf-rank
+{
+	display: none;
+}
+
+.cbc-vf .cmt {
+	background-position: left -129px;
+	background-image: url(/i/o/sm/v10/gfx/sprite.png);
+	background-repeat: no-repeat;
+	color: #797979;
+	font-style: normal;
+	margin: 0;
+	padding-left: 18px;
+	font: 10px arial,sans-serif;
+	display: block;
+}
+
+.viafoura .vf-comments-sort {
+	width: auto;
+}
+
+.viafoura .vf-login-options .vf-facebook-login.vf-social-button,
+.viafoura .vf-login-options .vf-google-login.vf-social-button,
+.viafoura .vf-login-options .vf-viafoura-login.vf-social-button {
+	height: auto;
+}
+
+/* Hide comment counts on the news page until fixed. */
+#newsheadlines .vf-counter.vf-widget
+{
+    display: none;
+}
+
+/* Hide the most popular widget on the news page until fixed. */
+#mostpopular li.tab2
+{
+        display: none;
+}
+
+#regional .yui3-tabview-list li.tab2.yui3-tab.yui3-widget
+{
+        display: none;
+}
+
+/* Set link colors for dropzone buttons */
+#mainbox1 #socialbox1 a:link      { color: black; text-decoration: none; }
+#mainbox2 #socialbox2 a:link      { color: black; text-decoration: none; }
+#mainbox2 #socialbox3 a:link      { color: black; text-decoration: none; }
+
+#mainbox1 #socialbox1 a:visited   { color: black; text-decoration: none; }
+#mainbox2 #socialbox2 a:visited   { color: black; text-decoration: none; }
+#mainbox2 #socialbox3 a:visited   { color: black; text-decoration: none; }
+
+#mainbox1 #socialbox1 a:hover     { color: black; text-decoration: none; }
+#mainbox2 #socialbox2 a:hover     { color: black; text-decoration: none; }
+#mainbox2 #socialbox3 a:hover     { color: black; text-decoration: none; }
+
+#mainbox1 #socialbox1 a:active    { color: black; text-decoration: none; }
+#mainbox2 #socialbox2 a:active    { color: black; text-decoration: none; }
+#mainbox2 #socialbox3 a:active    { color: black; text-decoration: none; }
+
+#socialHeader h3 { color: black; }
+#socialHeader h4 { color: black; }
+
+#socialHeader .username { color: black; }
+
+/* Fix for Polopoly sites */
+#socialHeader .button { padding: 0; color: black; }
+
+/* Fix for Gigya Google Annotation Bubble */
+/*#___plusone_1 {
+    width: 60px !important;
+}*/
+
+/* CSS Hotfixen for Comment Counts (need to get these into Podium) */
+.vf-counter.vf-widget
+{
+     color: #797979;
+      font: 10px arial,sans-serif;
+}
+
+/* CSS Hotfix for Heartbleed message. */
+/*.vf-user-login > .vf-header:after
+{
+    content: "With regard to reports about the recent 'Heartbleed' bug, there is no indication that any user data or personal information on CBC.ca has been compromised, however we have taken steps to patch any possible vulernabilites and we recommend that as a precaution you reset your password.";
+}*/
+
+/* Sharebar styling */
+#sharecount div.gig-button-container {
+    border-bottom: 1px solid #c4c4c4;
+    width: 100%;
+}
+
+#sharecount div.gig-bar-container.gig-share-bar-container > table {
+    width: 100%;
+}
+
+#sharecount div#totalshares.gig-button-container {
+    padding-bottom: 5px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+
+#storytools {
+		padding: 20px 0;
+		border-width: 2px 0;
+		border-style: solid;
+		border-color: lightgrey;
+		margin: 35px 0;
+    text-align: left;
+}
+
+#sharetools {
+		margin: 0;
+}
+
+#storytools #sharetools_gig_containerParent {
+    display: inline-block;
+    margin: 0;
+		padding-left: 0;
+}
+
+#sharetools .gig-button-container {
+    padding: 0;
+		margin-bottom: 0;
+}
+
+.feedback-links {
+		float: right;
+		padding: 5px 0;
+}
+
+.feedback-links .storytool {
+		padding: 0 4px;
+		margin-right: 0;
+		font-size: 12px;
+		font-weight: bold;
+}
+
+.feedback-links .error {
+		border-right: solid 2px grey;
+}
+
+.feedback-links .feedback {
+		padding-left: 2px;
+}
+
+/* MAINT-929 “Sign up” form name field - My Profile - Settings and Sign Up */
+.vf-user-content  .vf-user-options .vf-form-title + label, .vf-user-signup .vf-form-title + label {
+ 	font-size: 0;
+}
+
+.vf-user-content .vf-user-options .vf-form-title + label:after, .vf-user-signup .vf-form-title + label:after {
+    content: "Full Name";
+    font-size: 13px;
+}

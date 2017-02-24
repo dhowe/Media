@@ -1,0 +1,101 @@
+@page {
+margin: 0.5cm;
+}
+
+body {  background: white; font-size: 12pt; }
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid; 
+     page-break-inside:avoid }
+img { page-break-inside:avoid; 
+     page-break-after:avoid; }
+blockquote, table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+
+.page-body .content-body li {border:none !important}
+img {display:none !important;}
+
+/* Span width, remove formatting */
+
+.wrap8 {display:100%; float:none;}
+.landing-primary, .story-primary ,.featured-segment .topstories-episodetitle {
+  border: none;
+  margin: 10px 0;
+    width: auto;
+	padding:0;
+}
+.show-info-content h1 {
+  display: block;
+}
+.show-highlight-single .blogroll-body.module-body, .show-highlights .blogroll-body.module-body, .show-highlights .promocollection-body.module-body, .show-highlight-single .promocollection-body.module-body {
+	right: auto;
+	max-width: none;
+	position: relative;
+	width: 100%;
+	float: none;
+	margin: 10px 0;
+}
+.latest-episode .topstories-main > p, .featured-segment .topstories-main > p {width:100%; border:none; padding:0;}
+
+/* END Span width, remove formatting */
+
+.content-body, .pagewidth, .page-head-inner, .page-body-inner, .page-foot-inner, .pagewidth_padded {margin:0; float:none; max-width:100%}
+.topstories-episodemeta {float:none; width:100%; border:none; padding:0;}
+.featured-segment .topstories-episodetitle, .latest-episode .topstories-episodetitle {padding:0; float:none; clear:none; }
+
+.show-highlights .blogroll-primarylist {float:none;}
+.show-highlights .blogroll-main, .show-highlight-single .blogroll-main {
+	float: none;
+	padding: 0px;
+}
+.show-highlights, .show-highlight-single {border:none; background:none; margin:0;}
+.topstories-episodemeta > p {padding:0; float:none; color:#000;}
+.featured-segment .topstories-episodeairdate {float:none; width:100%; }
+.hgroup a:link, .hgroup a:active, .hgroup a:hover, .hgroup a:visited, .hgroup a:focus {color:#000;}
+#header-container, #header, .show-info-content, .site-header .hgroup, .content-header {height:auto; max-width:auto; margin:0; background:none; color:#000; background-color:none; top:auto; position:static;}
+#header-container, #header, .show-info-content, .site-header .hgroup, .content-header {
+	margin: 10px 0;
+	color: #000;
+	height: auto;
+	overflow: visible;
+	background: transparent none repeat scroll 0% 0%;
+}
+.topstories {
+	width: 100%;
+	margin: 20px 0;
+	border: 0px none;
+	background: transparent none repeat scroll 0% 0%;
+}
+.landing-primary .topstories, .story-primary .topstories {
+	max-width: none;
+}
+.show-info-content h1, .site-header h2, .site-header h1  {text-shadow:none; font-size:18pt;color:#000;}
+.show-highlights li.blogroll {
+  border: 0 none;
+  float: none;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding-bottom: 0;
+  width: auto;
+  list-style:disc;
+  font-size:12pt;
+}
+
+input.button.colfull, .browse-past-bottom  , .btTop {display:none;}
+
+.segment-body .segment-content.clearfix .segment-middle, div#nav, footer#cbc-globalfooter, nav#cbc-globalnav,.page-head,.topstories-fullepisodelink,.segment-leadshare, video,audio,embed,object, .media-play, .landing-secondary, .story-secondary,.offscreen, .media-popup.audio, .radio_banner,.segment-page, .mobile-menu,.browse-past, .featured-segment .topstories-main > a.media-play:nth-child(4) {display:none !important;}
+.transcript-content h4.fullep,  .transcript-content .cbc-caffeine-outer-container {display:none !important;}
+.segment-content {
+  margin-top: 25px;
+  min-height: auto;
+  padding: 0;
+  position: relative;
+}
+
+p, .bodytext, .story-body {
+  font-size: 12pt;
+}
+
+.blogroll, .topstories-segments li, .topstory {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}

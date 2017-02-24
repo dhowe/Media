@@ -1,0 +1,1 @@
+kalooga.define([],function(){ return {aid:66428782, state:'published'}; });

@@ -1,0 +1,34 @@
+.enervee-charge-background-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #b4b4b4;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99999;
+}
+
+.enervee-charge-modal-dialog {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#enchrg-container-close {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+  color: #55acee !important;
+  cursor: pointer;
+}

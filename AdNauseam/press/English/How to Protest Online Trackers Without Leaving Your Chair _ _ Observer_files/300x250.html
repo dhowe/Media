@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- saved from url=(0477)https://cdn-html.adsfactor.net/creatives/18020/V2/300x250/300x250.html?clickTAG=http://sin1-ib.adnxs.com/click?z-PNqPoxxD-B6F_eKoG_PwAAAEAzMxtADvIfd7bsxz9A-5EiMqzOP4qCwBiwX14xBq1MvlxDdxaaIrBYAAAAAKiolgC9GwAA1g4AAAIAAABPY8MD3PMQAAAAAABVU0QAVVNEACwB-gBqMwAAAAABAQUCAQAAAK4AOyZjdQAAAAA./cnd=%21xwnkywiq9sMHEM_GjR4Y3OdDIAAoipygmg0xAAAAAAAAAAA./bn=70774/referrer=http%3A%2F%2Fobserver.com%2F2016%2F07%2Fadnauseum-hope-xi-daniel-howe%2F/clickenc=https://promo.galaxymacau.com/r/r1ctf -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>300x250</title>
+<!-- write your code here -->
+
+
+<script src="./createjs-2015.11.26.min.js"></script>
+<script src="./300x250.js"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	// --- write your JS code here ---
+	
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib._300x250();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+	stage.enableMouseOver();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script>
+
+<!-- write your code here -->
+
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;" marginwidth="0" marginheight="0">
+	<canvas id="canvas" width="300" height="250" style="background-color: rgb(255, 255, 255); cursor: pointer;"></canvas>
+
+
+</body></html>
