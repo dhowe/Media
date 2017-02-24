@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0053)https://dda.regmedia.co.uk/research/mpu.html?20160317 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Tech Whitepapers</title>
+<style type="text/css">
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 10pt;
+  clear: left;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #fff;
+}
+
+h4 {
+  font-weight: bold;
+  color: #fff;
+  padding: 5px;
+  margin: 0;
+}
+#Box p {
+  padding: 6px;
+  margin: 0;
+}
+
+#Box a:hover {
+  text-decoration: underline;
+}
+
+#Box a {
+  text-decoration: none;
+}
+  
+body {
+  width: 300px;
+}
+
+h4 {
+  background-color: #CCC;
+  color: #333;
+}
+
+#Box p.Alt {
+  background-color: #EEE;
+}
+
+#Box p {
+  background-color: #FFF;
+}
+
+#Box a {
+  color: #333;
+}
+</style>
+<script type="text/javascript">
+function ShufflePapers() {
+  for (var i = Papers.length - 1;  i >= 0;  i--) {
+    var j = Math.floor((i + 1) * Math.random());
+    var tmp = Papers[j];
+    Papers[j] = Papers[i];
+    Papers[i] = tmp;
+  }
+}
+function TdCreateLinks(traffic_driver) {
+  var box = document.getElementById('Box');
+  for (var i = 0;  i < Papers.length && i < 5;  i++) {
+    var p = document.createElement('p');
+    if (i % 2) p.setAttribute('class', 'Alt');
+    var a = document.createElement('a');
+    a.setAttribute('target', '_blank');
+    var tracker = traffic_driver;
+    if (Papers[i].xp != -1) tracker += '_'+Papers[i].xp;
+    a.setAttribute('href', 'http://go.theregister.com/wp/'+tracker+'/'+ Papers[i].url + '?td='+tracker);
+    a.appendChild(document.createTextNode(Papers[i].title));
+    p.appendChild(a);
+    box.appendChild(p);
+  }
+}
+</script><script type="text/javascript">
+function CreateLinks() { 
+  ShufflePapers();
+  TdCreateLinks('mpu');
+}
+</script><script type="text/javascript">
+var Papers = [
+  {url:'5460/gdpr-centralise-unstructured-data-governance-across-on-premises-and-cloud.pdf', title:'GDPR: Centralise Unstructured Data Governance across On-Premises and Cloud', xp:-1},
+  {url:'5541/at-papstar-gmbh-malware-no-longer-crashes-the-party.pdf', title:'At PAPSTAR GmbH, malware no longer crashes the party', xp:-1},
+  {url:'5483/secure-devops-survival-guide.pdf', title:'Secure DevOps Survival Guide', xp:-1},
+  {url:'5546/scality-ring-organic-storage-security-white-paper.pdf', title:'Scality RING organic storage security white paper', xp:-1},
+  {url:'5396/technology-as-a-catalyst-for-cultural-change.pdf', title:'Technology as a catalyst for cultural change', xp:-1},
+  {url:'5115/your-top-5-cloud-data-challenges-solved.pdf', title:'Your top 5 cloud Data challenges solved', xp:-1},
+  {url:'5022/detecting-malware-and-viruses-in-a-dynamic-threat-environment.pdf', title:'Detecting malware and viruses in a dynamic threat environment', xp:-1},
+  {url:'5482/veracode-secure-development-survey.pdf', title:'Veracode Secure Development Survey', xp:-1},
+  {url:'5543/worldwide-object-based-storage-2016-vendor-assessment.pdf', title:'Worldwide object-based storage 2016 vendor assessment', xp:-1},
+  {url:'5020/how-to-protect-your-business-from-ransomware.pdf', title:'How to protect your business from ransomware', xp:-1},
+  {url:'5545/modern-backup-ebook.pdf', title:'Modern backup eBook', xp:-1},
+  {url:'5540/why-layered-security-is-important.pdf', title:'Why layered security is important', xp:-1},
+  {url:'5542/the-total-economic-impact-of-scality-ring-with-dell-storage-servers.pdf', title:'The total economic impact of Scality RING with Dell storage servers', xp:-1},
+  {url:'5539/why-layered-security-is-important.pdf', title:'Why layered security is important', xp:-1},
+  {url:'5544/natixis-moves-to-scality-to-improve-durability-and-increase-performance.pdf', title:'Natixis moves to scality to improve durability and increase performance', xp:-1},
+  {url:'5538/why-layered-security-is-important.pdf', title:'Why layered security is important', xp:-1},
+  {url:'5535/the-business-case-for-layered-security.pdf', title:'The business case for layered security', xp:-1},
+  {url:'5536/calculating-the-return-on-investment-in-layered-security.pdf', title:'Calculating the return on investment in layered security', xp:-1},
+  {url:'5024/ur-and-penn-refuses-to-give-malware-the-time-of-day.pdf', title:'Ur and Penn refuses to give malware the time of day', xp:-1},
+  {url:'5021/understanding-the-depth-of-the-global-ransomware-problem.pdf', title:'Understanding the depth of the global ransomware problem', xp:-1},
+  {url:'5023/why-layered-security-is-important.pdf', title:'Why layered security is important', xp:-1},
+  {url:'3941/cloud-security-temperature-check.pdf', title:'Cloud Security Temperature Check', xp:-1}
+];
+</script>
+</head>
+<body onload="CreateLinks()">
+<h4>Whitepaper Downloads</h4>
+<div id="Box"><p><a target="_blank" href="http://go.theregister.com/wp/mpu/5542/the-total-economic-impact-of-scality-ring-with-dell-storage-servers.pdf?td=mpu">The total economic impact of Scality RING with Dell storage servers</a></p><p class="Alt"><a target="_blank" href="http://go.theregister.com/wp/mpu/5539/why-layered-security-is-important.pdf?td=mpu">Why layered security is important</a></p><p><a target="_blank" href="http://go.theregister.com/wp/mpu/5396/technology-as-a-catalyst-for-cultural-change.pdf?td=mpu">Technology as a catalyst for cultural change</a></p><p class="Alt"><a target="_blank" href="http://go.theregister.com/wp/mpu/5545/modern-backup-ebook.pdf?td=mpu">Modern backup eBook</a></p><p><a target="_blank" href="http://go.theregister.com/wp/mpu/5022/detecting-malware-and-viruses-in-a-dynamic-threat-environment.pdf?td=mpu">Detecting malware and viruses in a dynamic threat environment</a></p></div>
+
+
+</body></html>

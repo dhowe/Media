@@ -1,0 +1,1253 @@
+@charset "utf-8";
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+.page-head{background-color:#1A1A1A}
+.hide,.mobile-menu,.r-mobile,.tablet{display:none}
+html.mobile,html.tablet{display:block}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;box-sizing:border-box;overflow:visible!important}
+*,:before,:after{box-sizing:inherit}
+body{margin:0}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+em{font-weight:400;font-style:italic}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:0;margin:0 2px;padding:20px 0}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+.GoogleActiveViewClass > a > img{position:absolute;left:220px}
+
+
+#more{clear:both}
+.sticky .socialcomments-link{display:none}
+.page-foot-inner{font-size:12px}
+#header{height:260px;margin:0 auto;width:100%}
+#header-container{height:260px;margin:0 auto;max-width:1280px}
+.content-header{margin:0 auto;width:100%;background-size:100% 100%}
+.blogroll div[id*="page"]{float:left;height:40px;margin-bottom:25px;margin-top:10px;text-align:center;width:100%}
+.blogroll div[id*="page"] input{color:#fff;padding:10px;background-color:#4f8ec4;border:0 none;border-radius:4px;text-transform:uppercase}
+.blogroll div[id*="page"] input:hover{background-color:#595959}
+.site-header{position:relative;height:247px}
+.site-header .hgroup{color:#fff;display:block;height:151px;margin-left:32%;padding:40px 0 20px}
+.hgroup a:link,.hgroup a:active,.hgroup a:hover,.hgroup a:visited,.hgroup a:focus{color:#fff;text-decoration:none}
+.site-header h2,.site-header h1{color:#fff;display:block}
+.show-info-content{height:210px;margin:0 auto;max-width:1280px;position:relative;top:50px;width:100%}
+.show-info-content h1{font-family:'Roboto Slab',serif;font-size:53px;font-size:5.3rem;text-shadow:1px 1px 1px rgba(0,0,0,1);line-height:1;white-space:nowrap}
+.show-info-content h2{font-weight:400;font-size:18px;font-size:1.8rem;text-shadow:1px 1px 1px rgba(0,0,0,1)}
+a.listen-live{background:url(http://www.cbc.ca/radio-content/assets/images/icon-listenlive.png) no-repeat scroll 8px center;border-radius:4px;color:#fff;display:block;font-size:1.4rem;font-weight:700;padding:5px 15px 5px 35px;text-transform:uppercase;background-color:rgba(0,0,0,0.4);border:1px solid rgba(0,0,0,0.4)}
+.ie8 .listen-live{border:0}
+.listen-live:after{clear:both}
+a.listen-live:hover,a.listen-live:active,a.listen-live:focus{color:#fff;text-decoration:underline}
+#nav .nav-pills .search-container{margin-bottom:-8px}
+.sb-search{position:relative;margin-top:10px;width:0;min-width:15px;height:30px;float:left;overflow:hidden;-webkit-transition:width .3s;-moz-transition:width .3s;transition:width .3s;-webkit-backface-visibility:hidden}
+.ie8 .sb-search,.ie7 .sb-search{width:180px}
+.sb-search-input{position:absolute;top:0;left:0;border:0;outline:none;background:rgba(0,0,0,0);width:100%;height:30px;margin:0;z-index:10;padding:5px 25px 5px 20px;font-family:inherit;font-size:12px;color:#000}
+.sb-search-input::-webkit-input-placeholder{color:#000}
+.sb-search-input:-moz-placeholder{color:#000}
+.sb-search-input::-moz-placeholder{color:#000}
+.sb-search-input:-ms-input-placeholder{color:#000}
+.sb-icon-search,.sb-search-submit{width:30px;height:30px;display:block;position:absolute;left:0;top:0;padding:0;margin:0;line-height:30px;text-align:center;cursor:pointer}
+.sb-search-submit{background:#fff;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);opacity:0;color:transparent;border:0;outline:none;z-index:-1}
+.sb-icon-search{background:url(http://www.cbc.ca/radio-content/assets/images/radio-sprite.png) no-repeat scroll 0 -197px rgba(0,0,0,0);font-size:22px;font-style:normal;font-variant:normal;font-weight:400;height:14px;text-transform:none;top:10px;z-index:90}
+.sb-search.sb-search-open,.no-js .sb-search{width:220px;background-color:#fff}
+.sb-search.sb-search-open .sb-icon-search,.no-js .sb-search .sb-icon-search{background:transparent;color:#000;z-index:11}
+.sb-search.sb-search-open .sb-search-submit,.no-js .sb-search .sb-search-submit{z-index:90}
+.ie8 #header-container{margin:0 auto}
+.listenlive{margin-left:.8em;float:left;line-height:1}
+.pull-right{float:right}
+.region{margin:0;font-size:1em}
+.np-region{display:inline;float:right;width:100px;text-align:right}
+.active{border-bottom:3px solid #fff;font-weight:400}
+.nav.nav-pills li{position:relative;padding:0 10px}
+.nav.nav-pills > li:first-child{padding:0}
+.nav.nav-pills > li:first-child > a{margin:8px 12px 0 0}
+.nav.nav-pills > li > a{color:#fff;margin:8px 10px 0;padding:0 0 15px;text-transform:uppercase;font-size:14px;font-size:1.4rem;border-bottom:3px solid rgba(0,0,0,0)}
+.nav.nav-pills > li > a:hover,.nav.nav-pills > li > a:focus{border-bottom:3px solid #fff;font-weight:400;text-decoration:none;margin-bottom:-3px}
+.nav.nav-pills > .active > a,.nav.nav-pills > .active > a:hover,.nav.nav-pills > .active > a:focus{border-bottom:3px solid #fff;font-weight:700;text-decoration:none}
+.nav.nav-pills > li.search-link > a:hover,.nav.nav-pills > li.search-link > a:focus,.nav.nav-pills li ul li a:hover{border-bottom:none;font-weight:700;text-decoration:none}
+.nav.nav-pills > li > a.active{border-bottom:3px solid #fff;font-weight:700;font-weight:bold}
+.nav.nav-pills li ul{background-color:rgba(0,0,0,0.9);border-radius:4px;left:-99999px;padding:15px 5px 10px;position:absolute;top:48px;z-index:99;box-shadow:1px 1px 3px #666}
+.features-drop:before{position:absolute;top:-7px;left:50.5%;display:inline-block;border-right:7px solid transparent;border-bottom:7px solid #fff;border-left:7px solid transparent;border-bottom-color:rgba(0,0,0,0.2);content:''}
+.features-drop:after{position:absolute;top:-6px;left:50%;display:inline-block;border-right:6px solid transparent;border-bottom:6px solid #000;border-left:6px solid transparent;content:''}
+.nav.nav-pills li ul li a{line-height:35px;font-size:15px;font-size:1.5rem;color:#fff;height:auto}
+.nav.nav-pills li a{color:#fff;padding:0;display:block;line-height:50px;height:50px}
+.nav.nav-pills li:hover > ul{left:-15px;top:48px}
+.show_nav > ul li:hover > a{border-bottom:3px solid #fff;font-weight:400;text-decoration:none;margin-bottom:-3px}
+#nav .nav.nav-pills li ul.features-drop{left:-50%;top:48px}
+.bigbox .ad-300x250{padding:14px 0 0;margin:0}
+.cbc-big-box-ad{background:url(data:image/gif;base64,R0lGODlhVQAJAIABAKqqqv///yH5BAEAAAEALAAAAABVAAkAAAJZjI+py+0Po5y0WgTyyTqAbXCfx4ViaHbn6KUfO4psAqNo3WKgfSuzpsLEdA0Z77UruYg2JWmIfPZ+Dpw1hz3ueE3mMEktgjvcExZ3c67G0ezsAo/L5/S6pQAAOw==) no-repeat scroll center top rgba(0,0,0,0);margin:20px auto;padding:14px 0 0;width:300px;height:250px}
+.ad-wrap-300x250{overflow:hidden;margin-top:20px}
+.itunes-module,.archive-module{display:block;margin-top:25px}
+.itunes-module p,.archive-module p{margin:0;padding:0;line-height:1}
+.itunes-module h2,.archive-module h2{border-bottom:1px solid #cbcbcb;font-weight:700;padding-bottom:8px;margin:0}
+.itunes-link,.archive-module-link{width:100%;display:block;border-bottom:1px solid #cbcbcb}
+.itunes-download{display:block}
+a.itunes-download{color:#333;padding:10px 0;line-height:1;font-size:15px;font-size:1.5rem;background:url(http://www.cbc.ca/radio-content/assets/images/badge_itunes-sm.png) no-repeat right}
+.itunes-module a:hover,.archive-module a:hover{color:#4f8ec4}
+.radiotile{padding-top:20px}
+.archive-module-link a{color:#333;font-size:1.5rem;line-height:1;padding:10px 0;display:block}
+.archive-link{display:block}
+a.archive-link{color:#333;padding:10px 0;line-height:1;font-size:15px;font-size:1.5rem}
+table{border-collapse:collapse;border-spacing:0}
+html,body{margin:0;padding:0}
+img{display:block}
+ul{padding-left:1em}
+html{font:62.5%/1.35 'Open Sans',clean,sans-serif}
+body{background:#fff;color:#000;font:62.5%/1.35 'Open Sans',clean,sans-serif}
+h4,.hD,.blogroll-headline,.episode-airdate,.segment-airdate,.segment-teaserheadline{color:#000;font-size:16px;font-size:1.6666666rem;font-weight:700}
+h1{color:#000;font-size:26px;font-size:2.3333rem;font-weight:700}
+h2{color:#000;font-size:20px;font-size:1.66667rem;font-weight:700}
+h3{color:#000;font-size:18px;font-size:1.5rem;font-weight:700}
+h4{color:#000;font-size:16px;font-size:1.33333rem;font-weight:700}
+h5{color:#000;font-size:16px;font-size:1.6rem;font-weight:700}
+h6{color:#000;font-size:13px;font-size:1.08333rem;font-weight:700}
+.blogentry-body,.episode-content,.segment-content,.segment-page li a,.segment-page li span{font-size:16px;font-size:1.6rem;line-height:2.6rem}
+.blogentry-body,.episode-content,.segment-content{line-height:26px;line-height:2.6rem}
+.basetext,.episode-runtime,.segment-runtime{font-size:16px;font-size:1.6rem;padding:0}
+.captiontext,figcaption,.figure-caption,.elementselectorTrigger{font-size:11px;font-size:.91667rem}
+.small,small{font-size:10px;font-size:.83333rem}
+.basetext,.segment-runtime,.segment-teaser,.cbc-avembed.audio .promo,.cbc-avembed.audio .runtime{font-size:12px;font-size:1.2rem}
+h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dd,p,figure,pre,table,fieldset,hr{margin-bottom:12px;margin-bottom:1rem;margin-top:0}
+h1,h2,h3,h4,h5,h6{line-height:1.25}
+hr{border:0;border-top:solid 1px #cbcbcb}
+li{margin-bottom:.5em}
+a{color:#4f8ec4;text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:none;color:#222}
+h2 a{color:#222}
+h2 a:hover{font-weight:inherit;color:#4f8ec4}
+h2.blogroll-headline.airdate a:hover{font-weight:400}
+.wrap1,.col1,.wrap2,.col2,.topstories-secondarylist > li,.wrap3,.col3,.wrap4,.col4,.wrap5,.col5,.wrap6,.col6,.wrap7,.col7,.wrap8,.col8,.wrap9,.col9,.wrap10,.col10,.wrap11,.col11,.wrap12,.col12{display:block;float:left}
+.col1,.col2,.topstories-secondarylist > li,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12,.colfull{margin:0}
+.wrap1{width:80px}
+.col1width,.col1{width:10%}
+.wrap2{width:160px}
+.col2width,.col2{width:20%}
+.wrap3{width:240px}
+.col3width,.col3{width:30%}
+.wrap4{width:100%}
+.col4width,.col4{width:50%}
+.wrap5{width:400px}
+.col5width,.col5{width:62%}
+.wrap6{width:480px}
+.col6width,.col6{width:75%}
+.wrap7{width:560px}
+.col7width,.col7{width:87.5%}
+.wrap8{float:left;width:auto}
+.col8width,.col8{width:100%}
+.wrap9{width:720px}
+.col9width,.col9{width:700px}
+.wrap10{width:800px}
+.col10width,.col10{width:780px}
+.wrap11{width:880px}
+.col11width,.col11{width:860px}
+.wrap12{width:100%}
+.col12width,.col12{max-width:1210px;width:100%}
+.colfull{clear:both;display:block;margin:0}
+.pagewidth,.page-head-inner,.page-body-inner,.page-foot-inner,.pagewidth_padded{display:block;float:none;margin:0 auto;overflow:hidden;padding:0;position:relative;width:100%;font-size:16px;font-size:1.6rem}
+.featured-episode,.episode-body,.blog-page,.blog-page-text{max-width:800px}
+.figure.wrap8{width:100%}
+.story-primary .figure.col3width{width:30%}
+.story-primary .figure.col2width{width:20%}
+.story-primary .figure.col4width{width:50%}
+.story-primary .figure.col5width{width:62%}
+.story-primary .figure.col6width{width:75%}
+.story-primary .figure.col7width{width:87.5%}
+.story-primary .figure.col8width{width:100%}
+.landing-primary,.story-primary{margin-right:365px;border-right:1px solid #cbcbcb}
+.landing-foot{border-top:1px solid #cbcbcb;background-color:#f9f9f9;clear:both;padding:0;position:relative}
+.landing-secondary,.story-secondary{padding:0 20px;position:relative;width:345px;margin-left:-365px;margin-right:20px}
+.pagewidth_padded{padding:0 13px;width:100%}
+.segment-body .segment-content .figure.col3width{width:30%;margin-left:0}
+.col1.aspectratio16x9,.col1width.aspectratio16x9,.aspectratio16x9.col1{height:34px}
+.col2.aspectratio16x9,.topstories-secondarylist > li.aspectratio16x9,.col2width.aspectratio16x9,.aspectratio16x9.col2,.topstories-secondarylist > li.aspectratio16x9{height:auto}
+.col3.aspectratio16x9,.col3width.aspectratio16x9,.aspectratio16x9.col3{height:124px}
+.col4.aspectratio16x9,.col4width.aspectratio16x9,.aspectratio16x9.col4{height:169px}
+.col5.aspectratio16x9,.col5width.aspectratio16x9,.aspectratio16x9.col5{height:214px}
+.col6.aspectratio16x9,.col6width.aspectratio16x9,.aspectratio16x9.col6{height:259px}
+.col7.aspectratio16x9,.col7width.aspectratio16x9,.aspectratio16x9.col7{height:304px}
+.col8.aspectratio16x9,.col8width.aspectratio16x9,.aspectratio16x9.col8{height:auto}
+.col9.aspectratio16x9,.col9width.aspectratio16x9,.aspectratio16x9.col9{height:394px}
+.col10.aspectratio16x9,.col10width.aspectratio16x9,.aspectratio16x9.col10{height:439px}
+.col11.aspectratio16x9,.col11width.aspectratio16x9,.aspectratio16x9.col11{height:484px}
+.col12.aspectratio16x9,.col12width.aspectratio16x9,.aspectratio16x9.col12{height:529px}
+.offscreen,.screenreader,.offLeft,.a11y{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important}
+.module,.ticker,.module_contained{margin-bottom:24px;margin-bottom:2rem;padding-bottom:0}
+.module-body p{margin-bottom:.5em}
+.module-foot{margin:0;padding:8px}
+.module_contained > .module-head,.module_contained > .module-body,.module_contained > .module-foot{margin-left:10px;margin-right:10px}
+.module_contained > ul,.module_contained > ol{margin-left:15px;margin-right:0}
+#nav.show_nav{border-top:1px solid rgba(255,255,255,0.1);bottom:0;float:left;margin-left:32%;position:relative;text-shadow:1px 1px rgba(0,0,0,0.4);width:66%}
+ul.nav{float:left}
+.nav,.nav_separated,.promocollection_featurelinksh .promocollection-list,.promocollection-foot{list-style:none;margin:0;padding:0}
+#nav li{margin:0}
+.nav > li,.nav_separated > li,.promocollection_featurelinksh .promocollection-list > li,.promocollection-foot > li{display:inline-block;*display:inline;margin-bottom:0;zoom:1}
+.nav a,.nav_separated a,.promocollection_featurelinksh .promocollection-list a,.promocollection-foot a{display:inline-block;*display:inline;zoom:1}
+.nav_separated > li,.promocollection_featurelinksh .promocollection-list > li,.promocollection-foot > li{border-left:1px solid #333;margin-left:.4em;padding-left:.5em}
+.nav_separated > li:first-child,.promocollection_featurelinksh .promocollection-list > li:first-child,.promocollection-foot > li:first-child{border-width:0;margin-left:0;padding-left:0}
+.contentlist,.topstories-primarylist,.moreheadlines-list,.lineuproll-list,.promocollection_promolist .promocollection-list,.promocollection_featurepromolist .promocollection-list,.promocollection_featurelinksv .promocollection-list,.blogroll-primarylist,.episode-segmentlist,.segment-segmentlist,.contentlist_separated,.contentlist_spaced,.contentlist_grid,.topstories-secondarylist,.topstories-compactlist,.promocollection_promogrid .promocollection-list{padding:0}
+.contentlist > li,.topstories-primarylist > li,.moreheadlines-list > li,.lineuproll-list > li,.promocollection_promolist .promocollection-list > li,.promocollection_featurepromolist .promocollection-list > li,.promocollection_featurelinksv .promocollection-list > li,.blogroll-primarylist > li,.episode-segmentlist > li,.segment-segmentlist > li,.contentlist_separated > li,.contentlist_grid > li,.topstories-secondarylist > li,.topstories-compactlist > li,.promocollection_promogrid .promocollection-list > li,.contentlist_spaced > li{list-style:none outside none;margin-bottom:1em;font-size:16px;font-size:1.6rem}
+.contentlist_separated > li{border-bottom:1px solid #cbcbcb;margin-bottom:.7em;padding-bottom:.5em}
+.contentlist_spaced > li{margin-bottom:20px}
+.contentlist_grid,.topstories-secondarylist,.topstories-compactlist,.promocollection_promogrid .promocollection-list{margin:0 4.296875% 0 3.90625%;letter-spacing:-.31em;*letter-spacing:normal;*word-spacing:-.43em;text-rendering:optimizespeed}
+.opera-only:-o-prefocus,.contentlist_grid,.topstories-secondarylist,.topstories-compactlist,.promocollection_promogrid .promocollection-list{word-spacing:-.43em}
+.contentlist_grid > li,.topstories-secondarylist > li,.topstories-compactlist > li,.promocollection_promogrid .promocollection-list > li{display:inline-block;float:none;zoom:1;*display:inline;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}
+.promo-label{display:block}
+.wrap4 .promocollection{-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0)}
+.blogroll .media-body{width:99%}
+.blogroll-extra{display:block}
+.blogroll-timestamp .spaced{font-size:14px}
+.blogroll-timestamp span.spaced{display:none}
+.landing-primary .topstories,.story-primary .topstories{max-width:800px}
+.topstories-primarylist li.topstory{position:relative}
+.topstories-firstheadline{padding-top:30px;font-size:31px;font-size:3.1rem;color:#222}
+.topstories-primarylist .topstory img{width:100%;max-width:800px;margin-bottom:20px}
+.cbc-caffeine{max-width:800px}
+.cbc-caffeine-player .cbc-caffeine-container.cbc-caffeine-video.player-loaded div[id^="player"].tpPlayer{width:100%!important}
+.cbc-caffeine-container[data-player="barista-video"] .cbc-caffeine-player .placeholder .metadata {padding: 0!important;max-height: 0px!important; display: none!important;}
+.landing-primary.blogroll.show-highlight-single{margin:0;width:100%}
+.show-highlights .blogroll .media-play,.show-highlight-single .blogroll .media-play,.show-highlights .blogroll-head.module-head.colfull,.show-highlight-single .blogroll-head.module-head.colfull{display:none}
+.show-highlights h2.blogroll-headline.airdate,.show-highlight-single h2.blogroll-headline.airdate,.show-highlights .blogroll-fullepisode,.show-highlight-single .blogroll-fullepisode,.show-highlights .blogroll-headline .flag{display:none}
+.featured-related-links li.topstory{border:0}
+.twitter-tweet {width:100% !important}
+.featured-related-links ul.topstory-list{margin:20px;border:0}
+.topstories.topstories_streamline.latest-episode{margin:40px 4%}
+.latest-episode .topstories-primarylist>li{border-bottom:0}
+.latest-episode a.media-play{background:rgba(0,0,0,0) none repeat scroll 0 0;color:#4f8ec4;float:left;font-size:1.333rem;font-weight:700;margin-top:0;padding:6px 13px;width:80px;text-align:center;position:static}
+.topstories-episodemeta{float:left;width:89%;border-left:1px solid #cbcbcb;padding:0 15px}
+.topstories-episodemeta > p{padding:0 15px;float:left;color:#666;line-height:24px}
+.latest-episode .topstories-episodetitle{padding-left:15px}
+.featured-segment .topstories-episodemeta .topstories-episodetitle{border:medium none}
+.topstories-extra{display:none}
+.latest-episode .topstories-firstheadline .flag_thick{display:none}
+.featured-segment .topstories-episodeairdate{float:left;display:block;width:50%}
+.media-play{text-transform:uppercase}
+.featured-segment a.media-play:nth-child(2) .icon_play,.topstories-segments .media-play .icon_play,.featured-segment .topstories-segments .media-play.media-popup.audio .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/radio-sprite.png) no-repeat scroll 0 -50px rgba(255,255,255,1);height:23px;margin-right:5px;width:23px}
+.download-podcast{float:right;margin:0 0 20px 20px}
+.featured-segment .topstories-episodetitle,.featured-segment .topstories-main > p,.featured-segment .topstories-main > p{clear:both}
+.featured-segment .topstories-main > a.media-play:nth-child(4){position:static;display:block;float:left;margin:0;padding-right:10px;text-align:center;width:80px}
+.featured-segment .topstories-main > a.media-play:nth-child(2){position:static;float:left;margin:0 0 10px;overflow:hidden;padding:0;position:static;text-align:right;width:50%;text-transform:uppercase;font-weight:600}
+.featured-segment{padding:40px 0}
+.featured-segment .topstories-episodetitle,.latest-episode .topstories-episodetitle{clear:right;float:left;margin-bottom:0;overflow:hidden;padding-bottom:10px;padding-left:15px}
+.featured-segment .topstories-episodetitle{width:80%;border-left:1px solid #cbcbcb}
+.featured-segment h3.topstories-episodemorestories{clear:both;margin-top:20px;padding-top:50px;color:#333;font-size:1.4rem}
+.featured-segment .topstories-main > a.media-play:nth-child(4){width:80px;position:static;text-transform:uppercase;font-weight:600;height:130px}
+.featured-segment .topstories-main > p{float:left;width:80%;clear:right;padding-left:15px;border-left:1px solid #cbcbcb}
+.featured-segment .media-play{width:80px;margin-top:0;padding-top:0;position:static}
+.featured-segment .socialcomments-link{display:none}
+.latest-episode .topstories-episodemeta .topstories-episodetitle,.featured-segment h2.topstories-episodetitle{font-size:31px;font-weight:700;letter-spacing:-1px;line-height:34px}
+.latest-episode .topstories-main > p,.featured-segment .topstories-main > p{padding-top:5px;line-height:24px;color:#666}
+.featured-segment .topstories-segments h4.topstories-segmenttitle{margin-bottom:10px}
+.featured-segment .topstories-main.colfull ul.topstories-segments li h4.topstories-segmenttitle a:hover{color:#4f8ec4}
+.featured-segment .topstories-main .topstories-segments p{width:65%;float:left;clear:none;color:#666;font-size:1.4rem;line-height:22px;margin-bottom:20px}
+.landing-primary .topstories-segments li{border-bottom:1px solid #DDD}
+.topstories-segments li{overflow:hidden;clear:both;position:relative;border-bottom:0;padding:15px 0}
+.landing-primary .topstories-segments > li:nth-child(1){padding-top:0}
+.featured-segment .topstories-segments li a{float:left;width:30%;margin-right:20px}
+.landing-primary .topstories-segments img{max-width:240px;max-height:170px;margin:0}
+.featured-segment .topstories-main.colfull ul.topstories-segments li h4.topstories-segmenttitle a{width:100%;color:#222}
+.featured-segment .topstories-segments .media-play.media-popup.audio{float:left;position:static;padding:0;width:133px;clear:none;text-transform:uppercase;font-weight:600}
+.featured-segment .topstories-segments h4.topstories-segmenttitle{width:60%;float:left;font-size:18px;font-size:1.8rem;margin-bottom:15px}
+.featured-segment .topstories-segments h4.topstories-segmenttitle a{width:100%;color:#222}
+.featured-segment .topstories-segments h4.topstories-segmenttitle a:hover{color:#4f8ec4}
+.featured-segment .topstories-primarylist li.topstory{border:0}
+.featured-segment .topstories-fullepisodelink{overflow:hidden;margin:20px 0;clear:both;width:100%}
+.featured-segment .topstories-fullepisodelink a{float:right;clear:both}
+.segment-middle{float:left}
+.episode-segments{border:0;background:transparent}
+.media,.media_reversed{display:block;overflow:hidden;margin-bottom:12px;margin-bottom:1rem}
+.promo .media-body{display:block;overflow:hidden;position:relative;width:130px}
+.promo .media-side{float:left;margin-right:10px;overflow:hidden;width:130px}
+.blogroll .media-side{float:left;margin-right:2%;width:31%}
+.blogroll .media{padding:20px 0;width:100%}
+.blogroll .media-body{display:block;overflow:hidden;position:relative;width:67%}
+.media-body,.media-body >:last-child{margin-bottom:0}
+.media-body .airdate{color:#333}
+.audioplaylist .blogroll .media-body p,.videoplaylist .blogroll .media-body p{width:100%}
+.landing-primary > .blogroll.audioplaylist{width:100%;margin:0}
+.landing-primary > .blogroll.videoplaylist{margin:1rem 0 1.5rem 4%;width:96%}
+.videoplaylist ul.blogroll-primarylist{border-left:1px solid #CBCBCB}
+.videoplaylist .blogroll .media{padding:20px 20px 0;width:100%}
+.videoplaylist li.blogroll{margin-bottom:0}
+.videoplaylist .blogroll:nth-child(odd){background:#f7f7f7}
+.videoplaylist .blogroll a.pinnableHref{color:#222}
+.videoplaylist .blogroll a.pinnableHref:link,.videoplaylist .blogroll .apinnableHref:visited,.videoplaylist .blogroll .apinnableHref:hover,.videoplaylist .blogroll .apinnableHref:active{color:#222;text-decoration:none;cursor:default;pointer-events:none}
+.videoplaylist .blogroll a.pinnableHref:focus{-moz-outline:none}
+.videoplaylist .blogroll .media-play{position:inherit;text-transform:uppercase;color:#4F8EC4;font-size:13px;font-size:1.333rem;font-weight:700;top:0}
+.videoplaylist .blogroll .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat 2px 0;height:25px;width:25px;margin-right:5px}
+.videoplaylist .blogroll .icon_play:before{content:'';font-size:0}
+.videoplaylist .blogroll h2.airdate{color:#666;display:block;font-size:1.6rem;margin-bottom:10px;font-weight:400}
+.videoplaylist .blogroll .icon_play:before{content:'';font-size:0}
+.videoplaylist .blogroll h2.airdate{color:#666;display:block;font-size:1.6rem;margin-bottom:10px;font-weight:400}
+.listentoall{float:left;padding:10px 0;width:100%;border-left:1px solid #CCC}
+.listentoall a{color:#4F8EC4;font-size:1.333rem;text-decoration:none;font-weight:700}
+.listentoall img{display:inline}
+.colfull > p{clear:both}
+.landing-primary > .archives{margin:40px 0 4%;width:100%}
+.show-highlight-single .blogroll .media-body p{width:auto}
+.media-play{background:none;color:#4f8ec4;float:left;font-size:13px;font-size:1.333rem;font-weight:700;margin-top:10px;padding:6px 13px;position:absolute;right:15px;top:10px}
+.media-play:after{content:" ";display:table}
+.media-play:hover{text-decoration:none}
+.blogroll .media-play{background:none;float:left;font-size:13px;font-size:1.333rem;font-weight:700;margin-top:10px;padding:6px 13px;position:absolute;right:15px;top:10px}
+.blogroll .media-play:after{content:" ";display:table}
+.blogroll .media-play:hover{text-decoration:none}
+.media img,.media_reversed img{display:block;font-size:12px}
+.media-body p.lighttext{display:none}
+.past-episodes .blogroll-extra .blogroll-timestamp{display:block;margin:0;float:left}
+.landing-foot .past-episodes .blogroll-extra span.blogroll-timestamp span:nth-child(3){display:none}
+.ie8 .landing-foot .past-episodes .blogroll-extra .blogroll-timestamp span:first-child + span{display:none!important}
+.ie8 .landing-foot .past-episodes .blogroll-extra .blogroll-timestamp span:first-child + br + span{display:none!important}
+.ie8 ul.social{float:none}
+.media_reversed .media-side{float:right;margin-left:10px}
+.social .radio_social img{height:29px;width:30px}
+ul.social{bottom:-15px;display:inline;float:right;list-style:none outside none;overflow:hidden;padding:0;position:relative}
+ul#nav-social.social.hide{display:none}
+#nav ul.social li{padding:0;display:inline;float:left;margin:0 7px 0 0}
+.social.radio_social > li:last-child{margin:0}
+.social > a{background-color:rgba(0,0,0,0.2);color:#fff;display:block;float:left;height:25px;margin:0 3px;padding:10px}
+.social > a > img{width:20px;height:24px}
+blockquote.twitter-tweet{width:100%}
+blockquote.twitter-tweet p{width:100%}
+blockquote.twitter-tweet a{width:100%}
+.radio_banner{background-color:rgba(0,0,0,0.5);padding:10px 30px;position:absolute;width:100%}
+.banner-image{margin-top:1%}
+.banner-image > img{margin:0 2% 0 4%;width:94%}
+.overlay{position:relative;zoom:1}
+.overlay-under{display:block}
+.overlay-overtl,.overlay-overtr,.overlay-overbl,.overlay-overbr{position:absolute}
+.overlay-overtl{left:0;top:0}
+.overlay-overtr{right:0;top:0}
+.overlay-overbl{bottom:0;left:0}
+.overlay-overbr{bottom:0;right:0}
+.repel{overflow:hidden}
+.repel-left{float:left;text-align:left}
+.repel-right{float:right;text-align:right}
+.callout,.callout_full{color:#333;background-color:#f1f1f1;border-top:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;float:left;font-size:.857em;margin:5px 20px 5px 10px;padding:12px 10px 0;width:35%}
+.callout_full{float:left;margin-left:0}
+.callout li p{display:inline-block}
+.callout.callout_full{float:left;width:100%}
+.callout.callout_full > ul{margin-left:20px}
+.pullquote,.story-content .pullq{float:left;margin:10px 15px 10px 0;width:60%;border:0;padding-bottom:0}
+.pullquote-quotation,.story-content .pullq strong{border-left:2px solid #265a5a;display:block;font-size:18px;font-size:1.8rem;font-style:italic;font-weight:400;line-height:2.6rem;margin:8px 0 0;padding-left:20px}
+.pullquote-source,.story-content .pullq em{border-bottom:none;color:#595959;display:block;font-size:.786em;font-style:normal;padding:6px 20px 12px}
+figure,.figure{border-bottom:1px solid #cbcbcb;display:block;margin-bottom:12px;margin-bottom:1rem}
+figure > img,.figure > img{display:block;height:auto}
+.figure>img{width:100%}
+figcaption,.figure-caption{color:#595959;font-size:12px;font-size:1.2rem;margin-bottom:.5em;margin-bottom:.5rem;padding-top:.5em;padding-top:.5rem}
+.imageCaption{color:#595959;margin-bottom:.5em;margin-bottom:.5rem;padding-top:.5em;padding-top:.5rem;border-bottom:1px solid #CBCBCB;font-size:.91667rem}
+.captionright img{margin:0}
+figcaption strong,.figure-caption strong{color:#333}
+.figure-caption{line-height:16px;font-size:12px;line-height:1.6rem;font-size:1.2rem;margin-top:1rem}
+.complexlink,.complexlink:hover,.complexlink:active,.complexlink:focus{text-decoration:none}
+.complexlink:hover .complexlink-target,.complexlink:active .complexlink-target,.complexlink:focus .complexlink-target{text-decoration:underline}
+.complexlink{color:#000}
+.complexlink .complexlink-target{color:#222}
+.complexlink:hover,.complexlink-target:hover{color:#000}
+.gothere:after,.lineuproll-head .lineuproll-headertextlink:after,.promocollection-foot .promocollection-kicklink_gothere:after,.tabbedcontainer-headertextlink:after{content:" \00BB"}
+.flag,.flag_thick,.story-flag,.feature-flag,.label,.label_full{line-height:1.2}
+.flag,.flag_thick,.story-flag,.feature-flag{border-right:medium none;color:#666;display:block;margin-bottom:.5em;margin-right:2px;padding-right:5px}
+.flag_thick{border-right-width:2px}
+.label,.label_full{display:block;padding:3px 1px 1px 10px}
+.label_full{padding-left:0;padding-right:0;text-align:center}
+.layoutcontext{overflow:hidden;position:relative;zoom:1}
+.floatleft,.storymedia{clear:left;float:left;margin-right:20px}
+.floatright{clear:right;float:right}
+.if-altered,.is-altered .ifnot-altered{display:none}
+.is-altered .if-altered,.ifnot-altered{display:block}
+.landing-primary > .blogroll{width:92%;margin:20px 4% 35px;margin:1rem 4% 1.5rem 4%}
+.landing-primary > .blogroll.show-highlights{margin-bottom:0}
+.landing-primary > .blogroll.show-highlight-single,.landing-primary > .blogroll.show-highlights{left:-100%;margin:0 100% 20px 0;position:relative;width:200%}
+.show-highlight-single .blogroll-body.module-body,.show-highlights .blogroll-body.module-body,.show-highlights .promocollection-body.module-body,.show-highlight-single .promocollection-body.module-body{right:-52%;max-width:860px;position:relative;width:50%;float:left}
+.landing-primary > .blogroll.show-highlight-single li.blogroll{border:0;margin:0}
+.show-highlight-single .blogroll-body .blogroll .media-side{margin:0 2% 0 0;width:31%}
+.show-highlight-single .blogroll-body .blogroll .media .media-body{width:62%}
+.show-highlight-single .media-body .blogroll-headline,.show-highlight-single .media-body p{width:95%}
+.show-highlight-single .blogroll-body .blogroll a.media-play.media-popup.audio{display:none}
+.show-highlight-single p,.show-highlights p{width:auto;font-size:14px;font-size:1.4rem;line-height:20px;color:#666}
+.show-highlight-single .blogroll-primarylist,.show-highlights .blogroll-primarylist{padding:30px 0}
+.show-highlights .media-body p{display:none}
+.show-highlight-single .blogroll .media,.show-highlights .blogroll .media{padding:0;margin:0}
+.show-highlights .blogroll-main,.show-highlight-single .blogroll-main{float:left;padding:0}
+.show-highlights .blogroll-primarylist{float:left}
+.show-highlights li.blogroll{float:left;border:0;margin-right:4%;margin-bottom:0;padding-bottom:0;width:28.25%}
+.show-highlights .blogroll .media-side{float:left;margin-right:2%;width:100%}
+.show-highlights .blogroll .media-body{display:block;overflow:hidden;position:relative;width:100%}
+.show-highlights .media-body h2.blogroll-headline{display:block;font-size:1.8rem;width:100%}
+.show-highlights .blogroll .media-body .airdate{display:none}
+.past-episodes .blogroll-main.colfull .blogroll-primarylist{margin:0}
+.episode-bodywrapper,.segment-bodywrapper{width:92%;margin:0 4%}
+.promocollection-list .promo.col2 .complexlink p img{width:100%}
+.coming-up{width:300px;box-sizing:content-box}
+.coming-up .promocollection-list .promo,.more-cbc-radio .promocollection-list .promo{margin:0}
+#click-me{display:block;width:300px;text-align:center;border:medium none;color:#5d5d5d;cursor:pointer;float:right;font-size:12px;font-weight:700;text-transform:uppercase;margin:10px 0 30px}
+#click-me span{width:30px;height:11px;display:inline-block;background-repeat:no-repeat;margin-left:5px;background-position:5px 2px}
+.show-link span{background-image:url(http://www.cbc.ca/radio/polopoly/assets/images/downarrowbl.png)}
+.hide-link span{background-image:url(http://www.cbc.ca/radio/polopoly/assets/images/uparrowbl.png)}
+.coming-up .promo{position:relative}
+.coming-up a{float:left}
+.coming-up p{width:140px;float:left}
+.coming-up .promo-title{margin-left:15px}
+.coming-up .promo p img{width:29%}
+.coming-up .promo{width:300px}
+.show-highlight-single .blogroll img,.show-highlights .blogroll img{max-width:320px;width:100%}
+.promo_feature img{max-width:620px;width:100%}
+.blogroll div input[type="button"]{width:125px;text-align:center;margin:0 auto}
+.blogroll div[id*="page"],.browse-episodes{text-align:center;margin-top:20px}
+.browse-episodes{width:125px;text-align:center;margin:0 auto;padding:10px 25px;background-color:#4f8ec4;color:#fff;border:0 none;border-radius:4px}
+a.browse-episodes:hover{background-color:#666;color:#fff;text-decoration:none;font-weight:400}
+.more-episodes-cmp{text-transform:uppercase;text-align:center}
+.content-body{margin:0 auto;max-width:1280px;position:relative;width:100%;z-index:1}
+.landing-primary .promocollection.promocollection_promogrid{margin-left:0;padding-top:30px}
+.show-highlights,.show-highlight-single{border-bottom:1px solid #cbcbcb;background-color:#f8f8f8;margin-bottom:20px}
+.show-highlights .blogroll-extra,.show-highlight-single .blogroll-extra{display:none}
+.show-highlight-single .blogroll-headline,.show-highlights .blogroll-headline{font-size:24px;font-size:2.4rem;line-height:24px;margin-bottom:0}
+.show-highlights .blogroll-headline{padding-top:10px}
+.show-highlight-single .media-body .blogroll-headline.airdate,.show-highlights .media-body .blogroll-headline.airdate{display:none}
+.show-highlight-single .media-body .blogroll-headline a,.show-highlights .media-body .blogroll-headline a{color:#333}
+.show-highlight-single .media-body .blogroll-headline a:hover,.show-highlights .media-body .blogroll-headline a:hover{color:#4f8ec4}
+li.promo,li.blogroll{border-bottom:1px solid #cbcbcb}
+.archive-primarylist li.archive-content{border-bottom:1px solid #CBCBCB;margin-bottom:1em}
+.promocollection-list .promo.col2{margin-right:6%;border:0;width:29.3333333%}
+.promocollection-list li:last-child.promo.col2{margin-right:0}
+.media-body .blogroll-headline{font-size:18px;font-size:1.8rem;display:block;width:60%}
+.promocollection-head.module-head{margin:20px 4% 35px;margin:1rem 4% 1.5rem 4%;border-bottom:1px solid #cbcbce}
+h3.promocollection-heading{color:#333;font-size:1.6rem;font-weight:800;letter-spacing:.03rem;text-transform:uppercase}
+.landing-secondary h3.promocollection-heading{text-transform:none}
+.recent-episode .promocollection-head{display:none}
+.PDS_Poll{clear:both;margin-bottom:25px;margin-left:0}
+.episode-relatedlinks{float:left;width:100%;margin:40px 0 0}
+.episode-internallinks-list,.segment-internallinks-list{display:inline;float:left;width:100%}
+.episode-internallinks-list li,.segment-internallinks-list li{float:left;margin-right:4.5%;width:30%;margin-bottom:20px;display:block}
+.episode-internallinks-list li:last-child{margin-right:0}
+,.segment-internallinks-list li:last-child{margin-right:0}
+.segment-internallinks-heading {border-bottom: 1px solid #cbcbcb;padding-bottom: 10px;}
+.episode-internallinks-list li img,.segment-internallinks-list li img{width:100%;height:auto}
+.segment-relatedlinks > div > div > ul > li:nth-child(3),.episode-relatedlinks > div > div > ul > li:nth-child(3){margin-right:0}
+.browse-past{display:block;height:40px;margin-left:auto;margin-right:auto;position:relative;right:1%;text-transform:uppercase}
+.episode-internallinks-list li a,.segment-internallinks-list li a{padding-top:10px;float:left;padding-top:10px;float:left}
+.episodes-footerlink{float:none;height:auto;margin:0;padding:35px 0;position:inherit;text-align:center;top:0;width:auto}
+.browse-past.episodes-footerlink a,.browse-past.episodes-footerlink a:hover{background-image:url(http://www.cbc.ca/radio-content/assets/images/browsepastepslg.gif);background-position:12px 12px;background-repeat:no-repeat;color:#fff;padding:10px 10px 10px 39px;font-size:18px;font-weight:700}
+.wrap12.landing-foot div.browse-past.episodes-footerlink{right:auto}
+.episodes-footer{float:right;margin:0 80px 25px 0;position:relative;text-align:center;top:-50px;width:auto}
+.browse-past a,.browse-past a:hover{border:0 none;border-radius:4px}
+.browse-past-bottom a:hover{background-color:transparent}
+.bptop{float:right;margin-right:5%;margin-top:-45px;max-width:1100px;top:85px}
+.browse-past a{background-color:#4f8ec4;font-size:14px;font-size:1.45rem}
+.browse-past a,.browse-past a:hover{background-image:url(http://www.cbc.ca/radio/polopoly/assets/images/browsepasteps.gif);background-position:12px 15px;background-repeat:no-repeat;padding:10px 10px 10px 35px;color:#fff}
+.browse-past a:hover{background-color:#595959}
+.browse-past-bottom a,.browse-past-bottom a:hover{background-image:url(http://www.cbc.ca/radio/polopoly/assets/images/browsepasteps_blue.gif);background-position:12px 13px;background-color:transparent;background-repeat:no-repeat;padding:10px 10px 10px 35px;color:#4f8ec4;text-transform:uppercase;font-weight:600;font-size:14px;font-size:1.4rem}
+.browse-past-bottom a:hover{background-color:transparent}
+.landing-foot .past-episodes{box-sizing:content-box;float:none;margin:0 auto 40px;max-width:1280px;width:100%}
+.landing-foot .past-episodes h1{font-size:24px;font-size:2.4rem;text-transform:uppercase;padding:40px 0;line-height:1;text-align:center;font-weight:700}
+.itunesButton{margin-bottom:40px}
+.landing-foot .past-episodes .blogroll .media{padding:0 0 10px;display:inline-block}
+.past-episodes h2.blogroll-headline.airdate{position:static;font-weight:400;padding-top:20px;width:100%;display:inline-block}
+.past-episodes .blogroll .media-body{padding-bottom:20px}
+.past-episodes .blogroll .media a.media-side p{margin:0}
+.landing-foot .past-episodes .blogroll .media-side{float:none}
+.landing-foot .past-episodes .media-side{float:none}
+.landing-foot .past-episodes .blogroll-episodemorestories{font-size:13px;font-size:1.3rem}
+.landing-foot .past-episodes li.blogroll img{max-width:330px;width:100%;height:auto}
+.landing-foot .past-episodes .media-body h2.blogroll-headline{display:block;width:100%;padding:20px 0;font-size:18px;font-size:1.8rem;line-height:24px;letter-spacing:-1px;color:#222;margin:0}
+.landing-foot .past-episodes .media-body .media-play{position:absolute;bottom:20px}
+.landing-foot .past-episodes .blogroll .media-body,.landing-foot .past-episodes .blogroll .media-body p{width:100%;font-size:14px;font-size:1.4rem;color:#333;line-height:20px;padding-bottom:30px}
+.landing-foot .past-episodes .media-play,.segment-teasermedialink{background:none repeat scroll 0 0 rgba(0,0,0,0);font-size:13px;font-size:1.333rem;font-weight:700;margin-top:10px;padding:0;right:auto;top:auto;text-transform:uppercase;color:#4f8ec4}
+.episode-internallinks-heading{font-size:16px;font-size:1.6rem;margin-top:1.3333em}
+.segment-teasermedialink .icon_play{padding:0}
+.landing-foot .past-episodes ul{display:flex;display:-webkit-flex;display:-webkit-box;display:-webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;display:-ms-flex;-ms-flex-direction:row}
+.landing-foot .past-episodes .blogroll-extra .blogroll-timestamp .spaced{display:block}
+.landing-foot .past-episodes .blogroll-extra .blogroll-timestamp .spaced:nth-child(2){display:none}
+.landing-foot .past-episodes li.blogroll:nth-child(-n+4) .media{padding:0 0 20px}
+.ie9 .landing-foot .past-episodes li.blogroll:nth-child(-n+4) .media{float:left;padding:0 0 20px}
+.landing-foot .past-episodes li.blogroll{border-bottom:1px solid #cbcbcb;border-right:1px solid #cbcbcb;display:flex;float:left;margin:0;padding:0 3%;width:27%;-webkit-flex-direction:column;flex-direction:column;position:relative}
+.landing-foot .past-episodes li.blogroll .blogroll-extra{display:none}
+.landing-foot .past-episodes .blogroll-extra .spaced{line-height:1;font-size:14px;font-size:1.4rem}
+.landing-foot .past-episodes li.blogroll:nth-child(3n+3){border-right:none;float:left}
+.landing-foot .past-episodes:nth-child(1) .past-episodes .blogroll-body.module-body .blogroll-main li.blogroll{padding:0 3%}
+.landing-foot .past-episodes:first-child .blogroll-body.module-body .blogroll-main.colfull ul > li h2.blogroll-headline.airdate{padding-top:15px}
+.landing-foot .past-episodes:nth-of-type(n+2) .blogroll-main.colfull ul > li h2.blogroll-headline.airdate{top:20px}
+.past-episodes .blogroll-fullepisode{display:none}
+.landing-foot .past-episodes .media a{display:block;width:auto}
+.landing-foot .past-episodes .media a.socialcomments-link{width:30px;float:left;position:relative;bottom:5px}
+.landing-foot .past-episodes .blogroll .icon_play:before,.segment-teasermedialink .icon_play:before{content:'';display:block;font-size:15px;font-size:1.5rem;line-height:1;width:0}
+.landing-foot .past-episodes .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat;height:21px;width:21px}
+.segment-teasermedialink .icon_play{background:none}
+.past-episodes .blogroll-episodesegmentlist{list-style-type:square;margin-left:10px}
+.past-episodes .blogroll-episodesegmentlist li a{color:#222}
+.past-episodes .blogroll-episodesegmentlist li a:hover{color:#4f8ec4}
+.past-episodes .blogroll-episodesegmentlist li{list-style-type:square;margin-left:10px;width:100%;padding:1px 0}
+.landing-foot #show-segments.past-episodes .blogroll-fullepisode{display:block;position:absolute;bottom:15px;text-transform:uppercase;font-weight:600}
+.landing-foot #show-segments.past-episodes .blogroll-fullepisode a:after,.featured-segment .topstories-fullepisodelink a:after{content:'\2192';padding:0;font-size:22px}
+.landing-foot #show-segments .media-play.media-popup.audio{display:none}
+.story-foot{padding:0 3%;width:100%}
+.audioplaylist h1.blogroll-heading{margin:40px 0 25px 4%}
+.audioplaylist ul.blogroll-primarylist{border-left:1px solid #cbcbcb;border-top:1px solid #cbcbcb}
+.audioplaylist .blogroll .media{padding:20px 0 20px 4%;width:100%}
+.audioplaylist li.blogroll{margin-bottom:0}
+.audioplaylist .blogroll .media-side img{display:none}
+.audioplaylist .blogroll .media-body{width:95%}
+.audioplaylist .blogroll:nth-child(odd){background:#f7f7f7}
+.audioplaylist .blogroll .media-body{width:95%}
+.audioplaylist .blogroll a.pinnableHref{color:#222}
+.audioplaylist .blogroll a.pinnableHref:link,.audioplaylist .blogroll .apinnableHref:visited,.audioplaylist .blogroll .apinnableHref:hover,.audioplaylist .blogroll .apinnableHref:active{color:#222;text-decoration:none;cursor:default;pointer-events:none}
+.audioplaylist .blogroll a.pinnableHref:focus{-moz-outline:none}
+.audioplaylist .blogroll .media-play{position:inherit;text-transform:uppercase;color:#4F8EC4;font-size:13px;font-size:1.333rem;font-weight:700}
+.audioplaylist .blogroll .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat 2px 0;height:25px;width:25px;margin-right:5px}
+.audioplaylist .blogroll .icon_play:before{content:'';font-size:0}
+.audioplaylist .blogroll h2.airdate{color:#666;display:block;font-size:1.6rem;margin-bottom:10px;font-weight:400}
+.audioplaylist .blogroll .icon_play:before{content:'';font-size:0}
+.audioplaylist .blogroll h2.airdate{color:#666;display:block;font-size:1.6rem;margin-bottom:10px;font-weight:400}
+.contact-page{font-size:16px;font-size:1.6rem;margin:40px 4% 25px;max-width:800px}
+.contact-page h2{margin-top:12px;margin-top:1rem}
+.contact-redirect{padding:40px 4%;margin-bottom:200px}
+.contact-form{margin:40px 0 25px}
+.success .landing-primary{border:0}
+.success .landing-secondary{border-left:1px solid #cbcbcb}
+ul,li{margin:0;padding:0;list-style:none}
+.contact-form ul li{float:left;width:50%;display:block;margin:0;padding:0;list-style:none}
+#top-fields li{height:80px}
+label{display:block;font-weight:400;padding:0 0 6px}
+.contact-form input,textarea,select{border:1px solid #909090;display:inline-block;font-size:14px;margin:0 0 10px;width:95%;-webkit-rtl-ordering:visual}
+.contact-form input,textarea{padding:3px 1px 2px 4px;-webkit-appearance:textfield;-webkit-box-sizing:content-box}
+.mail-address p{margin:0;padding:0}
+.mail-address{margin-bottom:25px}
+.required_text{font-style:italic;font:64.5%/1.35 'Open Sans',clean,sans-serif}
+.contact-form .question-field{width:100%;margin-bottom:20px}
+.contact-form ul li select.contact-select{width:48%}
+.stay-connected ul{width:100%;height:35px;margin-bottom:10px}
+.stay-connected li{padding:0;display:inline;float:left;margin:0 10px 0 0}
+.about-content{margin:40px 4% 25px;max-width:800px}
+.about-content h2{font-size:18px;font-size:1.8rem;margin:20px 0}
+.about-content h3{font-size:16px;font-size:1.6rem;margin:20px 0}
+.air-dates{background-color:#F7F7F7;border:solid 1px #CBCBCB;float:left;padding:2%;margin-bottom:2%;height:auto;width:98%}
+.radio-times{width:45%;margin-right:5%;float:left}
+.radio-times3{width:28%;margin-right:5%;float:left;margin-bottom:15px}
+.air-dates ul{list-style:none;margin:0;padding:0}
+.air-dates li{list-style:none;padding:3px 0}
+.custom-page-content{margin:40px 4% 25px;max-width:800px}
+.media-page-content{margin:40px 0 25px 4%}
+.section-content{margin:40px 0}
+.podcastsub{padding:10px 0;clear:left;margin-bottom:10px}
+.ringtone-content{border-top:solid 1px #cbcbcb;padding-top:10px}
+.ringtone-content p a img{display:inline;margin-right:10px}
+.ringtone-content hr{margin:25px 0}
+.podcast-header-image{float:left;margin:0 20px 0 0;clear:both;border:1px solid #BFBFBF}
+.sprite-podcast{height:28px;padding:0;position:relative}
+.sprite-podcast li{background-image:url(http://www.cbc.ca/radio/shows/subscribe-icons.png);background-repeat:no-repeat}
+.subscribe-wrapper{border-bottom:2px solid #cbcbcb;float:left;margin-bottom:20px;overflow:hidden;padding:0 0 30px;width:100%}
+.sprite-podcast input{width:275px}
+.sprite-itunes{background-position:0 0;width:88px}
+.sprite-podcast li,.sprite-podcast a{display:block;height:28px}
+.sprite-rss{background-position:-204px 0;width:53px}
+.sprite-myyahoo{background-position:-93px 0;width:110px}
+.sprite-podcast li{display:inline-block;float:left;margin-left:6px}
+.sprite-podcast li.subscribe-link{background:none}
+.landing-primary .blog-page,.landing-primary .blog-page-text{margin:40px 4% 25px}
+.blog-page .blogroll-extra .blogroll-timestamp span:first-child,.blog-page-text .blogroll-extra .blogroll-timestamp span:first-child{display:block}
+.blogentry-bodywrapper .blogentry-relatedlinks.module{margin:40px 0 30px}
+.blogentry-bodywrapper .blogentry-relatedlinks ul.blogentry-internallinks-list li {list-style: square;}
+.blogentry-content ul li {list-style: square;}
+.blogentry-headline{margin:40px 4% 1.5rem;max-width:800px}
+.blog-page .media-body .blogroll-headline{display:block;font-size:1.8rem;width:100%;max-width:800px}
+.blog-page .blogroll .media-body p{width:auto}
+.blogentry-leadshare,.blogentry-bodywrapper,.blogentry-deck{margin:20px 4% 35px;margin:1rem 4% 1.5rem 4%}
+.blog-page .blogroll .media-body{width:67%}
+.blog-page-text .blogroll .media-body{width:100%}
+.blog-page-text div.blogroll-fullepisode,.blog-page div.blogroll-fullepisode{display:none}
+.blogentry-bodywrapper .blogentry-headlineauthors span{display:none}
+.blogentry-bodywrapper .blogentry-headlineauthors span.spaced{display:block}
+.story-primary .blogentry-leadmedia{margin:0 4%;max-width:800px;width:90%}
+.most-recent{width:92%;margin:0 4% 40px}
+.most-recent h3.promocollection-heading{font-size:1.6rem;margin-bottom:1.1rem;text-transform:none;color:#000}
+.most-recent .promocollection-head.module-head{border-bottom:1px solid #cbcbce;margin:1rem 0 1.5rem}
+.most-recent .promocollection-list{margin:0;padding:0}
+.most-recent .promocollection-list .promo{padding:0;width:30%;margin-right:4.75%}
+.most-recent .promocollection-list li.promo.col2:last-child{margin-right:0}
+.most-recent .complexlink-target{font-size:1.1em;font-weight:500;padding-top:0}
+.most-recent li.promo{margin:0 1.1em 0 0}
+.most-recent .promo-label,.most-recent .promo-deck{display:none}
+.episode-relatedlinks .episode-internallinks-list li a:link,.segment-internallinks-list li a:link {font-size:1.6rem;font-weight:500;padding-top:10px;   color: #333; }
+.episode-relatedlinks .episode-internallinks-list li a:hover,.segment-internallinks-list li a:hover{font-size:1.6rem;font-weight:500;padding-top:10px; color:#4f8ec4 }
+.episode-relatedlinks h5.episode-internallinks-heading{font-size:1em;margin-bottom:1.1em;}
+.archive{margin:40px 3% 20px 4%;width:auto}
+.archive-content .media-side{float:left;margin-right:25px;width:25%}
+.archive-resultslist.col6{width:71%;margin-right:40px}
+.archive .archive-navigation{width:22%}
+.archive .archive-content img{width:100%}
+.subjectSubmit,.archive-yearlist li{border-top:1px solid #cbcbcb;font-size:1.3rem;padding:8px 0}
+.archive-timestamp{font-size:13px;font-size:1.3rem;color:#333;font-weight:700}
+#subjectFacet{margin-bottom:30px}
+.facetTitle h4{text-transform:uppercase}
+.archive-resultslist{margin-right:20px}
+.archive .archive-headline{font-size:18px;font-size:1.8rem}
+.archives .blogroll-fullepisode{display:none}
+.archive-content .media-side{max-width:25%;float:left}
+.landing-primary .archives{margin:40px 4% 25px}
+.archives .blogroll-extra .blogroll-timestamp .spaced:first-child{display:block}
+.archives .media-play .icon_play,.article .media-play .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat;height:21px;width:21px;text-indent:400px}
+.archives .media-body p{width:100%;line-height:2.6rem}
+.archives a.media-play,.article a.media-play{font-size:1.333rem;font-weight:700;margin-top:0;padding:0;position:relative;right:auto;top:auto;text-transform:uppercase;color:#4F8EC4}
+.archives .icon_audio{display:none}
+.archives .media-body .blogroll-headline{width:99%}
+.archives .blogroll img{max-width:240px;float:left}
+.archives .blogroll .media-body{float:left;width:67%}
+.archivesepisodes ul.blogroll-episodesegmentlist,.archivesepisodes ul.blogroll-episodesegmentlist li{list-style:square;margin:5px 0 0 10px;color:#4f8ec4}
+.archivesepisodes .blogroll-fullepisode{text-align:right;text-align:right;position:absolute;width:100%;top:5%}
+.archivesepisodes li.blogroll{border-top:1px solid #DCDCDC;border-bottom:0;margin:0;padding:20px 0;position:relative}
+.archivesepisodes .media-body .media-play{position:relative;color:#4f8ec4;font-weight:700;text-transform:uppercase}
+.archivesepisodes .media-body .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat scroll 2px 0 rgba(0,0,0,0);height:25px;width:23px}
+.archivesepisodes .blogroll .icon_play:before{content:""}
+.archivesepisodes .blogroll img{max-width:100%;width:100%}
+.archivesepisodes .media-body h2.blogroll-headline,.archivesepisodes .blogroll .media-body p{width:95%}
+.archivesepisodes .blogroll .media-side{float:left;margin-right:3%;width:30%}
+.archivesepisodes .blogroll .media-body{width:60%;margin-left:32%}
+.archivesepisodes .airdate ~ div.media .blogroll-fullepisode a{text-transform:uppercase;font-weight:700;font-size:1.4rem}
+.archivesepisodes h1.blogroll-heading{margin:10px 0 40px}
+.archivesepisodes .airdate ~ div.media .blogroll-fullepisode a:after{content:'\2192';padding:0 5px;font-size:22px}
+.archivesepisodes .media-body p{display:none}
+.archivesepisodes .blogroll .media-side{width:40%}
+.archivesepisodes .blogroll .media-body{width:56%;margin-left:42%}
+.archivesepisodes .airdate a{color:#666;font-weight:400}
+.archivesepisodes .blogroll .media{padding:2px 0;}
+.year2013 button, .year2014 button, .year2015 button, .year2016 button  {background: none;border: none;color: #5D5D5D;font-weight: bold;cursor: pointer;}
+.year2013, .year2014, .year2015, .year2016  {border-top: 2px solid #cbcbcb; padding-top: 10px;}
+b.year {font-size: 18px; }
+.summerspast{background:#F9F9F9;border:1px solid #CBCBCB;padding:20px}
+.icon,.icon_audio,.icon_video,.icon_comments,.icon_next,.icon_prev,.icon_play{display:inline-block;font-style:normal;height:16px;overflow:hidden;position:relative;text-align:center;*text-indent:-9999px;top:-1px;vertical-align:middle;width:16px;zoom:1}
+.icon:before,.icon_audio:before,.icon_video:before,.icon_comments:before,.icon_next:before,.icon_prev:before,.icon_play:before{color:#fff;content:' ';display:block;font-size:15px;font-size:1.5rem;line-height:1}
+.icon_audio,.icon_video{background-image:none;height:15px;width:14px}
+.icon_audio{background-position:0 2px}
+.icon_video{background-position:0 -17px}
+.icon_comments{background:transparent url(http://www.cbc.ca/i/o/sm/v10/gfx/sprite.png) no-repeat scroll left -126px!important}
+.icon_next{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAUCAYAAABWMrcvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTgwMTE3NDA3MjA2ODExOTEwOUM1RkE3NUVFMjMyQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyNjRDMEQ3NUE4OTIxMUUzOTc5RkI2NTEwNzEwRkVGMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyNjRDMEQ3NEE4OTIxMUUzOTc5RkI2NTEwNzEwRkVGMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAxODAxMTc0MDcyMDY4MTE5MTA5QzVGQTc1RUUyMzJCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE5MTA5QzVGQTc1RUUyMzJCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+pY2EZgAAAMFJREFUeNpiFAyqYCAVMCGxDYDYjxRNEkB8Eog3AvEiIGYmRtMXIP4IZccS0oisyRmIX0P5Ufg0IvvpMhA7oGlcik0jExr/GprGcGwambDYDtP4AknjCmSNTDj8eg3qR5jGEGSNTHhC9hpa4ITAnMpEYmL4S8gmLSA+AMSiUP4yII4DaWQiVQMum3TxacCmCaRhLz4N6JqI0oCsCRT+W4jRgJ41JIjRAAIsUPopEJsDsRwQbyIUWSxI7AtQTBAABBgAidQxTvpYyHYAAAAASUVORK5CYII=);background-repeat:no-repeat;height:20px;width:13px}
+.icon_prev{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAUCAYAAABWMrcvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTgwMTE3NDA3MjA2ODExOTEwOUM1RkE3NUVFMjMyQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyNjRDMEQ3OUE4OTIxMUUzOTc5RkI2NTEwNzEwRkVGMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyNjRDMEQ3OEE4OTIxMUUzOTc5RkI2NTEwNzEwRkVGMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAxODAxMTc0MDcyMDY4MTE5MTA5QzVGQTc1RUUyMzJCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE5MTA5QzVGQTc1RUUyMzJCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+tjFb7gAAAL5JREFUeNpiFAyqYCAVMBGpzg+IDWAcFgKKmYF4ERBHAfEvIFYC4qdMRGoAgY9QjNN56BpeA7EzEH/B5TyQhqVAHI6kwQGIr+EKCJCGFUgaXqBrQNcE0xCCpMEZXQOy87BpANlwE1c8wfwQgubpm4Qi9y+pKQKkIQ6Il0HFRIH4ABBrEWMT0RqRQ49ojejxRJRGbMmIoEZcaQ+bxu3Q6MGbn9A1SkAxwfwE0hgNxCuB+BEoLxGjCQY2IXMAAgwAcL0zCNu1CeQAAAAASUVORK5CYII=);background-repeat:no-repeat;height:20px;width:13px}
+.blogroll .icon_play{display:inline-block;font-style:normal;height:16px;overflow:hidden;position:relative;text-align:center;*text-indent:-9999px;top:-1px;vertical-align:middle;width:16px;zoom:1;background:none;padding:0;color:#265a5a}
+.blogroll .icon_play:before{content:'';display:block;font-size:15px;font-size:1.5rem;height:20px;line-height:1;width:0;color:#265a5a}
+.blogroll .icon_play{background:none;color:#265a5a}
+.icon_play,.featured-segment a.media-play:nth-child(4) .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-icon-med.jpg) no-repeat scroll 1px 2px rgba(0,0,0,0);height:45px;width:45px;margin-right:5px}
+.videolink-thumbnail{display:block;overflow:hidden;position:relative}
+.videolink-thumbnail img{display:block}
+.videolink-thumbnail:after{top:50%;content:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMUJEMEZFQ0FBMTAxMUUzOUNEQkJDQkE0RUVEMDJDOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTlDQjkwQUFBMTAxMUUzOUNEQkJDQkE0RUVEMDJDOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkExQkQwRkVBQUExMDExRTM5Q0RCQkNCQTRFRUQwMkM5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkExQkQwRkVCQUExMDExRTM5Q0RCQkNCQTRFRUQwMkM5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Np7v/gAAAfFJREFUeNrsmL9qwlAUh41GSrRCQ1Ep2NJCS1BLl+rQKrYP0EGfQVz8s4mCOvoKijrp6CAuBScRUcRFQQlVilqEYiE4iUbEansdXJxaTUIu3N8YSPhyOPlO7sF+QCQQRSqBLAiY7+C7FzAMexUTIPjEXlBLIGAEDBMwsAhcwGq1Wl6tVs16vZ6ApiUsFou20Wg8RaPRK5lMhkHRwwRB4OFw2Nhuty1Wq1UFzUdnMBhOSqWSLZVKUUqlUgqFJXAcx1wu102327U5HI5TaLSm0+mOc7ncQz6fv9NoNHIoPLzRnt1uvwDVfna73WfQDA6SJI9isdh9pVIxUxRFiB54G2AQbbPZ3CjwkgsFCjKaFQrFRoG3rVbrEUQleuBtjEYjWS6XbYlEggIvIRU98FaBTqfzOhAInHNyROI7YKSPvV4vXa/Xp6KuMMMwc4/H0zCZTPV9YQWp8HK5XKfT6b7f7+9NJpMV56dmLlOr1RgwPGhgB5a3Yz4XGY1GbCgUojOZDMP7XuKQLBaLVTKZ7AHY/mw2WwuySNk3xWLxy+fzvXU6nTmvWjz0AcPhcBoMBulsNjsWxOP73siy7Hc8Hn+PRCIfoBUEW9n+G3izTy4UCp9A/p3BYLAQevBguwtttAyE5QceASNgBPxHraEKI2DI8ivAALWetu4lqy7nAAAAAElFTkSuQmCC");height:32px;left:50%;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);filter:alpha(opacity=60);opacity:.6;position:absolute;width:32px;margin-top:-22px;margin-left:-22px}
+.videolink:hover .videolink-thumbnail:after{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);filter:alpha(opacity=100);opacity:1}
+.reversed{background:#63666b;background:-moz-linear-gradient(top,#63666b 0%,black 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#63666b),color-stop(100%,black));background:-webkit-linear-gradient(top,#63666b 0%,black 100%);background:-o-linear-gradient(top,#63666b 0%,black 100%);background:-ms-linear-gradient(top,#63666b 0%,black 100%);background:linear-gradient(to bottom,#63666b 0%,black 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63666b',endColorstr='#000000',GradientType=0)}
+.reversed,.reversed a{color:#fff}
+.gradient_black{background:#1E1E1E;background:-webkit-linear-gradient(left,black 0%,#1e1e1e 10%,#1e1e1e 90%,black 100%) repeat scroll 0 0 transparent;background:-moz-linear-gradient(left,black 0%,#1e1e1e 10%,#1e1e1e 90%,black 100%) repeat scroll 0 0 transparent;background:-o-linear-gradient(left,black 0%,#1e1e1e 10%,#1e1e1e 90%,black 100%) repeat scroll 0 0 transparent;background:-ms-linear-gradient(left,black 0%,#1e1e1e 10%,#1e1e1e 90%,black 100%) repeat scroll 0 0 transparent;background:linear-gradient(left,black 0%,#1e1e1e 10%,#1e1e1e 90%,black 100%) repeat scroll 0 0 transparent}
+.distinct,.distinct_black,.distinct_blue,.distinct_red,.distinct_darkgrey,.topstories.module_distinct > .module-head,.story-internallinks,.story-linkbundle,.story-externallinks,.story-ugc,.blogentry-internallinks,.blogentry-linkbundle,.blogentry-externallinks,.blogentry-ugc{border-top:5px solid #cbcbcb;padding-top:8px}
+.distinct_black{border-top-color:#000}
+.distinct_blue{border-top-color:#2692b3}
+.distinct_red{border-top-color:#e21a21}
+.distinct_darkgrey{border-top-color:#595959}
+.button,.button:hover{border:1px solid #cbcbcb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.page-body-inner{-webkit-box-shadow:none;box-shadow:none}
+.spaced{margin-right:1em}
+.lighttext{color:#595959}
+.button,.button:hover,a.button:hover,a.button_block,a.button_block:hover,a.button:hover,a.button_block,a.button_block:hover{background-color:#115278;text-align:center;color:#FFF;border:0;padding:6px 12px;display:inline-block}
+.button:hover,a.button:hover,a.button:hover{background:#595959;cursor:pointer}
+.button_block,.blogentry-ugc .button,.blogentry-ugc a.button:hover,.blogentry-ugc .button_block,.blogentry-ugc a.button_block:hover,a.button_block,.story-ugc a.button,.story-ugc a.button_block,.blogentry-ugc a.button,.blogentry-ugc a.button_block,.button_block:hover,.story-ugc .button:hover,.blogentry-ugc .button:hover,a.button_block:hover,.story-ugc a.button:hover,.blogentry-ugc a.button:hover{display:block}
+.scroller.fullscreen{position:absolute;z-index:99}
+.scroller.fullscreen .scroller-wrapper ul,.scroller.oneperpage .scroller-wrapper ul{height:100%}
+.scroller.fullscreen .scroller-wrapper li{background-color:#000;background-color:rgba(0,0,0,0.75)}
+.scroller.fullscreen .scroller-wrapper a,.scroller.oneperpage .scroller-wrapper a{display:block;position:absolute;top:50%;left:50%}
+.scroller.fit .scroller-wrapper img{width:auto;height:100%}
+.scroller.fit.vertical .scroller-wrapper img{height:auto;width:100%}
+.scroller.fit .scroller-wrapper li{overflow:hidden}
+.carousel .scroller{padding-bottom:20px}
+.carousel .scroller-outside-arrows{padding-left:30px;padding-right:30px}
+.carousel .scroller .arrow{width:30px}
+.carousel .label{background:transparent;padding-top:6px;color:#9dd0ea}
+.carousel .promo-title{display:block;position:static;padding:0 9px 5px;background:transparent;color:#cbcbcb;height:96px;font-weight:400;margin:0}
+.carousel .scroller-wrapper li{border:solid 1px #595959;border-left:none;height:185px;padding:0;margin:0;overflow:hidden}
+.carousel .arrow{position:absolute;top:0;height:187px;display:block;background:url(http://www.cbc.ca/i/o/carousel/v11/sprite.png) no-repeat scroll left -320px;border-radius:5px;-moz-transition:none;-webkit-transition:none;transition:none;margin:0}
+.carousel .arrow.back{left:0;border-top-right-radius:0;border-bottom-right-radius:0}
+.carousel .arrow.forward{right:0;background:url(http://www.cbc.ca/i/o/carousel/v11/sprite.png) no-repeat scroll left -694px;border-top-left-radius:0;border-bottom-left-radius:0}
+.carousel .arrow.back:hover,.carousel .arrow.back:focus{background-position:left -506px}
+.carousel .arrow.forward:hover,.carousel .arrow.forward:focus{background-position:left -881px}
+.carousel .scroller-wrapper a{background:#333;color:#cbcbcb;text-decoration:none}
+.carousel .flag,.carousel .flag_thick,.carousel .story-flag,.carousel .feature-flag{display:block;margin-bottom:10px;color:#9dd0ea;text-transform:uppercase;font-size:11px}
+.carousel .promo-title{display:block;font-style:normal;font-size:11px}
+.carousel .scroller-wrapper a:hover,.carousel .scroller-wrapper a:focus{background-color:#1e1e1e}
+.carousel .scroller-nav li{margin-top:5px}
+.carousel .scroller-nav a{-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none;background:url(http://www.cbc.ca/i/o/carousel/v11/sprite.png) no-repeat scroll right -80px}
+.carousel .scroller-nav .onpage{background-position:right -100px}
+.carousel .scroller-nav a:hover,.carousel .scroller-nav a:focus{background-position:right -90px}
+.cbc-leaderboard-ad,.cbc-rising-star-ad{background:url(/i/o/globalnav/v10/gfx/rs-ad.gif) no-repeat scroll right center rgba(0,0,0,0);margin:0 auto;max-width:728px;padding-right:10px}
+.flag,.story-flag,.feature-flag{font-weight:700;text-transform:uppercase}
+.label{font-weight:700;text-transform:uppercase;border-right-width:0}
+.topstories.module_distinct{border-top-width:0;padding-top:0}
+.topstories-firstheadline .flag,.topstories-firstheadline .flag_thick,.topstories-firstheadline .story-flag,.topstories-firstheadline .feature-flag{border-right-width:3px;margin-right:3px}
+.topstories{width:92%;margin:0 4%;border:0;background:none}
+li.topstory{background:none}
+.topstory_major{margin-bottom:20px}
+.topstory-morelink{display:none;font-weight:700}
+.topstories-compactlist .topstory-morelink{display:inline}
+.topstory-timestamp,.topstory-moretimestamp,.topstory-relatedtimestamp{font-weight:400;font-size:16px;font-size:1.6rem}
+.topstory-moretimestamp,.topstories-compactlist .topstories-extra,.topstories-secondarylist .topstory-timestamp,.moreheadlines-list .topstory-timestamp{display:none}
+.promocollection_featurelinksh .promocollection-list{line-height:1.8em}
+.promocollection_featurelinksh .promocollection-list > li,.promocollection_featurelinksh .promocollection-list a{display:inline}
+.promocollection-foot{padding:8px}
+.promocollection-foot > li,.promocollection-foot a{display:inline;margin-bottom:0}
+.promo-title{font-weight:700}
+.tabbedcontainer-tablist.yui3-tabview-list{margin-bottom:1em}
+.tabbedcontainer-tablist > li{padding-bottom:6px;margin-right:-3px\9;*margin-right:0;display:inline-block;*display:inline}
+.tabbedcontainer-tablist > li > a{border-left-width:0;display:inline-block;padding:6px 10px}
+.tabbedcontainer-tablist > li:first-child > a{border-left-width:1px}
+.elementselector .lineuproll-headertextlink:after,.elementselector .tabbedcontainer-headertextlink:after{content:""}
+.elementselectorTrigger{border-left:solid 1px #000;padding-left:7px;margin-left:5px;font-weight:400}
+.elementselector .module-heading img{display:inline}
+.blogroll-timestamp{font-weight:400}
+.editorialblog-bodywrapper{overflow:hidden}
+.blogentry-authorphoto{margin-bottom:6px;margin-bottom:.5rem}
+.blogentry-authorbio,.blogentry-authorstories{margin-bottom:12px;margin-bottom:1rem}
+.wrap8.blogentry-bodywrapper{overflow:hidden;width:92%}
+.blogentry-body{padding-right:10px;margin-left:0;padding-top:1px}
+.blogentry-content > ul,.blogentry-content > ol{padding-left:3em}
+.blogentry-content caption{padding-bottom:.5em}
+.blogentry-content table[align="right"]{margin-left:2em}
+.blogentry-content table[align="left"]{margin-right:2em}
+.blogentry-title{margin-bottom:5px}
+.blogentry-deck{margin-bottom:5px}
+.blogentry-flag{display:none}
+.blogentry-leadmedia{clear:both;margin-bottom:11px;overflow:hidden;background:url(http://www.cbc.ca/i/gfx/loading.gif) no-repeat scroll center center #fff}
+.blogentry-middle{clear:left}
+.blogentry-source{font-style:normal}
+.blogentry-bylinefooter{line-height:25px;margin-bottom:15px;text-align:center}
+.blogentry-bylinefooter a{text-decoration:none}
+.blogentry-bylinefooter img{margin:0 auto}
+.blogentry-updates{margin-bottom:1em;overflow:hidden}
+.blogentry-updates-head{display:inline-block;padding:6px 10px 4px}
+.blogentry-updates-heading{text-transform:uppercase}
+.blogentry-updates-list{padding-left:1.5em}
+#sharetools .gig-button-container{padding:0 5px 0 0 !important}
+.media-leadshare,#storytools{clear:both}
+.wrap8.story-primary > .colfull,.wrap8.story-head > .colfull,.wrap12.story-head > .colfull{margin:2em 4%;min-width:62%;max-width:800px}
+.segment-body{margin-bottom:1em;width:100%}
+.segment-body .segment-runtime{float:none}
+.episode-leadshare,.segment-leadshare{margin:10px 0;padding:0}
+.episode-airdate,.segment-airdate{color:#666;font-size:16px;font-size:1.6rem;font-weight:400;margin:0;padding-bottom:0;padding-top:1em}
+.episode-headline,.segment-headline,.blogentry-title{font-weight:700;margin:.4em 0 .6em;font-size:31px;font-size:3.1rem;line-height:40px}
+.episode-leadmedia{display:block;float:left;width:100%}
+.episode-leadmedia img{max-width:800px;width:100%}
+.episode-content ul{margin:0 0 2px 1.1em}
+.episode-content ul,.episode-content li,.segment-content ul,.segment-content li{list-style:initial;padding:0 0 5px 5px;margin:0 0 0 10px;list-style-position:inside}
+.segment-segmentlist ul,.segment-segmentlist li{margin:0;padding:0;list-style:none}
+.segment-content .embedlinks{margin-left:2rem;float:none}
+.blogentry-content .blogentry-internallinks-list{display:none}
+.episode-content,.segment-content{padding:0;float:left;width:100%}
+.episode-content > p,.segment-content > p{padding:0}
+.episode-content > p:first-child,.segment-content > p:first-child{font-weight:700}
+.episode-body > .episode-content > .figure.floatright{margin:10px;float:right}
+.episode-content .figure.floatright,.segment-content .figure.floatright{float:right}
+.episode-content .figure.floatright{margin:20px 0 20px 15px}
+.episode-medialink,.segment-medialink,.segment-teasermedialink{display:block;clear:both;box-sizing:content-box}
+.episode-medialink:hover,.segment-medialink:hover,.segment-teasermedialink:hover{text-decoration:none}
+.episode-segments{width:100%;float:left}
+.embeddable_16x9::before,.story-embed::before{padding-top:0}
+.video-container,.story-embed{float:none;clear:both;width:100%;position:relative;padding-bottom:46.25%;padding-top:25px;height:0;margin-bottom:30px}
+.segment-body .segment-content .story-embed{float:none;clear:both;width:100%;position:relative;padding-bottom:56.25%;padding-top:25px;height:0;margin-bottom:30px}
+.video-container iframe,.video-container object,.video-container embed,.story-embed .story-embed-item{position:absolute;top:0;left:0;width:100%;height:100%}
+.episode-segmentlist{width:100%;float:left}
+.episode-segments .episode-segmentlist li{float:left;font-size:16px;font-size:1.6rem;list-style:none outside none;margin-bottom:1em;margin-right:3%}
+.episode-segmentlist a.media-side img{width:100%}
+.segment-teaser .media .media-side{float:none}
+.episode-medialink,.segment-medialink{box-sizing:content-box;float:left;height:45px;margin:20px 0;padding:10px 0;width:100%;border-top:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;font-weight:700;font-size:1.6rem}
+.episode-body,.segment-body{border:0;float:left}
+.episode-body .episode-medialink{color:#4f8ec4;background:none;text-transform:uppercase}
+.segment-teasermedialink{height:25px;padding-top:10px;padding-left:10px;width:95%}
+.episode-runtime,.segment-runtime{font-weight:400;padding-right:30px;padding-top:15px;color:#666}
+.episode-body .episode-runtime{padding-left:6px;color:#666;float:none}
+.more-episodes{width:100%}
+.more-episodes .topstories-main{width:100%}
+.segment-content .photogalleryEmbed{height:auto!important}
+.segment-content .photogalleryEmbed ul li img{width:100%!important;height:auto!important;margin-left:0!important;margin-top:0!important}
+.segment-content{padding:0 0 0 35%;position:relative;min-height:410px;margin-top:25px}
+.segment-body{overflow:hidden}
+.segment-middle{left:0;position:absolute;top:0}
+.segment-content .callout_full{width:100%;margin:15px 0}
+.segment-teaserruntime{float:right;font-weight:400;padding-right:10px}
+.segment-teaserruntime:after{clear:both}
+.segment-content .wrap8{float:inherit}
+.segment-segmentlist li{margin-bottom:0}
+.segment-page{width:96%;margin:0 0 0 2%;padding:0 0 10px}
+.segment-page li{display:inline;float:left;height:100%;list-style-type:none;margin-bottom:0;text-align:center;width:33%}
+.segment-page li a,.segment-page li span{display:block;width:100%;height:2em;padding-top:1em}
+.segment-page li span{background-color:transparent}
+.episode-segments{border-top:0;background-color:transparent}
+.episode-body .episode-segments h2.episode-segmenttitle{font-size:2.3rem;margin-bottom:15px;padding:20px 0 0}
+.episode-segments .episode-segmentlist li{float:left;list-style:none outside none;margin-bottom:1em;margin-right:0;padding:15px 0;width:100%}
+.segment-teaser h3.segment-teaserheadline{float:left;font-size:1.9rem;color:#222}
+.segment-teaser h3.segment-teaserheadline a{color:#222}
+.segment-teaser .media-body p{float:left;font-size:1.5rem;color:#222;line-height:2.3rem}
+.episode-bodywrapper .topstories-segments li{width:98%;border-bottom:1px solid #cbcbcb;padding:15px 0}
+.episode-segmentlist a.media-side img{width:100%;float:left;margin:0 15px 0 0}
+.segment-teaser .media .media-side{float:left}
+.content-body .segment-leadmedia .figure img{width:100%}
+.episode-content ul,.episode-content li,.segment-content ul,.segment-content li{list-style:outside square none;padding:0 0 5px 5px}
+.episode-content ul,.segment-content ul{margin:20px 0 15px 15px}
+.segment-teasermedialink .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat;height:21px;width:21px}
+.segment-teasermedialink{background:none repeat scroll 0 0 rgba(0,0,0,0);padding:0;text-transform:uppercase;color:#4F8EC4;display:inline-block;border:0}
+.segment-segments h2.segment-segmenttitle{text-align:left;text-transform:uppercase;color:#e31730;border-bottom:1px solid #DCDCDC;margin-right:8px;padding-bottom:15px;margin-left:16px;font-size:1.2rem;line-height:1.9rem}
+.segment-linksegment,.segment-linksegment-current,.segment-linkfullepisode{display:block;margin-left:0;line-height:22px}
+.segment-segments .segment-segmentlist .segment-linksegment{line-height:22px}
+.segment-segments .segment-segmentlist a.segment-linksegment,.segment-segments .segment-segmentlist a.segment-linksegment-current{color:#222;margin-left:8px;padding-right:15px; line-height:1.9rem; font-size:1.2rem;}
+.segment-segments .segment-linksegment-current{padding-left:8px;margin-left:0}
+.segment-linksegment-current{background-color:#e5e5e5;font-weight:700;border-bottom:0;position:relative}
+.segment-linksegment-current::after{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;border-color:rgba(229,229,229,0) rgba(229,229,229,0) rgba(229,229,229,0) #e5e5e5;border-image:none;border-style:solid;border-width:8px;content:" ";height:0;left:100%;margin-top:-8px;pointer-events:none;position:absolute;top:50%;width:0}
+.segment-segments .segment-segmentlist a.segment-linksegment {border-bottom:1px solid #cbcbcb}
+.segment-linksegment,.segment-linksegment-current,.segment-linkfullepisode{display:block;padding:8px}
+.segment-body a:hover.segment-linksegment,a.segment-linksegment-current:hover,.segment-linkfullepisode:hover{color:#4f8ec4}
+.segment-segments ul.segment-segmentlist{margin:0 0 0 15px;padding:0}
+.segment-segments ul.segment-segmentlist li{margin:0;padding:0;list-style:inside none none}
+.segment-body .segment-medialink{background-color:#FFF;padding:5px 10px 12px 30px;height:35px;width:96%}
+.segment-body a.segment-medialink.media-popup.audio{padding-left:0}
+.segment-linkfullepisode{background-color:#f5f5f5;color:#222;font-weight:700;padding:8px 0 8px 8px;margin-left:8px;border-bottom:0;text-transform:uppercase}
+.segment-linkfullepisode:after{color:#4F8EC4;content:'\2192';padding:0 5px;font-size:22px}
+.segment-segments .segment-segmentlist li:nth-last-child(2) a{border-bottom:0}
+.segment-page{display:none}
+.segment-body .segment-content .figure.floatright{float:right}
+.segment-body .segment-content .figure.col4width.floatright{float:none}
+.segment-body .segment-content .figure.col3width{width:30%;float:right;margin-left:15px}
+.segment-body .segment-content .figure.col2width{width:20%;float:right;margin-left:15px}
+.segment-content > h1,.segment-content > h2,.segment-content > h3,.segment-content > h4,.segment-content > span{float:none;margin-left:0;padding:0;width:100%}
+.segment-content > hr,.segment-content > iframe{float:none;margin-left:0;padding:0;width:100%}
+.segment-content > blockquote{float:none;margin:25px 0;padding:0;width:100%;clear:both}
+.segment-body .segment-content .figure.col4width.floatright{width:100%;float:none}
+.segment-content > p{clear:none;float:none;width:auto;margin-left:0}
+.segment-content .video-container{clear:none;float:left;height:0;margin-bottom:30px;margin-left:0;padding-bottom:56.25%;padding-top:25px;position:relative;width:100%}
+.segment-body .segment-content .figure{float:left;margin-top:20px;margin-bottom:20px;width:inherit;margin-left:0}
+.segment-body .segment-content .figure.col3width{float:right;margin-left:15px;width:50%}
+.segment-body .segment-content .figure.col4width.floatright{float:left;width:100%;margin-left:0}
+.segment-content > div.photogallery{float:left;margin-left:0;padding:0;width:100%}
+.segment-bodywrapper .segment-body .segment-content .figure.wrap8{clear:right;float:none;margin:20px 0;width:100%}
+.segment-body .segment-content .callout_full{float:none;margin-left:0;width:100%}
+.segment-relatedlinks{margin:0;float:none;width:auto}
+.episode-internallinks,.segment-internallinks,.episode-linkbundle,.segment-linkbundle{clear:both;float:left;margin:40px 0 0;width:100%}
+.segment-content .callout{width:50%;margin:10px 15px 5px 0}
+.segment-bodywrapper .segment-body .segment-content .figure.wrap8{margin:20px 0;float:none;clear:right;width:100%}
+.segment-content > p{clear:none}
+#commentwrapper {border-top: 1px solid #cbcbcb;clear: both;color: #666;font-size: 1.3rem;margin-top: 35px;
+padding-top: 10px;line-height:1.8rem;}
+#commentwrapper a{color:#4f8ec4;}
+.blogentry-headling{margin-top:30px}
+.blogentry-headlineauthors{padding:0}
+.blogentry-leadshare{padding:0;clear:both}
+.blogentry-internallinks-list,.blogentry-internallinks-list li{padding:0 10px;margin-left:10px}
+#sharetoolstwo.nav{display:block}
+.cbc-avembed-container{position:relative;box-sizing:content-box}
+.cbc-avembed-container + p.figure-caption{display:none}
+.cbc-avembed-container .cbc-avembed.video.col8width.aspectratio16x9{width:620px}
+div#leadmedia.col8 .col8width{width:100%}
+.avembed-message{display:none!important}
+.avembed-playButton{background:none repeat scroll 0 0 transparent;border-color:#cbcbcb;border-top-style:solid;border-top-width:1px;color:#666;line-height:2.35;opacity:.9}
+.cbc-avembed:hover .avembed-playButton{opacity:1}
+.cbc-avembed.audio.leadmedia{background:transparent;border-width:0;bottom:0;position:absolute}
+#leadmedia .photogalleryEmbed{height:auto!important}
+#leadmedia .photogalleryEmbed ul li img{width:100%!important;height:auto!important;margin-left:0!important;margin-top:0!important}
+#leadmedia .photogalleryEmbed .cbcfg .tools{bottom:2px}
+.photogalleryEmbed .images > li,.photogalleryEmbed .captions > li,.cbcfg .captions > li{margin:0}
+.photogalleryEmbed .images li{padding-left:0}
+.photogalleryEmbed ul{padding-left:0}
+.photogalleryEmbed li:before{content:none}
+.photogallery_standalone .photogallery-body{padding-bottom:1em}
+div.gig-button-container{padding:0}
+#sharetools .gig-button-container{padding:0 2px 0 0}
+#storytools{float:none;margin:25px 0 0;text-align:left;width:250px}
+#storytools #sharetools_gig_containerParent{margin:0!important;width:100%!important}
+.segment-bodywrapper #storytools{margin-left:35%}
+.segment-bodywrapper #storytools #sharetools_gig_containerParent{margin-left:0;width:33%}
+.story-primary .blogentry-bodywrapper #storytools{display:none}
+.storytool{display:none}
+#share.shares{display:none}
+.custom-text-content{min-width:800px}
+.show-highlights .blogroll-extra span.blogroll-timestamp,.show-highlight-single .blogroll-extra span.blogroll-timestamp{display:none}
+.recentlisthide{display:none}
+.story-primary .cbc-avembed .avembed-description{left:40px;display:none}
+.story-primary .cbc-avembed-container.audio{margin:10px 0}
+.wrap4 .year2013 button,.year2014 button,.year2015 button{background:none;border:none;color:#5D5D5D;font-weight:700;cursor:pointer}
+.wrap4 .year2013,.year2014,.year2015{border-top:2px solid #cbcbcb;padding-top:10px}
+.wrap4 b.year{font-size:18px}
+.wrap4 .year2016{margin-top:50px}
+div.rolloverimages img{margin-bottom: 10px; max-width:90%; height: auto;}
+
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.play:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.play:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.pause:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.pause:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.next:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.next:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.skip-back:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.skip-back:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.skip-forward:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.skip-forward:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.prev:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.prev:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.unmuted:hover svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .controls button.unmuted:focus svg .foreground, 
+.cbc-caffeine-container .cbc-caffeine-player .ui .extras button.share:hover svg .foreground,
+.cbc-caffeine-container .cbc-caffeine-player .ui .extras button.share:focus  svg .foreground  {
+    fill: #1b6da6!important;
+}
+
+.featured-episode .photogalleryEmbed,.featured-segment .photogalleryEmbed   {height: 420px!important; overflow: visible!important; margin-bottom: 50px;}
+.featured-episode .photogalleryEmbed .images li img, .featured-segment .photogalleryEmbed .images li img{margin-top: 0!important;}
+.topstories.featured-episode .media-play.video {display: none;}
+.wrap8  .topstory .figure{float:left;width:100%;}
+.story .wrap8 .figure.floatright{float:right;}
+
+
+.featured-segment .sclt-photogallery {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    display: block;}
+
+
+
+@media (max-width:1100px) {
+.archivesepisodes .blogroll .media{min-width:inherit}
+.custom-text-content{min-width:500px}
+.video-container{padding-bottom:48.25%}
+.sb-search{display:none}
+.secondary-search{margin:30px 0 20px;display:block;width:300px;float:left}
+.secondary-search ul.social{float:left;position:static;margin:20px 0}
+.secondary-search ul.social li{padding:0;display:inline;float:left;margin:0 10px 0 0}
+.tb-search{float:left}
+.tablet{display:block}
+.search-container{display:none}
+#header-container .social{display:none}
+input.tb-search-submit{width:290px}
+.tb-search input.tb-search-submit{width:20px}
+}
+@media (max-width:1124px) {
+.nav.nav-pills li{padding:0}
+.content-body #leadmedia .figure img{width:90%}
+}
+@media (max-width:1024px) {
+.archivesepisodes .blogroll .media{min-width:inherit}
+.topstories-episodemeta{width:75%}
+.nav.nav-pills li{padding:0}
+.content-body #leadmedia .figure img{width:100%}
+.custom-text-content{min-width:500px}
+.featured-segment .topstories-main > a.media-play:nth-child(4){width:100%;text-align:left;padding:0}
+.featured-segment h2.topstories-episodetitle{border-left:0 none;float:left;overflow:visible;padding-left:0;width:100%}
+.featured-segment .topstories-main > p{width:100%;border-left:medium none;clear:right;float:left;padding-left:0;width:100%}
+.archive-resultslist{margin-right:30px}
+.archive .archive-navigation{width:18%}
+.featured-segment .topstories-main > a.media-play:nth-child(4){height:auto}
+}
+@media (max-width:979px) {
+.archivesepisodes .blogroll .media{min-width:initial}
+.custom-text-content{min-width:300px}
+.video-container{padding-bottom:56.25%}
+#header-container{background-position:-70px 20px}
+.callout{width:100%}
+.podcastsub{margin-bottom:40px}
+.landing-primary .topstories,.story-primary .topstories{max-width:550px}
+.hgroup h1{font-size:43px;font-size:4.3rem}
+#header-container ul.social{display:none}
+}
+@media (min-width:769px) and (max-width:979px) {
+.content-body{background:none}
+}
+@media (max-width:769px) {
+.featured-episode .photogalleryEmbed, .featured-segment .photogalleryEmbed   {height: 250px!important;}
+.featured-segment .sclt-photogallery {float: left;}
+.featured-segment .topstories-main > a.media-play:nth-child(6) {display: none;}
+.featured-segment .photogalleryEmbed { margin-bottom: 10px; }
+
+.cbc-caffeine-container .cbc-caffeine-player .thumbnail-container .thumbnail {padding: 0!important}
+.episode-content ul,.episode-content li,.segment-content ul,.segment-content li{list-style:inside square none}
+.custom-text-content{min-width:100%}
+#header-container,.ie #header-container{background-image:none!important}
+.mobile-inline{display:inline-block}
+.wrap4{display:none;width:0;height:0;overflow:hidden}
+blockquote.twitter-tweet{width:90%;margin:20px 4%;float:none}
+blockquote.twitter-tweet p{width:100%}
+blockquote.twitter-tweet a{width:100%}
+.latest-episode .blogroll-headline.airdate{font-size:1.6rem;font-weight:400}
+.latest-episode .topstories-main a.media-play{width:99%!important;height:75px;border-top:1px solid #CBCBCB;border-bottom:1px solid #CBCBCB;border-right:0;margin-bottom:20px}
+.latest-episode h2.topstories-episodetitle{left:0;width:99%;padding-left:0}
+.latest-episode .blogroll .media-body p{left:0;width:99%;padding-left:0;height:auto;min-height:50px}
+.latest-episode .topstories-episodemeta{left:0;width:99%;padding-left:0;height:auto;min-height:50px;border-left:0}
+.latest-episode.topstories-primarylist .topstory img{margin-bottom:0}
+.latest-episode a.media-play{text-align:left;padding:15px 0}
+.topstories-episodemeta > p{padding:10px 0}
+.topstories.topstories_streamline.latest-episode{margin:10px}
+.tablet,.listen-live,.landing-primary .show-highlight-single .spaced,.show-highlight-single .blogroll .media-body p,.show-highlights .blogroll-primarylist li:nth-child(n+2),.episode-segments .segment-teasermedialink.media-popup.audio,.show-highlight-single .blogroll .media-body p,.show-highlights .blogroll .media-body p,ul.social,.tv,.episode-body .episode-segments .media-body p,.featured-segment .topstories-main > a.media-play:nth-child(4),.featured-segment .topstories-segments .media-play.media-popup.audio,.featured-segment .topstories-main .topstories-segments p,.featured-segment .topstories-fullepisodelink,.featured-segment .topstories-segments .media-play.media-popup.audio,.wrap4,.radio,.news,.sports,.music,.shop,.dropdown,.triplet,.bptop,.social,.nav,.show_nav,.archives .blogroll .media-body p,.archives .blogroll .blogroll-extra .socialcomments-link,.article .blogroll-extra .socialcomments-link,a.socialcomments-link,.article .media-body p,.archivespage .media-body p,.archives .blogroll .media-body p,.archives .blogroll .blogroll-extra .socialcomments-link,.article .blogroll-extra .socialcomments-link,.archives .socialcomments-link,a.socialcomments-link,.article .media-body p,.archives .media-body a.media-play,#search_form,.nowplaying-streams,.browse-past.bptop,.past-episodes .blogroll .socialcomments-link,.landing-foot .past-episodes .media a.media-play{display:none}
+.photogalleryEmbed .cbcfg .nav{display:block}
+.hidecbcapp a{color:#4f8ec4}
+html.tablet{display:block}
+.page-body{font-family:'Open Sans',sans-serif}
+#mobile-menu-switch{background-position:center center;background-repeat:no-repeat;float:right;height:100%;left:80%;overflow:hidden;position:absolute;width:20%}
+.mobile-menu{left:0;position:absolute;top:100%;width:100%;z-index:99}
+.r-mobile form{display:block;padding:0 3% 30px;position:relative}
+.screen-reader{display:block;left:-9999px;position:absolute}
+.search-icon{background:url(http://www.cbc.ca/radio-content/assets/images/radio-sprite.png) no-repeat scroll 0 -261px rgba(255,255,255,1);height:15px;left:8%;position:absolute;top:25px;width:15px}
+.mobile-search-input{border:1px solid #fff;border-radius:4px;margin:10px 0;text-indent:25px;width:100%}
+.sb-icon-search-mob{z-index:90;background:url(http://www.cbc.ca/radio-content/assets/images/magicon.png) no-repeat 0 8px;height:20px;width:20px;display:inline-block;margin-left:3%}
+.mobile-on{background-image:url(http://www.cbc.ca/radio-content/assets/images/m-arrow-off.png);background-color:rgba(0,0,0,0.3);background-size:25%}
+.mobile-off{background-image:url(http://www.cbc.ca/radio-content/assets/images/m-arrow.png);background-size:25%}
+.mobile-off:hover{cursor:pointer}
+.mobile-menu ul{display:block;width:100%}
+.mobile-menu ul li{color:#fff;width:100%;background:none repeat scroll 0 0 rgba(0,0,0,0.9)}
+.mobile-menu ul li a{border-bottom:1px solid rgba(255,255,255,0.5);color:#fff;display:block;font-size:1.5rem;margin:0 3%;padding:3% 0;text-align:left;width:94%}
+.mobile-menu ul li a.drop-down{background:url(http://www.cbc.ca/radio-content/assets/images/cross.png) no-repeat right center;background-size:16px}
+.mobile-menu ul li a:hover.drop-down > ul,.mobile-menu ul li a.drop-down:hover > ul{display:block}
+.mobile-menu .r-mobile li ul{width:100%;background:rgba(255,255,255,0.1);display:none}
+.mobile-menu .r-mobile li ul li{background:rgba(45,45,45,0.5);width:100%}
+.mobile-menu li ul li a{padding:2.5% 0 2.5% 3.5%}
+.content-header{float:left;max-width:100%;width:100%}
+.page-head{background:#1a1a1a;float:left;overflow:hidden;width:100%}
+.page-foot{display:inline-block;overflow:hidden;background:#1a1a1a;width:100%}
+.radio_banner{padding:10px;width:100%;position:static}
+.page-body{clear:both;left:0;overflow:hidden;position:relative}
+.landing-primary,.story-primary{max-width:100%;margin:0}
+.episode-content img,.segment-content img{width:98%}
+.show-info-content{float:left;height:100%;overflow:visible;margin:0 auto;max-width:1280px;position:relative;width:100%;top:0}
+#header.site-header{float:left;overflow:visible;position:relative;height:auto;}
+#header-container{background:none repeat scroll 0 0 rgba(0,0,0,0);float:left;overflow:visible;position:relative;width:100%;height:auto}
+.content-header{overflow:visible}
+.promocollection-body,.promocollection-body li{width:100%}
+.promocollection-list .promo.col2{margin-right:0}
+.landing-primary,.story-primary{padding:0;width:100%}
+.landing-primary > .blogroll{width:92%}
+.show-highlights li.blogroll{width:99%}
+.show-highlights ul.blogroll-primarylist li.blogroll:first-child{display:inline-block}
+.show-highlights .blogroll .media-body{float:left;margin-left:15px;overflow:visible;width:60%}
+.show-highlights ul.blogroll-primarylist li.blogroll img{width:100%;float:left;margin-right:3%}
+.show-highlights .blogroll .media-side{width:31%}
+.show-highlight-single .blogroll .media,.show-highlights .blogroll .media{margin:0;padding:15px}
+.show-highlight-single .blogroll img,.show-highlights .blogroll img{min-width:110px;width:100%;max-width:900px}
+.episode-bodywrapper,.segment-bodywrapper{margin:0;padding:0 4%}
+.ie .episode-bodywrapper,.ie .segment-bodywrapper{margin:0;padding:0 4%;max-width:840px}
+.show-highlight-single .media-body h2.blogroll-headline,.show-highlights .media-body h2.blogroll-headline{font-size:1.4rem;line-height:18px;margin-left:15px}
+.show-highlight-single .blogroll-body .blogroll .media-side{margin:0 10px 0 0;width:39%}
+.show-highlight-single .media-body h2.blogroll-headline{width:95%}
+.show-highlight-single .blogroll-body .blogroll .media .media-body{width:57%}
+.show-highlights .promocollection-body .promocollection-list li{max-width:95%}
+#listenLatest{display:none}
+#ftr-cbcrc{bottom:0;left:23px}
+.episode-leadshare{display:block}
+.PDS_Poll{margin-left:0;margin-bottom:20px}
+.content-body{background:none;float:left}
+.floatright{margin:0}
+.wrap8,.wrap12{width:100%}
+.featured-segment .topstories-main > a.media-play:nth-child(2){border-bottom:1px solid #cbcbcb;border-top:1px solid #cbcbcb;float:left;font-size:1.5rem;font-weight:600;margin:15px 0 20px;overflow:hidden;padding:10px 0;position:static;text-align:left;text-transform:uppercase;width:100%}
+.episode-body,.segment-body{clear:both;float:none}
+.featured-segment .topstories-main.colfull h3.topstories-episodeairdate a{color:#666;font-weight:400;font-size:1.8rem}
+.featured-segment a.media-play:nth-child(2) .icon_play,.topstories-segments .media-play .icon_play,.featured-segment .topstories-segments .media-play.media-popup.audio .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-icon-med.jpg) no-repeat scroll 1px 2px rgba(0,0,0,0);height:45px;width:45px;margin-right:5px}
+.episode-segments .episode-segmenttitle{padding:0}
+.episode-body h3.segment-teaserheadline,.episode-body h3.segment-teaserheadline a{color:#333;font-weight:400}
+.episode-body .episode-segments h2.episode-segmenttitle{border-bottom:1px solid #cbcbcb;padding-bottom:15px;margin:35px 0 0;text-transform:lowercase;font-weight:600}
+.segment-teaser .media .media-side{width:35%;margin-right:20px}
+.featured-segment .topstories-segments li a img{padding:0}
+.featured-segment h2.topstories-episodetitle{clear:right;float:left;font-size:2.6rem;overflow:visible;width:100%;padding:0;border:0;margin-bottom:15px}
+.featured-segment .topstories-episodeairdate{display:block;float:left;width:100%}
+.featured-segment .topstories-main > p{clear:right;float:left;padding-left:0;width:100%;border:0}
+.featured-segment .topstories-primarylist .topstory .topstories-fullepisodelink{display:block;text-transform:uppercase;font-weight:600}
+.featured-segment .topstories-primarylist .topstory img{max-width:100%;width:100%}
+.featured-segment .topstories-main.colfull ul.topstories-segments li h4.topstories-segmenttitle a{color:#222;float:left;width:100%;font-weight:400}
+.featured-segment{padding:0}
+.landing-foot #show-segments.past-episodes .blogroll-fullepisode{bottom:20px;position:static;text-align:right;margin-top:20px}
+.landing-foot #show-segments.past-episodes .blogroll-fullepisode a{width:100%}
+.browse-past-bottom{display:block}
+.episodes-footer{float:none;margin:0 auto;padding:20px;position:relative;text-align:center;top:0;width:100%}
+.landing-foot .past-episodes .blogroll-body .blogroll-primarylist > li{border-bottom:1px solid #cbcbcb;border-right:medium none;padding:15px 2% 20px;width:100%}
+.past-episodes h2.blogroll-headline.airdate{font-weight:400;padding:10px 0;position:static}
+.past-episodes h2.blogroll-headline.airdate a{color:#666}
+.browse-past-bottom{dispaly:block}
+.blogroll div input[type="button"]{width:94%}
+#show-segments.past-episodes h3.blogroll-episodemorestories{font-size:14px;font-size:1.4rem}
+#article-foot-recents .promocollection-body{margin:0}
+#article-foot-recents .promocollection-head.module-head{margin:1rem 0 1.5rem;border-bottom:0;border-top:1px solid #003;padding:20px 0 0}
+#article-foot-recents ul.promocollection-list{margin:0}
+.topstories{width:96%;margin:0 2%}
+.topstories.featured-segment{padding-top:25px}
+.segment-teaser .media .media-side{margin-right:12px;width:50%}
+.segment-content{position:relative}
+.segment-content .segment-middle{display:block;position:static;width:95%;bottom:auto;top:auto}
+.segment-bodywrapper .segment-body .segment-content .figure.wrap8{clear:both;float:none;margin:20px 0;width:100%}
+.segment-linksegment-current{background-image:none;margin-right:0}
+.segment-content .video-container,.segment-content .story-embed{float:none;clear:both;width:100%;position:relative;padding-bottom:56.25%;padding-top:25px;height:0;margin-bottom:0;margin-left:0}
+.segment-segments h2.segment-segmenttitle{padding-bottom:6px;margin-left:0;font-size:1em}
+.segment-segmentlist a.segment-linksegment-current,.segment-segmentlist a.segment-linksegment{margin-left:0;font-size:1em}
+.segment-content ul{margin:0!important;padding:0!important}
+li.blogroll img{width:100%;max-width:700px}
+.contact-form ul li{float:none;width:95%}
+.contact-form input,textarea,select{border-radius:5px;height:25px;width:95%}
+#header.site-header h1{font-size:22px;letter-spacing:normal}
+#header.site-header h2{margin:0;font-size:1.4rem;line-height:1}
+img.radio_logo{width:100px;height:22px;margin:0 0 0 1%}
+.search_form_mobile{position:relative}
+.search_form_mobile button{position:absolute;right:1%}
+.mobile-search-input{margin:2% 3%;padding:10px;width:94%;font-size:1.6rem}
+.r-mobile{display:block}
+.photogallery.photogallery_story{width:98%}
+.landing-primary .archives .blogroll{width:92%}
+.segment-body .segment-content .callout_full{margin-left:0;width:95%}
+#commentwrapper{display:block;font-size:11px;font-size:1.1rem}
+.archivespage .blogroll .media-side{width:40%}
+.archivespage .blogroll .media-body{width:56%;margin-left:42%}
+.archivespage .airdate{width:50%}
+.archivespage .airdate a{font-size:1.2rem;color:#666;font-weight:400}
+.archivespage .blogroll .media{padding:2px 0}
+.archivespage .airdate ~ div.media{top:-30px;margin-bottom:-50px}
+.article .blogroll .media-side,.article .media-body h2.blogroll-headline,.promocollection-list .promo.col2{width:99%}
+.archivesepisodes .media-body h2.blogroll-headline{font-weight:0;padding-left:0}
+.archivesepisodes .blogroll .media-side{width:100%;margin:0}
+.archivesepisodes .blogroll .media-body{width:100%;margin-left:2%}
+.archivesepisodes .blogroll-fullepisode{position:relative;top:0;text-align:right}
+ul.promocollection-list li.promo.col2 a.complexlink p img{width:35%;float:left;margin-right:3%}
+.article-foot-recents .promocollection-body{margin:0}
+.article-foot-recents ul.promocollection-list li.promo.col2 a.complexlink p img{width:100%}
+#header.site-header .hgroup{color:#fff;margin:0 0 0 1%;padding:10px;height:auto;float:left}
+.article .blogroll .media-side,.article .media-body h2.blogroll-headline{width:99%}
+#subjectFacet{display:none}
+#archiveElement .facetTitle{display:none}
+.archive-head.module-head{background:rgba(0,0,0,0) url(http://www.cbc.ca/radio-content/assets/images/archive-years-open.png) no-repeat scroll right center;border-bottom:1px solid #cbcbcb;margin-bottom:12px;padding:10px 0}
+.archive-cleardates{display:block;padding:10px 20px;background-color:rgba(0,0,0,0.9);color:#fff}
+.archive-cleardates:hover{color:#fff}
+.year-down{background-image:url(http://www.cbc.ca/radio-content/assets/images/archive-years-close.png)!important}
+.archive-head.module-head:hover{cursor:pointer}
+.archive .archive-navigation{display:none;width:100%;position:absolute;top:50px;left:0}
+.archive .archive-yearlist a{margin:0 3%;color:#fff;padding:25px 0;display:block}
+.archive-yearlist li{border-top:1px solid #cbcbcb;padding:0;background:rgba(0,0,0,0.9) none repeat scroll 0 0;width:100%;float:left}
+.icon_archive_rightfacingtriangle{background:rgba(0,0,0,0) url(http://www.cbc.ca/radio-content/assets/images/cross.png) no-repeat scroll right center / 16px auto;float:right;height:15px;right:10px;top:50%;width:16px}
+.icon_archive_upsidedowntriangle{background:rgba(0,0,0,0) url(http://www.cbc.ca/radio-content/assets/images/cross.png) no-repeat scroll right center / 16px auto;height:12px;width:15px}
+#archiveElement .archive-yemolist li{background:rgba(45,45,45,0.8) none repeat scroll 0 0}
+#archiveElement .archive-yemolist li a{margin:0 3% 0 4%}
+#publicationDatesFacet .archive-yearlist .icon_archive_rightfacingtriangle,#publicationDatesFacet .archive-yearlist .icon_archive_upsidedowntriangle{clear:left;float:right;margin-left:0;margin-right:0;margin-top:10px;padding:25px 0;width:10%}
+.archive-yearlist a:nth-child(2){width:80%;display:block}
+.archive-resultslist.col6{margin-right:0;width:100%}
+.archive{width:96%;margin:0 2%}
+.archives .blogroll .media-side{width:41%}
+.archives .blogroll .media-body{width:57%}
+.archivespage .blogroll .media-body{margin-left:42%;width:56%}
+.archivespage li.blogroll{overflow:hidden}
+.archivespage .airdate{clear:both;float:left;padding:15px 0;width:60%}
+.archivespage .airdate a{font-size:1.8rem;color:#666;font-weight:400}
+.archivespage .blogroll .media{clear:right;padding:2px 0}
+.landing-primary > .blogroll.videoplaylist{margin:0;width:100%}
+.videoplaylist .blogroll .media-play{position:inherit;text-transform:uppercase;color:#4F8EC4;font-size:13px;font-size:1.333rem;font-weight:700;top:0;right:0}
+.videoplaylist .blogroll .icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/play-arrow.png) no-repeat 2px 0;height:25px;width:25px;margin-right:5px}
+.blogroll-heading.module-heading{margin:20px 0 20px 4%}
+.videoplaylist.blogroll .media-body,.videoplaylist .blogroll .media-side,.videoplaylist .media-body h2.blogroll-headline{width:98%}
+.archivespage .airdate ~ div.media{border:0 none;display:inline-block;float:right;margin:0 0 0 20px;top:0;width:30%}
+.archivespage .blogroll-fullepisode{display:inline-block;float:right;text-align:right;width:auto}
+.featured-episode .topstories-primarylist .topstory img{padding:0;margin:0}
+.landing-primary > .blogroll.show-highlight-single,.landing-primary > .blogroll.show-highlights,.landing-primary > .promocollection.show-highlight-single,.landing-primary > .promocollection .show-highlights{width:100%;margin:0 0 20px;position:static}
+.show-highlight-single .blogroll-body.module-body,.show-highlights .blogroll-body.module-body{position:static;width:100%}
+.article-foot-recents .promocollection-body li{border-bottom:1px solid #cbcbcb;margin-bottom:20px}
+.article-foot-recents.promocollection-body a p.promo-title{padding-bottom:20px;margin:0}
+.article-foot-recents .promocollection-body a p img{width:100%;padding-bottom:20px}
+.episode-internallinks-list li,.segment-internallinks-list li{display:block;float:left;margin-bottom:20px;padding-right:3%;width:100%}
+.episode-internallinks-list li img,.segment-internallinks-list li img{display:block;float:left;width:33%}
+.episode-internallinks-list li a,.segment-internallinks-list li a{display:block;float:left;padding-top:10px;width:60%;margin-left:15px}
+.article-foot-recents .promocollection-body{margin-right:0;width:100%}
+.wrap8 .figure{float:none;width:100%;padding:0}
+.story-primary .figure.floatright{margin:0}
+.landing-foot,.story-foot{background:none;border-top:1px solid #cbcbcb}
+.browse-past-eps,.browse-past{display:block;position:static}
+.cil-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}
+.cil-container iframe,.cil-container object,.cil-container embed{position:absolute;top:0;left:0;width:100%;height:100%}
+.topstories-primarylist .topstory img{padding:20px 0;width:100%;max-width:100%}
+.episode-leadshare .nav{display:block}
+.live-show img{max-width:100%}
+.promocollection-list .promo.col2{width:99%}
+.promocollection-list li.promo.col2 a.complexlink p img{width:35%;float:left;margin-right:3%}
+.landing-foot .past-episodes h1.blogroll-heading{text-align:left;margin:0 2%;padding:35px 0 10px}
+.landing-foot .past-episodes li.blogroll img{max-width:700px;width:100%}
+.landing-foot .past-episodes li.blogroll:nth-child(-n+3) .media,.landing-foot .past-episodes li.blogroll .media{padding:0}
+.landing-foot .past-episodes .blogroll-body .blogroll-main.colfull .blogroll-primarylist > li{width:100%;padding:10px 2%;display:block;border-bottom:1px solid #cbcbcb;border-right:none;display:block;float:left;margin:0}
+.landing-foot .past-episodes h1.blogroll-heading{font-weight:700;margin:0 2%}
+.page-foot-inner{background:none repeat scroll 0 0 rgba(0,0,0,0)}
+.blog-page .media-body h2.blogroll-headline{width:100%}
+.landing-foot .past-episodes .blogroll .media-body,.landing-foot .past-episodes .blogroll .media-body p{color:#666;font-size:1.4rem;line-height:20px;width:100%;padding-bottom:0}
+.article-foot-recents .promocollection-list .promo{margin-right:0;padding-right:0;width:100%}
+.article-foot-recents .promocollection-head.module-head{border-bottom:0 none;border-top:none}
+.most-recent .promocollection-list > li.promo{border-bottom:1px solid #cbcbcb;padding:10px 0 20px;width:100%;display:block;float:left}
+.most-recent ul.promocollection-list li.promo a.complexlink > p{width:33%;float:left;margin-right:10px}
+.most-recent ul.promocollection-list li.promo a.complexlink p img{float:none;margin-right:10px;width:100%;display:block}
+.most-recent ul.promocollection-list li.promo a.complexlink p.promo-title{margin-top:0;float:left;width:60%}
+.most-recent .module-body p{margin:0}
+.most-recent{width:96%;float:left}
+.most-recent h3.promocollection-heading{font-size:1em;margin-bottom:1.1em;text-transform:none;color:#000}
+.most-recent .complexlink-target{font-size:1.1em;font-weight:500;padding-top:0}
+.most-recent li.promo{margin:0 1.1em 0 0}
+.featured-episode ul.topstories-primarylist li.topstory p img{max-width:94%;width:94%}
+.episode-bodywrapper .episode-content,.segment-content{width:100%;padding:0}
+.segment-content > p{margin-left:0;width:100%}
+#leadmedia{display:block}
+.radio-times3{width:90%}
+.cbc-avembed .avembed-description{display:none;font-size:12px;height:7em;left:0;margin:0 0 0 1.2em;overflow:visible;position:absolute;white-space:normal;top:6px;width:78%}
+.cbc-avembed .avembed-description h3{display:none;font-size:120%;height:1em;margin:0 0 5px;overflow:visible;line-height:1;white-space:normal}
+}
+.cbc-avembed.audio.col8width.aspectratio16x9{height:120px}
+.ie8 .show-info-content,.ie7 .show-info-content{width:100%;max-width:1280px}
+.ie8 .listen-live{font-size:14px}
+.ie8 #header-container,.ie7 #header-container,.ie8 #cbcfooter,.ie7 #cbcfooter,.ie8 #gn,.ie8 #gn.v10,.ie7 #gn,.ie7 #gn.v10{max-width:1280px;width:100%}
+.ie8 .topstories-secondarylist > li,.ie7 .topstories-secondarylist > li{width:246px}
+.ie8 .col12width,.ie8 .col12,.ie7 .col12width,.ie7 .col12{width:1210px}
+.ie8 .landing-primary > .blogroll.show-highlight-single,.ie8 .landing-primary > .blogroll.show-highlights,.ie9 .landing-primary > .blogroll.show-highlights,.ie9 .landing-primary > .blogroll.show-highlight-single,.ie7 .landing-primary > .blogroll.show-highlights,.ie7 .landing-primary > .blogroll.show-highlight-single{position:static;left:0;margin:0;background:none;margin:30px 0;width:100%;max-width:860px;border-bottom:none}
+.ie8 .landing-primary > .blogroll.show-highlight-single .blogroll-body.module-body,.ie8 .landing-primary > .blogroll.show-highlights .blogroll-body.module-body,.ie7 .landing-primary > .blogroll.show-highlight-single .blogroll-body.module-body,.ie7 .landing-primary > .blogroll.show-highlights .blogroll-body.module-body,html.ie9 .landing-primary > .blogroll.show-highlight-single .blogroll-body.module-body,html.ie9 .landing-primary > .blogroll.show-highlights .blogroll-body.module-body{right:0;position:static;width:100%;margin-left:4%}
+.ie8 .landing-primary > .blogroll.show-highlight-single .blogroll img,.ie8 .show-highlights .blogroll img,.ie7 .show-highlight-single .blogroll img,.ie7 .show-highlights .blogroll img{width:100%;max-width:220px}
+.ie8 .browse-past,.ie7 .browse-past{width:20%}
+.ie9 .browse-past{width:100%}
+.ie8 .episodes-footer{width:100%}
+.ie8 .blogroll img,.ie7 .blogroll img{max-width:100%;max-width:240px}
+.ie8 .promo_feature img,.ie7 .promo_feature img{width:100%;max-width:620px}
+.ie8 .topstories-primarylist .topstory img,.ie7 .topstories-primarylist .topstory img{width:100%}
+.ie8 .content-body,.ie7 .content-body{width:100%;max-width:1280px}
+.ie8 .landing-foot .past-episodes,.ie7 .landing-foot .past-episodes{width:100%;max-width:1280px}
+.ie8 .landing-foot .past-episodes li.blogroll img,.ie7 .landing-foot .past-episodes li.blogroll img{width:100%;max-width:330px}
+.ie8 .audio-playlist .promocollection-list li.promo .videolink-thumbnail img,.ie7 .audio-playlist .promocollection-list li.promo .videolink-thumbnail img{width:100%;max-width:240px}
+.ie8 .contact-form,.ie7 .contact-form{width:800px;margin-top:40px}
+.ie8 .icon_play{background-image:url(http://www.cbc.ca/radio-content/assets/images/play-icon-med.jpg);background-repeat:no-repeat}
+.ie8 .landing-foot .past-episodes li.promo,.ie8 .landing-foot .past-episodes li.blogroll,.ie7 .landing-foot .past-episodes li.promo,.ie7 .landing-foot .past-episodes li.blogroll{border-bottom:none;border-right:none;float:left;padding:0 3%;width:27%;margin:0;display:block}
+.ie10 .landing-foot .past-episodes ul{display:-ms-flex}
+.page-foot-inner,.page-head-inner{font-size:12px}
+.ie9 .browse-past a{float:right}
+.ie8 .featured-segment a.media-play.media-popup.audio i.icon_play{background:url(http://www.cbc.ca/radio-content/assets/images/radio-sprite.png) no-repeat scroll 0 -50px;height:23px;margin-right:5px;width:21px}
+.ie8 .featured-segment .topstories-main > a.media-play:nth-child(2){float:left;font-weight:600;margin:0 0 10px;overflow:hidden;padding:0;position:static;text-align:right;text-transform:uppercase;width:50%}
+.ie8 .featured-segment .media-play{width:300px}
+.ie8 .featured-segment h2,.ie8 .featured-segment p{border:none}
+.more-cbc-radio2,.coming-up{width:300px;box-sizing:content-box;float:left}
+.more-cbc-radio2{padding-bottom:0;margin-bottom:0;padding-top:10px}
+.coming-up .promocollection-list .promo,.more-cbc-radio2 .promocollection-list .promo{margin:0}
+.more-cbc-radio2.secondary-more{padding-bottom:0;margin-bottom:0}
+.more-cbc-radio2 .promo,.coming-up .promo{position:relative}
+.more-cbc-radio2 .promo-label.label{color:#666;background:none;border:0;font-weight:600;font-size:12px;position:absolute;top:-4px;left:140px;width:155px;white-space:nowrap}
+.more-cbc-radio2 .promocollection-head.module-head{margin:20px 0 10px}
+.coming-up .promocollection-head.module-head{margin:10px 0}
+.more-cbc-radio2 .promo-title{padding-top:14px;float:left;padding-left:15px;width:50%;font-size:14px;line-height:16px;font-weight:600}
+.more-cbc-radio2 .module-body p{margin-bottom:0}
+.more-cbc-radio2 .promocollection-list .promo a.complexlink p img{width:135px;height:auto;padding-bottom:15px;float:left}
+.more-cbc-radio2 .promocollection-list .promo a.complexlink p:first-child{width:135px;position:relative}
+.more-cbc-radio2 .promocollection-list .promo,.coming-up .promocollection-list .promo{border:0 none;float:left;width:100%;padding:12px 0;border-bottom:1px solid #DDD}
+.more-cbc-radio2 .promo .complexlink p,.coming-up .promo .complexlink p{float:left;line-height:18px;line-height:1.8rem}
+.more-cbc-radio2 .promocollection-list,.coming-up .promocollection-list{display:block;float:left;margin:0;padding:0;width:100%}
+.more-cbc-radio2 li.promo a.complexlink p.promo-deck{display:none}
+.more-cbc-radio2 h3.promocollection-heading{text-transform:none}
+.blogroll img{max-width:240px;width:100%}

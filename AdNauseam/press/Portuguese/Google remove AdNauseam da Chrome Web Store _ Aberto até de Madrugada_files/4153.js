@@ -1,0 +1,3 @@
+var limkClientKey = {"siteID":4153,"custom":[],"responsive":12200,"vertical":12201,"horizontal":12202};
+var limkClientData = {"publisher_id":4153,"iab":"Technology and Computing"};
+var limkClientSettings = {"enable_tracking":"1","custom":[],"responsive_is_enabled":0,"responsive_allow_ads":1,"vertical_article_amount":4,"vertical_headline":"Recommended For You","vertical_allow_ads":1,"horizontal_article_amount":4,"horizontal_article_per_line":4,"horizontal_headline":"Artigos recomendados","horizontal_target":0,"horizontal_allow_ads":0};

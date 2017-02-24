@@ -1,0 +1,40 @@
+.limk-horizontal-widget 
+.limk-header span {
+    font-size: 12px;
+}
+
+.limk-horizontal-widget 
+.limk-content ul.has-image li span.limk-article-title {
+    font-size: 11px;
+    font-weight:normal;
+    color:#666;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   line-height: 1.2em;        /* fallback */
+   max-height: 3.6em;       /* fallback */
+
+    
+}
+
+.limk-horizontal-widget 
+.limk-content ul.has-image li .image-container {  
+   height: 90px;
+}
+
+
+.limk-horizontal-widget 
+.limk-content ul.has-image li .image-container img:hover{  
+    opacity: .7;
+    //filter: alpha(opacity=70);
+    transform: scale(1.03);
+}
+
+.limk-horizontal-widget 
+.limk-content ul.has-image li:hover span.limk-article-title {
+    text-decoration: none;
+    //color: #B8A80D;
+    color: #DE7008;
+}

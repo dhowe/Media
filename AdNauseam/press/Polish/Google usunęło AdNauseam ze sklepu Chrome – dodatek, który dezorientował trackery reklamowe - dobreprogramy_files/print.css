@@ -1,0 +1,3 @@
+#sidebar, #phContent_sidebar, .short, .content-showcase-full, #footer, #komentarze, #header, #side-menu > *:first-child {
+    display: none;
+}
