@@ -1,0 +1,1 @@
+fbq.registerPlugin("475240032660076", {__fbEventsPlugin: 1, plugin: function(fbq, instance) { if (!instance.pixelsByID.hasOwnProperty("475240032660076")) { fbq.init("475240032660076"); }instance.configLoaded("475240032660076"); }});
