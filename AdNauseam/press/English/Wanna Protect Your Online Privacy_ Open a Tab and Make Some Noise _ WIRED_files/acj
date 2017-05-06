@@ -1,0 +1,15 @@
+OX_8084483850({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"https://nervora-d.openx.net/{medium}/1.0/{rtype}?ai=104985e2-4eb5-4594-d69d-7e5cb65cfc61&ts={txn_state}",
+    "oxt": 4.61,
+    "adunits" : [
+      {
+        "auid":"168043",
+        "size":"728x90",
+        "chain":[
+        ]
+      }
+    ]
+  }
+});

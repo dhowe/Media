@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)https://s.crunch.io/widget/index.html#/ds/d3d331773048941e0f92b38db081245b/row/000382?viz=graph&cp=percent&dp=0&grp=stack -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma-directive: no-cache">
+    <meta http-equiv="Cache-directive: no-cache">
+    <!--<base href="/widget/">--><base href=".">
+    <title>Crunch.io</title>
+    <link rel="shortcut icon" href="https://s.crunch.io/widget/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="./polyfill.min.js"></script>
+    <script>
+      window.endpoints = {"root":"/","api":"/api/","geodata":"/","public":"/api/public/","secure":"/api/","manifest":"/api/","widgetRoot":"../snapshots/cubes"}
+      
+    </script>
+  <style></style><style type="text/css"></style></head>
+  <body>
+    <!-- ngView: --><ng-view class="ng-scope"><widget analytics-track-document-click="" class="ng-scope"><div class="ready" workspace="">
+    <variables-picker><variable-picker class="row-variable ng-isolate-scope" model="variablesPicker.rowVariable" analytics-track-document-click=""><div class="picker collapsed" ng-class="model.state" ng-click="model.toggle()">
+    <span class="item-label-and-name">
+        <span class="label">By</span>
+        <span class="current-item-name ng-binding">Share Personal Info</span>
+    
+    </span>
+    <span class="icon-angle-down"></span>    
+</div>
+<ul class="items collapsed" ng-class="model.state" ng-show="workspace.dimensions.offsetHeight">
+    <!-- ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope group">
+        <!-- ngSwitchDefault: -->
+        <!-- ngSwitchWhen: group --><span class="item-name ng-binding ng-scope" ng-switch-when="group">Online Privacy</span><!-- end ngSwitchWhen: -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Concerned</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Anonymous Browzing</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">FCC Rules</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Sign or Veto</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope group">
+        <!-- ngSwitchDefault: -->
+        <!-- ngSwitchWhen: group --><span class="item-name ng-binding ng-scope" ng-switch-when="group">Demographics</span><!-- end ngSwitchWhen: -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Gender</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Age (4 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Race (4 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Education (4 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Family Income (3 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Census Region</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">2016 Vote for President</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems -->
+</ul></variable-picker>
+<variable-picker ng-hide="variablesPicker.columnVariable.type === &#39;categorical_array&#39;" class="column-variable ng-isolate-scope ungrouped" ng-class="{ ungrouped : variablesPicker.ungrouped }" model="variablesPicker.columnVariable" analytics-track-document-click=""><div class="picker collapsed" ng-class="model.state" ng-click="model.toggle()">
+    <span class="item-label-and-name">
+        <span class="label">By</span>
+        <span class="current-item-name ng-binding"></span>
+    
+    </span>
+    <span class="icon-angle-down"></span>    
+</div>
+<ul class="items collapsed" ng-class="model.state" ng-show="workspace.dimensions.offsetHeight">
+    <!-- ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope group">
+        <!-- ngSwitchDefault: -->
+        <!-- ngSwitchWhen: group --><span class="item-name ng-binding ng-scope" ng-switch-when="group">Online Privacy</span><!-- end ngSwitchWhen: -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Concerned</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Anonymous Browzing</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">FCC Rules</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Sign or Veto</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope group">
+        <!-- ngSwitchDefault: -->
+        <!-- ngSwitchWhen: group --><span class="item-name ng-binding ng-scope" ng-switch-when="group">Demographics</span><!-- end ngSwitchWhen: -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Gender</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Age (4 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Race (4 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Education (4 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Family Income (3 category)</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">Census Region</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-switch="item.hierarchicalType" ng-class="(item.hierarchicalType || &#39;variable&#39;)" class="item ng-scope variable">
+        <!-- ngSwitchDefault: --><span class="item-name ng-binding ng-scope" ng-click="model.selectItem(item)" ng-switch-default="">2016 Vote for President</span><!-- end ngSwitchWhen: -->
+        <!-- ngSwitchWhen: group -->
+    </li><!-- end ngRepeat: item in model.selectableItems -->
+</ul></variable-picker>
+</variables-picker>
+    <div class="light-row-variable ng-binding">Share Personal Info</div>
+    <crosstab><div class="row-variable-description ng-binding">Do you think telecom and cable companies should or should not be allowed to share personal information about customers, such as their web browsing history, without first getting customers' permission?</div>
+<!-- ngIf: crosstab.loading -->
+<!-- ngIf: crosstab.loaded && crosstab.table -->
+<!-- ngIf: crosstab.loaded && !crosstab.table --><widget-viz ng-if="crosstab.loaded &amp;&amp; !crosstab.table" model="crosstab" class="data-visualization"><cr-paginated-barplot model="model" class="ng-scope ng-isolate-scope"><div class="nav-button go-back ng-hide" ng-click="prev()" ng-show="prevEnabled()">
+    <span class="icon-angle-left"></span>
+</div>
+<div class="graph-container bivariate-graph js-plotly-plot"><div class="plot-container plotly"><div class="svg-container" style="position: relative; width: 700px; height: 448px;"><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="448" style="background: rgb(255, 255, 255);"><defs id="defs-dadf76"><g class="clips"><clippath class="axesclip" id="clipdadf76x"><rect x="35" y="0" width="640" height="448"></rect></clippath><clippath class="axesclip" id="clipdadf76y"><rect x="0" y="20" width="700" height="414"></rect></clippath><clippath class="axesclip" id="clipdadf76xy"><rect x="35" y="20" width="640" height="414"></rect></clippath><clippath class="plotclip" id="clipdadf76xyplot"><rect width="640" height="414"></rect></clippath></g></defs><g class="bglayer"><rect class="bg" x="35" y="20" width="640" height="414" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke-width: 0;"></rect></g><g class="draglayer"><g class="xy" transform="translate(35,20)"><rect class="drag nsewdrag cursor-crosshair" data-subplot="xy" x="0" y="0" width="640" height="414" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag nwdrag cursor-nw-resize" data-subplot="xy" x="-20" y="-20" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag nedrag cursor-ne-resize" data-subplot="xy" x="640" y="-20" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag swdrag cursor-sw-resize" data-subplot="xy" x="-20" y="414" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag sedrag cursor-se-resize" data-subplot="xy" x="640" y="414" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag ewdrag cursor-ew-resize" data-subplot="xy" x="64" y="414.5" width="512" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag wdrag cursor-w-resize" data-subplot="xy" x="0" y="414.5" width="64" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag edrag cursor-e-resize" data-subplot="xy" x="576" y="414.5" width="64" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag nsdrag cursor-ns-resize" data-subplot="xy" x="-20.5" y="41.400000000000006" width="20" height="331.20000000000005" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag sdrag cursor-s-resize" data-subplot="xy" x="-20.5" y="372.6" width="20" height="41.400000000000006" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag ndrag cursor-n-resize" data-subplot="xy" x="-20.5" y="0" width="20" height="41.400000000000006" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect></g></g><g class="layer-below"><g class="imagelayer"></g><g class="shapelayer"></g></g><g class="cartesianlayer"><g class="subplot xy"><g class="layer-subplot"><g class="shapelayer"></g><g class="imagelayer"></g></g><g class="gridlayer" transform="translate(35,20)"><path class="ygrid crisp" d="M0,0h640" transform="translate(0,368)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,322)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,276)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,230)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,184)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,138)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,92)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h640" transform="translate(0,46)" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path></g><g class="overgrid"></g><g class="zerolinelayer" transform="translate(35,20)"><path class="yzl zl crisp" d="M0,0h640" transform="translate(0,414)" style="stroke: rgb(187, 187, 187); stroke-opacity: 1; stroke-width: 1px;"></path></g><g class="overzero"></g><g class="plot" transform="translate(35, 20)" clip-path="url(https://s.crunch.io/widget/index.html#clipdadf76xyplot)"><g class="imagelayer"></g><g class="maplayer"></g><g class="barlayer"><g class="trace bars" style="opacity: 1;"><g class="points"><g class="point"><path d="M21.33,414V387.1H192V414Z" style="stroke-width: 0px; fill: rgb(1, 101, 164); fill-opacity: 1;"></path></g><g class="point"><path d="M234.67,414V34.24H405.33V414Z" style="stroke-width: 0px; fill: rgb(1, 101, 164); fill-opacity: 1;"></path></g><g class="point"><path d="M448,414V360.66H618.67V414Z" style="stroke-width: 0px; fill: rgb(1, 101, 164); fill-opacity: 1;"></path></g></g></g></g><g class="boxlayer"></g><g class="scatterlayer"></g></g><g class="overplot"></g><path class="xlines crisp" transform="translate(35,20)" d="M-1,414.5h642" style="fill: none; stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 0;"></path><path class="ylines crisp" transform="translate(35,20)" d="M-0.5,-1v415" stroke-width="1px" style="fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 0;"></path><g class="overlines"></g><g class="xaxislayer" transform="translate(35,20)"><g class="xtick"><text text-anchor="middle" x="0" y="426" transform="translate(106.67,0)" style="font-family: AvenirLTStd; font-size: 10px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">They should be allowed</text></g><g class="xtick"><text text-anchor="middle" x="0" y="426" transform="translate(320,0)" style="font-family: AvenirLTStd; font-size: 10px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">They should not be allowed</text></g><g class="xtick"><text text-anchor="middle" x="0" y="426" transform="translate(533.33,0)" style="font-family: AvenirLTStd; font-size: 10px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">Not sure</text></g></g><g class="yaxislayer" transform="translate(35,20)"><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,414)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,368)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,322)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,276)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,230)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,184)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,138)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,92)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,46)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ytick ticks crisp" d="M-1,0h-4" transform="translate(0,0)" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; stroke-width: 1px;"></path><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,414)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">0</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,368)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">10</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,322)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">20</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,276)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">30</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,230)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">40</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,184)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">50</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,138)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">60</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,92)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">70</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,46)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">80</text></g><g class="ytick"><text text-anchor="end" x="-5" y="4.5" transform="translate(0,0)" style="font-family: AvenirLTStd; font-size: 9px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;">90</text></g></g><g class="overaxes"></g></g></g><g class="ternarylayer"></g><g class="geolayer"></g><g class="layer-above"><g class="imagelayer"></g><g class="shapelayer"></g></g><g class="pielayer"></g><g class="glimages"></g><text class="js-plot-link-container" y="439" text-anchor="end" x="693" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); pointer-events: all;"><tspan class="js-link-to-tool"></tspan><tspan class="js-link-spacer"></tspan><tspan class="js-sourcelinks"></tspan></text></svg><div class="gl-container"></div><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="448"><defs id="topdefs-dadf76"></defs><g class="infolayer"><g class="g-gtitle"></g><g class="g-xtitle" data-bb="45" transform="translate(0,-34.984375)"></g><g class="g-ytitle" data-bb="46" transform="translate(13.59375,0)"></g><g class="annotation" data-index="0" style="opacity: 1;"><g class="annotation-text-g" data-index="0" transform="rotate(0,656,27)"><g transform="translate(637, 20)"><rect class="bg" x="0.5" y="0.5" width="37" height="13" style="stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 0; fill: rgb(0, 0, 0); fill-opacity: 0;"></rect><text class="annotation" data-unformatted="N = 992" text-anchor="middle" style="font-family: AvenirLTStd; font-size: 10px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: inherit; white-space: pre;" data-bb="48" x="18.9375" y="9.5">N = 992</text></g></g></g></g><g class="zoomlayer"></g><g class="hoverlayer"></g></svg></div></div></div>
+<div class="nav-button go-next ng-hide" ng-click="next()" ng-show="nextEnabled()">
+    <span class="icon-angle-right"></span>
+</div>
+<div class="variable-label ng-binding"></div>
+</cr-paginated-barplot></widget-viz><!-- end ngIf: crosstab.loaded && !crosstab.table -->
+<!-- ngIf: crosstab.loaded && crosstab.geo -->
+<!-- ngIf: crosstab.loaded && crosstab.graph && crosstab.analysis.isBivariate() --></crosstab>
+    <div class="light-selected-filter">
+        <span class="label">Filter</span><span class="value ng-binding">All respondents</span>
+    </div>
+    <div class="bottom-toolbar">
+        <filter-picker analytics-track-document-click=""><ul class="items collapsed" ng-class="[model.state, { empty : !model.selectableItems.length }]">
+    <!-- ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Registered Voters</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Independents</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Trump Voters</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Clinton Voters</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Non-voters</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Republicans</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Democrats</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Women</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems --><li ng-repeat="item in model.selectableItems" ng-class="{ selected : item === model.selectedItem }" ng-click="model.selectItem(item)" class="item ng-scope">
+        <span class="item-name">
+            <span ng-show="item.value" class="ng-binding">Men</span>
+            <span ng-hide="item.value" class="ng-hide">All respondents</span>
+        </span>
+    </li><!-- end ngRepeat: item in model.selectableItems -->
+    <li class="empty ng-hide" ng-hide="model.selectableItems.length">No filters available</li>
+
+</ul>
+<div class="filter-picker collapsed" ng-class="[model.state, { empty : !model.selectableItems.length }]" ng-click="model.toggle()">
+    <span class="label-item-name">
+        <span class="filter-label">Filter</span>
+        <span class="current-item-name ng-binding">
+            All respondents
+        </span>
+        <span class="icon-angle-down"></span>
+    </span>
+</div></filter-picker>
+        <display-settings><div class="display-control table-graph-toggle graph-tip-target" ng-class="{ disabled: settings.vizType.disabled,
+                 hidden: settings.vizType.hidden }" data-value="graph">
+    <cr-popup-multitoggle model="settings.vizType.value" items="vizTypes" tooltip="Select display type" class="ng-isolate-scope"><div uib-tooltip="Select display type" tooltip-placement="top" class="items-selector graph" ng-class="[{ opened : selectorOpened }, selectedItem.value]">
+    <!-- ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="table" class="item ng-scope" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-table"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="graph" class="item ng-scope selected visible" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-graph"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection -->
+</div>
+<button ng-click="openSelector()" data-selected-item="graph" class="opener" ng-class="{ opened : selectorOpened }" uib-tooltip="Select display type" tooltip-placement="top">
+    <span ng-class="selectedItem.class" class="icon icon-graph"></span>
+</button></cr-popup-multitoggle>
+</div>
+<div class="display-control counts-percents-toggle" ng-class="{ disabled: settings.countsOrPercents.disabled,
+                hidden: settings.countsOrPercents.hidden }" data-value="percent">
+    <cr-popup-multitoggle model="settings.countsOrPercents.value" items="countsOrPercents" tooltip="Display counts or percentages" class="ng-isolate-scope"><div uib-tooltip="Display counts or percentages" tooltip-placement="top" class="items-selector percent" ng-class="[{ opened : selectorOpened }, selectedItem.value]">
+    <!-- ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="count" class="item ng-scope" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-count"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="percent" class="item ng-scope selected visible" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-percentage"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection -->
+</div>
+<button ng-click="openSelector()" data-selected-item="percent" class="opener" ng-class="{ opened : selectorOpened }" uib-tooltip="Display counts or percentages" tooltip-placement="top">
+    <span ng-class="selectedItem.class" class="icon icon-percentage"></span>
+</button></cr-popup-multitoggle>
+</div>
+<div class="display-control percent-directions-toggle hidden disabled" ng-class="{ disabled: settings.percentageDirection.disabled,
+                 hidden: settings.percentageDirection.hidden }" data-value="colPct">
+    <cr-popup-multitoggle model="settings.percentageDirection.value" items="percentageDirection" uib-tooltip="" tooltip="Choose percentaging direction" tooltip-placement="top" class="ng-isolate-scope"><div uib-tooltip="Choose percentaging direction" tooltip-placement="top" class="items-selector colPct" ng-class="[{ opened : selectorOpened }, selectedItem.value]">
+    <!-- ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="rowPct" class="item ng-scope" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-arrow-right"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="cellPct" class="item ng-scope" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-cell"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection --><!-- ngIf: !item.disabled --><button ng-repeat="item in items | orderBy:bySelection" ng-click="select(item)" data-value="colPct" class="item ng-scope selected visible" ng-if="!item.disabled" ng-class="{ selected : isSelected(item), visible : (opened || isSelected(item)) }">
+        <span ng-class="item.class" class="icon icon-arrow-down"></span>
+    </button><!-- end ngIf: !item.disabled --><!-- end ngRepeat: item in items | orderBy:bySelection -->
+</div>
+<button ng-click="openSelector()" data-selected-item="colPct" class="opener" ng-class="{ opened : selectorOpened }" uib-tooltip="Choose percentaging direction" tooltip-placement="top">
+    <span ng-class="selectedItem.class" class="icon icon-arrow-down"></span>
+</button></cr-popup-multitoggle>
+</div>
+<div class="display-control signif-toggle hidden disabled" ng-class="{ disabled: settings.showSignif.disabled,
+                 hidden: settings.showSignif.hidden }" data-value="false">
+    <label class="icon-signif" ng-class="{selected: settings.showSignif.true }" uib-tooltip="" tooltip-placement="top">
+        <input type="checkbox" name="showSignif" ng-disabled="settings.showSignif.disabled" ng-class="{selected: settings.showSignif.true }" ng-model="settings.showSignif.value" class="ng-pristine ng-untouched ng-valid ng-empty" disabled="disabled">
+    </label>
+</div>
+<div class="display-control decimals-toggle" ng-class="{ disabled: settings.decimalPlaces.disabled,
+     hidden: settings.decimalPlaces.hidden }" uib-tooltip="Decimal places" tooltip-placement="top" data-value="0">
+    <label fn-places="0" ng-class="{selected: settings.decimalPlaces[0], included: settings.decimalPlaces.value &gt; 0 }" class="selected">
+        <input type="radio" name="decimal" ng-value="0" ng-model="settings.decimalPlaces.value" ng-disabled="settings.decimalPlaces.disabled" class="ng-pristine ng-untouched ng-valid ng-not-empty" value="0">0</label>
+    <label fn-places="1" ng-class="{selected: settings.decimalPlaces[1], included: settings.decimalPlaces.value &gt; 1}" class="ng-binding">
+        <input type="radio" name="decimal" ng-value="1" ng-model="settings.decimalPlaces.value" ng-disabled="settings.decimalPlaces.disabled" class="ng-pristine ng-untouched ng-valid ng-not-empty" value="1">.0</label>
+    <label fn-places="2" ng-class="{selected: settings.decimalPlaces.value === 2}">
+        <input type="radio" name="decimal" ng-value="2" ng-model="settings.decimalPlaces.value" ng-disabled="settings.decimalPlaces.disabled" class="ng-pristine ng-untouched ng-valid ng-not-empty" value="2">0</label>
+</div>
+
+<div class="display-control empties-toggle hidden" ng-class="{ disabled: settings.showEmpty.disabled, hidden: settings.showEmpty.hidden }" uib-tooltip="Empty rows and columns are hidden. Click to show." unless-feature-flag="{ labs : true }" tooltip-placement="top" data-value="false">
+    <label class="icon-empty" ng-class="{selected: settings.showEmpty.true }">
+        <input type="checkbox" name="showEmpty" ng-disabled="settings.showEmpty.disabled" ng-model="settings.showEmpty.value" class="ng-pristine ng-untouched ng-valid ng-empty">
+    </label>
+</div>
+<div feature-flag="{ labs:true }" class="set-base-size">
+    <div class="display-control empties-toggle hidden" ng-class="{ disabled: settings.showEmpty.disabled, hidden: settings.showEmpty.hidden }" uib-tooltip="Empty rows and columns are hidden. Click to show." tooltip-placement="top">
+        <label class="icon-empty" ng-class="{selected: settings.showEmpty.true }">
+            <input type="checkbox" name="showEmpty" ng-disabled="settings.showEmpty.disabled" ng-model="settings.showEmpty.value" class="ng-pristine ng-untouched ng-valid ng-empty">
+        </label>
+    </div>
+    <cr-dropdown trigger-element=".icon-empty" close-on-select="false" class="setting-options ng-isolate-scope" trigger-event="contextmenu"><ng-transclude class="menu-items-container"><span class="ng-scope">
+        Suppress rows and columns with base less than or equal to
+        </span><input focus="popoverActive" type="number" class="setting-option ng-pristine ng-untouched ng-valid ng-scope ng-not-empty" ng-model="settings.minBaseSize.value" ng-class="{disabled: false}">
+        <a class="dismiss-options ng-scope" ng-click="$parent.closeDropdown($event)">
+            <span class="icon-remove"></span>
+        </a>
+    </ng-transclude></cr-dropdown>
+</div>
+<div class="display-control pivot-toggle disabled hidden" ng-class="{ disabled: settings.pivot.disabled, hidden: settings.pivot.hidden }" uib-tooltip="Swap rows and columns" tooltip-placement="top" data-value="true">
+    <label class="icon-pivot">
+        <input type="checkbox" name="pivot" ng-disabled="settings.pivot.disabled" ng-model="settings.pivot.value" class="ng-pristine ng-untouched ng-valid ng-not-empty" disabled="disabled">
+    </label>
+</div>
+
+<!-- ngIf: additionalDisplaySettings -->
+</display-settings>
+        <share-toolbar-trigger class="ng-isolate-scope"><a href="https://s.crunch.io/widget/" ng-click="$ctrl.shareToolbar.open()" class="share-toolbar-trigger" title="Share this">
+    <icon class="share-toolbar-trigger-icon icon-box_share"></icon>
+</a>
+</share-toolbar-trigger>
+    </div>
+</div>
+<a class="go-to-full-screen" href="https://s.crunch.io/widget/index.html#/ds/d3d331773048941e0f92b38db081245b/row/000382?viz=graph&amp;cp=percent&amp;dp=0&amp;grp=stack" target="_blank"></a>
+<!-- ngIf: widget.error -->
+<share-toolbar class="ng-isolate-scope"><!-- ngIf: $ctrl.shareToolbar.isOpen -->
+</share-toolbar></widget></ng-view>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-50332119-3', 'auto');
+      ga('send', 'pageview');
+      ga('set', 'forceSSL', true);
+    </script>
+    <script src="./build.js"></script>
+    <script>require('crunch')({env: 'prod'})</script><svg id="js-plotly-tester" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; left: -10000px; top: -10000px; width: 9000px; height: 9000px; z-index: 1;"><path class="js-reference-point" d="M0,0H1V1H0Z" style="stroke-width: 0; fill: black;"></path></svg>
+  
+</body></html>

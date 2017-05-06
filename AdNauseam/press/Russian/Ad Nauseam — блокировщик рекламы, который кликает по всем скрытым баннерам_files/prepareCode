@@ -1,0 +1,402 @@
+/*
+	Template: Background
+	Created: 28.01.13;
+	Note: Compatibility: async embed codes;
+*/
+/**
+ * Tracks banner loads;
+ * @param {String} AdFox_1652052926_s
+ */
+(function(AdFox_1652052926_s, window, document) {
+	var AdFox_1652052926_i = document.createElement('IMG'),
+		AdFox_1652052926_b = document.body;
+	AdFox_1652052926_i.style.position = 'absolute';
+	AdFox_1652052926_i.style.width = AdFox_1652052926_i.style.height = '0px';
+	AdFox_1652052926_i.onload = AdFox_1652052926_i.onerror = function() {
+		AdFox_1652052926_b.removeChild(AdFox_1652052926_i);
+		AdFox_1652052926_i = AdFox_1652052926_b = null
+	}
+	AdFox_1652052926_i.src = AdFox_1652052926_s;
+	AdFox_1652052926_b.insertBefore(AdFox_1652052926_i, AdFox_1652052926_b.firstChild);
+})('https://banners.adfox.ru/transparent.gif', parent, parent.document);
+
+setTimeout(function() {
+	document.close();
+}, 10);
+
+(function(window, document) {
+	/**ADFOX parameters**/
+	var _randomizer = '2675256549', //do not remove;
+		_backgroundSettings = {
+			backgroundAttachment: 'scroll',
+			backgroundColor: '#E4E4E4',
+			backgroundPosition: 'inherit',
+			backgroundPositionX: '50%',
+			backgroundPositionY: '0',
+			backgroundImage: 'https://banners.adfox.ru/170412/adfox/671821/2048176_2.jpg',
+			backgroundRepeat: 'no-repeat',
+			backgroundSize: '2000px auto'
+		},
+		_goURL = 'http://msc.skoltech.ru',
+		_reference = 'https://ads.adfox.ru/228129/goLink?puid22=0&rand=gyrdqua&p5=emzhy&puid4=0&p1=bohgi&pr=etdajfp&hash=d4d76997147a60c9&p2=ezfl&puid3=27&puid1=0&puid2=21708',
+		_websiteShift = '130',
+		_resetTimer = '0',
+		_backgroundElementId = 'adfox-branding', //Body will be used by default;
+		_userExceptionsClickable = '',
+		_userExceptionsNonClickable = '',
+		_backgroundElement = null,
+		_contentShifterId = 'contentShifter',
+		_htmlClassTablet = '',
+		_htmlClassSkin = '',
+		CLICKABLE_ID = 'adfoxClickable';
+	/**ARRAY utils**/
+	/**
+	 * @function indexOf
+	 * @description Checks whether element is present in array and returns it's index or -1;
+	 * @param {Array} array
+	 * @param {*} element
+	 * @param @optional  {Number} from
+	 */
+	function indexOf(array, element /*, from*/ ) {
+		if (array.indexOf) {
+			return array.indexOf(element);
+		} else {
+			var index = -1,
+				len = array.length,
+				from = Number(arguments[1]) || 0;
+			from = (from < 0) ? Math.ceil(from) : Math.floor(from);
+			if (from < 0) {
+				from += len;
+			}
+			for (; from < len; from++) {
+				if (from in array && array[from] === element) {
+					index = from;
+					break;
+				}
+			}
+			return index;
+		}
+	}
+	/**STYLE utils**/
+	/**
+	 * @function getCss
+	 * @description returns computed value for styleProperty;
+	 * @param {String} styleProperty (camelCase notation!)
+	 * @param {ElementNode} element
+	 */
+	function getCss(styleProperty, element) {
+		if (element.currentStyle) {
+			return element.currentStyle[styleProperty] || '';
+		} else if (window.getComputedStyle) {
+			return window.getComputedStyle(element, null)[styleProperty] || '';
+		}
+	}
+
+	function addClass(className, element) {
+		if (!hasClass(className, element)) {
+			element.className += ' ' + className;
+		}
+	}
+
+	function removeClass(className, element) {
+		var re = new RegExp('(\\s|^)(' + className + ')(\\s|$)', 'g');
+		element.className = element.className.replace(re, function(x, y, z, t) {
+			return (y && t) ? ' ' : '';
+		});
+	}
+
+	function hasClass(className, element) {
+		var re = new RegExp('(\\s|^)(' + className + ')(\\s|$)', 'g');
+		return (element.className && element.className.match(re));
+	}
+
+	function setDefaultCursor(element) {
+		//In IE and Opera it seems 'auto' works like 'inherit';
+		if (navigator.userAgent.indexOf('MSIE') != -1 || navigator.userAgent.indexOf('Opera') != -1) {
+			element.style.cursor = 'default';
+		} else {
+			element.style.cursor = 'auto';
+		}
+	}
+	/**EVENT utils**/
+	/**
+	 * @function addEvent, removeEvent
+	 * @description add/remove event listeners - crossbrowser;
+	 * @param {ElementNode} elem
+	 * @param {String} eventType
+	 * @param {Function} eventHandler
+	 */
+	function addEvent(elem, eventType, eventHandler) {
+		if (elem.addEventListener) {
+			elem.addEventListener(eventType, eventHandler, false);
+		} else if (elem.attachEvent) {
+			elem.attachEvent('on' + eventType, eventHandler);
+		}
+	}
+
+	function removeEvent(elem, eventType, eventHandler) {
+		if (elem.removeEventListener) {
+			elem.removeEventListener(eventType, eventHandler, false);
+		} else if (elem.detachEvent) {
+			elem.detachEvent('on' + eventType, eventHandler);
+		}
+	}
+	/**ANIMATION utils**/
+	/**
+	 * @function delta
+	 * @description defines the type of animation: linear, easeIn, easeOut - using mathematical expressions;
+	 * @param {Number} progress - fraction of time;
+	 */
+	function delta(progress) {
+		return progress; //linear
+	}
+	/**
+	 * @function animateChange
+	 * @description animates change for a certain element property;
+	 * @param {ElementNode} element
+	 * @param {String} parameter
+	 * @param {String} paramMeasure
+	 * @param {Number} startValue
+	 * @param {Number} endValue
+	 * @param {Number} duration - miliseconds;
+	 * @param {Function} onComplete - action to perform after animation stops;
+	 */
+	function animateChange(element, parameter, paramMeasure, startValue, endValue, duration, onComplete) {
+		var startTime = new Date().getTime();
+		setTimeout(function() {
+			var timeElapsed = (new Date().getTime()) - startTime,
+				progress = timeElapsed / duration,
+				result = (endValue - startValue) * delta(progress) + startValue;
+			element.style[parameter] = result + paramMeasure;
+			if (progress < 1) {
+				setTimeout(arguments.callee, 10);
+			} else {
+				element.style[parameter] = endValue + paramMeasure; //To conpensate for round operations
+				onComplete();
+			}
+		}, 10);
+	}
+	/**Background methods**/
+	/**
+	 * @function setBackgroundProperties
+	 * @description set background for _backgroundElement;
+	 * @param {Number} propertyObject - style properties' object;
+	 */
+	function setBackgroundProperties(propertyObject) {
+		_backgroundElement.style.backgroundColor = propertyObject.backgroundColor;
+		_backgroundElement.style.backgroundAttachment = propertyObject.backgroundAttachment;
+		_backgroundElement.style.backgroundRepeat = propertyObject.backgroundRepeat;
+		_backgroundElement.style.backgroundPosition = propertyObject.backgroundPositionX + ' ' + propertyObject.backgroundPositionY;
+		_backgroundElement.style.backgroundImage = 'url(\'' + propertyObject.backgroundImage + '\')';
+		_backgroundElement.style.backgroundSize = propertyObject.backgroundSize;
+	}
+	/**
+	 * @function getCurrentBackground
+	 * @description save current background of _backgroundElement;
+	 * @param {String} getOption - 'get', 'save';
+	 */
+	function getCurrentBackground() {
+		var bgSettings = {};
+		bgSettings.backgroundAttachment = getCss('backgroundAttachment', _backgroundElement);
+		bgSettings.backgroundColor = getCss('backgroundColor', _backgroundElement);
+		bgSettings.backgroundRepeat = getCss('backgroundRepeat', _backgroundElement);
+		bgSettings.backgroundSize = getCss('backgroundSize', _backgroundElement);
+		bgSettings.backgroundImage = getCss('backgroundImage', _backgroundElement);
+		bgSettings.backgroundPosition = getCss('backgroundPosition', _backgroundElement);
+		bgSettings.backgroundPositionX = getCss('backgroundPositionX', _backgroundElement);
+		bgSettings.backgroundPositionY = getCss('backgroundPositionY', _backgroundElement);
+		getCurrentBackground.bgSettings = bgSettings;
+	}
+	/**
+	 * @function resetBackgroundProperties
+	 * @description set initial saved background for _backgroundElement;
+	 */
+	function resetBackgroundProperties() {
+		//TODO: test correct IE behaviour for backgroundPosition;
+		var propertyObject = getCurrentBackground.bgSettings;
+		if (propertyObject) {
+			setBackgroundProperties({
+				backgroundImage: propertyObject.backgroundImage,
+				backgroundColor: propertyObject.backgroundColor,
+				backgroundAttachment: propertyObject.backgroundAttachment,
+				backgroundRepeat: propertyObject.backgroundRepeat,
+				backgroundSize: propertyObject.backgroundSize,
+				backgroundPosition: (propertyObject.backgroundPosition) ? (propertyObject.backgroundPosition) : (propertyObject.backgroundPositionX + ' ' + propertyObject.backgroundPositionY)
+			});
+		}
+	}
+	/**
+	 * @function createBlock
+	 * @description create div with id and styles;
+	 * @param {String} id
+	 * @param {String} cssStyle
+	 */
+	function createBlock(id, cssStyle) {
+		var bannerBlock = document.createElement('div');
+		bannerBlock.style.cssText = cssStyle;
+		bannerBlock.id = id;
+		return bannerBlock;
+	}
+	/**
+	 * @function shiftWebsiteDown
+	 * @description -
+	 */
+	function shiftWebsiteDown() {
+		var shifter = createBlock(_contentShifterId, 'width:100%;' + 'height:' + _websiteShift + 'px;' + 'clear:both;' + 'margin:0;');
+        if (document.getElementsByClassName('b-adv-branding-shifter').length > 0) {
+            document.getElementsByClassName('b-adv-branding-shifter')[0].style.height = _websiteShift + 'px';
+        } else {
+            _backgroundElement.insertBefore(shifter, _backgroundElement.firstChild);
+        }
+	}
+	/**
+	 * @function shiftWebsiteUp
+	 * @description - return website content as it were; Animated;
+	 */
+	function shiftWebsiteUp() {
+		var shifter = document.getElementById(_contentShifterId);
+		animateChange(shifter, 'height', 'px', parseInt(_websiteShift), 0, 600, function() {
+			shifter.parentNode.removeChild(shifter);
+		});
+	}
+	/**
+	 * @function goToAdvertiser
+	 * @description 
+	 * @param {MouseEvent} evt
+	 */
+	function goToAdvertiser(evt) {
+		var target = evt.target || evt.srcElement;
+		if (hasClass(CLICKABLE_ID, target)) {
+			window.open(_reference + '@' + _goURL, '_blank');
+		}
+	}
+	/**
+	 * Checks whether given element id belongs to list of exceptions;
+	 * Can be extended for other elements like table, form etc.
+	 * @param {String} elementId	
+	 */
+	function isClickableException(elementId) {
+		return (indexOf(_userExceptionsClickable, elementId) != -1)
+	}
+	/**
+	 * Checks whether given element id belongs to list of exceptions;
+	 * Can be extended for other elements like table, form etc.
+	 * @param {String} elementId	
+	 */
+	function isNonClickableException(elementId) {
+		return (indexOf(_userExceptionsNonClickable, elementId) != -1)
+	}
+	/**
+	 * Checks if the element is DIV;
+	 * Can be extended for other elements like table, form etc.
+	 * @param {ElementNode} element	
+	 */
+	function isAppropriateType(element) {
+		var nodeName = element.nodeName;
+		return (nodeName == 'DIV');
+	}
+	/**
+	 * Checks if the element is visible;
+	 * @param {ElementNode} element	
+	 */
+	function isVisible(element) {
+		var height = getCss('height', element),
+			width = getCss('width', element),
+			display = getCss('display', element),
+			visibility = getCss('visibility', element);
+		return !((height == '0' || height == '0px' || height == '0%') || (width == '0' || width == '0px' || width == '0%') || (height == '1px' && width == '1px') || (display == 'none') || (visibility == 'hidden'));
+	}
+	/**
+	 * Checks element for transparency;
+	 * @param {ElementNode} element	
+	 */
+	function isTransparent(element) {
+		var color = getCss('backgroundColor', element),
+			image = getCss('backgroundImage', element);
+		return (color == 'transparent' || color == 'rgba(0, 0, 0, 0)' || color == '') && (image == 'none' || image == '');
+	}
+	/**
+	 * Analyses DOM tree to find transparent blocks overlapping background;
+	 * @param {DomElement} element - current tree root;
+	 * @static @param {array} blockArray - an array of matching blocks;
+	 * @static @param {array} exceptions - an array of matching blocks specified by user input;
+	 */
+	function findClickableElements(element) {
+		var elementChildren = null,
+			currentChild = null,
+			ELEMENT_NODE = 1;
+		if (element == _backgroundElement) {
+			element.style.cursor = 'pointer'; //display as clickable; inhereted;
+		}
+		addClass(CLICKABLE_ID, element); //mark as clickable;
+		elementChildren = element.children;
+		for (var i = 0, len = elementChildren.length; i < len; i++) {
+			currentChild = elementChildren[i];
+			if (currentChild.nodeType == ELEMENT_NODE && isAppropriateType(currentChild) || isClickableException(currentChild.id)) {
+				if (isVisible(currentChild) && (isTransparent(currentChild) || isClickableException(currentChild.id)) && !isNonClickableException(currentChild.id)) {
+					findClickableElements(currentChild);
+				} else {
+					setDefaultCursor(currentChild);
+				}
+			}
+		}
+	}
+	//execute
+	var getBackgroundInterval = setInterval(getBackgroundElement, 100);
+
+	function getBackgroundElement() {
+		_backgroundElement = (_backgroundElementId) ? document.getElementById(_backgroundElementId) : document.getElementsByTagName('BODY')[0];
+		if (_backgroundElement) {
+			clearInterval(getBackgroundInterval);
+			initBackground();
+		}
+	}
+
+	function initBackground() {
+		getCurrentBackground();
+		if (_websiteShift != '0' && _websiteShift != '') {
+			shiftWebsiteDown();
+		}
+		setBackgroundProperties(_backgroundSettings);
+		addClass("m-branding", document.getElementsByTagName('HTML')[0]);
+		addClass(_htmlClassTablet, document.getElementsByTagName('HTML')[0]);
+		addClass(_htmlClassSkin, document.getElementsByTagName('HTML')[0]);
+		if (document.readyState == 'complete') {
+			startBackgroundScript();
+		} else {
+			addEvent(window, 'load', startBackgroundScript);
+		}
+	}
+
+	function startBackgroundScript(evt) {
+		if (_goURL) //may be non-clickable;
+		{
+			_userExceptionsClickable = (_userExceptionsClickable != '') ? _userExceptionsClickable.split('|') : [];
+			_userExceptionsNonClickable = (_userExceptionsNonClickable != '') ? _userExceptionsNonClickable.split('|') : [];
+			findClickableElements(_backgroundElement);
+			addEvent(_backgroundElement, 'click', goToAdvertiser);
+		}
+		//if timer is not 0, return website to initial state;
+		if (_resetTimer != '0') {
+			setTimeout(function() {
+				if (_websiteShift != '0' && _websiteShift != '') {
+					shiftWebsiteUp();
+				}
+				resetBackgroundProperties();
+				if (_goURL) {
+					setDefaultCursor(_backgroundElement);
+					removeEvent(_backgroundElement, 'click', goToAdvertiser);
+				}
+			}, _resetTimer * 1000);
+		}
+	}
+})(parent, parent.document);
+(function(URLs) {
+	for (var i = 0; i < URLs.length && URLs[i]; i++) {
+		if (!URLs[i].match(/adfox\.ru\/transparent\.gif$/)) {
+			(function(url, img) {
+				img.src = url;
+			})(URLs[i], new Image());
+		}
+	}
+})('https://ads.adfox.ru/228129/event?rand=dlruhi&hash=898a641fb0ac1157&pm=u&p5=emzhy&puid4=0&p1=bohgi&pr=etdajfp&puid1=0&puid2=21708&p2=ezfl&puid3=27&puid22=0&lts=evtlaki'.split('|'));

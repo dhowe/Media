@@ -1,0 +1,19 @@
+OX_7873225883({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"http://ibt-d.openx.net/{medium}/1.0/{rtype}?ai=84a1dbad-0e9a-428d-1220-7174810a3ccc&ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=6&ph=a10ab5ef-d32b-4cc2-af6f-5ead81609304",
+    "oxt": 367.896,
+    "adunits" : [
+      {
+        "auid":"538279721",
+        "chain_timeout":"",
+        "chain_revenue":"",
+        "size":"728x90",
+        "chain":[
+        ]
+      }
+    ]
+  }
+});
